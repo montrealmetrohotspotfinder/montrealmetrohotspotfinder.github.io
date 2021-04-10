@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="search.js"></script>
+		<link rel="stylesheet" type="text/css" href="metroHotspotFinder.css">
+		<title>Search For A Spot</title>
+	</head>
+	
+	<body id="bg-victorspots">
+		<div id="bg">
+		
+	<header>
+		<div class="nav">
+		  <ul>
+			<li class="green"><a href="line1.html">Green Line</a></li>
+			<li class="orange"><a href="line2.html">Orange Line</a></li>
+			<li class="yellow"><a href="line4.html">Yellow Line</a></li>
+			<li class="blue"><a href="line5.html">Blue Line</a></li>
+			<li class="ug"><a href="underground-city.html">Underground City</a></li>
+			<li class="om"><a href="old-montreal.html">Old Montreal</a></li>
+			<li class="qds"><a href="quartier-des-spectacles.html"><em lang="fr">Quartier des Spectacles</em></a></li>
+			<li class="gay"><a href="the-village.html">The Village</a></li>
+			<li class="exo"><a href="exo.html">EXO Commuter Train Line</a></li>
+		  </ul>
+		</div>
+	</header>
+	
+	<h1 id="victor-header">SEARCH FOR A SPOT &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html" style="font-size: 12px">Back to home page</a></h1>
+	<p>Search for a hotspot and find its nearest metro station and related info with this nifty engine below. This engine searches by metro station so you will likely see some results appear more than once; one for every station it is closest to.</p><br/><br/>
+	<p>Given that Montreal is a predominantly Francophone city, there are a lot of hotspots that contain one or more accented (special) characters.
+	To use accented characters in French, use one of the following combinations below. Apostrophe (&#39;) usage is also common in French. To input an apostrophe, type &amp;#39; into the box. 
+	Do not use the actual accented symbols or apostrophes in your search when searching for a spot with such characters in its name; the results will not appear that way since HTML has a special 
+	way to deal with these characters, and it is through the keyboard combinations below. I encourage you to use them when searching for a spot with a special character or apostrophe in its name, 
+	because in some instances, if you do not use them where appropriate, matches will not appear for your given request (example: "Spheretech Saint-Laurent" will not be treated the same way as how it is actually 
+	spelled, <em lang="fr">"Sph&egrave;retech Saint-Laurent"</em>). There are some instances where some spots have a well known English name that will appear on this list, and popular abbreviations for some sites will also 
+	be accepted when looking for results.<br/><br/>Also, please note that this engine should not serve as a directory for hotspots on the entire Island of Montreal. This engine gets results of the hotspots that are 
+	near Montreal Metro stations only, either within walking distance of them or a short bus drive&#39;s distance from them, and are also stored on this website in individual pages for each Montreal Metro station.<br/><br/>
+	&eacute; = &amp;eacute; &nbsp;&nbsp; &egrave; = &amp;egrave; &nbsp;&nbsp; &ecirc; = &amp;ecirc; &nbsp;&nbsp; &agrave; = &amp;agrave; &nbsp;&nbsp; &acirc; = &amp;acirc; 
+	&nbsp;&nbsp; &icirc; = &amp;icirc; &nbsp;&nbsp; &ocirc; = &amp;ocirc; &nbsp;&nbsp; &ucirc; = &amp;ucirc; &nbsp;&nbsp; &ccedil; = &amp;ccedil;</p><br/>
+	<p id="num-of-spots"></p><br/>
+	
+	<div style="text-align: center">
+		<input type="text" id="search-box" style="height: 40px; width: 400px; font-size: 20px; font-family: Helvetica; font-weight: bold" />
+		<input type="button" id="search-button" value="Search" style="height: 40px; width: 100px; font-size: 20px; font-family: Helvetica; font-weight: bold" />
+		<br/>
+		<label for="categories">Search By Category (the value "Select..." will browse all categories, including ones that are not shown here):</label>
+		<select name="categories" id="categories">
+		  <option value="">Select...</option>
+		  <option value="hotel">Hotels</option>
+		  <option value="park">Parks</option>
+		  <option value="restaurant">Restaurants</option>
+		  <option value="school">Schools</option>
+		  <option value="church">Churches</option>
+		  <option value="sports">Sports</option>
+		  <option value="college">Colleges</option>
+		  <option value="university">Universities</option>
+		  <option value="trade school">Trade Schools</option>
+		  <option value="town square">Town Squares</option>
+		  <option value="mall">Malls</option>
+		  <option value="shopping">Shopping</option>
+		  <option value="district">Districts</option>
+		  <option value="office">Offices</option>
+		  <option value="government">Government</option>
+		  <option value="agency">Agencies</option>
+		  <option value="residence">Residences</option>
+		  <option value="hospital">Hospitals</option>
+		  <option value="market">Markets</option>
+		  <option value="cemetery">Cemeteries</option>
+		  <option value="theatre">Theatres</option>
+		  <option value="museum">Museums</option>
+		  <option value="beach">Beaches</option>
+		  <option value="library">Libraries</option>
+		  <option value="cultural centre">Cultural Centres</option>
+		  <option value="historical site">Historical Sites</option>
+		  <option value="bus terminal">Bus Terminals</option>
+		  <option value="convention centre">Convention Centres</option>
+		</select>
+		<br/>
+		<label for="streets">Search By Street (the value "Select..." will browse all streets, including ones that are not shown here):</label>
+		<select name="streets" id="streets">
+		  <option value="">Select...</option>
+		  <option value="Rue Sainte-Catherine">Rue Sainte-Catherine</option>
+		  <option value="Rue Saint-Jacques">Rue Saint-Jacques</option>
+		  <option value="Rue Saint-Urbain">Rue Saint-Urbain</option>
+		  <option value="Rue de la Commune">Rue de la Commune</option>
+		  <option value="Rue Saint-Vincent">Rue Saint-Vincent</option>
+		  <option value="00">Rue Saint-Fran&ccedil;ois-Xavier</option>
+		  <option value="Rue Peel">Rue Peel</option>
+		  <option value="Rue Guy">Rue Guy</option>
+		  <option value="Rue Mackay">Rue Mackay</option>
+		  <option value="Rue Crescent">Rue Crescent</option>
+		  <option value="Rue Saint-Paul">Rue Saint-Paul</option>
+		  <option value="Rue Notre-Dame">Rue Notre-Dame</option>
+		  <option value="Rue Sherbrooke">Rue Sherbrooke</option>
+		  <option value="Rue Berri">Rue Berri</option>
+		  <option value="Rue Sanguinet">Rue Sanguinet</option>
+		  <option value="Rue Saint-Antoine">Rue Saint-Antoine</option>
+		  <option value="Place Royale">Place Royale</option>
+		  <option value="01">Place d&#39;Youville</option>
+		  <option value="Rue McGill">Rue McGill</option>
+		  <option value="02">Boulevard Ren&eacute;-L&eacute;vesque</option>
+		  <option value="Avenue de Lorimier">Avenue de Lorimier</option>
+		  <option value="Avenue Papineau">Avenue Papineau</option>
+		  <option value="Boulevard Saint-Laurent">Boulevard Saint-Laurent</option>
+		  <option value="Rue Jeanne-Mance">Rue Jeanne-Mance</option>
+		  <option value="Rue de Bleury">Rue de Bleury</option>
+		  <option value="03">Avenue du Pr&eacute;sident-Kennedy</option>
+		  <option value="Boulevard de Maisonneuve">Boulevard de Maisonneuve</option>
+		  <option value="Avenue McGill College">Avenue McGill College</option>
+		  <option value="Rue Stanley">Rue Stanley</option>
+		  <option value="Rue Metcalfe">Rue Metcalfe</option>
+		  <option value="Rue Mansfield">Rue Mansfield</option>
+		  <option value="Rue McTavish">Rue McTavish</option>
+		  <option value="Avenue du Docteur-Penfield">Avenue du Docteur-Penfield</option>
+		  <option value="Rue Drummond">Rue Drummond</option>
+		  <option value="Rue de la Montagne">Rue de la Montagne</option>
+		  <option value="Avenue Atwater">Avenue Atwater</option>
+		  <option value="Rue Ontario">Rue Ontario</option>
+		  <option value="Rue Rachel">Rue Rachel</option>
+		  <option value="Rue Saint-Hubert">Rue Saint-Hubert</option>
+		  <option value="Rue Saint-Denis">Rue Saint-Denis</option>
+		  <option value="Rue Peel">Rue Peel</option>
+		  <option value="Avenue des Pins">Avenue des Pins</option>
+		  <option value="Boulevard Robert-Bourassa">Boulevard Robert-Bourassa</option>
+		  <option value="Rue du Square-Victoria">Rue du Square-Victoria</option>
+		  <option value="04">Rue de la Gaucheti&egrave;re</option>
+		  <option value="Avenue Viger">Avenue Viger</option>
+		  <option value="05">Rue Fran&ccedil;ois-Perrault</option>
+		  <option value="Rue Villeray">Rue Villeray</option>
+		  <option value="Rue Jean-Talon">Rue Jean-Talon</option>
+		  <option value="Rue Beaubien">Rue Beaubien</option>
+		  <option value="Avenue Henri-Julien">Avenue Henri-Julien</option>
+		  <option value="Rue Gary-Carter">Rue Gary-Carter</option>
+		  <option value="06">Avenue de Gasp&eacute;</option>
+		  <option value="07">Boulevard de l&#39;Acadie</option>
+		  <option value="08">Boulevard &Eacute;douard-Montpetit</option>
+		  <option value="09">Chemin de la C&ocirc;te-Sainte-Catherine</option>
+		  <option value="10">Chemin de la C&ocirc;te-des-Neiges</option>
+		  <option value="11">Chemin de la C&ocirc;te Saint-Luc</option>
+		  <option value="Chemin Queen-Mary">Chemin Queen-Mary</option>
+		  <option value="Boulevard Langelier">Boulevard Langelier</option>
+		  <option value="12">Boulevard de l&#39;Assomption</option>
+		  <option value="Avenue Pierre-de-Coubertin">Avenue Pierre-de-Coubertin</option>
+		  <option value="Rue Hochelaga">Rue Hochelaga</option>
+		  <option value="Boulevard LaSalle">Boulevard LaSalle</option>
+		  <option value="Rue Wellington">Rue Wellington</option>
+		  <option value="13">Boulevard Ga&eacute;tan-Laberge</option>
+		  <option value="Avenue Bannantyne">Avenue Bannantyne</option>
+		  <option value="Rue de Verdun">Rue de Verdun</option>
+		  <option value="Boulevard des Trinitaires">Boulevard des Trinitaires</option>
+		  <option value="Boulevard Newman">Boulevard Newman</option>
+		  <option value="Boulevard Angrignon">Boulevard Angrignon</option>
+		  <option value="Boulevard le Corbusier">Boulevard le Corbusier</option>
+		  <option value="Boulevard Henri-Bourassa">Boulevard Henri-Bourassa</option>
+		  <option value="Rue Lajeunesse">Rue Lajeunesse</option>
+		  <option value="Boulevard Gouin">Boulevard Gouin</option>
+		  <option value="14">Rue Sauv&eacute;</option>
+		  <option value="15">Boulevard Cr&eacute;mazie</option>
+		  <option value="Boulevard Rosemont">Boulevard Rosemont</option>
+		  <option value="Avenue Laurier">Avenue Laurier</option>
+		  <option value="Avenue du Mont-Royal">Avenue du Mont-Royal</option>
+		  <option value="16">Boulevard D&eacute;carie</option>
+		  <option value="Avenue Van Horne">Avenue Van Horne</option>
+		  <option value="Avenue Sainte-Croix">Avenue Sainte-Croix</option>
+		  <option value="17">Boulevard de la C&ocirc;te-Vertu</option>
+		</select>
+	</div>
+	
+	<div style="text-align: center; margin-top:25px" id="output">
+	</div>
+				
+	<!-- FOOTER -->
+	<footer>
+		<a href="../fr/recherche.html"><em lang="fr">Fran&ccedil;ais</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="contact.html">Contact Victor</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="victors-spots.html">Victor&#39;s Favorite Spots</a>
+	</footer>
+	
+	</div>
+	
+	</body>
+</html>
