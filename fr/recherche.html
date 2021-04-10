@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="recherche.js"></script>
+		<link rel="stylesheet" type="text/css" href="metroHotspotFinder.css">
+		<title>Recherchez un point d&#39;int&eacute;r&ecirc;t</title>
+	</head>
+	
+	<body id="bg-victorspots">
+		<div id="bg">
+		
+	<header>
+		<div class="nav">
+		  <ul>
+			<li class="green"><a href="ligne1.html"><em lang="fr">Ligne Verte</em></a></li>
+			<li class="orange"><a href="ligne2.html"><em lang="fr">Ligne Orange</em></a></li>
+			<li class="yellow"><a href="ligne4.html"><em lang="fr">Ligne Jaune</em></a></li>
+			<li class="blue"><a href="ligne5.html"><em lang="fr">Ligne Bleue</em></a></li>
+			<li class="ug"><a href="montreal-souterrain.html"><em lang="fr">Montr&eacute;al Souterrain</em></a></li>
+			<li class="om"><a href="vieux-montreal.html"><em lang="fr">Vieux Montr&eacute;al</em></a></li>
+			<li class="qds"><a href="quartier-des-spectacles.html"><em lang="fr">Quartier des Spectacles</em></a></li>
+			<li class="gay"><a href="le-village.html"><em lang="fr">Le Village</em></a></li>
+			<li class="exo"><a href="exo.html"><em lang="fr">Train de Banlieue EXO</em></a></li>
+		  </ul>
+		</div>
+		</header>
+	
+	<h1 id="victor-header">RECHERCHEZ UN POINT D&#39;INT&Eacute;R&Ecirc;T &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html" style="font-size: 12px"><em lang="fr">Retour &agrave; la page d&#39;accueil</em></a></h1>
+	<p><em lang="fr">Recherchez un point d&#39;int&eacute;r&ecirc;t et trouvez sa plus proche station de m&eacute;tro et ses informations connexes avec cet outil astucieux ci-dessous. Cet outil cherche par station de m&eacute;tro alors vous allez probablement voir quelques r&eacute;sultats appara&icirc;ssant plus qu&#39;une fois; une fois pour chaque station situ&eacute;e &agrave; proximit&eacute;.</em></p><br/><br/>
+	<p><em lang="fr">&Eacute;tant donn&eacute; que Montr&eacute;al est une ville principalement francophone, il y a un tas de points d&#39;int&eacute;r&ecirc;t qui contiennent un caract&egrave;re accentu&eacute; (sp&eacute;cial) ou plus. 
+	Pour utiliser les caract&egrave;res accentu&eacute;s en fran&ccedil;ais, utilisez une des combinaisons ci-dessous. L&#39;usage des apostrophes est aussi commun en fran&ccedil;ais. Pour entrer une apostrophe, 
+	tapez &amp;#39; dans la bo&icirc;te. N&#39;utilisez pas les vrais symboles accentu&eacute;s, ni les vraies apostrophes, dans votre recherche quand vous recherchez un endroit contenant ces caract&egrave;res dans son nom; les 
+	r&eacute;sultats ne vont pas appara&icirc;tre de cette fa&ccedil;on car HTML a une fa&ccedil;on sp&eacute;ciale de traiter ces caract&egrave;res, et c&#39;est avec les combinaisons des caract&egrave;res ci-dessous. 
+	Je vous encourage &agrave; les utiliser quand vous recherchez un endroit avec un caract&egrave;re sp&eacute;cial ou une apostrophe dans son nom, parce que dans certains cas, si vous ne les utilisez pas o&ugrave; appropri&eacute;, des 
+	r&eacute;sultats correspondants ne vont pas appara&icirc;tre pour votre demande donn&eacute;e (exemple: &laquo;Spheretech Saint-Laurent&raquo; ne sera pas trait&eacute; de la m&ecirc;me fa&ccedil;on que comment c&#39;est actuellement 
+	&eacute;crit, &laquo;Sph&egrave;retech Saint-Laurent&raquo;).<br/><br/>Aussi, veuillez noter que ce moteur ne doit pas servir comme un annuaire de points d&#39;int&eacute;r&ecirc;t pour l&#39;ensemble de l&#39;&Icirc;le de Montr&eacute;al. 
+	Ce moteur obtient des r&eacute;sultats des points d&#39;int&eacute;r&ecirc;t qui sont pr&egrave;s des stations du m&eacute;tro de Montr&eacute;al seulement, soit &agrave; distance de marche ou &agrave; une courte distance en autobus, et 
+	ils sont aussi plac&eacute;s sur ce site Web dans des pages individuelles pour chaque station du m&eacute;tro de Montr&eacute;al.</em></p><br/>
+	<p id="num-of-spots"></p><br/>
+	
+	<p><br/>
+	&eacute; = &amp;eacute; &nbsp;&nbsp; &egrave; = &amp;egrave; &nbsp;&nbsp; &ecirc; = &amp;ecirc; &nbsp;&nbsp; &agrave; = &amp;agrave; &nbsp;&nbsp; &acirc; = &amp;acirc; 
+	&nbsp;&nbsp; &icirc; = &amp;icirc; &nbsp;&nbsp; &ocirc; = &amp;ocirc; &nbsp;&nbsp; &ucirc; = &amp;ucirc; &nbsp;&nbsp; &ccedil; = &amp;ccedil;</p><br/><br/>
+	
+	<div style="text-align: center">
+		<input type="text" id="search-box" style="height: 40px; width: 400px; font-size: 20px; font-family: Helvetica; font-weight: bold" />
+		<input type="button" id="search-button" value="Rechercher" style="height: 40px; width: 126px; font-size: 20px; font-family: Helvetica; font-weight: bold" />
+		<br/>
+		<label for="categories"><em lang="fr">Recherchez par cat&eacute;gorie (la valeur &laquo;S&eacute;lectionnez...&raquo; va parcourir toutes les cat&eacute;gories, incluant celles qui ne sont pas affich&eacute;es dans cette liste):</em></label>
+		<select name="categories" id="categories">
+		  <option value="">S&eacute;lectionnez...</option>
+		  <option value="hotel">H&ocirc;tels</option>
+		  <option value="park">Parcs</option>
+		  <option value="restaurant">Restaurants</option>
+		  <option value="school">&Eacute;coles</option>
+		  <option value="church">&Eacute;glises</option>
+		  <option value="sports">Sports</option>
+		  <option value="college">Coll&egrave;ges</option>
+		  <option value="university">Universit&eacute;s</option>
+		  <option value="trade school">&Eacute;coles des M&eacute;tiers</option>
+		  <option value="town square">Places de la Ville</option>
+		  <option value="mall">Centres Commerciaux</option>
+		  <option value="shopping">Magasinage</option>
+		  <option value="district">Districts</option>
+		  <option value="office">Bureaux</option>
+		  <option value="government">Gouvernement</option>
+		  <option value="agency">Agences</option>
+		  <option value="residence">R&eacute;sidences</option>
+		  <option value="hospital">H&ocirc;pitaux</option>
+		  <option value="market">March&eacute;s</option>
+		  <option value="cemetery">Cimeti&egrave;res</option>
+		  <option value="theatre">Th&eacute;&acirc;tres</option>
+		  <option value="museum">Mus&eacute;es</option>
+		  <option value="beach">Plages</option>
+		  <option value="library">Biblioth&egrave;ques</option>
+		  <option value="cultural centre">Centres Culturels</option>
+		  <option value="historical site">Sites Historiques</option>
+		  <option value="bus terminal">Terminus d&#39;Autobus</option>
+		  <option value="convention centre">Centres de Convention</option>
+		</select>
+		<br/>
+		<label for="streets">Recherchez par rue (la valeur &laquo;S&eacute;lectionnez...&raquo; va parcourir toutes les rues, incluant celles qui ne sont pas affich&eacute;es dans cette liste):</label>
+		<select name="streets" id="streets">
+		  <option value="">S&eacute;lectionnez...</option>
+		  <option value="Rue Sainte-Catherine">Rue Sainte-Catherine</option>
+		  <option value="Rue Saint-Jacques">Rue Saint-Jacques</option>
+		  <option value="Rue Saint-Urbain">Rue Saint-Urbain</option>
+		  <option value="Rue de la Commune">Rue de la Commune</option>
+		  <option value="Rue Saint-Vincent">Rue Saint-Vincent</option>
+		  <option value="00">Rue Saint-Fran&ccedil;ois-Xavier</option>
+		  <option value="Rue Peel">Rue Peel</option>
+		  <option value="Rue Guy">Rue Guy</option>
+		  <option value="Rue Mackay">Rue Mackay</option>
+		  <option value="Rue Crescent">Rue Crescent</option>
+		  <option value="Rue Saint-Paul">Rue Saint-Paul</option>
+		  <option value="Rue Notre-Dame">Rue Notre-Dame</option>
+		  <option value="Rue Sherbrooke">Rue Sherbrooke</option>
+		  <option value="Rue Berri">Rue Berri</option>
+		  <option value="Rue Sanguinet">Rue Sanguinet</option>
+		  <option value="Rue Saint-Antoine">Rue Saint-Antoine</option>
+		  <option value="Place Royale">Place Royale</option>
+		  <option value="01">Place d&#39;Youville</option>
+		  <option value="Rue McGill">Rue McGill</option>
+		  <option value="02">Boulevard Ren&eacute;-L&eacute;vesque</option>
+		  <option value="Avenue de Lorimier">Avenue de Lorimier</option>
+		  <option value="Avenue Papineau">Avenue Papineau</option>
+		  <option value="Boulevard Saint-Laurent">Boulevard Saint-Laurent</option>
+		  <option value="Rue Jeanne-Mance">Rue Jeanne-Mance</option>
+		  <option value="Rue de Bleury">Rue de Bleury</option>
+		  <option value="03">Avenue du Pr&eacute;sident-Kennedy</option>
+		  <option value="Boulevard de Maisonneuve">Boulevard de Maisonneuve</option>
+		  <option value="Avenue McGill College">Avenue McGill College</option>
+		  <option value="Rue Stanley">Rue Stanley</option>
+		  <option value="Rue Metcalfe">Rue Metcalfe</option>
+		  <option value="Rue Mansfield">Rue Mansfield</option>
+		  <option value="Rue McTavish">Rue McTavish</option>
+		  <option value="Avenue du Docteur-Penfield">Avenue du Docteur-Penfield</option>
+		  <option value="Rue Drummond">Rue Drummond</option>
+		  <option value="Rue de la Montagne">Rue de la Montagne</option>
+		  <option value="Avenue Atwater">Avenue Atwater</option>
+		  <option value="Rue Ontario">Rue Ontario</option>
+		  <option value="Rue Rachel">Rue Rachel</option>
+		  <option value="Rue Saint-Hubert">Rue Saint-Hubert</option>
+		  <option value="Rue Saint-Denis">Rue Saint-Denis</option>
+		  <option value="Rue Peel">Rue Peel</option>
+		  <option value="Avenue des Pins">Avenue des Pins</option>
+		  <option value="Boulevard Robert-Bourassa">Boulevard Robert-Bourassa</option>
+		  <option value="Rue du Square-Victoria">Rue du Square-Victoria</option>
+		  <option value="04">Rue de la Gaucheti&egrave;re</option>
+		  <option value="Avenue Viger">Avenue Viger</option>
+		  <option value="05">Rue Fran&ccedil;ois-Perrault</option>
+		  <option value="Rue Villeray">Rue Villeray</option>
+		  <option value="Rue Jean-Talon">Rue Jean-Talon</option>
+		  <option value="Rue Beaubien">Rue Beaubien</option>
+		  <option value="Avenue Henri-Julien">Avenue Henri-Julien</option>
+		  <option value="Rue Gary-Carter">Rue Gary-Carter</option>
+		  <option value="06">Avenue de Gasp&eacute;</option>
+		  <option value="07">Boulevard de l&#39;Acadie</option>
+		  <option value="08">Boulevard &Eacute;douard-Montpetit</option>
+		  <option value="09">Chemin de la C&ocirc;te-Sainte-Catherine</option>
+		  <option value="10">Chemin de la C&ocirc;te-des-Neiges</option>
+		  <option value="11">Chemin de la C&ocirc;te Saint-Luc</option>
+		  <option value="Chemin Queen-Mary">Chemin Queen-Mary</option>
+		  <option value="Boulevard Langelier">Boulevard Langelier</option>
+		  <option value="12">Boulevard de l&#39;Assomption</option>
+		  <option value="Avenue Pierre-de-Coubertin">Avenue Pierre-de-Coubertin</option>
+		  <option value="Rue Hochelaga">Rue Hochelaga</option>
+		  <option value="Boulevard LaSalle">Boulevard LaSalle</option>
+		  <option value="Rue Wellington">Rue Wellington</option>
+		  <option value="13">Boulevard Ga&eacute;tan-Laberge</option>
+		  <option value="Avenue Bannantyne">Avenue Bannantyne</option>
+		  <option value="Rue de Verdun">Rue de Verdun</option>
+		  <option value="Boulevard des Trinitaires">Boulevard des Trinitaires</option>
+		  <option value="Boulevard Newman">Boulevard Newman</option>
+		  <option value="Boulevard Angrignon">Boulevard Angrignon</option>
+		  <option value="Boulevard le Corbusier">Boulevard le Corbusier</option>
+		  <option value="Boulevard Henri-Bourassa">Boulevard Henri-Bourassa</option>
+		  <option value="Rue Lajeunesse">Rue Lajeunesse</option>
+		  <option value="Boulevard Gouin">Boulevard Gouin</option>
+		  <option value="14">Rue Sauv&eacute;</option>
+		  <option value="15">Boulevard Cr&eacute;mazie</option>
+		  <option value="Boulevard Rosemont">Boulevard Rosemont</option>
+		  <option value="Avenue Laurier">Avenue Laurier</option>
+		  <option value="Avenue du Mont-Royal">Avenue du Mont-Royal</option>
+		  <option value="16">Boulevard D&eacute;carie</option>
+		  <option value="Avenue Van Horne">Avenue Van Horne</option>
+		  <option value="Avenue Sainte-Croix">Avenue Sainte-Croix</option>
+		  <option value="17">Boulevard de la C&ocirc;te-Vertu</option>
+		</select>
+	</div>
+	
+	<div style="text-align: center; margin-top:25px" id="output">
+	</div>
+				
+	<!-- FOOTER -->
+	<footer>
+		<a href="../en/search.html">English</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="contact.html">Contacter Victor</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="points-de-victor.html">Points favoris de Victor</a>
+	</footer>
+	
+	</div>
+	
+	</body>
+</html>

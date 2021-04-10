@@ -1,0 +1,939 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica";
+	font-size: 14pt;
+	color: white;
+	height: 100%;
+	width: 100%
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+
+iframe {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a iframe {
+	text-align: center;
+}
+
+#bg
+{
+	height: 100%;
+	width: 100%;
+}
+
+#bg1
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+	background-repeat: repeat-y;
+}
+
+#bg2
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+	background-repeat: repeat-y;
+}
+
+#bg4
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+	background-repeat: repeat-y;
+}
+
+#bg5
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+	background-repeat: repeat-y;
+}
+
+#bg-berri
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-lionel
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-jean-talon, #bg-snowdon
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-home
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-ug
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-om
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-qds
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-gay
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-exo
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+#bg-victorspots
+{
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(207,194,0,1) 20%, rgba(14,255,0,1) 40%, rgba(0,144,255,1) 60%, rgba(0,16,217,1) 80%, rgba(0,0,0,1) 100%);
+background-repeat: repeat-y;
+}
+
+/* NavBar courtesy of https://css-snippets.com/simple-horizontal-navigation/ - code was temporarily tweaked to match the project */
+.nav ul {
+  list-style: none;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(144,144,144,1) 50%, rgba(0,0,0,1) 100%);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Helvetica';
+  font-size: 10pt;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #A200FF;
+}
+
+.green a:hover {
+	background-color: green;
+}
+
+.orange a:hover {
+	background-color: orange;
+}
+
+.yellow a:hover {
+	background-color: yellow;
+	color: black;
+}
+
+.blue a:hover {
+	background-color: blue;
+}
+
+.ug a:hover{
+	background-color: #a200ff;
+}
+
+.om a:hover{
+	background-color: red;
+}
+
+.qds a:hover {
+	background-color: #052600;
+}
+
+.gay a:hover {
+	background-color: deeppink;
+}
+
+.exo a:hover {
+	background-color: teal;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 170px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 10pt;
+	/*padding-left: 5px;
+	padding-right: 1px;*/
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+#next
+{
+	color: #e1e1e1;
+	transition: 0.3s color;
+}
+
+#prev
+{
+	color: #e1e1e1;
+	transition: 0.3s color;
+}
+
+#next:hover{
+	color: white;
+}
+
+#prev:hover{
+	color: white;
+}
+
+#hotspot-list
+{
+	margin-top: 20px;
+	margin-left: 25%;
+}
+
+#hotspot-list-list a
+{
+	color: #e1e1e1;
+}
+
+#hotspot-list h1
+{
+	color: white;
+	text-align: left;
+	margin-left: 25%;
+	font-size: 20pt;
+}
+
+#hotspot-list ul, #hotspot-list li
+{
+	color: white;
+	font-family: "Helvetica";
+	text-align: left;
+}
+
+td{
+	padding-right: 25px;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+a{
+	color: #e1e1e1;
+	transition: 0.3s color;
+}
+
+a:hover{
+	color: white;
+}
+
+ul, li {
+	text-align: none;
+	font-size: 12pt;
+}
+
+#station-list {
+	margin-left: 45%;
+	list-style-type: none;
+	display: inline-block;
+}
+
+h1
+{
+	color: white;
+	font-family: "Helvetica";
+	text-align: center;
+	top: 50px;
+	padding-top: 10px;
+}
+
+h2
+{
+	text-align: center;
+}
+
+h3
+{
+	text-align: center;
+	color: white;
+}
+
+#line1-green
+{
+	padding-bottom: 15px;
+	margin-left: 5%;
+	display: inline-block;
+}
+
+#line1-header{
+	background-color: green;
+	padding-top: 0px;
+}
+
+#line2-orange
+{
+	padding-bottom: 15px;
+	margin-left: 5%;
+	display: inline-block;
+}
+
+#line2-header{
+	background-color: orange;
+	padding-top: 0px;
+}
+
+#line4-yellow
+{
+	padding-bottom: 15px;
+	margin-left: 5%;
+	display: inline-block;
+}
+
+#line4-header{
+	background-color: yellow;
+	padding-top: 0px;
+}
+
+#line5-blue
+{
+	padding-bottom: 15px;
+	margin-left: 5%;
+	display: inline-block;
+}
+
+#line5-header{
+	background-color: blue;
+	padding-top: 0px;
+}
+
+#borough {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+/*Underground City stations*/
+#ug {
+	font-family: 'Helvetica';
+	background-color: #a200ff;
+	margin-right: 33.3%; 
+	margin-bottom: 10px;
+}
+/*Old Montreal stations*/
+#om {
+	font-family: 'Helvetica';
+	background-color: red;
+	margin-right: 33.3%; 
+	margin-bottom: 10px;
+}
+/*Quartier des Spectacles stations*/
+#qds {
+	font-family: 'Helvetica';
+	background-color: #052600;
+	margin-right: 33.3%; 
+	margin-bottom: 10px;
+}
+/*The Village stations*/
+#gay {
+	font-family: 'Helvetica';
+	background-color: deeppink;
+	margin-right: 33.3%; 
+	margin-bottom: 10px;
+}
+/*EXO Commuter Train stations*/
+#exo {
+	font-family: 'Helvetica';
+	background-color: teal;
+	margin-right: 33.3%; 
+	margin-bottom: 10px;
+}
+
+#hotspot-js {
+	transition: 0.3s;
+}
+
+/*Station Addresses. Some stations have multiple addresses, so in this case only the main ones provided by google will be used.*/
+/*TRANSFERS*/
+#berri-uqam:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    505 Rue Sainte-Catherine Est';
+}
+
+#lionel-groulx:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    620 Avenue Atwater';
+}
+
+#snowdon:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    5111 Chemin Queen-Mary';
+}
+
+#jean-talon:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    522 Rue Jean-Talon Est';
+}
+
+/*GREEN LINE*/
+#honore-beaugrand:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    7950 Rue Sherbrooke Est';
+}
+
+#radisson:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    7155 Rue Sherbrooke Est';
+}
+
+#langelier:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    6610 Rue Sherbrooke Est';
+}
+
+#cadillac:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    5995 Rue Sherbrooke Est';
+}
+
+#assomption:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    3075 Boulevard de L\'Assomption';
+}
+
+#viau:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    2855 Avenue Pierre-de-Coubertin';
+}
+
+#pie-ix:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    2700 Boulevard Pie-IX';
+}
+
+#joliette:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    3575 Rue Hochelaga';
+}
+
+#prefontaine:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    3100 Rue Hochelaga';
+}
+
+#frontenac:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    2570 Rue Ontario Est';
+}
+
+#papineau:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1425 Rue Cartier';
+}
+
+#beaudry:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1255 Rue Sainte-Catherine Est';
+}
+
+#saint-laurent:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    10 Boulevard de Maisonneuve Est';
+}
+
+#place-des-arts:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    2020 Rue de Bleury';
+}
+
+#mcgill:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    2055 Boulevard Robert-Bourassa';
+}
+
+#peel:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1008 Boulevard de Maisonneuve Ouest';
+}
+
+#guy-concordia:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1445 Rue Guy';
+}
+
+#atwater:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    3015 Boulevard de Maisonneuve Ouest';
+}
+
+#charlevoix:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    2600 Rue Centre';
+}
+
+#lasalle:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    301 Avenue Caisse';
+}
+
+#de-l-eglise:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    250 Avenue Galt';
+}
+
+#verdun:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    4520 Rue de Verdun';
+}
+
+#jolicoeur:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    6200 Rue Drake';
+}
+
+#monk:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    6805 Boulevard Monk';
+}
+
+#angrignon:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    3500 Boulevard des Trinitaires';
+}
+
+/*YELLOW LINE*/
+#jean-drapeau:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    170 \00CEle Sainte-H\00E9l\00E8ne';
+}
+
+#longueuil-universite-de-sherbrooke:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    100 Place Charles-Lemoyne';
+}
+
+/*BLUE LINE*/
+#saint-michel:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    7325 Boulevard Saint-Michel';
+}
+
+#d-iberville:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    2400 Rue Jean-Talon Est';
+}
+
+#fabre:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1480 Rue Jean-Talon Est';
+}
+
+#de-castelnau:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    7333 Boulevard Saint-Laurent';
+}
+
+#parc:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    7245 Rue Hutchison';
+}
+
+#acadie:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    6900 Boulevard de l\'Acadie';
+}
+
+#outremont:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1400 Avenue Van Horne';
+}
+
+#edouard-montpetit:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    5450 Avenue Vincent d\'Indy';
+}
+
+#universite-de-montreal:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    5400 Avenue Louis-Colin';
+}
+
+#cote-des-neiges:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    5351 Chemin de la C\00F4te-des-Neiges';
+}
+
+/*ORANGE LINE*/
+#montmorency:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    555 Rue Lucien-Paiement';
+}
+
+#de-la-concorde:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1200 Boulevard de la Concorde Ouest';
+}
+
+#cartier:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    5 Boulevard Cartier Ouest';
+}
+
+#henri-bourassa:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    443 Boulevard Henri-Bourassa Est';
+}
+
+#sauve:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    9800 Rue Berri';
+}
+
+#cremazie:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    505 Boulevard Cr\00E9mazie Est';
+}
+
+#jarry:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    504 Rue Jarry Est';
+}
+
+#beaubien:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    6530 Avenue de Ch\00E2teaubriand';
+}
+
+#rosemont:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    420 Boulevard Rosemont';
+}
+
+#laurier:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    495 Rue Gilford';
+}
+
+#mont-royal:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    470 Avenue du Mont-Royal Est';
+}
+
+#sherbrooke:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    3580 Rue Berri';
+}
+
+#champ-de-mars:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    940 Rue Sanguinet';
+}
+
+#place-d-armes:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    960 Rue Saint-Urbain';
+}
+
+#square-victoria-oaci:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    601 Avenue Viger Ouest';
+}
+
+#bonaventure:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    955 Rue de la Cath\00E9 drale';
+}
+
+#lucien-l-allier:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    955 Rue Lucien-L\'Allier';
+}
+
+#georges-vanier:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    2040 Rue Saint-Antoine Ouest';
+}
+
+#place-saint-henri:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    555 Rue Saint-Ferdinand';
+}
+
+#vendome:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    5160 Boulevard de Maisonneuve Ouest';
+}
+
+#villa-maria:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    4331 Boulevard D\00E9 carie';
+}
+
+#cote-sainte-catherine:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    4780 Chemin de la C\00F4te-Sainte-Catherine';
+}
+
+#plamondon:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    6250 Avenue Victoria';
+}
+
+#namur:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    7405 Boulevard D\00E9 carie';
+}
+
+#de-la-savane:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    8261 Boulevard D\00E9 carie';
+}
+
+#du-college:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1490 Rue du Coll\00E8ge';
+}
+
+#cote-vertu:hover:after{
+	white-space: pre;
+	display: inline;
+	content: '    1515 Boulevard de la C\00F4te-Vertu Ouest';
+}
+
+/*Stations in Select Categories*/
+
+#underground-city-stations, #old-montreal-stations, #quartier-des-spectacles-stations, #the-village-stations, #exo-stations {
+  color: white;
+  font-family: 'Helvetica';
+}
+
+/*Dropdown Menu courtesy of W3Schools.com, some of the values were tweaked to fit this site*/
+
+.dropdown { position: relative; display: inline-block;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black; color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*Headers for Stations in Select Categories*/
+#ug-header{
+	background-color: #a200ff;
+	padding-top: 0px;
+}
+
+#om-header{
+	background-color: red;
+	padding-top: 0px;
+}
+
+#qds-header{
+	background-color: #052600;
+	padding-top: 0px;
+}
+
+#gay-header{
+	background-color: deeppink;
+	padding-top: 0px;
+}
+
+#exo-header{
+	background-color: teal;
+	padding-top: 0px;
+}
+
+#victor-header{
+	background-color: #00005c;
+	padding-top: 0px;
+}
+
+/*Station Header*/
+#header{
+	background-color: black;
+	padding-top: 0px;
+}
+
+/*French names italic-free*/
+em {
+	font-style: normal;
+}
+
+footer {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2.5%;
+}
+
+footer a {
+	font-weight: bold;
+	color: yellow;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+select, option {
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 16px;
+	background-color: yellow;
+}
+
+#connections-list ul, #connections-list li
+{
+	color: white;
+	font-family: "Helvetica";
+	text-align: left;
+}
+
+#connections-js {
+	width: 68.75%;
+}
+
+#connections-js td {
+	border: 1px solid white;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
