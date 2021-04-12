@@ -602,7 +602,9 @@ function init(){
 	{name: "Parc Sir-Wilfrid-Laurier", type: "Park", address: "1115 Avenue Laurier Est", site: "https://montreal.ca/en/places/parc-sir-wilfrid-laurier"},
 	{name: "&Eacute;cole Nationale de Th&eacute;&acirc;tre", type: "School", address: "5030 Rue Saint-Denis", site: "https://ent-nts.ca/en"},
 	{name: "&Eacute;cole Sup&eacute;rieure de Ballet du Qu&eacute;bec", type: "School", address: "4816 Rue Rivard", site: "https://www.esbq.ca/en/"},
-	{name: "&Eacute;glise Catholique Saint-Denis", type: "Church", address: "454 Avenue Laurier Est", site: "https://.google.com/view/eglisesaintdenismontreal/accueil"}];
+	{name: "&Eacute;glise Catholique Saint-Denis", type: "Church", address: "454 Avenue Laurier Est", site: "https://.google.com/view/eglisesaintdenismontreal/accueil"},
+	{name: "&Eacute;cole Laurier", type: "School", address: "505 Avenue Laurier Est", site: "https://laurier.cssdm.gouv.qc.ca/"},
+	{name: "Centre Champagnat", type: "School", address: "5017 Rue Saint-Hubert", site: "https://centre-champagnat.cssdm.gouv.qc.ca/"}];
 	
 	MontRoyal = [{name: "Parc Mont-Royal", type: "Park", address: "1260 Chemin Remembrance", site: "https://montreal.ca/en/places/parc-du-mont-royal"},
 	{name: "L&#39;Avenue du Mont-Royal", type: "District", address: "1012 Avenue du Mont-Royal Est", site: "https://www.mont-royal.net/"},
