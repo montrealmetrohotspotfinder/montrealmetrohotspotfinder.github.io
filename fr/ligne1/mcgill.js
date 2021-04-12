@@ -41,11 +41,12 @@ function init()
 		"TOM Condos",
 		"Universit&eacute; McGill, Facult&eacute; de M&eacute;decine Dentaire",
 		"Universit&eacute; McGill, &Eacute;cole d&#39;&Eacute;ducation Permanente",
-		"Ordre des Ing&eacute;nieurs du Qu&eacute;bec" ];
+		"Ordre des Ing&eacute;nieurs du Qu&eacute;bec",
+		"&Eacute;cole F.A.C.E." ];
 	
 	htypes = [ "Universit&eacute;", "Centre Commercial", "Centre Commercial", "Centre Commercial", "H&ocirc;tel", "Mus&eacute;e", "Mus&eacute;e", "Mus&eacute;e", "Place de la Ville", "Place de la Ville", "&Eacute;glise", 
 	"Bureau", "H&ocirc;pital", "Sports", "Centre Commercial", "Cin&eacute;ma", "Bureau", "Centre Commercial", "&Eacute;glise", "Magasinage", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "H&ocirc;tel", "Agence", "H&ocirc;tel",
-	"Agence", "&Eacute;cole", "Site Historique", "Bureau", "Bureau", "Coll&egrave;ge", "Agence", "Bureau", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Agence" ];
+	"Agence", "&Eacute;cole", "Site Historique", "Bureau", "Bureau", "Coll&egrave;ge", "Agence", "Bureau", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Agence", "&Eacute;cole" ];
 	
 	haddresses = [ "845 Rue Sherbrooke Ouest", "705 Rue Sainte-Catherine Ouest", "1500 Avenue McGill College", "1 Place Ville Marie", "900 Boulevard Ren&eacute;-L&eacute;vesque Ouest",
 	"705 Rue Sainte-Catherine Ouest", "690 Rue Sherbrooke Ouest", "859 Rue Sherbrooke Ouest", "", "2903 Rue Peel", "1085 Rue de la Cath&eacute;drale", "1155 Rue Metcalfe", 
@@ -54,7 +55,7 @@ function init()
 	"2020 Boulevard Robert-Bourassa", "600 Boulevard de Maisonneuve Ouest", "900 Boulevard de Maisonneuve Ouest", "2001 Boulevard Robert-Bourassa", "1981 Avenue McGill College",
 	"1250 Boulevard Robert-Bourassa", "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1240 Square Phillips", "1200 Avenue McGill College", "550 Rue Sherbrooke Ouest", "15a Rue Sherbrooke Ouest",
 	"2001 Boulevard Robert-Bourassa", "2001 Boulevard Robert-Bourassa", "1255 Boulevard Robert-Bourassa", "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1981 Avenue McGill College",
-	"1188 Avenue Union", "2001 Avenue McGill College", "688 Rue Sherbrooke Ouest", "1801 Avenue McGill College" ];
+	"1188 Avenue Union", "2001 Avenue McGill College", "688 Rue Sherbrooke Ouest", "1801 Avenue McGill College", "3449 Rue University" ];
 	
 	hsites = [ "https://www.mcgill.ca/fr", "https://www.centreeatondemontreal.com/fr", "https://www.placemontrealtrust.com/fr", "https://placevillemarie.com/fr/accueil", "https://www.fairmont.fr/queen-elizabeth-montreal/",
 	"https://www.grevin-montreal.com/", "https://www.musee-mccord.qc.ca/fr", "https://www.mcgill.ca/redpath/fr", "https://montreal.ca/lieux/square-phillips", 
@@ -66,7 +67,7 @@ function init()
 	"http://www.maisonmanuvie.com/fr", "https://www.bnpparibas.ca/fr", "https://www.laurentianbank.ca/fr", "https://www.marriott.fr/hotels/travel/yulmd-renaissance-montreal-downtown-hotel",
 	"https://www.transports.gouv.qc.ca/fr/Pages/default.aspx", "https://hotelbirksmontreal.com/?lang=fr", "http://www.aseq.ca/", "https://www.trebas.com/fr", "#", "https://www.axa-assistance.ca/fr/",
 	"https://gwlraleasing.com/building.php?building=4209522867010994813&lang=fr_CA", "https://www.montrealcollege.ca/fr/", "http://www.habitation.gouv.qc.ca/", "https://gaa.qc.ca/", "https://tomcondos.com/fr/", "https://www.mcgill.ca/dentistry/fr",
-	"https://www.mcgill.ca/continuingstudies/fr", "http://www.oiq.qc.ca/Pages/accueil.aspx" ];
+	"https://www.mcgill.ca/continuingstudies/fr", "http://www.oiq.qc.ca/Pages/accueil.aspx", "https://face-english.cssdm.gouv.qc.ca/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
