@@ -1053,15 +1053,15 @@ function init(){
 	Rosemontsites = [ "https://montreal.ca/lieux/bibliotheque-marc-favreau", "https://montreal.ca/lieux/parc-des-carrieres", "https://montreal.ca/lieux/parc-luc-durand", "https://www.omhm.qc.ca/fr/repertoire-des-habitations/habitations-saint-vallier" ];
 	
 	Lauriernames = [ "Spectrum Productions", "Parc Sir-Wilfrid-Laurier", "&Eacute;cole Nationale de Th&eacute;&acirc;tre", "&Eacute;cole Sup&eacute;rieure de Ballet du Qu&eacute;bec",
-	"&Eacute;glise Catholique Saint-Denis", "&Eacute;cole Laurier", "Centre Champagnat" ];
+	"&Eacute;glise Catholique Saint-Denis", "&Eacute;cole Laurier", "Centre Champagnat", "Parc Berri-Saint-Joseph" ];
 	
-	Lauriertypes = [ "Studio", "Parc", "&Eacute;cole", "&Eacute;cole", "&Eacute;glise", "&Eacute;cole", "&Eacute;cole" ];
+	Lauriertypes = [ "Studio", "Parc", "&Eacute;cole", "&Eacute;cole", "&Eacute;glise", "&Eacute;cole", "&Eacute;cole", "Parc" ];
 	
 	Laurieraddresses = [ "5445 Avenue de Gasp&eacute;", "1115 Avenue Laurier Est", "5030 Rue Saint-Denis", "4816 Rue Rivard", "454 Avenue Laurier Est", "505 Avenue Laurier Est", 
-		      "5017 Rue Saint-Hubert" ];
+		      "5017 Rue Saint-Hubert", "" ];
 	
 	Lauriersites = [ "https://www.productionsspectrum.com/home-fr", "https://montreal.ca/lieux/parc-sir-wilfrid-laurier", "https://ent-nts.ca/fr", "https://www.esbq.ca/fr", 
-	"https://sites.google.com/view/eglisesaintdenismontreal/accueil", "https://laurier.cssdm.gouv.qc.ca/", "https://centre-champagnat.cssdm.gouv.qc.ca/" ];
+	"https://sites.google.com/view/eglisesaintdenismontreal/accueil", "https://laurier.cssdm.gouv.qc.ca/", "https://centre-champagnat.cssdm.gouv.qc.ca/", "https://montreal.ca/lieux/parc-berri-saint-joseph" ];
 	
 	MontRoyalnames = [ "Parc Mont-Royal", "L&#39;Avenue du Mont-Royal", "Th&eacute;&acirc;tre du Rideau Vert", "Biblioth&egrave;que du Plateau-Mont-Royal", "Sanctuaire du Saint-Sacrement", "Parc Albert-Saint-Martin" ];
 	
