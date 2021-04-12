@@ -373,7 +373,8 @@ function init(){
 	{name: "TOM Condos", type: "Residence", address: "1188 Avenue Union", site: "https://tomcondos.com/en/"},
 	{name: "McGill University, Faculty of Dentistry", type: "University", address: "2001 Avenue McGill College", site: "https://www.mcgill.ca/dentistry/"},
 	{name: "McGill University, School of Continuing Studies", type: "University", address: "688 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/continuingstudies/"},
-	{name: "Ordre des Ing&eacute;nieurs du Qu&eacute;bec", type: "Agency", address: "1801 Avenue McGill College", site: "http://oiq.qc.ca/en/Pages/selection.aspx"}];
+	{name: "Ordre des Ing&eacute;nieurs du Qu&eacute;bec", type: "Agency", address: "1801 Avenue McGill College", site: "http://oiq.qc.ca/en/Pages/selection.aspx"},
+	{name: "F.A.C.E. School", type: "School", address: "3449 Rue University", site: "https://face-english.cssdm.gouv.qc.ca/"}];
 	
 	Peel = [{name: "Les Cours Mont-Royal", type: "Mall", address: "1455 Rue Peel", site: "https://lcmr.ca/"},
 	{name: "Carrefour Industrielle Alliance", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
