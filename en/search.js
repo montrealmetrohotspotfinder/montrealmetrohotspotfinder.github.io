@@ -707,7 +707,8 @@ function init(){
 	{name: "Centre de Commerce Mondial de Montr&eacute;al", type: "Mall", address: "747 Rue du Square-Victoria", site: "https://www.alliedreit.com/property/__trashed/"},
 	{name: "Place Sun-Yat-Sen", type: "Park", address: "1055 Rue Clark", site: "https://montreal.ca/en/places/parc-sun-yat-sen"},
 	{name: "H&ocirc;tel Monville", type: "Hotel", address: "1041 Rue de Bleury", site: "https://www.hotelmonville.com/en/"},
-	{name: "SNC-Lavalin", type: "Office", address: "455 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.snclavalin.com/en"}];
+	{name: "SNC-Lavalin", type: "Office", address: "455 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.snclavalin.com/en"},
+	{name: "H&ocirc;tel Le Dauphin Montr&eacute;al Centre-Ville", type: "Hotel", address: "1025 Rue de Bleury", site: "https://www.hotelsdauphin.ca/en/hotels/montreal/"}];
 	
 	SquareVictoria = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
