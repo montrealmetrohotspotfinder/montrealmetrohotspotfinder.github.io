@@ -1,15 +1,15 @@
 function init()
 {
 	hnames = [ "Spectrum Productions", "Parc Sir-Wilfrid-Laurier", "&Eacute;cole Nationale de Th&eacute;&acirc;tre", "&Eacute;cole Sup&eacute;rieure de Ballet du Qu&eacute;bec",
-	"&Eacute;glise Catholique Saint-Denis", "&Eacute;cole Laurier", "Centre Champagnat" ];
+	"&Eacute;glise Catholique Saint-Denis", "&Eacute;cole Laurier", "Centre Champagnat", "Parc Berri-Saint-Joseph" ];
 	
-	htypes = [ "Studio", "Parc", "&Eacute;cole", "&Eacute;cole", "&Eacute;glise", "&Eacute;cole", "&Eacute;cole" ];
+	htypes = [ "Studio", "Parc", "&Eacute;cole", "&Eacute;cole", "&Eacute;glise", "&Eacute;cole", "&Eacute;cole", "Parc" ];
 	
 	haddresses = [ "5445 Avenue de Gasp&eacute;", "1115 Avenue Laurier Est", "5030 Rue Saint-Denis", "4816 Rue Rivard", "454 Avenue Laurier Est", "505 Avenue Laurier Est", 
-		      "5017 Rue Saint-Hubert" ];
+		      "5017 Rue Saint-Hubert", "" ];
 	
 	hsites = [ "https://www.productionsspectrum.com/home-fr", "https://montreal.ca/lieux/parc-sir-wilfrid-laurier", "https://ent-nts.ca/fr", "https://www.esbq.ca/fr", 
-	"https://sites.google.com/view/eglisesaintdenismontreal/accueil", "https://laurier.cssdm.gouv.qc.ca/", "https://centre-champagnat.cssdm.gouv.qc.ca/" ];
+	"https://sites.google.com/view/eglisesaintdenismontreal/accueil", "https://laurier.cssdm.gouv.qc.ca/", "https://centre-champagnat.cssdm.gouv.qc.ca/", "https://montreal.ca/lieux/parc-berri-saint-joseph" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
