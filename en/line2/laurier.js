@@ -5,7 +5,8 @@ function init()
 	{name: "&Eacute;cole Nationale de Th&eacute;&acirc;tre", type: "School", address: "5030 Rue Saint-Denis", site: "https://ent-nts.ca/en"},
 	{name: "&Eacute;cole Sup&eacute;rieure de Ballet du Qu&eacute;bec", type: "School", address: "4816 Rue Rivard", site: "https://www.esbq.ca/en/"},
 	{name: "&Eacute;glise Catholique Saint-Denis", type: "Church", address: "454 Avenue Laurier Est", site: "https://sites.google.com/view/eglisesaintdenismontreal/accueil"},
-	{name: "&Eacute;cole Laurier", type: "School", address: "505 Avenue Laurier Est", site: "https://laurier.cssdm.gouv.qc.ca/"}];
+	{name: "&Eacute;cole Laurier", type: "School", address: "505 Avenue Laurier Est", site: "https://laurier.cssdm.gouv.qc.ca/"},
+	{name: "Centre Champagnat", type: "School", address: "5017 Rue Saint-Hubert", site: "https://centre-champagnat.cssdm.gouv.qc.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
