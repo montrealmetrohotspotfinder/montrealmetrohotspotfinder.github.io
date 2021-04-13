@@ -1,7 +1,7 @@
 function init(){
 	//SET VALUES
 	//TRANSFERS
-	BerriUqamnames = [ "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al",
+	BerriIUqamnames = [ "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al",
 	"Grande Biblioth&egrave;que de Montr&eacute;al",
 	"Gare d&#39;Autocars de Montr&eacute;al",
 	"Th&eacute;&acirc;tre Saint-Denis",
@@ -22,12 +22,13 @@ function init(){
 	"La Cin&eacute;math&egrave;que Qu&eacute;b&eacute;coise", 
 	"Institut National de l&#39;Image et du Son",
 	"Centre Pierre-P&eacute;ladeau",
-	"&Eacute;cole de Design de l&#39;UQAM" ];
+	"&Eacute;cole de Design de l&#39;UQAM",
+	"Parc Saint-Jacques",
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Judith-Jasmin" ];
 	
-	BerriUqamtypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre",
-	"Universit&eacute;" ];
+	BerriIUqamtypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;" ];
 	
-	BerriUqamaddresses = [ "405 Rue Sainte-Catherine Est",
+	BerriIUqamaddresses = [ "405 Rue Sainte-Catherine Est",
 	"475 Boulevard de Maisonneuve Est",
 	"1717 Rue Berri",
 	"1594 Rue Saint-Denis",
@@ -48,9 +49,11 @@ function init(){
 	"335 Boulevard de Maisonneuve Est",
 	"301 Boulevard de Maisonneuve Est",
 	"300 Boulevard de Maisonneuve Est",
-	"1440 Rue Sanguinet" ];
+	"1440 Rue Sanguinet",
+	"",
+	"1564 Rue Saint-Denis" ];
 	
-	BerriUqamsites = [ "http://www.uqam.ca/", 
+	BerriIUqamsites = [ "http://www.uqam.ca/", 
 	"http://www.banq.qc.ca/accueil/", 
 	"http://www.gamtl.com/fr/bienvenue/default.aspx",
 	"https://theatrestdenis.com/fr/",
@@ -71,7 +74,9 @@ function init(){
 	"https://www.cinematheque.qc.ca/fr",
 	"https://www.inis.qc.ca/",
 	"http://www.centrepierrepeladeau.uqam.ca/",
-	"https://design.uqam.ca/" ];
+	"https://design.uqam.ca/",
+	"https://montreal.ca/lieux/parc-saint-jacques",
+	"http://carte.uqam.ca/pavillon-je" ];
 	
 	JeanTalonnames = [ "Tour Jean-Talon", "March&eacute; Jean-Talon", "Plaza Saint-Hubert", "R&eacute;sidence Alfredo-Gagliardi", "Casa D&#39;Italia", "&Eacute;glise Orthodoxe Antiochienne Saint-Georges" ];
 	
