@@ -1,7 +1,7 @@
 function init(){
 	//SET VALUES
 	//TRANSFERS
-	BerriIUqamnames = [ "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al",
+	BerriUqamnames = [ "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al",
 	"Grande Biblioth&egrave;que de Montr&eacute;al",
 	"Gare d&#39;Autocars de Montr&eacute;al",
 	"Th&eacute;&acirc;tre Saint-Denis",
@@ -26,9 +26,9 @@ function init(){
 	"Parc Saint-Jacques",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Judith-Jasmin" ];
 	
-	BerriIUqamtypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;" ];
+	BerriUqamtypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;" ];
 	
-	BerriIUqamaddresses = [ "405 Rue Sainte-Catherine Est",
+	BerriUqamaddresses = [ "405 Rue Sainte-Catherine Est",
 	"475 Boulevard de Maisonneuve Est",
 	"1717 Rue Berri",
 	"1594 Rue Saint-Denis",
@@ -53,7 +53,7 @@ function init(){
 	"",
 	"1564 Rue Saint-Denis" ];
 	
-	BerriIUqamsites = [ "http://www.uqam.ca/", 
+	BerriUqamsites = [ "http://www.uqam.ca/", 
 	"http://www.banq.qc.ca/accueil/", 
 	"http://www.gamtl.com/fr/bienvenue/default.aspx",
 	"https://theatrestdenis.com/fr/",
