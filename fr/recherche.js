@@ -142,9 +142,10 @@ function init(){
 	"Axc&egrave;s Saint-Charles",
 	"L&#39;Estuaire III",
 	"Le D&#39;Assigny",
-	"Revenu Qu&eacute;bec, bureaux longueuillois" ];
+	"Revenu Qu&eacute;bec, bureaux longueuillois",
+	"Tribunal Administratif du Logement du Qu&eacute;bec, bureaux longueuillois" ];
 	
-	Longueuiltypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence" ];
+	Longueuiltypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence" ];
 	
 	Longueuiladdresses = [ "120 Place Charles-Lemoyne", 
 	"150 Place Charles-Lemoyne", 
@@ -158,7 +159,8 @@ function init(){
 	"1155 Rue Saint-Charles Ouest",
 	"70 Rue de la Barre",
 	"110 Rue de la Barre",
-	"825 Rue Saint-Laurent Ouest" ];
+	"825 Rue Saint-Laurent Ouest",
+	"201 Place Charles-Lemoyne" ];
 	
 	Longueuilsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-longueuil", 
 	"http://www.usherbrooke.ca/longueuil/", 
@@ -172,7 +174,8 @@ function init(){
 	"https://habitationstrigone.com/dwellings/axces-saint-charles/",
 	"http://estuaire3.ca/",
 	"https://groupemercille.com/fr/residentiel/3-12",
-	"https://www.revenuquebec.ca/fr/" ];
+	"https://www.revenuquebec.ca/fr/",
+	"https://www.tal.gouv.qc.ca/" ];
 	
 	//BLUE LINE
 	SaintMichelnames = [ "Petit Maghreb", "Parc Fran&ccedil;ois-Perrault", "Biblioth&egrave;que de Saint-Michel", "&Eacute;cole Secondaire John F. Kennedy", "Parc Sandro-Pertini", "&Eacute;cole Saint-Mathieu",
