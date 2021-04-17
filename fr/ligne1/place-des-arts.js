@@ -10,7 +10,6 @@ function init()
 	"Th&eacute;&acirc;tre du Nouveau Monde",
 	"Complexe Guy-Favreau / Services Canada via le Montr&eacute;al Souterrain",
 	"Monument-National",
-	"H&ocirc;tel Z&eacute;ro1",
 	"Hydro-Qu&eacute;bec",
 	"H&ocirc;tel Travelodge Montr&eacute;al Centre",
 	"Hilton Garden Inn Montr&eacute;al Centre-Ville",
@@ -42,12 +41,12 @@ function init()
 	"Place du Cardinal P.-&Eacute;. L&eacute;ger" ];
 	
 	htypes = [ "Th&eacute;&acirc;tre", "District", "Mus&eacute;e", "Centre Commercial", "Agence", "H&ocirc;tel", "Universit&eacute;", "Th&eacute;&acirc;tre", "Gouvernement",
-	"Theatre", "H&ocirc;tel", "Agence", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Agence", "Th&eacute;&acirc;tre", "Bureau",
+	"Theatre", "Agence", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Agence", "Th&eacute;&acirc;tre", "Bureau",
 	"Coll&egrave;ge", "Agence", "Agence", "Agence", "Universit&eacute;", "&Eacute;glise", "Agence", "Biblioth&egrave;que", "Universit&eacute;", "&Eacute;cole", "Agence",
 	"Bureau", "Agence", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Parc" ];
 	
 	haddresses = [ "175 Rue Sainte-Catherine Ouest", "", "185 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "1255 Rue Jeanne-Mance",
-	"141 Avenue du Pr&eacute;sident-Kennedy", "84 Rue Sainte-Catherine Ouest", "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1182 Boulevard Saint-Laurent", "1 Boulevard Ren&eacute;-L&eacute;vesque Est", 
+	"141 Avenue du Pr&eacute;sident-Kennedy", "84 Rue Sainte-Catherine Ouest", "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1182 Boulevard Saint-Laurent", 
 	"75 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "50 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "380 Rue Sherbrooke Ouest", "420 Rue Sherbrooke Ouest", "455 Rue Sherbrooke Ouest", 
 	"475 Avenue du Pr&eacute;sident-Kennedy", "425 Boulevard de Maisonneuve Ouest", "500 Rue Sherbrooke Ouest", "1432 Rue de Bleury", "1501 Rue de Bleury", "416 Boulevard de Maisonneuve Ouest",
 	"2050 Rue de Bleury", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "201 Avenue du Pr&eacute;sident-Kennedy", "137 Avenue du Pr&eacute;sident-Kennedy", "125 Rue Sherbrooke Ouest",
@@ -63,8 +62,7 @@ function init()
 	"http://carte.uqam.ca/pavillon-sb",
 	"https://tnm.qc.ca/",
 	"http://complexeguyfavreau.com/fr",
-	"https://ent-nts.ca/fr/monument-national",
-	"https://www.zero1-mtl.com/fr/", 
+	"https://ent-nts.ca/fr/monument-national", 
 	"https://www.hydroquebec.com/residentiel/", 
 	"https://www.wyndhamhotels.com/fr-ca/travelodge/montreal-quebec/travelodge-hotel-by-wyndham-montreal-centre/overview",
 	"https://www.hiltonhotels.com/fr_FR/canada/hilton-garden-inn-montreal-centre-ville/?cultureKey=fr_FR",
