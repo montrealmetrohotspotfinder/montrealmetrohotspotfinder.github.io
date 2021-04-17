@@ -136,16 +136,17 @@ function init(){
 	"H&ocirc;tel Sandman Longueuil",
 	"H&ocirc;tel Le Dauphin Montr&eacute;al-Longueuil",
 	"Place Longueuil",
-	"A&eacute;roport de Saint-Hubert",
+	"A&eacute;roport de Saint-Hubert via RTL",
 	"Coll&egrave;ge CDI, campus Longueuil", 
 	"Commission de Protection du Territoire Agricole du Qu&eacute;bec", 
 	"Axc&egrave;s Saint-Charles",
 	"L&#39;Estuaire III",
 	"Le D&#39;Assigny",
 	"Revenu Qu&eacute;bec, bureaux longueuillois",
-	"Tribunal Administratif du Logement du Qu&eacute;bec, bureaux longueuillois" ];
+	"Tribunal Administratif du Logement du Qu&eacute;bec, bureaux longueuillois",
+	"Les Habitats Lafayette" ];
 	
-	Longueuiltypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence" ];
+	Longueuiltypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence" ];
 	
 	Longueuiladdresses = [ "120 Place Charles-Lemoyne", 
 	"150 Place Charles-Lemoyne", 
@@ -160,7 +161,8 @@ function init(){
 	"70 Rue de la Barre",
 	"110 Rue de la Barre",
 	"825 Rue Saint-Laurent Ouest",
-	"201 Place Charles-Lemoyne" ];
+	"201 Place Charles-Lemoyne",
+	"100 Boulevard La Fayette" ];
 	
 	Longueuilsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-longueuil", 
 	"http://www.usherbrooke.ca/longueuil/", 
@@ -175,7 +177,8 @@ function init(){
 	"http://estuaire3.ca/",
 	"https://groupemercille.com/fr/residentiel/3-12",
 	"https://www.revenuquebec.ca/fr/",
-	"https://www.tal.gouv.qc.ca/" ];
+	"https://www.tal.gouv.qc.ca/",
+	"http://www.residences6etoiles.com/fr/lafayette.html" ];
 	
 	//BLUE LINE
 	SaintMichelnames = [ "Petit Maghreb", "Parc Fran&ccedil;ois-Perrault", "Biblioth&egrave;que de Saint-Michel", "&Eacute;cole Secondaire John F. Kennedy", "Parc Sandro-Pertini", "&Eacute;cole Saint-Mathieu",
