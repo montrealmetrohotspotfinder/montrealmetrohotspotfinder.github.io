@@ -440,15 +440,15 @@ function init(){
 	"https://montreal.ca/lieux/parc-francois-martineau", "https://montreal.ca/lieux/parc-hector-charland", "https://www.centrestpierre.org/", "https://montreal.ca/lieux/parc-des-joyeux-vikings", "https://montreal.ca/lieux/parc-jean-charbonneau",
 	"https://montreal.ca/lieux/arena-camillien-houde" ];
 	
-	SaintLaurentnames = [ "Mus&eacute;e Juste Pour Rire", "Club Soda", "Best Western Plus H&ocirc;tel Montr&eacute;al", "Monument-National", "Laurent & Clark", "Appartements Le Myriade", "MTelus", "Place de la Paix" ];
+	SaintLaurentnames = [ "Mus&eacute;e Juste Pour Rire", "Club Soda", "Best Western Plus H&ocirc;tel Montr&eacute;al", "Monument-National", "Laurent & Clark", "Appartements Le Myriade", "MTelus", "Place de la Paix", "H&ocirc;tel Z&eacute;ro1" ];
 	
-	SaintLaurenttypes = [ "Mus&eacute;e", "Th&eacute;&acirc;tre", "H&ocirc;tel", "Th&eacute;atre", "R&eacute;sidence", "R&eacute;sidence", "Th&eacute;&acirc;tre", "Parc" ];
+	SaintLaurenttypes = [ "Mus&eacute;e", "Th&eacute;&acirc;tre", "H&ocirc;tel", "Th&eacute;atre", "R&eacute;sidence", "R&eacute;sidence", "Th&eacute;&acirc;tre", "Parc", "H&ocirc;tel" ];
 	
 	SaintLaurentaddresses = [ "2095 Boulevard Saint-Laurent", "1225 Boulevard Saint-Laurent", "161 Rue Sainte-Catherine Est", "1182 Boulevard Saint-Laurent", "1593 Rue Clark", "1445 Rue Clark",
-	"59 Rue Sainte-Catherine Est", "" ];
+	"59 Rue Sainte-Catherine Est", "", "1 Boulevard Ren&eacute;-L&eacute;vesque Est" ];
 	
 	SaintLaurentsites = [ "http://www.hahaha.com/fr", "https://clubsoda.ca/", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67029.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67029", "https://ent-nts.ca/fr/monument-national",
-	"http://laurent-clark.com/fr", "https://www.mondev.ca/fr/appartements-a-louer-montreal/ville-marie/myriade", "https://mtelus.com/fr", "http://peacepark.com/" ];
+	"http://laurent-clark.com/fr", "https://www.mondev.ca/fr/appartements-a-louer-montreal/ville-marie/myriade", "https://mtelus.com/fr", "http://peacepark.com/", "https://www.zero1-mtl.com/fr/" ];
 	
 	PlaceDesArtsnames = [ "Place des Arts", 
 	"Quartier des Spectacles / Place des Festivals", 
@@ -460,7 +460,6 @@ function init(){
 	"Th&eacute;&acirc;tre du Nouveau Monde",
 	"Complexe Guy-Favreau / Services Canada",
 	"Monument-National",
-	"H&ocirc;tel Z&eacute;ro1",
 	"Hydro-Qu&eacute;bec",
 	"H&ocirc;tel Travelodge Montr&eacute;al Centre",
 	"Hilton Garden Inn Montr&eacute;al Centre-Ville",
@@ -492,12 +491,12 @@ function init(){
 	"Place du Cardinal P.-&Eacute;. L&eacute;ger" ];
 	
 	PlaceDesArtstypes = [ "Th&eacute;&acirc;tre", "District", "Mus&eacute;e", "Centre Commercial", "Agence", "H&ocirc;tel", "Universit&eacute;", "Th&eacute;&acirc;tre", "Gouvernement",
-	"Theatre", "H&ocirc;tel", "Agence", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Agence", "Th&eacute;&acirc;tre", "Bureau",
+	"Theatre", "Agence", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Agence", "Th&eacute;&acirc;tre", "Bureau",
 	"Coll&egrave;ge", "Agence", "Agence", "Agence", "Universit&eacute;", "&Eacute;glise", "Agence", "Biblioth&egrave;que", "Universit&eacute;", "&Eacute;cole", "Agence",
 	"Bureau", "Agence", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Parc" ];
 	
 	PlaceDesArtsaddresses = [ "175 Rue Sainte-Catherine Ouest", "", "185 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "1255 Rue Jeanne-Mance",
-	"141 Avenue du Pr&eacute;sident-Kennedy", "84 Rue Sainte-Catherine Ouest", "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1182 Boulevard Saint-Laurent", "1 Boulevard Ren&eacute;-L&eacute;vesque Est", 
+	"141 Avenue du Pr&eacute;sident-Kennedy", "84 Rue Sainte-Catherine Ouest", "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1182 Boulevard Saint-Laurent", 
 	"75 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "50 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "380 Rue Sherbrooke Ouest", "420 Rue Sherbrooke Ouest", "455 Rue Sherbrooke Ouest", 
 	"475 Avenue du Pr&eacute;sident-Kennedy", "425 Boulevard de Maisonneuve Ouest", "500 Rue Sherbrooke Ouest", "1432 Rue de Bleury", "1501 Rue de Bleury", "416 Boulevard de Maisonneuve Ouest",
 	"2050 Rue de Bleury", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "201 Avenue du Pr&eacute;sident-Kennedy", "137 Avenue du Pr&eacute;sident-Kennedy", "125 Rue Sherbrooke Ouest",
@@ -513,8 +512,7 @@ function init(){
 	"http://carte.uqam.ca/pavillon-sb",
 	"https://tnm.qc.ca/",
 	"http://complexeguyfavreau.com/fr",
-	"https://ent-nts.ca/fr/monument-national",
-	"https://www.zero1-mtl.com/fr/", 
+	"https://ent-nts.ca/fr/monument-national", 
 	"https://www.hydroquebec.com/residentiel/", 
 	"https://www.wyndhamhotels.com/fr-ca/travelodge/montreal-quebec/travelodge-hotel-by-wyndham-montreal-centre/overview",
 	"https://www.hiltonhotels.com/fr_FR/canada/hilton-garden-inn-montreal-centre-ville/?cultureKey=fr_FR",
