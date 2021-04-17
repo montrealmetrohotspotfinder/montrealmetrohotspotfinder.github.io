@@ -7,7 +7,8 @@ function init()
 	{name: "Laurent & Clark", type: "Residence", address: "1593 Rue Clark", site: "http://laurent-clark.com/en"},
 	{name: "Appartements Le Myriade", type: "Residence", address: "1445 Rue Clark", site: "https://www.mondev.ca/apartments-for-rent-montreal/ville-marie/myriade"},
 	{name: "MTelus", type: "Theatre", address: "59 Rue Sainte-Catherine Est", site: "https://mtelus.com/en"},
-	{name: "Place de la Paix", type: "Park", address: "", site: "http://peacepark.com/"}];
+	{name: "Place de la Paix", type: "Park", address: "", site: "http://peacepark.com/"},
+	{name: "H&ocirc;tel Z&eacute;ro1", type: "Hotel", address: "1 Boulevard Ren&eacute;-L&eacute;vesque Est", site: "https://www.zero1-mtl.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
