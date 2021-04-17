@@ -10,7 +10,6 @@ function init()
 	{name: "Th&eacute;&acirc;tre du Nouveau Monde", type: "Theatre", address: "84 Rue Sainte-Catherine Ouest", site: "https://tnm.qc.ca/"},
 	{name: "Complexe Guy-Favreau / Services Canada via Underground City", type: "Government", address: "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "http://complexeguyfavreau.com/en/"},
 	{name: "Monument-National", type: "Theatre", address: "1182 Boulevard Saint-Laurent", site: "https://ent-nts.ca/en/monument-national"},
-	{name: "H&ocirc;tel Z&eacute;ro1", type: "Hotel", address: "1 Boulevard Ren&eacute;-L&eacute;vesque Est", site: "https://www.zero1-mtl.com/"},
 	{name: "Hydro-Qu&eacute;bec", type: "Agency", address: "75 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.hydroquebec.com/residential/"},
 	{name: "H&ocirc;tel Travelodge Montr&eacute;al Centre", type: "Hotel", address: "50 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.wyndhamhotels.com/en-ca/travelodge/montreal-quebec/travelodge-hotel-by-wyndham-montreal-centre/overview"},
 	{name: "Hilton Garden Inn Montr&eacute;al Centre-Ville", type: "Hotel", address: "380 Rue Sherbrooke Ouest", site: "https://www.hilton.com/en/hotels/yulcvgi-hilton-garden-inn-montreal-centre-ville/"},
