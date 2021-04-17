@@ -24,7 +24,8 @@ function init(){
 	{name: "Centre Pierre-P&eacute;ladeau", type: "Theatre", address: "300 Boulevard de Maisonneuve Est", site: "http://www.centrepierrepeladeau.uqam.ca/"},
 	{name: "&Eacute;cole de Design de l&#39;UQAM", type: "University", address: "1440 Rue Sanguinet", site: "https://design.uqam.ca/"},
 	{name: "Parc Saint-Jacques", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-saint-jacques"},
-	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Judith-Jasmin Pavilion", type: "University", address: "1564 Rue Saint-Denis", site: "http://carte.uqam.ca/pavillon-je"}];
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Judith-Jasmin Pavilion", type: "University", address: "1564 Rue Saint-Denis", site: "http://carte.uqam.ca/pavillon-je"},
+	{name: "H&ocirc;tel Le Relais Lyonnais", type: "Hotel", address: "1595 Rue Saint-Denis", site: "http://lerelaislyonnais.com/en/"}];
 	
 	JeanTalon = [{name: "Tour Jean-Talon", type: "Office", address: "600 Rue Jean-Talon Est", site: "https://montrealundergroundcity.com/tour/tour-jean-talon/"},
 	{name: "March&eacute; Jean-Talon", type: "Market", address: "7070 Avenue Henri-Julien", site: "https://www.marchespublics-mtl.com/en/marches/jean-talon-market/"},
