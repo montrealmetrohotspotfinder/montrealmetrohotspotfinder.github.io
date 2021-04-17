@@ -13,7 +13,7 @@ function init()
 	{name: "H&ocirc;tel Le Crystal", type: "Hotel", address: "1100 Rue de la Montagne", site: "https://www.hotellecrystal.com/"},
 	{name: "Le Nouvel H&ocirc;tel & Spa", type: "Hotel", address: "1740 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.lenouvelhotel.com/"},
 	{name: "Coll&egrave;ge O&#39;Sullivan", type: "College", address: "1191 Rue de la Montagne", site: "http://www.osullivan.edu/en"},
-	{name: "Tribunal Administratif du Logement du Qu&eacute;bec", type: "Agency", address: "1425 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.tal.gouv.qc.ca/en"},
+	{name: "Tribunal Administratif du Logement du Qu&eacute;bec, Montreal offices", type: "Agency", address: "1425 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.tal.gouv.qc.ca/en"},
 	{name: "1350-1360 Ren&eacute;-L&eacute;vesque Ouest", type: "Office", address: "1360 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.1350rene-levesque.com/"},
 	{name: "Best Western Plus Montr&eacute;al Centre-Ville H&ocirc;tel Europa", type: "Hotel", address: "1240 Rue Drummond", site: "https://www.bestwestern.com/en_US/book/hotel-rooms.67013.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67013"}];
 	
