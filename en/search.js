@@ -350,7 +350,7 @@ function init(){
 	{name: "Percival-Molson Memorial Stadium", type: "Sports", address: "475 Avenue des Pins Ouest", site: "http://www.mcgillathletics.ca/"},
 	{name: "Carrefour Industrielle Alliance", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
 	{name: "Th&eacute;&acirc;tre Banque Scotia", type: "Cinema", address: "977 Rue Sainte-Catherine Ouest", site: "https://www.cineplex.com/Theatre/cinema-banque-scotia-montreal"},
-	{name: "Google Montreal offices", type: "Office", address: "1253 Avenue McGill College", site: "https://careers.google.com/locations/montreal/"},
+	{name: "Google, Montreal offices", type: "Office", address: "1253 Avenue McGill College", site: "https://careers.google.com/locations/montreal/"},
 	{name: "Promenades Cath&eacute;drale", type: "Mall", address: "625 Rue Sainte-Catherine Ouest", site: "https://promenadescathedrale.com/home-shopping-centre-downtown-montreal"},
 	{name: "Christ Church Catehdral", type: "Church", address: "635 Rue Sainte-Catherine Ouest", site: "http://www.montrealcathedral.ca/"},
 	{name: "Hudson&#39;s Bay", type: "Shopping", address: "585 Rue Sainte-Catherine Ouest", site: "https://www.thebay.com/"},
@@ -792,7 +792,7 @@ function init(){
 	{name: "H&ocirc;tel Le Crystal", type: "Hotel", address: "1100 Rue de la Montagne", site: "https://www.hotellecrystal.com/"},
 	{name: "Le Nouvel H&ocirc;tel & Spa", type: "Hotel", address: "1740 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.lenouvelhotel.com/"},
 	{name: "Coll&egrave;ge O&#39;Sullivan", type: "College", address: "1191 Rue de la Montagne", site: "http://www.osullivan.edu/en"},
-	{name: "Tribunal Administratif du Logement du Qu&eacute;bec", type: "Agency", address: "1425 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.tal.gouv.qc.ca/en"},
+	{name: "Tribunal Administratif du Logement du Qu&eacute;bec, Montreal offices", type: "Agency", address: "1425 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.tal.gouv.qc.ca/en"},
 	{name: "1350-1360 Ren&eacute;-L&eacute;vesque Ouest", type: "Office", address: "1360 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.1350rene-levesque.com/"},
 	{name: "Best Western Plus Montr&eacute;al Centre-Ville H&ocirc;tel Europa", type: "Hotel", address: "1240 Rue Drummond", site: "https://www.bestwestern.com/en_US/book/hotel-rooms.67013.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67013"}];
 	
