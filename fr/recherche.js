@@ -281,14 +281,15 @@ function init(){
 	
 	//GREEN LINE
 	HonoreBeaugrandnames = [ "Village Champlain", "Place Versailles", "Terminus Honor&eacute;-Beaugrand", "Parc Li&eacute;bert", "&Eacute;cole Sainte-Louise-de-Marillac", "Parc Michel-Bourdon", "Manoir Claudette Barr&eacute;",
-		 "Parc Dup&eacute;r&eacute;", "Centre d&#39;H&eacute;bergement Jean-Hubert-Biermans", "Centre d&#39;H&eacute;bergement Pierre-Joseph-Triest" ];
+		 "Parc Dup&eacute;r&eacute;", "Centre d&#39;H&eacute;bergement Jean-Hubert-Biermans", "Centre d&#39;H&eacute;bergement Pierre-Joseph-Triest", "Acad&eacute;mie Dunton" ];
 	
-	HonoreBeaugrandtypes = [ "Magasinage", "Centre Commercial", "Terminus d&#39;Autobus", "Parc", "&Eacute;cole", "Parc", "R&eacute;sidence", "Parc", "R&eacute;sidence", "R&eacute;sidence" ];
+	HonoreBeaugrandtypes = [ "Magasinage", "Centre Commercial", "Terminus d&#39;Autobus", "Parc", "&Eacute;cole", "Parc", "R&eacute;sidence", "Parc", "R&eacute;sidence", "R&eacute;sidence", "&Eacute;cole" ];
 	
-	HonoreBeaugrandaddresses = [ "7788 Rue Sherbrooke Est", "7275 Rue Sherbrooke Est", "4755 Rue Honor&eacute;-Beaugrand", "2848 Rue Li&eacute;bert", "8100 Rue de Marseille", "4507 Rue Joseph-A.-Rodier", "7979 Rue Sherbrooke Est", "4404 Rue Saint-Donat", "7905 Rue Sherbrooke Est", "4900 Boulevard Lapointe" ];
+	HonoreBeaugrandaddresses = [ "7788 Rue Sherbrooke Est", "7275 Rue Sherbrooke Est", "4755 Rue Honor&eacute;-Beaugrand", "2848 Rue Li&eacute;bert", "8100 Rue de Marseille", "4507 Rue Joseph-A.-Rodier", "7979 Rue Sherbrooke Est", "4404 Rue Saint-Donat", "7905 Rue Sherbrooke Est", "4900 Boulevard Lapointe",
+		     "5555 Rue de Boucherville" ];
 	
 	HonoreBeaugrandsites = [ "#", "https://www.placeversailles.com/fr", "https://exo.quebec/fr/planifier-trajet/station-honore-beaugrand", "https://montreal.ca/lieux/parc-liebert", "https://ste-louise-de-marillac.csdm.ca/", "https://montreal.ca/lieux/parc-michel-bourdon",
-	"https://www.manoirclaudettebarre.ca/", "https://montreal.ca/lieux/parc-dupere", "https://ciusss-estmtl.gouv.qc.ca/etablissement/chsld-jean-hubert-biermans", "https://ciusss-estmtl.gouv.qc.ca/etablissement/chsld-pierre-joseph-triest" ];
+	"https://www.manoirclaudettebarre.ca/", "https://montreal.ca/lieux/parc-dupere", "https://ciusss-estmtl.gouv.qc.ca/etablissement/chsld-jean-hubert-biermans", "https://ciusss-estmtl.gouv.qc.ca/etablissement/chsld-pierre-joseph-triest", "https://academie-dunton.cssdm.gouv.qc.ca/" ];
 	
 	Radissonnames = [ "Place Versailles", "Auberge Royal Versailles", "Mairie de Mercier&#8211;Hochelaga-Maisonneuve", "Le Repos Saint-Fran&ccedil;ois-d&#39;Assise",
 	"Terminus Radisson", "Galeries d&#39;Anjou", "Les Halles d&#39;Anjou", "Coll&egrave;ge d&#39;Anjou", "Parc du Vaisseau-d&#39;Or", "Parc Radisson",
