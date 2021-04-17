@@ -143,7 +143,10 @@ function init(){
 	{name: "Parc Li&eacute;bert", type: "Park", address: "2848 Rue Li&eacute;bert", site: "https://montreal.ca/en/places/parc-liebert"},
 	{name: "&Eacute;cole Sainte-Louise-de-Marillac", type: "School", address: "8100 Rue de Marseille", site: "https://ste-louise-de-marillac.csdm.ca/"},
 	{name: "Parc Michel-Bourdon", type: "Park", address: "4507 Rue Joseph-A.-Rodier", site: "https://montreal.ca/en/places/parc-michel-bourdon"},
-	{name: "Manoir Claudette Barr&eacute;", type: "Residence", address: "7979 Rue Sherbrooke Est", site: "https://www.manoirclaudettebarre.ca/"}];
+	{name: "Manoir Claudette Barr&eacute;", type: "Residence", address: "7979 Rue Sherbrooke Est", site: "https://www.manoirclaudettebarre.ca/"},
+	{name: "Parc Dup&eacute;r&eacute;", type: "Park", address: "4404 Rue Saint-Donat", site: "https://montreal.ca/en/places/parc-dupere"},
+	{name: "Centre d&#39;H&eacute;bergement Jean-Hubert-Biermans", type: "Residence", address: "7905 Rue Sherbrooke Est", site: "https://ciusss-estmtl.gouv.qc.ca/etablissement/chsld-jean-hubert-biermans"},
+	{name: "Centre d&#39;H&eacute;bergement Pierre-Joseph-Triest", type: "Residence", address: "4900 Boulevard Lapointe", site: "https://ciusss-estmtl.gouv.qc.ca/etablissement/chsld-pierre-joseph-triest"}];
 	
 	Radisson = [{name: "Place Versailles", type: "Mall", address: "7275 Rue Sherbrooke Est", site: "https://www.placeversailles.com/en"},
 	{name: "Auberge Royal Versailles", type: "Hotel", address: "7200 Rue Sherbrooke Est", site: "https://www.royalversailles.com/en/"},
