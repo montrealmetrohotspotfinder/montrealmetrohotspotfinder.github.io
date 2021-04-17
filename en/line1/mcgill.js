@@ -16,7 +16,7 @@ function init()
 	{name: "Percival-Molson Memorial Stadium", type: "Sports", address: "475 Avenue des Pins Ouest", site: "http://www.mcgillathletics.ca/"},
 	{name: "Carrefour Industrielle Alliance via Underground City", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
 	{name: "Th&eacute;&acirc;tre Banque Scotia via Underground City", type: "Cinema", address: "977 Rue Sainte-Catherine Ouest", site: "https://www.cineplex.com/Theatre/cinema-banque-scotia-montreal"},
-	{name: "Google Montreal offices", type: "Office", address: "1253 Avenue McGill College", site: "https://careers.google.com/locations/montreal/"},
+	{name: "Google, Montreal offices", type: "Office", address: "1253 Avenue McGill College", site: "https://careers.google.com/locations/montreal/"},
 	{name: "Promenades Cath&eacute;drale", type: "Mall", address: "625 Rue Sainte-Catherine Ouest", site: "https://promenadescathedrale.com/home-shopping-centre-downtown-montreal"},
 	{name: "Christ Church Catehdral", type: "Church", address: "635 Rue Sainte-Catherine Ouest", site: "http://www.montrealcathedral.ca/"},
 	{name: "Hudson&#39;s Bay", type: "Shopping", address: "585 Rue Sainte-Catherine Ouest", site: "https://www.thebay.com/"},
