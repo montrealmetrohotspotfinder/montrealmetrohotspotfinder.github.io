@@ -136,7 +136,7 @@ function init(){
 	"H&ocirc;tel Sandman Longueuil",
 	"H&ocirc;tel Le Dauphin Montr&eacute;al-Longueuil",
 	"Place Longueuil",
-	"A&eacute;roport de Saint-Hubert via RTL",
+	"A&eacute;roport de Saint-Hubert",
 	"Coll&egrave;ge CDI, campus Longueuil", 
 	"Commission de Protection du Territoire Agricole du Qu&eacute;bec", 
 	"Axc&egrave;s Saint-Charles",
