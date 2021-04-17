@@ -2,7 +2,7 @@ function init()
 {
 	hnames = [ "Centre Bell", "Tour Deloitte", "Tour des Canadiens", "&Eacute;cole de Technologie Sup&eacute;rieure", "Gare Windsor", "WeWork L&#39;Avenue", "Coll&egrave;ge Herzing", 
 	"Holiday Inn & Suites Montr&eacute;al Centre-Ville Ouest", "Le Centre Sheraton Montr&eacute;al", "Novotel Montr&eacute;al Centre", "H&ocirc;tel Le Crystal", "Le Nouvel H&ocirc;tel & Spa", "Coll&egrave;ge O&#39;Sullivan",
-	"Tribunal Administratif du Logement du Qu&eacute;bec", "1350-1360 Ren&eacute;-L&eacute;vesque Ouest", "Best Western Plus Montr&eacute;al Centre-Ville H&ocirc;tel Europa" ];
+	"Tribunal Administratif du Logement du Qu&eacute;bec, bureaux montr&eacute;alais", "1350-1360 Ren&eacute;-L&eacute;vesque Ouest", "Best Western Plus Montr&eacute;al Centre-Ville H&ocirc;tel Europa" ];
 	
 	htypes = [ "Sports", "Bureau", "R&eacute;sidence", "Coll&egrave;ge", "Bureau", "Bureau", "Coll&egrave;ge", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Agence", "Bureau", "H&ocirc;tel" ];
 	
