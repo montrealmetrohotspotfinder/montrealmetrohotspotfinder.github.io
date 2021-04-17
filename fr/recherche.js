@@ -440,15 +440,19 @@ function init(){
 	"https://montreal.ca/lieux/parc-francois-martineau", "https://montreal.ca/lieux/parc-hector-charland", "https://www.centrestpierre.org/", "https://montreal.ca/lieux/parc-des-joyeux-vikings", "https://montreal.ca/lieux/parc-jean-charbonneau",
 	"https://montreal.ca/lieux/arena-camillien-houde" ];
 	
-	SaintLaurentnames = [ "Mus&eacute;e Juste Pour Rire", "Club Soda", "Best Western Plus H&ocirc;tel Montr&eacute;al", "Monument-National", "Laurent & Clark", "Appartements Le Myriade", "MTelus", "Place de la Paix", "H&ocirc;tel Z&eacute;ro1" ];
+	SaintLaurentnames = [ "Mus&eacute;e Juste Pour Rire", "Club Soda", "Best Western Plus H&ocirc;tel Montr&eacute;al", "Monument-National", "Laurent & Clark", "Appartements Le Myriade", "MTelus", "Place de la Paix", "H&ocirc;tel Z&eacute;ro1",
+		 "H&ocirc;tel Faubourg Montr&eacute;al", "H&ocirc;tel Chrome Montr&eacute;al Centre-Ville", "Candlewood Suites Montr&eacute;al Centre-Ville" ];
 	
-	SaintLaurenttypes = [ "Mus&eacute;e", "Th&eacute;&acirc;tre", "H&ocirc;tel", "Th&eacute;atre", "R&eacute;sidence", "R&eacute;sidence", "Th&eacute;&acirc;tre", "Parc", "H&ocirc;tel" ];
+	SaintLaurenttypes = [ "Mus&eacute;e", "Th&eacute;&acirc;tre", "H&ocirc;tel", "Th&eacute;atre", "R&eacute;sidence", "R&eacute;sidence", "Th&eacute;&acirc;tre", "Parc", "H&ocirc;tel",
+		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel" ];
 	
 	SaintLaurentaddresses = [ "2095 Boulevard Saint-Laurent", "1225 Boulevard Saint-Laurent", "161 Rue Sainte-Catherine Est", "1182 Boulevard Saint-Laurent", "1593 Rue Clark", "1445 Rue Clark",
-	"59 Rue Sainte-Catherine Est", "", "1 Boulevard Ren&eacute;-L&eacute;vesque Est" ];
+	"59 Rue Sainte-Catherine Est", "", "1 Boulevard Ren&eacute;-L&eacute;vesque Est", "155 Boulevard Ren&eacute;-L&eacute;vesque Est", "215 Boulevard Ren&eacute;-L&eacute;vesque Est", 
+	"191 Boulevard Ren&eacute;-L&eacute;vesque Est" ];
 	
 	SaintLaurentsites = [ "http://www.hahaha.com/fr", "https://clubsoda.ca/", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67029.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67029", "https://ent-nts.ca/fr/monument-national",
-	"http://laurent-clark.com/fr", "https://www.mondev.ca/fr/appartements-a-louer-montreal/ville-marie/myriade", "https://mtelus.com/fr", "http://peacepark.com/", "https://www.zero1-mtl.com/fr/" ];
+	"http://laurent-clark.com/fr", "https://www.mondev.ca/fr/appartements-a-louer-montreal/ville-marie/myriade", "https://mtelus.com/fr", "http://peacepark.com/", "https://www.zero1-mtl.com/fr/",
+	"https://www.hotelfaubourgmontreal.com/fr", "https://www.hotelchrome.com/copie-de-accueil", "https://www.ihg.com/candlewood/hotels/fr/fr/montreal/yullb/hoteldetail?cm_mmc=GoogleMaps-_-CW-_-CA-_-YULLB" ];
 	
 	PlaceDesArtsnames = [ "Place des Arts", 
 	"Quartier des Spectacles / Place des Festivals", 
