@@ -109,7 +109,8 @@ function init(){
 	
 	Acadie = [{name: "Altasciences", type: "Pharmacy", address: "1100 Avenue Beaumont", site: "https://www.altasciences.com/"},
 	{name: "March&eacute; Central", type: "Mall", address: "9187 Boulevard de l&#39;Acadie", site: "https://www.marchecentral.com/en"},
-	{name: "Parc Hamilton", type: "Park", address: "", site: "#"}];
+	{name: "Parc Hamilton", type: "Park", address: "", site: "#"},
+	{name: "Universit&eacute; de Montr&eacute;al, MIL campus", type: "University", address: "1375 Avenue Th&eacute;r&egrave;se-Lavoie-Roux", site: "https://campusmil.umontreal.ca/"}];
 	
 	Outremont = [{name: "Th&eacute;&acirc;tre Outremont", type: "Theatre", address: "1248 Avenue Bernard Ouest", site: "http://www.theatreoutremont.ca/en/accueil/"},
 	{name: "Parc Pratt", type: "Park", address: "795 Avenue Dunlop", site: "https://montreal.ca/en/places/parc-pratt"},
