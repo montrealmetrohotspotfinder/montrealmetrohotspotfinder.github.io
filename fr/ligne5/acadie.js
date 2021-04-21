@@ -1,12 +1,12 @@
 function init()
 {
-	hnames = [ "Altasciences", "March&eacute; Central via Bus 179", "Parc Hamilton" ];
+	hnames = [ "Altasciences", "March&eacute; Central via Bus 179", "Parc Hamilton", "Universit&eacute; de Montr&eacute;al, campus MIL" ];
 	
-	htypes = [ "Pharmacie", "Centre Commercial", "Parc" ];
+	htypes = [ "Pharmacie", "Centre Commercial", "Parc", "Universit&eacute;" ];
 	
-	haddresses = [ "1100 Avenue Beaumont", "9187 Boulevard de l&#39;Acadie", "" ];
+	haddresses = [ "1100 Avenue Beaumont", "9187 Boulevard de l&#39;Acadie", "", "1375 Avenue Th&eacute;r&egrave;se-Lavoie-Roux" ];
 	
-	hsites = [ "https://www.altasciences.ca/", "https://www.marchecentral.com/", "#" ];
+	hsites = [ "https://www.altasciences.ca/", "https://www.marchecentral.com/", "#", "https://campusmil.umontreal.ca/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
