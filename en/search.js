@@ -104,7 +104,8 @@ function init(){
 	{name: "Parc Victorien-Pesant", type: "Park", address: "7345 Avenue de Gasp&eacute;", site: "https://montreal.ca/en/places/parc-victorien-pesant"}];
 	
 	Parc = [{name: "&Eacute;cole de Sant&eacute; Publique de l&#39;Universit&eacute; de Montr&eacute;al", type: "University", address: "7101 Avenue du Parc", site: "https://espum.umontreal.ca/english/home/"},
-	{name: "Centre William-Hingston", type: "School", address: "419 Rue Saint-Roch", site: "https://centre-william-hingston.csdm.ca/"}];
+	{name: "Centre William-Hingston", type: "School", address: "419 Rue Saint-Roch", site: "https://centre-william-hingston.csdm.ca/"},
+	{name: "Parc Saint-Roch", type: "Park", address: "443 Avenue Ball", site: "https://montreal.ca/en/places/parc-saint-roch"}];
 	
 	Acadie = [{name: "Altasciences", type: "Pharmacy", address: "1100 Avenue Beaumont", site: "https://www.altasciences.com/"},
 	{name: "March&eacute; Central", type: "Mall", address: "9187 Boulevard de l&#39;Acadie", site: "https://www.marchecentral.com/en"},
