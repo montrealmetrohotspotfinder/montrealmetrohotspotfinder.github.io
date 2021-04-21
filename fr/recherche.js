@@ -234,13 +234,13 @@ function init(){
 	
 	Parcsites = [ "https://espum.umontreal.ca/accueil/", "https://centre-william-hingston.csdm.ca/", "https://montreal.ca/lieux/parc-saint-roch" ];
 	
-	Acadienames = [ "Altasciences", "March&eacute; Central", "Parc Hamilton" ];
+	Acadienames = [ "Altasciences", "March&eacute; Central", "Parc Hamilton", "Universit&eacute; de Montr&eacute;al, campus MIL" ];
 	
-	Acadietypes = [ "Pharmacie", "Centre Commercial", "Parc" ];
+	Acadietypes = [ "Pharmacie", "Centre Commercial", "Parc", "Universit&eacute;" ];
 	
-	Acadieaddresses = [ "1100 Avenue Beaumont", "9187 Boulevard de l&#39;Acadie", "" ];
+	Acadieaddresses = [ "1100 Avenue Beaumont", "9187 Boulevard de l&#39;Acadie", "", "1375 Avenue Th&eacute;r&egrave;se-Lavoie-Roux" ];
 	
-	Acadiesites = [ "https://www.altasciences.ca/", "https://www.marchecentral.com/", "#" ];
+	Acadiesites = [ "https://www.altasciences.ca/", "https://www.marchecentral.com/", "#", "https://campusmil.umontreal.ca/" ];
 	
 	Outremontnames = [ "Th&eacute;&acirc;tre Outremont", "Parc Pratt", "Parc Raoul-Dandurand", "Parc John-F.-Kennedy", "Coll&egrave;ge Stanislas", "Ar&eacute;na d&#39;Outremont",
 	"&Eacute;cole Internationale Guy-Drummond", "&Eacute;cole Primaire Lajoie" ];
