@@ -1,12 +1,12 @@
 function init()
 {
-	hnames = [ "&Eacute;cole de Sant&eacute; Publique de l&#39;Universit&eacute; de Montr&eacute;al", "Centre William-Hingston" ];
+	hnames = [ "&Eacute;cole de Sant&eacute; Publique de l&#39;Universit&eacute; de Montr&eacute;al", "Centre William-Hingston", "Parc Saint-Roch" ];
 	
-	htypes = [ "Universit&eacute;", "&Eacute;cole" ];
+	htypes = [ "Universit&eacute;", "&Eacute;cole", "Parc" ];
 	
-	haddresses = [ "7101 Avenue du Parc", "419 Rue Saint-Roch" ];
+	haddresses = [ "7101 Avenue du Parc", "419 Rue Saint-Roch", "443 Avenue Ball" ];
 	
-	hsites = [ "https://espum.umontreal.ca/accueil/", "https://centre-william-hingston.csdm.ca/" ];
+	hsites = [ "https://espum.umontreal.ca/accueil/", "https://centre-william-hingston.csdm.ca/", "https://montreal.ca/lieux/parc-saint-roch" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
