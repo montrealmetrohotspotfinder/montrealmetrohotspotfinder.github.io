@@ -226,13 +226,13 @@ function init(){
 	"https://montreal.ca/lieux/parc-jarry", "http://stadeiga.com/", "https://ste-cecile.csdm.ca/", "http://stnicholasmtl.com/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/sainte-cecile",
 	"https://montreal.ca/lieux/parc-victorien-pesant" ];
 	
-	Parcnames = [ "&Eacute;cole de Sant&eacute; Publique de l&#39;Universit&eacute; de Montr&eacute;al", "Centre William-Hingston" ];
+	Parcnames = [ "&Eacute;cole de Sant&eacute; Publique de l&#39;Universit&eacute; de Montr&eacute;al", "Centre William-Hingston", "Parc Saint-Roch" ];
 	
-	Parctypes = [ "Universit&eacute;", "&Eacute;cole" ];
+	Parctypes = [ "Universit&eacute;", "&Eacute;cole", "Parc" ];
 	
-	Parcaddresses = [ "7101 Avenue du Parc", "419 Rue Saint-Roch" ];
+	Parcaddresses = [ "7101 Avenue du Parc", "419 Rue Saint-Roch", "443 Avenue Ball" ];
 	
-	Parcsites = [ "https://espum.umontreal.ca/accueil/", "https://centre-william-hingston.csdm.ca/" ];
+	Parcsites = [ "https://espum.umontreal.ca/accueil/", "https://centre-william-hingston.csdm.ca/", "https://montreal.ca/lieux/parc-saint-roch" ];
 	
 	Acadienames = [ "Altasciences", "March&eacute; Central", "Parc Hamilton" ];
 	
