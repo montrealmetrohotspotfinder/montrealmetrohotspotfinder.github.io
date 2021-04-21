@@ -1,12 +1,12 @@
 function init()
 {
-	hnames = [ "Maison des Arts de Laval", "Coll&egrave;ge Montmorency" ];
+	hnames = [ "Maison des Arts de Laval", "Coll&egrave;ge Montmorency", "Salle Andr&eacute;-Mathieu" ];
 	
-	htypes = [ "Th&eacute;&acirc;tre", "Coll&egrave;ge" ];
+	htypes = [ "Th&eacute;&acirc;tre", "Coll&egrave;ge", "Th&eacute;&acirc;tre" ];
 	
-	haddresses = [ "1395 Boulevard de la Concorde Ouest", "475 Boulevard de l&#39;Avenir" ];
+	haddresses = [ "1395 Boulevard de la Concorde Ouest", "475 Boulevard de l&#39;Avenir", "475 Boulevard de l&#39;Avenir" ];
 	
-	hsites = [ "https://www.laval.ca/maisondesarts/Pages/Fr/accueil.aspx", "https://www.cmontmorency.qc.ca/" ];
+	hsites = [ "https://www.laval.ca/maisondesarts/Pages/Fr/accueil.aspx", "https://www.cmontmorency.qc.ca/", "https://www.co-motion.ca/nos-salles-de-spectacles/salle-andre-mathieu/#" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
