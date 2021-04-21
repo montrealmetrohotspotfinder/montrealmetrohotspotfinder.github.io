@@ -555,7 +555,8 @@ function init(){
 	{name: "Coll&egrave;ge Letendre", type: "School", address: "1000 Boulevard de l&#39;Avenir", site: "https://www.collegeletendre.qc.ca/"}];
 	
 	DeLaConcorde = [{name: "Maison des Arts de Laval", type: "Theatre", address: "1395 Boulevard de la Concorde Ouest", site: "https://www.laval.ca/maisondesarts/Pages/Fr/accueil.aspx"},
-	{name: "Coll&egrave;ge Montmorency", type: "College", address: "475 Boulevard de l&#39;Avenir", site: "https://www.cmontmorency.qc.ca/"}];
+	{name: "Coll&egrave;ge Montmorency", type: "College", address: "475 Boulevard de l&#39;Avenir", site: "https://www.cmontmorency.qc.ca/"},
+	{name: "Salle Andr&eacute;-Mathieu", type: "Theatre", address: "475 Boulevard de l&#39;Avenir", site: "https://www.co-motion.ca/nos-salles-de-spectacles/salle-andre-mathieu/#"}];
 	
 	Cartier = [{name: "Pont Viau", type: "Bridge", address: "", site: "#"},
 	{name: "Terminus Cartier", type: "Bus Terminal", address: "5 Boulevard Cartier Ouest", site: "https://exo.quebec/en/trip-planner/intermodal-installations/cartier-terminal"},
