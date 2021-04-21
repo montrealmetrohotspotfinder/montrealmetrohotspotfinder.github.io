@@ -1,7 +1,8 @@
 function init()
 {
 	spots = [{name: "&Eacute;cole de Sant&eacute; Publique de l&#39;Universit&eacute; de Montr&eacute;al", type: "University", address: "7101 Avenue du Parc", site: "https://espum.umontreal.ca/english/home/"},
-	{name: "Centre William-Hingston", type: "School", address: "419 Rue Saint-Roch", site: "https://centre-william-hingston.csdm.ca/"}];
+	{name: "Centre William-Hingston", type: "School", address: "419 Rue Saint-Roch", site: "https://centre-william-hingston.csdm.ca/"},
+	{name: "Parc Saint-Roch", type: "Park", address: "443 Avenue Ball", site: "https://montreal.ca/en/places/parc-saint-roch"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
