@@ -996,13 +996,13 @@ function init(){
 				"https://www.laval.ca/maisondesarts/Pages/Fr/accueil.aspx", "https://etudier.uqam.ca/campus/laval",
 				"https://www.collegeletendre.qc.ca/" ];
 	
-	DeLaConcordenames = [ "Maison des Arts de Laval", "Coll&egrave;ge Montmorency" ];
+	DeLaConcordenames = [ "Maison des Arts de Laval", "Coll&egrave;ge Montmorency", "Salle Andr&eacute;-Mathieu" ];
 	
-	DeLaConcordetypes = [ "Th&eacute;&acirc;tre", "Coll&egrave;ge" ];
+	DeLaConcordetypes = [ "Th&eacute;&acirc;tre", "Coll&egrave;ge", "Th&eacute;&acirc;tre" ];
 	
-	DeLaConcordeaddresses = [ "1395 Boulevard de la Concorde Ouest", "475 Boulevard de l&#39;Avenir" ];
+	DeLaConcordeaddresses = [ "1395 Boulevard de la Concorde Ouest", "475 Boulevard de l&#39;Avenir", "475 Boulevard de l&#39;Avenir" ];
 	
-	DeLaConcordesites = [ "https://www.laval.ca/maisondesarts/Pages/Fr/accueil.aspx", "https://www.cmontmorency.qc.ca/" ];
+	DeLaConcordesites = [ "https://www.laval.ca/maisondesarts/Pages/Fr/accueil.aspx", "https://www.cmontmorency.qc.ca/", "https://www.co-motion.ca/nos-salles-de-spectacles/salle-andre-mathieu/#" ];
 	
 	Cartiernames = [ "Pont Viau", "Terminus Cartier", "Ar&eacute;na Cartier", "Parc Cartier", "Cour Municipale de la Ville de Laval", "Parc &Eacute;mile" ];
 	
