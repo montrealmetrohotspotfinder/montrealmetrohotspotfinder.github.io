@@ -27,7 +27,8 @@ function init()
 	{name: "H&ocirc;tel Le Relais Lyonnais", type: "Hotel", address: "1595 Rue Saint-Denis", site: "http://lerelaislyonnais.com/en/"},
 	{name: "Auberge Le Pomerol", type: "Hotel", address: "819 Boulevard de Maisonneuve Est", site: "https://www.aubergelepomerol.com/en/"},
 	{name: "Empire Suites", type: "Hotel", address: "1606 Rue Saint-Hubert", site: "#"},
-	{name: "H&ocirc;tel Lelux", type: "Hotel", address: "1600 Rue Saint-Hubert", site: "https://lelux-hotel-montreal.at-hotels.com/en/"}];
+	{name: "H&ocirc;tel Lelux", type: "Hotel", address: "1600 Rue Saint-Hubert", site: "https://lelux-hotel-montreal.at-hotels.com/en/"},
+	{name: "Ville-Marie Borough Hall", type: "Government", address: "800 Boulevard de Maisonneuve Est", site: "https://montreal.ca/en/places/ville-marie-borough-hall"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
