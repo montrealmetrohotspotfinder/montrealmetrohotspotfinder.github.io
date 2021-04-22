@@ -28,10 +28,11 @@ function init(){
 	"H&ocirc;tel Le Relais Lyonnais",
 	"Auberge Le Pomerol",
 	"Empire Suites",
-	"H&ocirc;tel Lelux" ];
+	"H&ocirc;tel Lelux",
+	"Mairie de Ville-Marie" ];
 	
 	BerriUqamtypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;", "H&ocirc;tel",
-		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel" ];
+		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement" ];
 	
 	BerriUqamaddresses = [ "405 Rue Sainte-Catherine Est",
 	"475 Boulevard de Maisonneuve Est",
@@ -60,7 +61,8 @@ function init(){
 	"1595 Rue Saint-Denis",
 	"819 Boulevard de Maisonneuve Est",
 	"1606 Rue Saint-Hubert",
-	"1600 Rue Saint-Hubert" ];
+	"1600 Rue Saint-Hubert",
+	"800 Boulevard de Maisonneuve Est" ];
 	
 	BerriUqamsites = [ "http://www.uqam.ca/", 
 	"http://www.banq.qc.ca/accueil/", 
@@ -89,7 +91,8 @@ function init(){
 	"http://lerelaislyonnais.com/fr/",
 	"https://www.aubergelepomerol.com/",
 	"#",
-	"https://lelux-hotel-montreal.at-hotels.com/fr/" ];
+	"https://lelux-hotel-montreal.at-hotels.com/fr/",
+	"https://montreal.ca/lieux/mairie-darrondissement-de-ville-marie" ];
 	
 	JeanTalonnames = [ "Tour Jean-Talon", "March&eacute; Jean-Talon", "Plaza Saint-Hubert", "R&eacute;sidence Alfredo-Gagliardi", "Casa D&#39;Italia", "&Eacute;glise Orthodoxe Antiochienne Saint-Georges" ];
 	
