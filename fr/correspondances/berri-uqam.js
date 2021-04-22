@@ -24,9 +24,13 @@ function init()
 	"&Eacute;cole de Design de l&#39;UQAM",
 	"Parc Saint-Jacques",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Judith-Jasmin",
-	"H&ocirc;tel Le Relais Lyonnais" ];
+	"H&ocirc;tel Le Relais Lyonnais",
+	"Auberge Le Pomerol",
+	"Empire Suites",
+	"H&ocirc;tel Lelux" ];
 	
-	htypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;", "H&ocirc;tel" ];
+	htypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;", "H&ocirc;tel",
+		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel" ];
 	
 	haddresses = [ "405 Rue Sainte-Catherine Est",
 	"475 Boulevard de Maisonneuve Est",
@@ -52,7 +56,10 @@ function init()
 	"1440 Rue Sanguinet",
 	"",
 	"1564 Rue Saint-Denis",
-	"1595 Rue Saint-Denis" ];
+	"1595 Rue Saint-Denis",
+	"819 Boulevard de Maisonneuve Est",
+	"1606 Rue Saint-Hubert",
+	"1600 Rue Saint-Hubert" ];
 	
 	hsites = [ "http://www.uqam.ca/", 
 	"http://www.banq.qc.ca/accueil/", 
@@ -78,7 +85,10 @@ function init()
 	"https://design.uqam.ca/",
 	"https://montreal.ca/lieux/parc-saint-jacques",
 	"http://carte.uqam.ca/pavillon-je",
-	"http://lerelaislyonnais.com/fr/" ];
+	"http://lerelaislyonnais.com/fr/",
+	"https://www.aubergelepomerol.com/",
+	"#",
+	"https://lelux-hotel-montreal.at-hotels.com/fr/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
