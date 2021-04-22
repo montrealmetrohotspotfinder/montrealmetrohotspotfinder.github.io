@@ -25,7 +25,10 @@ function init(){
 	{name: "&Eacute;cole de Design de l&#39;UQAM", type: "University", address: "1440 Rue Sanguinet", site: "https://design.uqam.ca/"},
 	{name: "Parc Saint-Jacques", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-saint-jacques"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Judith-Jasmin Pavilion", type: "University", address: "1564 Rue Saint-Denis", site: "http://carte.uqam.ca/pavillon-je"},
-	{name: "H&ocirc;tel Le Relais Lyonnais", type: "Hotel", address: "1595 Rue Saint-Denis", site: "http://lerelaislyonnais.com/en/"}];
+	{name: "H&ocirc;tel Le Relais Lyonnais", type: "Hotel", address: "1595 Rue Saint-Denis", site: "http://lerelaislyonnais.com/en/"},
+	{name: "Auberge Le Pomerol", type: "Hotel", address: "819 Boulevard de Maisonneuve Est", site: "https://www.aubergelepomerol.com/en/"},
+	{name: "Empire Suites", type: "Hotel", address: "1606 Rue Saint-Hubert", site: "#"},
+	{name: "H&ocirc;tel Lelux", type: "Hotel", address: "1600 Rue Saint-Hubert", site: "https://lelux-hotel-montreal.at-hotels.com/en/"}];
 	
 	JeanTalon = [{name: "Tour Jean-Talon", type: "Office", address: "600 Rue Jean-Talon Est", site: "https://montrealundergroundcity.com/tour/tour-jean-talon/"},
 	{name: "March&eacute; Jean-Talon", type: "Market", address: "7070 Avenue Henri-Julien", site: "https://www.marchespublics-mtl.com/en/marches/jean-talon-market/"},
