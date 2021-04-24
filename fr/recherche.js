@@ -1059,13 +1059,13 @@ function init(){
 	Cremaziesites = [ "https://www.fondsftq.com/fr-ca/accueil.aspx", "https://www.collegeahuntsic.qc.ca/", "https://www.grasset.qc.ca/", "https://montreal.ca/lieux/complexe-sportif-claude-robillard", "https://www.criq.qc.ca/fr/", "https://st-gerard.csdm.ca/", "https://www.rbq.gouv.qc.ca/",
 	"https://montreal.ca/lieux/parc-saint-alphonse", "https://montreal.ca/lieux/arena-michel-normandin", "https://sainstitute.ca/fr/accueil/" ];
 	
-	Jarrynames = [ "Parc Jarry", "Stade IGA", "Parc Saint-Vincent-Ferrier", "Parc G&eacute;rard-Lalonde" ];
+	Jarrynames = [ "Parc Jarry", "Stade IGA", "Parc Saint-Vincent-Ferrier", "Parc G&eacute;rard-Lalonde", "Paroisse Saint-Vincent-Ferrier", "&Eacute;cole H&eacute;l&egrave;ne-Boull&eacute;" ];
 	
-	Jarrytypes = [ "Parc", "Sports", "Parc", "Parc" ];
+	Jarrytypes = [ "Parc", "Sports", "Parc", "Parc", "&Eacute;glise", "&Eacute;cole" ];
 	
-	Jarryaddresses = [ "285 Rue Gary-Carter", "285 Rue Gary-Carter", "8172 Rue Drolet", "375 Rue Jarry Est" ];
+	Jarryaddresses = [ "285 Rue Gary-Carter", "285 Rue Gary-Carter", "8172 Rue Drolet", "375 Rue Jarry Est", "301 Rue Jarry Est", "8050 Avenue de Gasp&eacute;" ];
 	
-	Jarrysites = [ "https://montreal.ca/lieux/parc-jarry", "http://stadeiga.com/", "https://montreal.ca/lieux/parc-saint-vincent-ferrier", "#" ];
+	Jarrysites = [ "https://montreal.ca/lieux/parc-jarry", "http://stadeiga.com/", "https://montreal.ca/lieux/parc-saint-vincent-ferrier", "#", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-vincent-ferrier", "https://helene-boulle.cssdm.gouv.qc.ca/" ];
 	
 	Beaubiennames = [ "Plaza Saint-Hubert", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", "&Eacute;glise Saint-&Eacute;douard", "&Eacute;cole La Mennais", "Chambre de la Jeunesse" ];
 	
