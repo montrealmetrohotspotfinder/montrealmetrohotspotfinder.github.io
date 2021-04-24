@@ -605,7 +605,9 @@ function init(){
 	Jarry = [{name: "Parc Jarry", type: "Park", address: "285 Rue Gary-Carter", site: "https://montreal.ca/en/places/parc-jarry"},
 	{name: "Stade IGA", type: "Sports", address: "285 Rue Gary-Carter", site: "http://stadeiga.com/en/"},
 	{name: "Parc Saint-Vincent-Ferrier", type: "Park", address: "8172 Rue Drolet", site: "https://montreal.ca/en/places/parc-saint-vincent-ferrier"},
-	{name: "Parc G&eacute;rard-Lalonde", type: "Park", address: "375 Rue Jarry Est", site: "#"}];
+	{name: "Parc G&eacute;rard-Lalonde", type: "Park", address: "375 Rue Jarry Est", site: "#"},
+	{name: "Paroisse Saint-Vincent-Ferrier", type: "Church", address: "301 Rue Jarry Est", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-vincent-ferrier"},
+	{name: "&Eacute;cole H&eacute;l&egrave;ne-Boull&eacute;", type: "School", address: "8050 Avenue de Gasp&eacute;", site: "https://helene-boulle.cssdm.gouv.qc.ca/"}];
 	
 	Beaubien = [{name: "Plaza Saint-Hubert", type: "Shopping", address: "6841 Rue Saint-Hubert", site: "https://www.plazasthubert.com/en/"},
 	{name: "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", type: "Church", address: "6800 Avenue Henri-Julien", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-de-la-defense-italiens"},
