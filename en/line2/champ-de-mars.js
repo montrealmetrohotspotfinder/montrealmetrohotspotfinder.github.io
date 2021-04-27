@@ -27,7 +27,9 @@ function init()
 	{name: "Place de la Dauversi&egrave;re", type: "Park", address: "", site: "https://www.vieuxmontreal.ca/en/business/place-de-la-dauversiere-2/"},
 	{name: "Parc Fleury-Mesplet", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-fleury-mesplet"},
 	{name: "Le Solano", type: "Residence", address: "901 Rue de la Commune Est", site: "https://lesolano.com/en/"},
-	{name: "Parc de la Chasse-Galerie", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-de-la-chasse-galerie"}];
+	{name: "Parc de la Chasse-Galerie", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-de-la-chasse-galerie"},
+	{name: "Place Victor-Morin", type: "Park", address: "", site: "https://montreal.ca/en/places/place-victor-morin"},
+	{name: "Parc Fran&ccedil;ois-Dollier-De Casson", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-francois-dollier-de-casson"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
