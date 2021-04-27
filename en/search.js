@@ -680,7 +680,9 @@ function init(){
 	{name: "Place de la Dauversi&egrave;re", type: "Park", address: "", site: "https://www.vieuxmontreal.ca/en/business/place-de-la-dauversiere-2/"},
 	{name: "Parc Fleury-Mesplet", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-fleury-mesplet"},
 	{name: "Le Solano", type: "Residence", address: "901 Rue de la Commune Est", site: "https://lesolano.com/en/"},
-	{name: "Parc de la Chasse-Galerie", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-de-la-chasse-galerie"}];
+	{name: "Parc de la Chasse-Galerie", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-de-la-chasse-galerie"},
+	{name: "Place Victor-Morin", type: "Park", address: "", site: "https://montreal.ca/en/places/place-victor-morin"},
+	{name: "Parc Fran&ccedil;ois-Dollier-De Casson", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-francois-dollier-de-casson"}];
 	
 	PlaceDArmes = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
