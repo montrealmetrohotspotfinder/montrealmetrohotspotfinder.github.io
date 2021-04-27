@@ -2,6 +2,7 @@ function init()
 {
 	spots = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
+	{name: "Place des Montr&eacute;alaises", type: "Park", address: "", site: "https://montreal.ca/en/places/place-des-montrealaises"},
 	{name: "CHUM Saint-Luc", type: "Hospital", address: "1051 Rue Sanguinet", site: "https://www.chumontreal.qc.ca/"},
 	{name: "Chinatown", type: "District", address: "", site: "https://www.mtl.org/en/experience/discover-neighbourhood-montreal-chinatown"},
 	{name: "Place Vauquelin", type: "Town Square", address: "275 Rue Notre-Dame Est", site: "https://montreal.ca/en/places/place-vauquelin"},
