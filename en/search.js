@@ -661,7 +661,10 @@ function init(){
 	{name: "Parc Jehane-Beno&icirc;t", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-jehane-benoit"},
 	{name: "Parc J.-Z.-L&eacute;on-Patenaude", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-j-z-leon-patenaude"},
 	{name: "C&eacute;gep du Vieux Montr&eacute;al", type: "College", address: "255 Rue Ontario Est", site: "http://www.cvm.qc.ca/Pages/index.aspx"},
-	{name: "Loft Hotel Montr&eacute;al", type: "Hotel", address: "334 Terrasse Saint Denis", site: "https://lofthotel.guestybookings.com/"}];
+	{name: "Loft Hotel Montr&eacute;al", type: "Hotel", address: "334 Terrasse Saint Denis", site: "https://lofthotel.guestybookings.com/"},
+	{name: "Parc Simonne-Monet-Chartrand", type: "Park", address: "2121 Rue Saint-Christophe", site: "https://montreal.ca/en/places/parc-simonne-monet-chartrand"},
+	{name: "Parc Claude-Melan&ccedil;on", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-claude-melancon"},
+	{name: "H&ocirc;tel Ch&acirc;teau de l&#39;Argoat", type: "Hotel", address: "524 Rue Sherbrooke Est", site: "https://www.hotel-chateau-argoat.com/en/"}];
 	
 	ChampDeMars = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
