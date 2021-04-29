@@ -1099,17 +1099,17 @@ function init(){
 	
 	MontRoyalnames = [ "Parc Mont-Royal", "L&#39;Avenue du Mont-Royal", "Th&eacute;&acirc;tre du Rideau Vert", "Biblioth&egrave;que du Plateau-Mont-Royal", "Sanctuaire du Saint-Sacrement", "Parc Albert-Saint-Martin",
 		 "Place G&eacute;rald-Godin", "Relais Mont-Royal", "Parc Denise-Morelle", "Parc &Eacute;mile-Nelligan", "Parc Gilles-Lefebvre", "Parc Pierre-Boucher", 
-		  "Parc Palomino-Brind&#39;Amour", "Conservatoire de Musique de Montr&eacute;al" ];
+		  "Parc Palomino-Brind&#39;Amour", "Conservatoire de Musique de Montr&eacute;al", "Place des Fleurs-de-Macadam" ];
 	
-	MontRoyaltypes = [ "Parc", "District", "Th&eacute;&acirc;tre", "Biblioth&egrave;que", "&Eacute;glise", "Parc", "Parc", "&Eacute;glise", "Parc", "Parc", "Parc", "Parc", "Parc", "&Eacute;cole" ];
+	MontRoyaltypes = [ "Parc", "District", "Th&eacute;&acirc;tre", "Biblioth&egrave;que", "&Eacute;glise", "Parc", "Parc", "&Eacute;glise", "Parc", "Parc", "Parc", "Parc", "Parc", "&Eacute;cole", "Parc" ];
 	
 	MontRoyaladdresses = [ "1260 Chemin Remembrance", "1012 Avenue du Mont-Royal Est", "4664 Rue Saint-Denis", "465 Avenue du Mont-Royal Est", "500 Avenue du Mont-Royal Est", "",
-		     "", "500 Avenue du Mont-Royal Est", "4394 Rue Rivard", "4543 Avenue Laval", "4535 Avenue Henri-Julien", "", "", "4750 Avenue Henri-Julien" ];
+		     "", "500 Avenue du Mont-Royal Est", "4394 Rue Rivard", "4543 Avenue Laval", "4535 Avenue Henri-Julien", "", "", "4750 Avenue Henri-Julien", "" ];
 	
 	MontRoyalsites = [ "https://montreal.ca/lieux/parc-du-mont-royal", "https://www.mont-royal.net/", "https://www.rideauvert.qc.ca/", "https://montreal.ca/lieux/bibliotheque-du-plateau-mont-royal",
 	"http://www.fraternites-jerusalem.ca/", "https://montreal.ca/lieux/parc-albert-saint-martin", "https://montreal.ca/lieux/place-gerald-godin", "https://relaismontroyal.org/wp/", 
 	"https://montreal.ca/lieux/parc-denise-morelle", "https://montreal.ca/lieux/parc-emile-nelligan", "https://montreal.ca/lieux/parc-gilles-lefebvre", "https://montreal.ca/lieux/parc-pierre-boucher", 
-	"https://montreal.ca/lieux/parc-palomino-brindamour", "https://www.conservatoire.gouv.qc.ca/" ];
+	"https://montreal.ca/lieux/parc-palomino-brindamour", "https://www.conservatoire.gouv.qc.ca/", "https://montreal.ca/lieux/place-des-fleurs-de-macadam" ];
 	
 	Sherbrookenames = [ "Institut de Tourisme et d&#39;H&ocirc;tellerie du Qu&eacute;bec", "H&ocirc;tel de l&#39;ITHQ", "Parc La Fontaine", "Square Saint-Louis", "Auberge du Carr&eacute; Saint-Louis", 
 	"Th&eacute;&acirc;tre d&#39;Aujourd&#39;hui", "Th&eacute;&acirc;tre de Quat&#39;Sous", "Th&eacute;&acirc;tre La Chappelle", "Les R&eacute;sidences Soleil Manoir Plaza",
