@@ -643,7 +643,8 @@ function init(){
 	{name: "Parc Gilles-Lefebvre", type: "Park", address: "4535 Avenue Henri-Julien", site: "https://montreal.ca/en/places/parc-gilles-lefebvre"},
 	{name: "Parc Pierre-Boucher", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-pierre-boucher"},
 	{name: "Parc Palomino-Brind&#39;Amour", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-palomino-brindamour"},
-	{name: "Conservatoire de Musique de Montr&eacute;al", type: "School", address: "4750 Avenue Henri-Julien", site: "https://www.conservatoire.gouv.qc.ca/"}];
+	{name: "Conservatoire de Musique de Montr&eacute;al", type: "School", address: "4750 Avenue Henri-Julien", site: "https://www.conservatoire.gouv.qc.ca/"},
+	{name: "Place des Fleurs-de-Macadam", type: "Park", address: "", site: "https://montreal.ca/en/places/place-des-fleurs-de-macadam"}];
 	
 	Sherbrooke = [{name: "Institut de Tourisme et d&#39;H&ocirc;tellerie du Qu&eacute;bec", type: "University", address: "3535 Rue Saint-Denis", site: "https://www.ithq.qc.ca/en/institute/"},
 	{name: "H&ocirc;tel de l&#39;ITHQ", type: "Hotel", address: "3535 Rue Saint-Denis", site: "http://www.ithq.qc.ca/en/hotel/"},
