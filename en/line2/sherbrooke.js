@@ -14,7 +14,8 @@ function init()
 	{name: "Champlain College of Vermont, Montreal campus", type: "College", address: "525 Rue Sherbrooke Est", site: "https://montreal.champlain.edu/"},
 	{name: "Parc Jehane-Beno&icirc;t", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-jehane-benoit"},
 	{name: "Parc J.-Z.-L&eacute;on-Patenaude", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-j-z-leon-patenaude"},
-	{name: "C&eacute;gep du Vieux Montr&eacute;al", type: "College", address: "255 Rue Ontario Est", site: "http://www.cvm.qc.ca/Pages/index.aspx"}];
+	{name: "C&eacute;gep du Vieux Montr&eacute;al", type: "College", address: "255 Rue Ontario Est", site: "http://www.cvm.qc.ca/Pages/index.aspx"},
+	{name: "Loft Hotel Montr&eacute;al", type: "Hotel", address: "334 Terrasse Saint Denis", site: "https://lofthotel.guestybookings.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
