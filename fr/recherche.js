@@ -1585,6 +1585,10 @@ function onClick(e){
 	{
 		document.getElementById("search-box").value = "Petite-Bourgogne";
 	}
+	if(document.getElementById("search-box").value.toLowerCase() == "parc roy rivard" || document.getElementById("search-box").value.toLowerCase() == "parc roy-rivard")
+	{
+		document.getElementById("search-box").value = "Parc Th&eacute;r&egrave;se-Daviau";
+	}
 	
 	/*TO TREAT STREETS AND CATEGORIES (FRENCH VERSION) WITH SPECIAL CHARACTERS*/
 	var street = document.getElementById("streets").value;
