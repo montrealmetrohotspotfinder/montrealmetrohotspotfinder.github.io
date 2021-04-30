@@ -12,7 +12,7 @@ function init()
 	"Muraille de Leonard Cohen",
 	"L&#39;Institut de Recherche du Centre Universitaire de Sant&eacute; McGill",
 	"Place du Fort",
-	"Biblioth&egrave;que Webster",
+	"Universit&eacute; Concordia, Biblioth&egrave;que Webster",
 	"Le 1444 Mackay",
 	"Sir Winston Churchill Pub",
 	"&Eacute;cole des M&eacute;tiers de la Restauration et du Tourisme de Montr&eacute;al",
