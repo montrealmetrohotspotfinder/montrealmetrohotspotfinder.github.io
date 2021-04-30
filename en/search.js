@@ -666,7 +666,8 @@ function init(){
 	{name: "Parc Claude-Melan&ccedil;on", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-claude-melancon"},
 	{name: "H&ocirc;tel Ch&acirc;teau de l&#39;Argoat", type: "Hotel", address: "524 Rue Sherbrooke Est", site: "https://www.hotel-chateau-argoat.com/en/"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Department of Dance", type: "University", address: "840 Rue Cherrier", site: "https://danse.uqam.ca/"},
-	{name: "&Eacute;cole Espace-Jeunesse", type: "School", address: "3655 Rue Saint-Hubert", site: "https://espace-jeunesse.cssdm.gouv.qc.ca/"}];
+	{name: "&Eacute;cole Espace-Jeunesse", type: "School", address: "3655 Rue Saint-Hubert", site: "https://espace-jeunesse.cssdm.gouv.qc.ca/"},
+	{name: "Parc Th&eacute;r&egrave;se-Daviau", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-therese-daviau"}];
 	
 	ChampDeMars = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
