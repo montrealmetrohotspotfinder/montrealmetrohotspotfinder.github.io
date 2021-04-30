@@ -34,10 +34,12 @@ function init()
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Hubert-Aquin",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Th&eacute;r&egrave;se-Casgrain",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Paul-G&eacute;rin-Lajoie",
-	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon des Sciences de la Gestion" ];
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon des Sciences de la Gestion",
+	"Fairfield Inn by Montreal Marriott Downtown",
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Centre Sportif" ];
 	
 	htypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;", "H&ocirc;tel",
-		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement", "Universit&eacute;", "Parc", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;" ];
+		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement", "Universit&eacute;", "Parc", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "Sports" ];
 	
 	haddresses = [ "405 Rue Sainte-Catherine Est",
 	"475 Boulevard de Maisonneuve Est",
@@ -73,7 +75,9 @@ function init()
 	"400 Rue Sainte-Catherine Est",
 	"455 Boulevard Ren&eacute;-L&eacute;vesque Est",
 	"1205 Rue Saint-Denis",
-	"315 Rue Sainte-Catherine Est" ];
+	"315 Rue Sainte-Catherine Est",
+	"1199 Rue Berri",
+	"1212 Rue Sanguinet" ];
 	
 	hsites = [ "http://www.uqam.ca/", 
 	"http://www.banq.qc.ca/accueil/", 
@@ -109,7 +113,9 @@ function init()
 	"https://carte.uqam.ca/pavillon-a",
 	"https://carte.uqam.ca/pavillon-w",
 	"https://carte.uqam.ca/pavillon-n",
-	"https://carte.uqam.ca/pavillon-r" ];
+	"https://carte.uqam.ca/pavillon-r",
+	"https://www.marriott.fr/hotels/travel/yulfd-fairfield-montreal-downtown",
+	"https://carte.uqam.ca/pavillon-cs" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
