@@ -28,7 +28,8 @@ function init()
 	{name: "Auberge Le Pomerol", type: "Hotel", address: "819 Boulevard de Maisonneuve Est", site: "https://www.aubergelepomerol.com/en/"},
 	{name: "Empire Suites", type: "Hotel", address: "1606 Rue Saint-Hubert", site: "#"},
 	{name: "H&ocirc;tel Lelux", type: "Hotel", address: "1600 Rue Saint-Hubert", site: "https://lelux-hotel-montreal.at-hotels.com/en/"},
-	{name: "Ville-Marie Borough Hall", type: "Government", address: "800 Boulevard de Maisonneuve Est", site: "https://montreal.ca/en/places/ville-marie-borough-hall"}];
+	{name: "Ville-Marie Borough Hall", type: "Government", address: "800 Boulevard de Maisonneuve Est", site: "https://montreal.ca/en/places/ville-marie-borough-hall"},
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Department of Music", type: "University", address: "1440 Rue Saint-Denis", site: "https://musique.uqam.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
