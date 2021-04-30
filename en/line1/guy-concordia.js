@@ -12,7 +12,7 @@ function init()
 	{name: "Leonard Cohen Mural", type: "Historical Site", address: "1420 Rue Crescent", site: "https://mumtl.org/en/projects/tower-of-song-el-mac-gene-pendon-2017/"},
 	{name: "Research Institute of the McGill University Health Centre", type: "University", address: "2155 Rue Guy", site: "https://rimuhc.ca/"},
 	{name: "Place du Fort", type: "Residence", address: "1411 Rue du Fort", site: "https://placedufort.com/"},
-	{name: "Webster Library", type: "Library", address: "1455 Boulevard de Maisonneuve Ouest", site: "https://library.concordia.ca/"},
+	{name: "Concordia University, Webster Library", type: "Library", address: "1455 Boulevard de Maisonneuve Ouest", site: "https://library.concordia.ca/"},
 	{name: "Le 1444 Mackay", type: "Residence", address: "1444 Rue Mackay", site: "https://www.hazelviewproperties.com/residential/le-1444-mackay"},
 	{name: "Sir Winston Churchill Pub", type: "Restaurant", address: "1455 Rue Crescent", site: "https://www.swcpc.com/SirWinston/"},
 	{name: "&Eacute;cole des M&eacute;tiers de la Restauration et du Tourisme de Montr&eacute;al", type: "Trade School", address: "1822 Boulevard de Maisonneuve Ouest", site: "https://ecole-metiers-restauration-tourisme.cssdm.gouv.qc.ca/ecole/"},
