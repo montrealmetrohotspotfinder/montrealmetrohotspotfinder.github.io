@@ -30,7 +30,12 @@ function init(){
 	{name: "Empire Suites", type: "Hotel", address: "1606 Rue Saint-Hubert", site: "#"},
 	{name: "H&ocirc;tel Lelux", type: "Hotel", address: "1600 Rue Saint-Hubert", site: "https://lelux-hotel-montreal.at-hotels.com/en/"},
 	{name: "Ville-Marie Borough Hall", type: "Government", address: "800 Boulevard de Maisonneuve Est", site: "https://montreal.ca/en/places/ville-marie-borough-hall"},
-	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Department of Music", type: "University", address: "1440 Rue Saint-Denis", site: "https://musique.uqam.ca/"}];
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Department of Music", type: "University", address: "1440 Rue Saint-Denis", site: "https://musique.uqam.ca/"},
+	{name: "Place Pasteur", type: "Park", address: "", site: "https://montreal.ca/en/places/place-pasteur"},
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Hubert-Aquin Pavilion", type: "University", address: "400 Rue Sainte-Catherine Est", site: "https://carte.uqam.ca/pavillon-a"},
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Th&eacute;r&egrave;se-Casgrain Pavilion", type: "University", address: "455 Boulevard Ren&eacute;-L&eacute;vesque Est", site: "https://carte.uqam.ca/pavillon-w"},
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Paul-G&eacute;rin-Lajoie Pavilion", type: "University", address: "1205 Rue Saint-Denis", site: "https://carte.uqam.ca/pavillon-n"},
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Management Science Pavilion", type: "University", address: "315 Rue Sainte-Catherine Est", site: "https://carte.uqam.ca/pavillon-r"}];
 	
 	JeanTalon = [{name: "Tour Jean-Talon", type: "Office", address: "600 Rue Jean-Talon Est", site: "https://montrealundergroundcity.com/tour/tour-jean-talon/"},
 	{name: "March&eacute; Jean-Talon", type: "Market", address: "7070 Avenue Henri-Julien", site: "https://www.marchespublics-mtl.com/en/marches/jean-talon-market/"},
