@@ -36,7 +36,7 @@ function init(){
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Th&eacute;r&egrave;se-Casgrain Pavilion", type: "University", address: "455 Boulevard Ren&eacute;-L&eacute;vesque Est", site: "https://carte.uqam.ca/pavillon-w"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Paul-G&eacute;rin-Lajoie Pavilion", type: "University", address: "1205 Rue Saint-Denis", site: "https://carte.uqam.ca/pavillon-n"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Management Science Pavilion", type: "University", address: "315 Rue Sainte-Catherine Est", site: "https://carte.uqam.ca/pavillon-r"},
-	{name: "Fairfield Inn by Montreal Marriott Downtown", type: "Hotel", address: "1199 Rue Berri", site: "https://www.marriott.com/hotels/travel/yulfd-fairfield-montreal-downtown/"},
+	{name: "Fairfield Inn by Marriott Montreal Downtown", type: "Hotel", address: "1199 Rue Berri", site: "https://www.marriott.com/hotels/travel/yulfd-fairfield-montreal-downtown/"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Sports Centre", type: "Sports", address: "1212 Rue Sanguinet", site: "https://carte.uqam.ca/pavillon-cs"}];
 	
 	JeanTalon = [{name: "Tour Jean-Talon", type: "Office", address: "600 Rue Jean-Talon Est", site: "https://montrealundergroundcity.com/tour/tour-jean-talon/"},
