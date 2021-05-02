@@ -35,7 +35,7 @@ function init()
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Th&eacute;r&egrave;se-Casgrain",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Paul-G&eacute;rin-Lajoie",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon des Sciences de la Gestion",
-	"Fairfield Inn by Montreal Marriott Downtown",
+	"Fairfield Inn by Marriott Montreal Downtown",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Centre Sportif" ];
 	
 	htypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;", "H&ocirc;tel",
