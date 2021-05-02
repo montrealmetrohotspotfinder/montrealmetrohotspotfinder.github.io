@@ -3,7 +3,7 @@ function init()
 	hnames = [ "Institut de Tourisme et d&#39;H&ocirc;tellerie du Qu&eacute;bec", "H&ocirc;tel de l&#39;ITHQ", "Parc La Fontaine", "Square Saint-Louis", "Auberge du Carr&eacute; Saint-Louis", 
 	"Th&eacute;&acirc;tre d&#39;Aujourd&#39;hui", "Th&eacute;&acirc;tre de Quat&#39;Sous", "Th&eacute;&acirc;tre La Chappelle", "Les R&eacute;sidences Soleil Manoir Plaza",
 	"Gare d&#39;Autocars de Montr&eacute;al", "Quartier Latin", "Champlain College (Vermont), campus Montr&eacute;al", "Parc Jehane-Beno&icirc;t", "Parc J.-Z.-L&eacute;on-Patenaude", "C&eacute;gep du Vieux Montr&eacute;al", "Loft Hotel Montr&eacute;al",
-	"Parc Simonne-Monet-Chartrand", "Parc Claude-Melan&ccedil;on", "H&ocirc;tel Ch&acirc;teau de l&#39;Argoat", "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, D&eacute;partement de Danse", "&Eacute;cole Espace-Jeunesse", "Parc Th&eacute;r&egrave;se-Daviau" ];
+	"Parc Simonne-Monet-Chartrand", "Parc Claude-Melan&ccedil;on", "H&ocirc;tel Ch&acirc;teau de l&#39;Argoat", "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, D&eacute;partement de Danse", "&Eacute;cole Espace-Jeunesse", "Parc Th&eacute;r&egrave;se-Daviau (anciennement Parc Roy-Rivard)" ];
 	
 	htypes = [ "Universit&eacute;", "H&ocirc;tel", "Parc", "Place de la Ville", "H&ocirc;tel", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "R&eacute;sidence", "Terminus d&#39;Autobus", "District", "Coll&egrave;ge", "Parc", "Parc", "Coll&egrave;ge", "H&ocirc;tel",
 	"Parc", "Parc", "H&ocirc;tel", "Universit&eacute;", "&Eacute;cole", "Parc" ];
