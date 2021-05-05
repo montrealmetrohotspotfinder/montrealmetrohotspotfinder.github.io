@@ -1093,14 +1093,15 @@ function init(){
 	Jarrysites = [ "https://montreal.ca/lieux/parc-jarry", "http://stadeiga.com/", "https://montreal.ca/lieux/parc-saint-vincent-ferrier", "#", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-vincent-ferrier", "https://helene-boulle.cssdm.gouv.qc.ca/",
 		 "https://centre-ste-croix.cssdm.gouv.qc.ca/" ];
 	
-	Beaubiennames = [ "Plaza Saint-Hubert", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", "&Eacute;glise Saint-&Eacute;douard", "&Eacute;cole La Mennais", "Chambre de la Jeunesse" ];
+	Beaubiennames = [ "Plaza Saint-Hubert", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", "&Eacute;glise Saint-&Eacute;douard", "&Eacute;cole La Mennais", "Chambre de la Jeunesse",
+		 "Th&eacute;&acirc;tre Plaza", "Beaubien Bagel" ];
 	
-	Beaubientypes = [ "Magasinage", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "Tribunal" ];
+	Beaubientypes = [ "Magasinage", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "Tribunal", "Th&eacute;&acirc;tre", "Restaurant" ];
 	
-	Beaubienaddresses = [ "6841 Rue Saint-Hubert", "6800 Avenue Henri-Julien", "6500 Rue de Saint-Vallier", "6521 Rue Saint-Denis", "410 Rue de Bellechasse" ];
+	Beaubienaddresses = [ "6841 Rue Saint-Hubert", "6800 Avenue Henri-Julien", "6500 Rue de Saint-Vallier", "6521 Rue Saint-Denis", "410 Rue de Bellechasse", "6505 Rue Saint-Hubert", "828 Rue Beaubien Est" ];
 	
 	Beaubiensites = [ "https://www.plazasthubert.com/fr/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-defense-italiens", "#", "https://la-mennais.csdm.ca/",
-	"https://www.justice.gouv.qc.ca/systeme-judiciaire/tribunaux-du-quebec/cour-du-quebec/chambre-de-la-jeunesse" ];
+	"https://www.justice.gouv.qc.ca/systeme-judiciaire/tribunaux-du-quebec/cour-du-quebec/chambre-de-la-jeunesse", "https://www.theatreplaza.ca/", "#" ];
 	
 	Rosemontnames = [ "Biblioth&egrave;que Marc-Favreau", "Parc des Carri&egrave;res", "Parc Luc-Durand", "Habitations Saint-Vallier" ];
 	
