@@ -7,7 +7,7 @@ function init()
 	{name: "Auberge du Carr&eacute; Saint-Louis", type: "Hotel", address: "3466 Rue Saint-Denis", site: "https://aubergecarrestlouis.com/home"},
 	{name: "Th&eacute;&acirc;tre d&#39;Aujourd&#39;hui", type: "Theatre", address: "3900 Rue Saint-Denis", site: "https://www.theatredaujourdhui.qc.ca/"},
 	{name: "Th&eacute;&acirc;tre de Quat&#39;Sous", type: "Theatre", address: "100 Avenue des Pins Est", site: "https://www.quatsous.com/"},
-	{name: "Th&eacute;&acirc;tre La Chappelle", type: "Theatre", address: "3700 Rue Saint-Dominique", site: "https://lachapelle.org/en"},
+	{name: "Th&eacute;&acirc;tre La Chapelle", type: "Theatre", address: "3700 Rue Saint-Dominique", site: "https://lachapelle.org/en"},
 	{name: "Les R&eacute;sidences Soleil Manoir Plaza", type: "Residence", address: "505 Rue Sherbrooke Est", site: "https://residencessoleil.ca/residences-soleil-list/manoir-plaza"},
 	{name: "Gare d&#39;Autocars de Montr&eacute;al", type: "Bus Terminal", address: "1717 Rue Berri", site: "http://www.gamtl.com/en/bienvenue/default.aspx"},
 	{name: "Latin Quarter", type: "District", address: "", site: "http://www.quartierlatin.ca/en/"},
