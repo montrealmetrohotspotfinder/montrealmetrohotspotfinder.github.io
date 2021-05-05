@@ -1,7 +1,7 @@
 function init()
 {
 	hnames = [ "Institut de Tourisme et d&#39;H&ocirc;tellerie du Qu&eacute;bec", "H&ocirc;tel de l&#39;ITHQ", "Parc La Fontaine", "Square Saint-Louis", "Auberge du Carr&eacute; Saint-Louis", 
-	"Th&eacute;&acirc;tre d&#39;Aujourd&#39;hui", "Th&eacute;&acirc;tre de Quat&#39;Sous", "Th&eacute;&acirc;tre La Chappelle", "Les R&eacute;sidences Soleil Manoir Plaza",
+	"Th&eacute;&acirc;tre d&#39;Aujourd&#39;hui", "Th&eacute;&acirc;tre de Quat&#39;Sous", "Th&eacute;&acirc;tre La Chapelle", "Les R&eacute;sidences Soleil Manoir Plaza",
 	"Gare d&#39;Autocars de Montr&eacute;al", "Quartier Latin", "Champlain College (Vermont), campus Montr&eacute;al", "Parc Jehane-Beno&icirc;t", "Parc J.-Z.-L&eacute;on-Patenaude", "C&eacute;gep du Vieux Montr&eacute;al", "Loft Hotel Montr&eacute;al",
 	"Parc Simonne-Monet-Chartrand", "Parc Claude-Melan&ccedil;on", "H&ocirc;tel Ch&acirc;teau de l&#39;Argoat", "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, D&eacute;partement de Danse", "&Eacute;cole Espace-Jeunesse", "Parc Th&eacute;r&egrave;se-Daviau (anciennement Parc Roy-Rivard)",
 	"Auberge de la Fontaine", "&Eacute;cole Le Plateau", "&Eacute;cole Lanaudi&egrave;re", "&Eacute;cole Nationale de l&#39;Humour", "&Eacute;cole &Eacute;lan", "Parc Monseigneur-Lartigue", "&Eacute;cole Marguerite-Bourgeoys", "H&ocirc;pital Notre-Dame", "Parc Persillier-Lachapelle", "Place Charles-de-Gaulle" ];
