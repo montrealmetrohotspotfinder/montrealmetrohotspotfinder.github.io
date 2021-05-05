@@ -21,7 +21,17 @@ function init()
 	{name: "H&ocirc;tel Ch&acirc;teau de l&#39;Argoat", type: "Hotel", address: "524 Rue Sherbrooke Est", site: "https://www.hotel-chateau-argoat.com/en/"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Department of Dance", type: "University", address: "840 Rue Cherrier", site: "https://danse.uqam.ca/"},
 	{name: "&Eacute;cole Espace-Jeunesse", type: "School", address: "3655 Rue Saint-Hubert", site: "https://espace-jeunesse.cssdm.gouv.qc.ca/"},
-	{name: "Parc Th&eacute;r&egrave;se-Daviau (formerly Parc Roy-Rivard)", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-therese-daviau"}];
+	{name: "Parc Th&eacute;r&egrave;se-Daviau (formerly Parc Roy-Rivard)", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-therese-daviau"},
+	{name: "Auberge de la Fontaine", type: "Hotel", address: "1301 Rue Rachel Est", site: "http://www.aubergedelafontaine.com/?lang=en"},
+	{name: "&Eacute;cole Le Plateau", type: "School", address: "3700 Avenue Calixa-Lavall&eacute;e", site: "https://le-plateau.cssdm.gouv.qc.ca/"},
+	{name: "&Eacute;cole Lanaudi&egrave;re", type: "School", address: "4300 Rue de Lanaudi&egrave;re", site: "https://lanaudiere.cssdm.gouv.qc.ca/"},
+	{name: "&Eacute;cole Nationale de l&#39;Humour", type: "School", address: "2120 Rue Sherbrooke Est", site: "https://enh.qc.ca/"},
+	{name: "&Eacute;cole &Eacute;lan", type: "School", address: "3450 Avenue de Lorimier", site: "https://elan.cssdm.gouv.qc.ca/"},
+	{name: "Parc Monseigneur-Lartigue", type: "Park", address: "2250 Rue Panet", site: "https://montreal.ca/en/places/parc-monseigneur-lartigue"},
+	{name: "&Eacute;cole Marguerite-Bourgeoys", type: "School", address: "2070 Rue Plessis", site: "https://marguerite-bourgeoys.cssdm.gouv.qc.ca/"},
+	{name: "H&ocirc;pital Notre-Dame", type: "Hospital", address: "1560 Rue Sherbrooke Est", site: "https://www.ciusss-centresudmtl.gouv.qc.ca/etablissement/hopital-notre-dame"},
+	{name: "Parc Persillier-Lachapelle", type: "Park", address: "2040 Rue Alexandre-DeS&egrave;ve", site: "https://montreal.ca/en/places/parc-persillier-lachapelle"},
+	{name: "Place Charles-de-Gaulle", type: "Park", address: "", site: "https://montreal.ca/en/places/place-charles-de-gaulle"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
