@@ -92,8 +92,7 @@ function init(){
 	{name: "Parc Joseph-Robin", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-joseph-robin"},
 	{name: "Parc Michel-Ange", type: "Park", address: "3615 Rue Michel-Ange", site: "#"}];
 	
-	Iberville = [{name: "Les Denturologistes Saint-Louis", type: "Dentist", address: "2523 Rue Jean-Talon Est", site: "https://www.centresdentairesstlouis.com/en"},
-	{name: "P&acirc;tisserie La Conca D&#39;Oro", type: "Shopping", address: "2550 Rue Jean-Talon Est", site: "https://www.laconcadoro.net/"},
+	Iberville = [{name: "P&acirc;tisserie La Conca D&#39;Oro", type: "Shopping", address: "2550 Rue Jean-Talon Est", site: "https://www.laconcadoro.net/"},
 	{name: "Parc Gabriel-Sagard", type: "Park", address: "7069 Rue Sagard", site: "https://montreal.ca/en/places/parc-gabriel-sagard"},
 	{name: "&Eacute;cole Saint-Barth&eacute;lemy", type: "School", address: "7081 Avenue des &Eacute;rables", site: "https://st-barthelemy.csdm.ca/"},
 	{name: "&Eacute;glise Biblique Pierre Angulaire", type: "Church", address: "7137 Avenue des &Eacute;rables", site: "#"},
