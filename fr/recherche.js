@@ -231,15 +231,15 @@ function init(){
 	SaintMichelsites = [ "#", "https://montreal.ca/lieux/parc-francois-perrault", "https://montreal.ca/lieux/bibliotheque-de-saint-michel", "http://jfkhighschoolemsb.com/",
 	"https://montreal.ca/en/places/parc-sandro-pertini", "https://st-mathieu.csdm.ca/", "https://joseph-francois-perrault.csdm.ca/", "https://montreal.ca/lieux/parc-shaughnessy", "https://montreal.ca/lieux/parc-joseph-robin", "#" ];
 	
-	Ibervillenames = [ "Les Denturologistes Saint-Louis", "P&acirc;tisserie La Conca D&#39;Oro", "Parc Gabriel-Sagard", "&Eacute;cole Saint-Barth&eacute;lemy", "&Eacute;glise Biblique Pierre Angulaire",
+	Ibervillenames = [ "P&acirc;tisserie La Conca D&#39;Oro", "Parc Gabriel-Sagard", "&Eacute;cole Saint-Barth&eacute;lemy", "&Eacute;glise Biblique Pierre Angulaire",
 	"Parc Molson", "Paroisse Saint-Mathieu" ];
 	
-	Ibervilletypes = [ "Dentiste", "Magasinage", "Parc", "&Eacute;cole", "&Eacute;glise", "Parc", "&Eacute;glise" ];
+	Ibervilletypes = [ "Magasinage", "Parc", "&Eacute;cole", "&Eacute;glise", "Parc", "&Eacute;glise" ];
 	
-	Ibervilleaddresses = [ "2523 Rue Jean-Talon Est", "2550 Rue Jean-Talon Est", "7069 Rue Sagard", "7081 Avenue des &Eacute;rables", "7137 Avenue des &Eacute;rables", "2473 Rue Beaubien Est",
+	Ibervilleaddresses = [ "2550 Rue Jean-Talon Est", "7069 Rue Sagard", "7081 Avenue des &Eacute;rables", "7137 Avenue des &Eacute;rables", "2473 Rue Beaubien Est",
 	"2600 Rue Jean-Talon Est" ];
 	
-	Ibervillesites = [ "https://www.centresdentairesstlouis.com/", "https://alexiaianniciello1.wixsite.com/fvlaconcadoro", "https://montreal.ca/lieux/parc-gabriel-sagard", "https://st-barthelemy.csdm.ca/", "#",
+	Ibervillesites = [ "https://alexiaianniciello1.wixsite.com/fvlaconcadoro", "https://montreal.ca/lieux/parc-gabriel-sagard", "https://st-barthelemy.csdm.ca/", "#",
 	"https://montreal.ca/lieux/parc-molson", "https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-mathieu" ];
 	
 	Fabrenames = [ "&Eacute;glise Notre-Dame-de-la-Consolata", "H&ocirc;pital Jean-Talon", "Parc de Turin", "&Eacute;cole Saint-Gabriel-Lalemant", "&Eacute;cole Pierre Elliott Trudeau" ];
