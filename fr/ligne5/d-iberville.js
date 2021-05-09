@@ -1,14 +1,14 @@
 function init()
 {
-	hnames = [ "Les Denturologistes Saint-Louis", "P&acirc;tisserie La Conca D&#39;Oro", "Parc Gabriel-Sagard", "&Eacute;cole Saint-Barth&eacute;lemy", "&Eacute;glise Biblique Pierre Angulaire",
+	hnames = [ "P&acirc;tisserie La Conca D&#39;Oro", "Parc Gabriel-Sagard", "&Eacute;cole Saint-Barth&eacute;lemy", "&Eacute;glise Biblique Pierre Angulaire",
 	"Parc Molson", "Paroisse Saint-Mathieu" ];
 	
-	htypes = [ "Dentiste", "Magasinage", "Parc", "&Eacute;cole", "&Eacute;glise", "Parc", "&Eacute;glise" ];
+	htypes = [ "Magasinage", "Parc", "&Eacute;cole", "&Eacute;glise", "Parc", "&Eacute;glise" ];
 	
-	haddresses = [ "2523 Rue Jean-Talon Est", "2550 Rue Jean-Talon Est", "7069 Rue Sagard", "7081 Avenue des &Eacute;rables", "7137 Avenue des &Eacute;rables", "2473 Rue Beaubien Est",
+	haddresses = [ "2550 Rue Jean-Talon Est", "7069 Rue Sagard", "7081 Avenue des &Eacute;rables", "7137 Avenue des &Eacute;rables", "2473 Rue Beaubien Est",
 	"2600 Rue Jean-Talon Est" ];
 	
-	hsites = [ "https://www.centresdentairesstlouis.com/", "https://alexiaianniciello1.wixsite.com/fvlaconcadoro", "https://montreal.ca/lieux/parc-gabriel-sagard", "https://st-barthelemy.csdm.ca/", "#",
+	hsites = [ "https://alexiaianniciello1.wixsite.com/fvlaconcadoro", "https://montreal.ca/lieux/parc-gabriel-sagard", "https://st-barthelemy.csdm.ca/", "#",
 	"https://montreal.ca/lieux/parc-molson", "https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-mathieu" ];
 	
 	if(hnames.length == 1){
