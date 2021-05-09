@@ -302,7 +302,10 @@ function init(){
 	{name: "Centre St-Pierre", type: "School", address: "1212 Rue Panet", site: "https://www.centrestpierre.org/"},
 	{name: "Parc des Joyeux-Vikings", type: "Park", address: "1763 Rue Beaudry", site: "https://montreal.ca/en/places/parc-des-joyeux-vikings"},
 	{name: "Parc Jean-Charbonneau", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-jean-charbonneau"},
-	{name: "Ar&eacute;na Camillien-Houde", type: "Sports", address: "1696 Rue Montcalm", site: "https://montreal.ca/en/places/arena-camillien-houde"}];
+	{name: "Ar&eacute;na Camillien-Houde", type: "Sports", address: "1696 Rue Montcalm", site: "https://montreal.ca/en/places/arena-camillien-houde"},
+	{name: "Parc Miville-Couture", type: "Park", address: "1215 Rue Atateken", site: "https://montreal.ca/en/places/parc-miville-couture"},
+	{name: "Le Rubic", type: "Residence", address: "1117 Boulevard Ren&eacute;-L&eacute;vesque Est", site: "https://rubic.ca/en/"},
+	{name: "&Eacute;glise Saint-Pierre-Ap&ocirc;tre", type: "Church", address: "1201 Rue de la Visitation", site: "http://www.saintpierreapotre.ca/"}];
 	
 	SaintLaurent = [{name: "Mus&eacute;e Juste Pour Rire", type: "Museum", address: "2095 Boulevard Saint-Laurent", site: "http://www.hahaha.com/"},
 	{name: "Club Soda", type: "Theatre", address: "1225 Boulevard Saint-Laurent", site: "https://clubsoda.ca/en/index.php"},
