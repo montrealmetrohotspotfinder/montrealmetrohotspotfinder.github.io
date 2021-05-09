@@ -222,14 +222,15 @@ function init(){
 	
 	//BLUE LINE
 	SaintMichelnames = [ "Petit Maghreb", "Parc Fran&ccedil;ois-Perrault", "Biblioth&egrave;que de Saint-Michel", "&Eacute;cole Secondaire John F. Kennedy", "Parc Sandro-Pertini", "&Eacute;cole Saint-Mathieu",
-	"&Eacute;cole Joseph-Fran&ccedil;ois-Perrault", "Parc Shaughnessy", "Parc Joseph-Robin", "Parc Michel-Ange" ];
+	"&Eacute;cole Joseph-Fran&ccedil;ois-Perrault", "Parc Shaughnessy", "Parc Joseph-Robin", "Parc Michel-Ange", "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine", "Le Boulevard", "R&eacute;sidence Le St-Michel" ];
 	
-	SaintMicheltypes = [ "District", "Parc", "Biblioth&egrave;que", "&Eacute;cole", "Parc", "&Eacute;cole", "&Eacute;cole", "Parc", "Parc", "Parc" ];
+	SaintMicheltypes = [ "District", "Parc", "Biblioth&egrave;que", "&Eacute;cole", "Parc", "&Eacute;cole", "&Eacute;cole", "Parc", "Parc", "Parc", "Parc", "Centre Commercial", "R&eacute;sidence" ];
 	
-	SaintMicheladdresses = [ "", "7525 Rue Fran&ccedil;ois-Perrault", "7601 Rue Fran&ccedil;ois-Perrault", "3030 Rue Villeray", "", "7230 8e Avenue", "7450 Rue Fran&ccedil;ois-Perrault", "7634 17e Avenue", "", "3615 Rue Michel-Ange" ];
+	SaintMicheladdresses = [ "", "7525 Rue Fran&ccedil;ois-Perrault", "7601 Rue Fran&ccedil;ois-Perrault", "3030 Rue Villeray", "", "7230 8e Avenue", "7450 Rue Fran&ccedil;ois-Perrault", "7634 17e Avenue", "", "3615 Rue Michel-Ange", "", "4270 Rue Jean-Talon Est", "7070 Boulevard Saint-Michel" ];
 	
 	SaintMichelsites = [ "#", "https://montreal.ca/lieux/parc-francois-perrault", "https://montreal.ca/lieux/bibliotheque-de-saint-michel", "http://jfkhighschoolemsb.com/",
-	"https://montreal.ca/en/places/parc-sandro-pertini", "https://st-mathieu.csdm.ca/", "https://joseph-francois-perrault.csdm.ca/", "https://montreal.ca/lieux/parc-shaughnessy", "https://montreal.ca/lieux/parc-joseph-robin", "#" ];
+	"https://montreal.ca/en/places/parc-sandro-pertini", "https://st-mathieu.csdm.ca/", "https://joseph-francois-perrault.csdm.ca/", "https://montreal.ca/lieux/parc-shaughnessy", "https://montreal.ca/lieux/parc-joseph-robin", "#", "https://montreal.ca/lieux/parc-du-ruisseau-du-pont-lavoine", 
+	"https://www.centreboulevard.com/fr/", "https://www.residencelesaintmichel.ca/" ];
 	
 	Ibervillenames = [ "P&acirc;tisserie La Conca D&#39;Oro", "Parc Gabriel-Sagard", "&Eacute;cole Saint-Barth&eacute;lemy", "&Eacute;glise Biblique Pierre Angulaire",
 	"Parc Molson", "Paroisse Saint-Mathieu" ];
@@ -1631,6 +1632,10 @@ function onClick(e){
 	if(document.getElementById("search-box").value.toLowerCase() == "parc roy rivard" || document.getElementById("search-box").value.toLowerCase() == "parc roy-rivard")
 	{
 		document.getElementById("search-box").value = "Parc Th&eacute;r&egrave;se-Daviau";
+	}
+	if(document.getElementById("search-box").value.toLowerCase() == "parc du bon-air")
+	{
+		document.getElementById("search-box").value = "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine";
 	}
 	
 	/*TO TREAT STREETS AND CATEGORIES (FRENCH VERSION) WITH SPECIAL CHARACTERS*/
