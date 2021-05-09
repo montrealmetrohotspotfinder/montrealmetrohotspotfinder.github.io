@@ -11,7 +11,8 @@ function init()
 	{name: "Parc Joseph-Robin", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-joseph-robin"},
 	{name: "Parc Michel-Ange", type: "Park", address: "3615 Rue Michel-Ange", site: "#"},
 	{name: "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine (formerly Parc du Bon-Air)", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-du-ruisseau-du-pont-lavoine"},
-	{name: "Le Boulevard via Bus 141", type: "Mall", address: "4270 Rue Jean-Talon Est", site: "https://www.centreboulevard.com/en/"}];
+	{name: "Le Boulevard via Bus 141", type: "Mall", address: "4270 Rue Jean-Talon Est", site: "https://www.centreboulevard.com/en/"},
+	{name: "R&eacute;sidence Le St-Michel", type: "Residence", address: "7070 Boulevard Saint-Michel", site: "https://www.residencelesaintmichel.ca/en"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
