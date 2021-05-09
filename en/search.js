@@ -91,7 +91,7 @@ function init(){
 	{name: "Parc Shaughnessy", type: "Park", address: "7634 17e Avenue", site: "https://montreal.ca/en/places/parc-shaughnessy"},
 	{name: "Parc Joseph-Robin", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-joseph-robin"},
 	{name: "Parc Michel-Ange", type: "Park", address: "3615 Rue Michel-Ange", site: "#"},
-	{name: "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine (formerly Parc du Bon-Air)", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-du-ruisseau-du-pont-lavoine"},
+	{name: "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-du-ruisseau-du-pont-lavoine"},
 	{name: "Le Boulevard", type: "Mall", address: "4270 Rue Jean-Talon Est", site: "https://www.centreboulevard.com/en/"},
 	{name: "R&eacute;sidence Le St-Michel", type: "Residence", address: "7070 Boulevard Saint-Michel", site: "https://www.residencelesaintmichel.ca/en"}];
 	
