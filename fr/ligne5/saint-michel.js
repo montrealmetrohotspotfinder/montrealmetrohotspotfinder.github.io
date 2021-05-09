@@ -1,14 +1,15 @@
 function init()
 {
 	hnames = [ "Petit Maghreb", "Parc Fran&ccedil;ois-Perrault", "Biblioth&egrave;que de Saint-Michel", "&Eacute;cole Secondaire John F. Kennedy", "Parc Sandro-Pertini", "&Eacute;cole Saint-Mathieu",
-	"&Eacute;cole Joseph-Fran&ccedil;ois-Perrault", "Parc Shaughnessy", "Parc Joseph-Robin", "Parc Michel-Ange" ];
+	"&Eacute;cole Joseph-Fran&ccedil;ois-Perrault", "Parc Shaughnessy", "Parc Joseph-Robin", "Parc Michel-Ange", "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine (anciennement Parc du Bon-Air)", "Le Boulevard via Bus 141", "R&eacute;sidence Le St-Michel" ];
 	
-	htypes = [ "District", "Parc", "Biblioth&egrave;que", "&Eacute;cole", "Parc", "&Eacute;cole", "&Eacute;cole", "Parc", "Parc", "Parc" ];
+	htypes = [ "District", "Parc", "Biblioth&egrave;que", "&Eacute;cole", "Parc", "&Eacute;cole", "&Eacute;cole", "Parc", "Parc", "Parc", "Parc", "Centre Commercial", "R&eacute;sidence" ];
 	
-	haddresses = [ "", "7525 Rue Fran&ccedil;ois-Perrault", "7601 Rue Fran&ccedil;ois-Perrault", "3030 Rue Villeray", "", "7230 8e Avenue", "7450 Rue Fran&ccedil;ois-Perrault", "7634 17e Avenue", "", "3615 Rue Michel-Ange" ];
+	haddresses = [ "", "7525 Rue Fran&ccedil;ois-Perrault", "7601 Rue Fran&ccedil;ois-Perrault", "3030 Rue Villeray", "", "7230 8e Avenue", "7450 Rue Fran&ccedil;ois-Perrault", "7634 17e Avenue", "", "3615 Rue Michel-Ange", "", "4270 Rue Jean-Talon Est", "7070 Boulevard Saint-Michel" ];
 	
 	hsites = [ "#", "https://montreal.ca/lieux/parc-francois-perrault", "https://montreal.ca/lieux/bibliotheque-de-saint-michel", "http://jfkhighschoolemsb.com/",
-	"https://montreal.ca/en/places/parc-sandro-pertini", "https://st-mathieu.csdm.ca/", "https://joseph-francois-perrault.csdm.ca/", "https://montreal.ca/lieux/parc-shaughnessy", "https://montreal.ca/lieux/parc-joseph-robin", "#" ];
+	"https://montreal.ca/en/places/parc-sandro-pertini", "https://st-mathieu.csdm.ca/", "https://joseph-francois-perrault.csdm.ca/", "https://montreal.ca/lieux/parc-shaughnessy", "https://montreal.ca/lieux/parc-joseph-robin", "#", "https://montreal.ca/lieux/parc-du-ruisseau-du-pont-lavoine", 
+	"https://www.centreboulevard.com/fr/", "https://www.residencelesaintmichel.ca/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
