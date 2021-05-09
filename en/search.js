@@ -356,7 +356,9 @@ function init(){
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Chemistry & Biochemistry Pavilion", type: "University", address: "2101 Rue Jeanne-Mance", site: "https://chimie.uqam.ca/"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Sherbrooke Pavilion", type: "University", address: "200 Rue Sherbrooke Ouest", site: "https://carte.uqam.ca/pavillon-sh"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Adrien-Pinard Pavilion", type: "University", address: "100 Rue Sherbrooke Ouest", site: "http://carte.uqam.ca/pavillon-su"},
-	{name: "Place du Cardinal P.-&Eacute;. L&eacute;ger", type: "Park", address: "", site: "#"}];
+	{name: "Place du Cardinal P.-&Eacute;. L&eacute;ger", type: "Park", address: "", site: "#"},
+	{name: "Louis Boh&egrave;me", type: "Residence", address: "350 Boulevard de Maisonneuve Ouest", site: "https://www.louisboheme.com/en/"},
+	{name: "Le Concorde", type: "Residence", address: "441 Avenue du Pr&eacute;sident-Kennedy", site: "http://downtowncondosmontreal.com/le-concorde-2/"}];
 	
 	McGill = [{name: "McGill University", type: "University", address: "845 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/"},
 	{name: "Centre Eaton de Montr&eacute;al", type: "Mall", address: "705 Rue Sainte-Catherine Ouest", site: "https://www.centreeatondemontreal.com/"},
