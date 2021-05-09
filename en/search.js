@@ -90,7 +90,10 @@ function init(){
 	{name: "&Eacute;cole Joseph-Fran&ccedil;ois-Perrault", type: "School", address: "7450 Rue Fran&ccedil;ois-Perrault", site: "https://joseph-francois-perrault.csdm.ca/"},
 	{name: "Parc Shaughnessy", type: "Park", address: "7634 17e Avenue", site: "https://montreal.ca/en/places/parc-shaughnessy"},
 	{name: "Parc Joseph-Robin", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-joseph-robin"},
-	{name: "Parc Michel-Ange", type: "Park", address: "3615 Rue Michel-Ange", site: "#"}];
+	{name: "Parc Michel-Ange", type: "Park", address: "3615 Rue Michel-Ange", site: "#"},
+	{name: "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine (formerly Parc du Bon-Air)", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-du-ruisseau-du-pont-lavoine"},
+	{name: "Le Boulevard", type: "Mall", address: "4270 Rue Jean-Talon Est", site: "https://www.centreboulevard.com/en/"},
+	{name: "R&eacute;sidence Le St-Michel", type: "Residence", address: "7070 Boulevard Saint-Michel", site: "https://www.residencelesaintmichel.ca/en"}];
 	
 	Iberville = [{name: "P&acirc;tisserie La Conca D&#39;Oro", type: "Shopping", address: "2550 Rue Jean-Talon Est", site: "https://www.laconcadoro.net/"},
 	{name: "Parc Gabriel-Sagard", type: "Park", address: "7069 Rue Sagard", site: "https://montreal.ca/en/places/parc-gabriel-sagard"},
@@ -1301,6 +1304,10 @@ function onClick(e){
 	if(document.getElementById("search-box").value.toLowerCase() == "parc roy rivard" || document.getElementById("search-box").value.toLowerCase() == "parc roy-rivard")
 	{
 		document.getElementById("search-box").value = "Parc Th&eacute;r&egrave;se-Daviau";
+	}
+	if(document.getElementById("search-box").value.toLowerCase() == "parc du bon-air")
+	{
+		document.getElementById("search-box").value = "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine";
 	}
 	
 	street = document.getElementById("streets").value;
