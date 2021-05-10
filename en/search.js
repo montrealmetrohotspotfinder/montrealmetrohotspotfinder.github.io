@@ -98,9 +98,10 @@ function init(){
 	Iberville = [{name: "P&acirc;tisserie La Conca D&#39;Oro", type: "Shopping", address: "2550 Rue Jean-Talon Est", site: "https://www.laconcadoro.net/"},
 	{name: "Parc Gabriel-Sagard", type: "Park", address: "7069 Rue Sagard", site: "https://montreal.ca/en/places/parc-gabriel-sagard"},
 	{name: "&Eacute;cole Saint-Barth&eacute;lemy", type: "School", address: "7081 Avenue des &Eacute;rables", site: "https://st-barthelemy.csdm.ca/"},
-	{name: "&Eacute;glise Biblique Pierre Angulaire", type: "Church", address: "7137 Avenue des &Eacute;rables", site: "#"},
+	{name: "&Eacute;glise Biblique Pierre Angulaire", type: "Church", address: "2200 Rue Jean-Talon Est", site: "#"},
 	{name: "Parc Molson", type: "Park", address: "2473 Rue Beaubien Est", site: "https://montreal.ca/en/places/parc-molson"},
-	{name: "Paroisse Saint-Mathieu", type: "Church", address: "2600 Rue Jean-Talon Est", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/saint-mathieu"}];
+	{name: "Paroisse Saint-Mathieu", type: "Church", address: "2600 Rue Jean-Talon Est", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/saint-mathieu"},
+	{name: "Paroisse Saint-Barth&eacute;lemy", type: "Church", address: "7137 Avenue des &Eacute;rables", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-barthelemy"}];
 	
 	Fabre = [{name: "&Eacute;glise Notre-Dame-de-la-Consolata", type: "Church", address: "1700 Rue Jean-Talon Est", site: "https://www.paroisseconsolatamtl.ca/"},
 	{name: "H&ocirc;pital Jean-Talon", type: "Hospital", address: "1385 Rue Jean-Talon Est", site: "https://www.ciusssnordmtl.ca/installations/hopitaux/hopital-jean-talon/"},
