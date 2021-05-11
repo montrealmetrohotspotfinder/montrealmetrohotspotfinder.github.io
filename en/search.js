@@ -44,7 +44,9 @@ function init(){
 	{name: "Plaza Saint-Hubert", type: "Shopping", address: "6841 Rue Saint-Hubert", site: "https://www.plazasthubert.com/en/"},
 	{name: "R&eacute;sidence Alfredo-Gagliardi", type: "Residence", address: "7170 Rue Berri", site: "https://www.residencesenharmonie.qc.ca/en/residences/alfredo-gagliardi-residence"},
 	{name: "Casa D&#39;Italia", type: "Cultural Centre", address: "505 Rue Jean-Talon Est", site: "https://www.casaditalia.org/"},
-	{name: "St. George Antiochian Orthodox Church", type: "Church", address: "575 Rue Jean-Talon Est", site: "https://saintgeorgemontreal.org/"}];
+	{name: "St. George Antiochian Orthodox Church", type: "Church", address: "575 Rue Jean-Talon Est", site: "https://saintgeorgemontreal.org/"},
+	{name: "Parc Le Pr&eacute;vost", type: "Park", address: "7275 Avenue Christophe-Colomb", site: "https://montreal.ca/en/places/parc-le-prevost"},
+	{name: "Patro Villeray", type: "Cultural Centre", address: "7355 Avenue Christophe-Colomb", site: "https://patrovilleray.ca/"}];
 	
 	LionelGroulx = [{name: "March&eacute; Atwater", type: "Market", address: "138 Avenue Atwater", site: "https://www.marchespublics-mtl.com/en/marches/atwater-market/"},
 	{name: "Parc Vinet", type: "Park", address: "550 Rue Vinet", site: "https://montreal.ca/en/places/parc-vinet"},
