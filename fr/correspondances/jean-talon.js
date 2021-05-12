@@ -1,13 +1,15 @@
 function init()
 {
-	hnames = [ "Tour Jean-Talon", "March&eacute; Jean-Talon", "Plaza Saint-Hubert", "R&eacute;sidence Alfredo-Gagliardi", "Casa D&#39;Italia", "&Eacute;glise Orthodoxe Antiochienne Saint-Georges", "Parc Le Pr&eacute;vost", "Patro Villeray" ];
+	hnames = [ "Tour Jean-Talon", "March&eacute; Jean-Talon", "Plaza Saint-Hubert", "R&eacute;sidence Alfredo-Gagliardi", "Casa D&#39;Italia", "&Eacute;glise Orthodoxe Antiochienne Saint-Georges", "Parc Le Pr&eacute;vost", "Patro Villeray",
+	"&Eacute;cole Saint-Ars&egrave;ne", "&Eacute;glise Saint-Ars&egrave;ne" ];
 	
-	htypes = [ "Bureau", "March&eacute;", "Magasinage", "R&eacute;sidence", "Centre Culturel", "&Eacute;glise", "Parc", "Centre Culturel" ];
+	htypes = [ "Bureau", "March&eacute;", "Magasinage", "R&eacute;sidence", "Centre Culturel", "&Eacute;glise", "Parc", "Centre Culturel", "&Eacute;cole", "&Eacute;glise" ];
 	
-	haddresses = [ "600 Rue Jean-Talon Est", "7070 Avenue Henri-Julien", "6841 Rue Saint-Hubert", "7170 Rue Berri", "505 Rue Jean-Talon Est", "575 Rue Jean-Talon Est", "7275 Avenue Christophe-Colomb", "7355 Avenue Christophe-Colomb" ];
+	haddresses = [ "600 Rue Jean-Talon Est", "7070 Avenue Henri-Julien", "6841 Rue Saint-Hubert", "7170 Rue Berri", "505 Rue Jean-Talon Est", "575 Rue Jean-Talon Est", "7275 Avenue Christophe-Colomb", "7355 Avenue Christophe-Colomb",
+	"6972 Avenue Christophe-Colomb", "1015 Rue B&eacute;langer" ];
 	
 	hsites = [ "https://montrealsouterrain.ca/tour/tour-jean-talon/", "https://www.marchespublics-mtl.com/marches/jean-talon/", "https://www.plazasthubert.com/fr/", "https://www.residencesenharmonie.qc.ca/residences/residence-alfredo-gagliardi", "https://www.casaditalia.org/t-fr-ca",
-	"https://saintgeorgemontreal.org/", "https://montreal.ca/lieux/parc-le-prevost", "https://patrovilleray.ca/" ];
+	"https://saintgeorgemontreal.org/", "https://montreal.ca/lieux/parc-le-prevost", "https://patrovilleray.ca/", "https://st-arsene.cssdm.gouv.qc.ca/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-arsene" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
