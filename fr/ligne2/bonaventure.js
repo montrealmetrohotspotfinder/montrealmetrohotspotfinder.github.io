@@ -1,7 +1,7 @@
 function init()
 {
 	hnames = [ "Gare Centrale", "Terminus Centre-Ville", "Les Halles de la Gare", "Place Bonaventure", "STM, si&egrave;ge social", "Centre Bell", "1000 De La Gaucheti&egrave;re", "Place Ville Marie via le Montr&eacute;al Souterrain",
-	"H&ocirc;tel Fairmont Reine Elizabeth via le Montr&eacute;al Souterrain", "Marriott Ch&acirc;teau Champlain", "&Eacute;difice de l&#39;OACI via le Montr&eacute;al Souterrain", "Cath&eacute;drale Marie Reine du Monde", "Square Dorchester", "&Eacute;difice Sun Life", 
+	"H&ocirc;tel Fairmont Reine Elizabeth via le Montr&eacute;al Souterrain", "Marriott Ch&acirc;teau Champlain", "Maison de l&#39;OACI via le Montr&eacute;al Souterrain", "Cath&eacute;drale Marie Reine du Monde", "Square Dorchester", "&Eacute;difice Sun Life", 
 	"Time Supper Club", "Immigration, R&eacute;fugi&eacute;s et Citoyennet&eacute; Canada", "H&ocirc;tel Bonaventure", "Place du Canada" ];
 	
 	htypes = [ "Station de Train", "Terminus d&#39;Autobus", "Centre Commercial", "Centre de Convention", "Bureau", "Sports", "Bureau", "Centre Commercial", "H&ocirc;tel", "H&ocirc;tel", 
