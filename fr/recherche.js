@@ -1222,7 +1222,7 @@ function init(){
 	"http://www.epikmontreal.com/fr/", "https://petithotelmontreal.com/fr/accueil/", "https://www.collegecsm.com/", "https://www.ogilvy.com/ca/fre", "https://universcultureldesaintsulpice.ca/vs_fr.html", "#", "https://centaurtheatre.com/fr/", "http://bonaparte.com/", "https://www.alliedreit.com/fr/property/__trashed/", "https://montreal.ca/lieux/place-sun-yat-sen", "https://www.hotelmonville.com/", "https://www.snclavalin.com/fr-FR", "https://www.hotelsdauphin.ca/hotels/montreal/" ];
 	
 	SquareVictorianames = [ "Vieux Montr&eacute;al", "Vieux Port de Montr&eacute;al", "Square Victoria", "Quebecor Media", "Tour de la Bourse", "Tour Banque Nationale", "Tour Viger", "Place Jean-Paul-Riopelle", "Quartier International",
-	"&Eacute;difice de l&#39;OACI", "Centre de Commerce Mondial de Montr&eacute;al", "H&ocirc;tel Le Saint-James", "Raymond Chabot Grant Thornton", "Somwhr Liquor Lounge", "Le Westin Montr&eacute;al", "W Montr&eacute;al",
+	"Maison de l&#39;OACI", "Centre de Commerce Mondial de Montr&eacute;al", "H&ocirc;tel Le Saint-James", "Raymond Chabot Grant Thornton", "Somwhr Liquor Lounge", "Le Westin Montr&eacute;al", "W Montr&eacute;al",
 	"L H&ocirc;tel Montr&eacute;al", "H&ocirc;tel Intercontinental Montr&eacute;al", "Cit&eacute; du Multim&eacute;dia", "Palais des Congr&egrave;s", "Place Bonaventure", "evo Montr&eacute;al", "Portus 360", "Embassy Suites by Hilton Montr&eacute;al",
 	"Caisse de D&eacute;p&ocirc;t et Placement du Qu&eacute;bec", "AON", "&Eacute;difice Jacques-Parizeau", "Soci&eacute;t&eacute; Qu&eacute;b&eacute;coise d&#39;Information Juridique", "Groupe CSL",
 	"Maison des R&eacute;gions", "Place Victoria", "Agence Mondiale Antidopage", "Association Internationale du Transport A&eacute;rien", "Autorit&eacute; des March&eacute;s Financiers", "La Vo&ucirc;te", "Ivanho&eacute; Cambridge", "Atlific Hotels",
@@ -1249,7 +1249,7 @@ function init(){
 	"https://montreal.ca/lieux/square-des-freres-charon", "https://www.mondev.ca/fr/appartements-a-louer-montreal/old-montreal/wellington-650" ];
 	
 	Bonaventurenames = [ "Gare Centrale", "Terminus Centre-Ville", "Les Halles de la Gare", "Place Bonaventure", "STM, si&egrave;ge social", "Centre Bell", "1000 De La Gaucheti&egrave;re", "Place Ville Marie",
-	"H&ocirc;tel Fairmont Reine Elizabeth", "Marriott Ch&acirc;teau Champlain", "&Eacute;difice de l&#39;OACI", "Cath&eacute;drale Marie Reine du Monde", "Square Dorchester", "&Eacute;difice Sun Life", 
+	"H&ocirc;tel Fairmont Reine Elizabeth", "Marriott Ch&acirc;teau Champlain", "Maison de l&#39;OACI", "Cath&eacute;drale Marie Reine du Monde", "Square Dorchester", "&Eacute;difice Sun Life", 
 	"Time Supper Club", "Immigration, R&eacute;fugi&eacute;s et Citoyennet&eacute; Canada", "H&ocirc;tel Bonaventure", "Place du Canada" ];
 	
 	Bonaventuretypes = [ "Station de Train", "Terminus d&#39;Autobus", "Centre Commercial", "Centre de Convention", "Bureau", "Sports", "Bureau", "Centre Commercial", "H&ocirc;tel", "H&ocirc;tel", 
