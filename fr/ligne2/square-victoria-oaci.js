@@ -1,7 +1,7 @@
 function init()
 {
 	hnames = [ "Vieux Montr&eacute;al", "Vieux Port de Montr&eacute;al", "Square Victoria", "Quebecor Media", "Tour de la Bourse", "Tour Banque Nationale", "Tour Viger", "Place Jean-Paul-Riopelle", "Quartier International",
-	"&Eacute;difice de l&#39;OACI", "Centre de Commerce Mondial de Montr&eacute;al", "H&ocirc;tel Le Saint-James", "Raymond Chabot Grant Thornton", "Somwhr Liquor Lounge", "Le Westin Montr&eacute;al", "W Montr&eacute;al",
+	"Maison de l&#39;OACI", "Centre de Commerce Mondial de Montr&eacute;al", "H&ocirc;tel Le Saint-James", "Raymond Chabot Grant Thornton", "Somwhr Liquor Lounge", "Le Westin Montr&eacute;al", "W Montr&eacute;al",
 	"L H&ocirc;tel Montr&eacute;al", "H&ocirc;tel Intercontinental Montr&eacute;al", "Cit&eacute; du Multim&eacute;dia", "Palais des Congr&egrave;s via le Montr&eacute;al Souterrain", "Place Bonaventure via le Montr&eacute;al Souterrain", "evo Montr&eacute;al", "Portus 360", "Embassy Suites by Hilton Montr&eacute;al",
 	"Caisse de D&eacute;p&ocirc;t et Placement du Qu&eacute;bec", "AON", "&Eacute;difice Jacques-Parizeau (anciennement Centre CDP Capital)", "Soci&eacute;t&eacute; Qu&eacute;b&eacute;coise d&#39;Information Juridique", "Groupe CSL", "Maison des R&eacute;gions",
 	"Place Victoria", "Agence Mondiale Antidopage", "Association Internationale du Transport A&eacute;rien", "Autorit&eacute; des March&eacute;s Financiers", "La Vo&ucirc;te", "Ivanho&eacute; Cambridge",
