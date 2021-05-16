@@ -930,7 +930,7 @@ function init(){
 	
 	Charlevoixnames = [ "Maison Saint-Gabriel", "Parc du Canal de Lachine", "Parc Saint-Gabriel", "Parc d&#39;Argenson", "Parc Atwater / Saint-Charles", "Ar&eacute;na Saint-Charles" ];
 	
-	Charlevoixtypes = [ "Mus&eacute;", "Parc", "Parc", "Parc", "Parc", "Sports" ];
+	Charlevoixtypes = [ "Mus&eacute;e", "Parc", "Parc", "Parc", "Parc", "Sports" ];
 	
 	Charlevoixaddresses = [ "2146 Place Dublin", "", "2355 Rue Mullins", "2900 Rue Centre", "2880 Rue Saint-Charles", "1055 Rue d&#39;Hibernia" ];
 	
