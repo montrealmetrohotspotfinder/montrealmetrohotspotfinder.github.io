@@ -69,7 +69,7 @@ function init()
 	"http://www.maisonmanuvie.com/fr", "https://www.bnpparibas.ca/fr", "https://www.laurentianbank.ca/fr", "https://www.marriott.fr/hotels/travel/yulmd-renaissance-montreal-downtown-hotel",
 	"https://www.transports.gouv.qc.ca/fr/Pages/default.aspx", "https://hotelbirksmontreal.com/?lang=fr", "http://www.aseq.ca/", "https://www.trebas.com/fr", "#", "https://www.axa-assistance.ca/fr/",
 	"https://gwlraleasing.com/building.php?building=4209522867010994813&lang=fr_CA", "https://www.montrealcollege.ca/fr/", "http://www.habitation.gouv.qc.ca/", "https://gaa.qc.ca/", "https://tomcondos.com/fr/", "https://www.mcgill.ca/dentistry/fr",
-	"https://www.mcgill.ca/continuingstudies/fr", "http://www.oiq.qc.ca/Pages/accueil.aspx", "https://face-english.cssdm.gouv.qc.ca/", "https://comite.deontologie.gouv.qc.ca/accueil.html", "http://www.squarephillips.com/" ];
+	"https://www.mcgill.ca/continuingstudies/fr", "http://www.oiq.qc.ca/Pages/accueil.aspx", "https://face-english.cssdm.gouv.qc.ca/", "https://comite.deontologie.gouv.qc.ca/accueil.html", "http://www.squarephillips.com/fr/accueil.html" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
