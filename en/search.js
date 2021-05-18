@@ -414,7 +414,8 @@ function init(){
 	{name: "McGill University, School of Continuing Studies", type: "University", address: "688 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/continuingstudies/"},
 	{name: "Ordre des Ing&eacute;nieurs du Qu&eacute;bec", type: "Agency", address: "1801 Avenue McGill College", site: "http://oiq.qc.ca/en/Pages/selection.aspx"},
 	{name: "F.A.C.E. School", type: "School", address: "3449 Rue University", site: "https://face-english.cssdm.gouv.qc.ca/"},
-	{name: "Comit&eacute; de D&eacute;ontologie Polici&egrave;re du Qu&eacute;bec, Montreal offices", type: "Agency", address: "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://comite.deontologie.gouv.qc.ca/en/the-comite.html"}];
+	{name: "Comit&eacute; de D&eacute;ontologie Polici&egrave;re du Qu&eacute;bec, Montreal offices", type: "Agency", address: "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://comite.deontologie.gouv.qc.ca/en/the-comite.html"},
+	{name: "Le Square Phillips H&ocirc;tel &amp; Suites", type: "Hotel", address: "1193 Place Phillips", site: "http://www.squarephillips.com/en/home.html"}];
 	
 	Peel = [{name: "Les Cours Mont-Royal", type: "Mall", address: "1455 Rue Peel", site: "https://lcmr.ca/"},
 	{name: "Carrefour Industrielle Alliance", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
