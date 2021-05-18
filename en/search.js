@@ -417,7 +417,13 @@ function init(){
 	{name: "Comit&eacute; de D&eacute;ontologie Polici&egrave;re du Qu&eacute;bec, Montreal offices", type: "Agency", address: "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://comite.deontologie.gouv.qc.ca/en/the-comite.html"},
 	{name: "Le Square Phillips H&ocirc;tel &amp; Suites", type: "Hotel", address: "1193 Place Phillips", site: "http://www.squarephillips.com/en/home.html"},
 	{name: "&Eacute;cole des Entrepreneurs du Qu&eacute;bec, Montreal campus", type: "Trade School", address: "505 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://eequebec.com/"},
-	{name: "Richter, Montreal offices", type: "Office", address: "1981 Avenue McGill College", site: "https://www.richter.ca/"}];
+	{name: "Richter, Montreal offices", type: "Office", address: "1981 Avenue McGill College", site: "https://www.richter.ca/"},
+	{name: "McGill University, Max Bell School of Public Policy", type: "University", address: "680 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/maxbellschool/"},
+	{name: "McGill University, Faculty of Science", type: "University", address: "853 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/science/"},
+	{name: "McGill University, Department of Geography", type: "University", address: "805 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/geography/"},
+	{name: "McGill University, School of Computer Science", type: "University", address: "3480 Rue University", site: "https://www.cs.mcgill.ca/"},
+	{name: "McGill University, Department of Chemistry", type: "University", address: "801 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/chemistry/"},
+	{name: "McGill University, Faculty of Engineering", type: "University", address: "817 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/engineering/"}];
 	
 	Peel = [{name: "Les Cours Mont-Royal", type: "Mall", address: "1455 Rue Peel", site: "https://lcmr.ca/"},
 	{name: "Carrefour Industrielle Alliance", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
