@@ -413,7 +413,8 @@ function init(){
 	{name: "McGill University, Faculty of Dentistry", type: "University", address: "2001 Avenue McGill College", site: "https://www.mcgill.ca/dentistry/"},
 	{name: "McGill University, School of Continuing Studies", type: "University", address: "688 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/continuingstudies/"},
 	{name: "Ordre des Ing&eacute;nieurs du Qu&eacute;bec", type: "Agency", address: "1801 Avenue McGill College", site: "http://oiq.qc.ca/en/Pages/selection.aspx"},
-	{name: "F.A.C.E. School", type: "School", address: "3449 Rue University", site: "https://face-english.cssdm.gouv.qc.ca/"}];
+	{name: "F.A.C.E. School", type: "School", address: "3449 Rue University", site: "https://face-english.cssdm.gouv.qc.ca/"},
+	{name: "Comit&eacute; de D&eacute;ontologie Polici&egrave;re du Qu&eacute;bec, Montreal offices", type: "Agency", address: "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://comite.deontologie.gouv.qc.ca/en/the-comite.html"}];
 	
 	Peel = [{name: "Les Cours Mont-Royal", type: "Mall", address: "1455 Rue Peel", site: "https://lcmr.ca/"},
 	{name: "Carrefour Industrielle Alliance", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
@@ -832,8 +833,7 @@ function init(){
 	{name: "Appartements-Boutique", type: "Residence", address: "715 Rue William", site: "http://www.appartementsboutique.ca/en/home.html"},
 	{name: "Square des Fr&egrave;res-Charon", type: "Park", address: "", site: "https://montreal.ca/en/places/square-des-freres-charon"},
 	{name: "DOMO Appartements", type: "Residence", address: "650 Rue Wellington", site: "https://www.mondev.ca/apartments-for-rent-montreal/old-montreal/wellington-650"},
-	{name: "Alstom", type: "Office", address: "1050 C&ocirc;te du Beaver Hall", site: "https://www.alstom.com/"},
-	{name: "Comit&eacute; de D&eacute;ontologie Polici&egrave;re du Qu&eacute;bec", type: "Agency", address: "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://comite.deontologie.gouv.qc.ca/en/the-comite.html"}];
+	{name: "Alstom", type: "Office", address: "1050 C&ocirc;te du Beaver Hall", site: "https://www.alstom.com/"}];
 	
 	Bonaventure = [{name: "Gare Centrale", type: "Train Station", address: "895 Rue de la Gaucheti&egrave;re Ouest", site: "https://garecentrale.ca/en/"},
 	{name: "Terminus Centre-Ville", type: "Bus Terminal", address: "1000 Rue de la Gaucheti&egrave;re Ouest", site: "https://exo.quebec/en/trip-planner/intermodal-installations/terminus-centre-ville"},
