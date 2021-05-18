@@ -50,7 +50,8 @@ function init()
 	{name: "Place Sun-Yat-Sen", type: "Park", address: "1055 Rue Clark", site: "https://montreal.ca/en/places/parc-sun-yat-sen"},
 	{name: "H&ocirc;tel Monville", type: "Hotel", address: "1041 Rue de Bleury", site: "https://www.hotelmonville.com/en/"},
 	{name: "SNC-Lavalin", type: "Office", address: "455 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.snclavalin.com/en"},
-	{name: "H&ocirc;tel Le Dauphin Montr&eacute;al Centre-Ville", type: "Hotel", address: "1025 Rue de Bleury", site: "https://www.hotelsdauphin.ca/en/hotels/montreal/"}];
+	{name: "H&ocirc;tel Le Dauphin Montr&eacute;al Centre-Ville", type: "Hotel", address: "1025 Rue de Bleury", site: "https://www.hotelsdauphin.ca/en/hotels/montreal/"},
+	{name: "Saint Patrick&#39;s Basilica", type: "Church", address: "460 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "http://www.stpatricksmtl.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
