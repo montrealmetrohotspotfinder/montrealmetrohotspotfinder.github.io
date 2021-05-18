@@ -45,7 +45,8 @@ function init()
 	{name: "F.A.C.E. School", type: "School", address: "3449 Rue University", site: "https://face-english.cssdm.gouv.qc.ca/"},
 	{name: "Comit&eacute; de D&eacute;ontologie Polici&egrave;re du Qu&eacute;bec, Montreal offices", type: "Agency", address: "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://comite.deontologie.gouv.qc.ca/en/the-comite.html"},
 	{name: "Le Square Phillips H&ocirc;tel &amp; Suites", type: "Hotel", address: "1193 Place Phillips", site: "http://www.squarephillips.com/en/home.html"},
-	{name: "&Eacute;cole des Entrepreneurs du Qu&eacute;bec, Montreal campus", type: "Trade School", address: "505 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://eequebec.com/"}];
+	{name: "&Eacute;cole des Entrepreneurs du Qu&eacute;bec, Montreal campus", type: "Trade School", address: "505 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://eequebec.com/"},
+	{name: "Richter, Montreal offices", type: "Office", address: "1981 Avenue McGill College", site: "https://www.richter.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
