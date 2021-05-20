@@ -426,8 +426,7 @@ function init(){
 	{name: "McGill University, Faculty of Engineering", type: "University", address: "817 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/engineering/"},
 	{name: "The Presbyterian College", type: "College", address: "3495 Boulevard Robert-Bourassa", site: "https://www.presbyteriancollege.ca/"},
 	{name: "Fonds d&#39;Assurance Responsabilit&eacute; Professionnelle de l&#39;Ordre des Pharmaciens du Qu&eacute;bec", type: "Agency", address: "2020 Boulevard Robert-Bourassa", site: "https://www.farpopq.com/"},
-	{name: "RSA Group, Montreal offices", type: "Office", address: "2000 Avenue McGill College", site: "https://www.rsagroup.ca/"},
-	{name: "Coast Underwriters, Montreal offices", type: "Office", address: "1010 Rue Sherbrooke Ouest", site: "https://www.coastunderwriters.ca/"}];
+	{name: "RSA Group, Montreal offices", type: "Office", address: "2000 Avenue McGill College", site: "https://www.rsagroup.ca/"}];
 	
 	Peel = [{name: "Les Cours Mont-Royal", type: "Mall", address: "1455 Rue Peel", site: "https://lcmr.ca/"},
 	{name: "Carrefour Industrielle Alliance", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
@@ -480,7 +479,8 @@ function init(){
 	{name: "McGill University, Faculty of Education", type: "University", address: "3644 Rue McTavish", site: "https://www.mcgill.ca/education/"},
 	{name: "LUNA Appartements Urbains", type: "Residence", address: "1100 Avenue du Docteur-Penfield", site: "http://www.appartementsluna.com/en/home.html"},
 	{name: "Royal Penfield", type: "Residence", address: "1230 Avenue du Docteur-Penfield", site: "https://www.groupeaccueilres.ca/the-royal-penfield-"},
-	{name: "Le Drummond", type: "Residence", address: "1211 Rue Stanley", site: "http://www.mcgillimmobilier.com/en/drummond-condos-in-montreal-downtown/"}];
+	{name: "Le Drummond", type: "Residence", address: "1211 Rue Stanley", site: "http://www.mcgillimmobilier.com/en/drummond-condos-in-montreal-downtown/"},
+	{name: "Coast Underwriters, Montreal offices", type: "Office", address: "1010 Rue Sherbrooke Ouest", site: "https://www.coastunderwriters.ca/"}];
 	
 	Guy = [{name: "Concordia University, Sir George Williams campus", type: "University", address: "1455 Boulevard de Maisonneuve Ouest", site: "http://www.concordia.ca/"},
 	{name: "John Molson School of Business", type: "University", address: "1450 Rue Guy", site: "http://www.concordia.ca/jmsb.html"},
