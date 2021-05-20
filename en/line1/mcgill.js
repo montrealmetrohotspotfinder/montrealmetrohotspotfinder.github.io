@@ -52,7 +52,8 @@ function init()
 	{name: "McGill University, Department of Geography", type: "University", address: "805 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/geography/"},
 	{name: "McGill University, School of Computer Science", type: "University", address: "3480 Rue University", site: "https://www.cs.mcgill.ca/"},
 	{name: "McGill University, Department of Chemistry", type: "University", address: "801 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/chemistry/"},
-	{name: "McGill University, Faculty of Engineering", type: "University", address: "817 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/engineering/"}];
+	{name: "McGill University, Faculty of Engineering", type: "University", address: "817 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/engineering/"},
+	{name: "The Presbyterian College", type: "College", address: "3495 Boulevard Robert-Bourassa", site: "https://www.presbyteriancollege.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
