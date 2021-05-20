@@ -480,7 +480,8 @@ function init(){
 	{name: "LUNA Appartements Urbains", type: "Residence", address: "1100 Avenue du Docteur-Penfield", site: "http://www.appartementsluna.com/en/home.html"},
 	{name: "Royal Penfield", type: "Residence", address: "1230 Avenue du Docteur-Penfield", site: "https://www.groupeaccueilres.ca/the-royal-penfield-"},
 	{name: "Le Drummond", type: "Residence", address: "1211 Rue Stanley", site: "http://www.mcgillimmobilier.com/en/drummond-condos-in-montreal-downtown/"},
-	{name: "Coast Underwriters, Montreal offices", type: "Office", address: "1010 Rue Sherbrooke Ouest", site: "https://www.coastunderwriters.ca/"}];
+	{name: "Coast Underwriters, Montreal offices", type: "Office", address: "1010 Rue Sherbrooke Ouest", site: "https://www.coastunderwriters.ca/"},
+	{name: "Theratechnologies", type: "Office", address: "2015 Rue Peel", site: "https://www.theratech.com/"}];
 	
 	Guy = [{name: "Concordia University, Sir George Williams campus", type: "University", address: "1455 Boulevard de Maisonneuve Ouest", site: "http://www.concordia.ca/"},
 	{name: "John Molson School of Business", type: "University", address: "1450 Rue Guy", site: "http://www.concordia.ca/jmsb.html"},
