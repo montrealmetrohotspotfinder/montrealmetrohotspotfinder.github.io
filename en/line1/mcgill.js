@@ -55,8 +55,7 @@ function init()
 	{name: "McGill University, Faculty of Engineering", type: "University", address: "817 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/engineering/"},
 	{name: "The Presbyterian College", type: "College", address: "3495 Boulevard Robert-Bourassa", site: "https://www.presbyteriancollege.ca/"},
 	{name: "Fonds d&#39;Assurance Responsabilit&eacute; Professionnelle de l&#39;Ordre des Pharmaciens du Qu&eacute;bec", type: "Agency", address: "2020 Boulevard Robert-Bourassa", site: "https://www.farpopq.com/"},
-	{name: "RSA Group, Montreal offices", type: "Office", address: "2000 Avenue McGill College", site: "https://www.rsagroup.ca/"},
-	{name: "Coast Underwriters, Montreal offices", type: "Office", address: "1010 Rue Sherbrooke Ouest", site: "https://www.coastunderwriters.ca/"}];
+	{name: "RSA Group, Montreal offices", type: "Office", address: "2000 Avenue McGill College", site: "https://www.rsagroup.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
