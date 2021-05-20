@@ -648,12 +648,14 @@ function init(){
 		"Universit&eacute; McGill, &Eacute;cole des Sciences Informatiques",
 		"Universit&eacute; McGill, D&eacute;partement de Chimie",
 		"Universit&eacute; McGill, Facult&eacute; d&#39;Ing&eacute;nierie",
-		"Le Coll&egrave;ge Presbyt&eacute;rien" ];
+		"Le Coll&egrave;ge Presbyt&eacute;rien",
+		"Fonds d&#39;Assurance Responsabilit&eacute; Professionnelle de l&#39;Ordre des Pharmaciens du Qu&eacute;bec",
+		"RSA Group, bureaux montr&eacute;alais" ];
 	
 	McGilltypes = [ "Universit&eacute;", "Centre Commercial", "Centre Commercial", "Centre Commercial", "H&ocirc;tel", "Mus&eacute;e", "Mus&eacute;e", "Mus&eacute;e", "Place de la Ville", "Place de la Ville", "&Eacute;glise", 
 	"Bureau", "H&ocirc;pital", "Sports", "Centre Commercial", "Cin&eacute;ma", "Bureau", "Centre Commercial", "&Eacute;glise", "Magasinage", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "H&ocirc;tel", "Agence", "H&ocirc;tel",
 	"Agence", "&Eacute;cole", "Site Historique", "Bureau", "Bureau", "Coll&egrave;ge", "Agence", "Bureau", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Agence", "&Eacute;cole", "Agence", "H&ocirc;tel", "&Eacute;cole de M&eacute;tiers",
-	"Bureau", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Coll&egrave;ge" ];
+	"Bureau", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Coll&egrave;ge", "Agence", "Bureau" ];
 	
 	McGilladdresses = [ "845 Rue Sherbrooke Ouest", "705 Rue Sainte-Catherine Ouest", "1500 Avenue McGill College", "1 Place Ville Marie", "900 Boulevard Ren&eacute;-L&eacute;vesque Ouest",
 	"705 Rue Sainte-Catherine Ouest", "690 Rue Sherbrooke Ouest", "859 Rue Sherbrooke Ouest", "", "2903 Rue Peel", "1085 Rue de la Cath&eacute;drale", "1155 Rue Metcalfe", 
@@ -664,7 +666,7 @@ function init(){
 	"2001 Boulevard Robert-Bourassa", "2001 Boulevard Robert-Bourassa", "1255 Boulevard Robert-Bourassa", "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1981 Avenue McGill College",
 	"1188 Avenue Union", "2001 Avenue McGill College", "688 Rue Sherbrooke Ouest", "1801 Avenue McGill College", "3449 Rue University", "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1193 Place Phillips", 
 	"505 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1981 Avenue McGill College", "680 Rue Sherbrooke Ouest", "853 Rue Sherbrooke Ouest", "805 Rue Sherbrooke Ouest", "3480 Rue University", "801 Rue Sherbrooke Ouest", "817 Rue Sherbrooke Ouest", 
-	"3495 Boulevard Robert-Bourassa" ];
+	"3495 Boulevard Robert-Bourassa", "2020 Boulevard Robert-Bourassa", "2000 Avenue McGill College" ];
 	
 	McGillsites = [ "https://www.mcgill.ca/fr", "https://www.centreeatondemontreal.com/fr", "https://www.placemontrealtrust.com/fr", "https://placevillemarie.com/fr/accueil", "https://www.fairmont.fr/queen-elizabeth-montreal/",
 	"https://www.grevin-montreal.com/", "https://www.musee-mccord.qc.ca/fr", "https://www.mcgill.ca/redpath/fr", "https://montreal.ca/lieux/square-phillips", 
@@ -678,7 +680,7 @@ function init(){
 	"https://gwlraleasing.com/building.php?building=4209522867010994813&lang=fr_CA", "https://www.montrealcollege.ca/fr/", "http://www.habitation.gouv.qc.ca/", "https://gaa.qc.ca/", "https://tomcondos.com/fr/", "https://www.mcgill.ca/dentistry/fr",
 	"https://www.mcgill.ca/continuingstudies/fr", "http://www.oiq.qc.ca/Pages/accueil.aspx", "https://face-english.cssdm.gouv.qc.ca/", "https://comite.deontologie.gouv.qc.ca/accueil.html", "http://www.squarephillips.com/fr/accueil.html", "https://eequebec.com/",
 	"https://www.richter.ca/fr/", "https://www.mcgill.ca/maxbellschool/fr", "https://www.mcgill.ca/science/fr", "https://www.mcgill.ca/geography/fr", "https://www.cs.mcgill.ca/", "https://www.mcgill.ca/chemistry/fr", "https://www.mcgill.ca/engineering/",
-	"https://www.presbyteriancollege.ca/" ];
+	"https://www.presbyteriancollege.ca/", "https://www.farpopq.com/", "https://www.rsagroup.ca/fr" ];
 	
 	Peelnames = [ "Les Cours Mont-Royal",
 		"Carrefour Industrielle Alliance",
@@ -731,13 +733,15 @@ function init(){
 		"Universit&eacute; McGill, Facult&eacute; des Sciences de l&#39;&Eacute;ducation",
 		"LUNA Appartements Urbains",
 		"Royal Penfield",
-		"Le Drummond" ];
+		"Le Drummond",
+		"Coast Underwriters, bureaux montr&eacute;alais" ];
 	
 	Peeltypes = [ "Centre Commercial", "Centre Commercial", "Cin&eacute;ma", "Bureau", "Bureau", "Universit&eacute;", 
 	"Centre Commercial", "R&eacute;sidence", "Fitness", "Restaurant", "Restaurant", 
 	"Place de la Ville", "Sports", "Mus&eacute;e", "Magasinage", "Bureau", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Bureau",
 	"H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Universit&eacute;", "Biblioth&egrave;que", "Restaurant", "Magasinage", "Bureau", "R&eacute;sidence", "Bureau", "Bureau", "Bureau", "Bureau", "Studio",
-	"Restaurant", "Restaurant", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence" ];
+	"Restaurant", "Restaurant", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence",
+	"Bureau" ];
 	
 	Peeladdresses = [ "1455 Rue Peel", 
 	"977 Rue Sainte-Catherine Ouest",
@@ -790,7 +794,8 @@ function init(){
 	"3700 Rue McTavish",
 	"1100 Avenue du Docteur-Penfield",
 	"1230 Avenue du Docteur-Penfield",
-	"1211 Rue Stanley" ];
+	"1211 Rue Stanley",
+	"1010 Rue Sherbrooke Ouest" ];
 	
 	Peelsites = [ "https://lcmr.ca/fr/accueil/", "http://www.carrefourindustriellealliance.com/", "https://www.cineplex.com/Cinemas/theatredetails2017?theatre_url=cinema-banque-scotia-montreal", "#", "#", 
 	"https://www.mcgill.ca/fr", "https://www.placemontrealtrust.com/fr", "https://www.gwlraresidential.com/apartments/qc/montreal/le-demetrius/index.aspx?_yTrackUser=OTQxNzA5NjYwIzE5MTk5NTcxODg%3d-DwVHUNDST0M%3d&_yTrackVisit=MTY5OTE0MzIwOSMyMDE4MTk4NTE2-%2fRw0D2%2biQPY%3d&_yTrackReqDT=08380320201210&lang=38", "https://www.ymcaquebec.org/fr/Trouver-un-Y/YMCA-Centre-ville", 
@@ -801,7 +806,7 @@ function init(){
 	"https://www.cnq.org/", "https://imtl.org/edifices/Dominion-Square-Building.php", "http://www.hotelcantlie.com/fr", "https://www.marriott.fr/hotels/travel/yulri-residence-inn-montreal-downtown", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67012.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67012",
 	"http://virtualcampustour.mcgill.ca/fr/details/20/pavillon-bronfman", "https://www.mcgill.ca/library/", "http://reubensdeli.com/fr/", "https://www.canadagoose.com/ca/fr/montreal-store.html", "https://www.ccifcmtl.ca/", "http://downtowncondosmontreal.com/1200-de-maisonneuve/", "https://www.procomservices.com/fr-ca/", "https://ocpm.qc.ca/", "https://cmm.qc.ca/",
 	"https://montrealgazette.com/", "https://www.reflectorentertainment.com/fr/", "https://mcleanspub.com/fr/", "#", "https://www.fourseasons.com/fr/montreal/?seo=google_local_mqu1_amer", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67013.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67013", "http://www.stanleytower.com/?lang=fr",
-	"https://lesommet3475.com/fr/", "https://www.mcgill.ca/medhealthsci/fr", "https://www.mcgill.ca/law/fr", "https://www.mcgill.ca/education/fr", "http://www.appartementsluna.com/", "https://www.groupeaccueilres.ca/royal-penfield", "http://www.mcgillimmobilier.com/condos-drummond-au-centre-ville-de-montreal/" ];
+	"https://lesommet3475.com/fr/", "https://www.mcgill.ca/medhealthsci/fr", "https://www.mcgill.ca/law/fr", "https://www.mcgill.ca/education/fr", "http://www.appartementsluna.com/", "https://www.groupeaccueilres.ca/royal-penfield", "http://www.mcgillimmobilier.com/condos-drummond-au-centre-ville-de-montreal/", "https://www.coastunderwriters.ca/" ];
 	
 	Guynames = [ "Universit&eacute; Concordia, campus Sir George Williams", 
 	"&Eacute;cole de Gestion John-Molson", 
