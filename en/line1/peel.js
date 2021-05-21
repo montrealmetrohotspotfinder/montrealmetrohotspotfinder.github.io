@@ -53,7 +53,10 @@ function init()
 	{name: "Royal Penfield", type: "Residence", address: "1230 Avenue du Docteur-Penfield", site: "https://www.groupeaccueilres.ca/the-royal-penfield-"},
 	{name: "Le Drummond", type: "Residence", address: "1211 Rue Stanley", site: "http://www.mcgillimmobilier.com/en/drummond-condos-in-montreal-downtown/"},
 	{name: "Coast Underwriters, Montreal offices", type: "Office", address: "1010 Rue Sherbrooke Ouest", site: "https://www.coastunderwriters.ca/"},
-	{name: "Theratechnologies", type: "Office", address: "2015 Rue Peel", site: "https://www.theratech.com/"}];
+	{name: "Theratechnologies", type: "Office", address: "2015 Rue Peel", site: "https://www.theratech.com/"},
+	{name: "McGill University, Department of Biology", type: "University", address: "1205 Avenue du Docteur-Penfield", site: "https://www.mcgill.ca/biology/"},
+	{name: "McGill University, Department of Pharmacology &amp; Therapeutics", type: "University", address: "3655 Promenade Sir-William-Osler", site: "https://www.mcgill.ca/pharma/"},
+	{name: "McGill University, Department of Physiology", type: "University", address: "3655 Promenade Sir-William-Osler", site: "https://www.mcgill.ca/physiology/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
