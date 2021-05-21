@@ -491,7 +491,7 @@ function init(){
 	{name: "McGill University, Department of Physiology", type: "University", address: "3655 Promenade Sir-William-Osler", site: "https://www.mcgill.ca/physiology/"}];
 	
 	Guy = [{name: "Concordia University, Sir George Williams campus", type: "University", address: "1455 Boulevard de Maisonneuve Ouest", site: "http://www.concordia.ca/"},
-	{name: "John Molson School of Business", type: "University", address: "1450 Rue Guy", site: "http://www.concordia.ca/jmsb.html"},
+	{name: "Concordia University, John Molson School of Business", type: "University", address: "1450 Rue Guy", site: "http://www.concordia.ca/jmsb.html"},
 	{name: "LaSalle College", type: "College", address: "2000 Rue Sainte-Catherine Ouest", site: "https://www.lasallecollege.com/"},
 	{name: "Mus&eacute;e des Beaux-Arts de Montr&eacute;al", type: "Museum", address: "1380 Rue Sherbrooke Ouest", site: "https://www.mbam.qc.ca/en"},
 	{name: "Golden Square Mile", type: "District", address: "", site: "https://www.mtl.org/en/experience/golden-square-mile"},
