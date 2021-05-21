@@ -739,14 +739,17 @@ function init(){
 		"Royal Penfield",
 		"Le Drummond",
 		"Coast Underwriters, bureaux montr&eacute;alais",
-		"Theratechnologies" ];
+		"Theratechnologies",
+		"Universit&eacute; McGill, D&eacute;partement de Biologie",
+		"Universit&eacute; McGill, D&eacute;partement de Pharmacologie et Th&eacute;rapeutiques",
+		"Universit&eacute; McGill, D&eacute;partement de Physiologie" ];
 	
 	Peeltypes = [ "Centre Commercial", "Centre Commercial", "Cin&eacute;ma", "Bureau", "Bureau", "Universit&eacute;", 
 	"Centre Commercial", "R&eacute;sidence", "Fitness", "Restaurant", "Restaurant", 
 	"Place de la Ville", "Sports", "Mus&eacute;e", "Magasinage", "Bureau", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Bureau",
 	"H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Universit&eacute;", "Biblioth&egrave;que", "Restaurant", "Magasinage", "Bureau", "R&eacute;sidence", "Bureau", "Bureau", "Bureau", "Bureau", "Studio",
 	"Restaurant", "Restaurant", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence",
-	"Bureau", "Bureau" ];
+	"Bureau", "Bureau", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;" ];
 	
 	Peeladdresses = [ "1455 Rue Peel", 
 	"977 Rue Sainte-Catherine Ouest",
@@ -801,7 +804,10 @@ function init(){
 	"1230 Avenue du Docteur-Penfield",
 	"1211 Rue Stanley",
 	"1010 Rue Sherbrooke Ouest",
-	"2015 Rue Peel" ];
+	"2015 Rue Peel",
+	"1205 Avenue du Docteur-Penfield",
+	"3655 Promenade Sir-William-Osler",
+	"3655 Promenade Sir-William-Osler" ];
 	
 	Peelsites = [ "https://lcmr.ca/fr/accueil/", "http://www.carrefourindustriellealliance.com/", "https://www.cineplex.com/Cinemas/theatredetails2017?theatre_url=cinema-banque-scotia-montreal", "#", "#", 
 	"https://www.mcgill.ca/fr", "https://www.placemontrealtrust.com/fr", "https://www.gwlraresidential.com/apartments/qc/montreal/le-demetrius/index.aspx?_yTrackUser=OTQxNzA5NjYwIzE5MTk5NTcxODg%3d-DwVHUNDST0M%3d&_yTrackVisit=MTY5OTE0MzIwOSMyMDE4MTk4NTE2-%2fRw0D2%2biQPY%3d&_yTrackReqDT=08380320201210&lang=38", "https://www.ymcaquebec.org/fr/Trouver-un-Y/YMCA-Centre-ville", 
@@ -812,7 +818,8 @@ function init(){
 	"https://www.cnq.org/", "https://imtl.org/edifices/Dominion-Square-Building.php", "http://www.hotelcantlie.com/fr", "https://www.marriott.fr/hotels/travel/yulri-residence-inn-montreal-downtown", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67012.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67012",
 	"http://virtualcampustour.mcgill.ca/fr/details/20/pavillon-bronfman", "https://www.mcgill.ca/library/", "http://reubensdeli.com/fr/", "https://www.canadagoose.com/ca/fr/montreal-store.html", "https://www.ccifcmtl.ca/", "http://downtowncondosmontreal.com/1200-de-maisonneuve/", "https://www.procomservices.com/fr-ca/", "https://ocpm.qc.ca/", "https://cmm.qc.ca/",
 	"https://montrealgazette.com/", "https://www.reflectorentertainment.com/fr/", "https://mcleanspub.com/fr/", "#", "https://www.fourseasons.com/fr/montreal/?seo=google_local_mqu1_amer", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67013.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67013", "http://www.stanleytower.com/?lang=fr",
-	"https://lesommet3475.com/fr/", "https://www.mcgill.ca/medhealthsci/fr", "https://www.mcgill.ca/law/fr", "https://www.mcgill.ca/education/fr", "http://www.appartementsluna.com/", "https://www.groupeaccueilres.ca/royal-penfield", "http://www.mcgillimmobilier.com/condos-drummond-au-centre-ville-de-montreal/", "https://www.coastunderwriters.ca/", "https://www.theratech.com/fr/" ];
+	"https://lesommet3475.com/fr/", "https://www.mcgill.ca/medhealthsci/fr", "https://www.mcgill.ca/law/fr", "https://www.mcgill.ca/education/fr", "http://www.appartementsluna.com/", "https://www.groupeaccueilres.ca/royal-penfield", "http://www.mcgillimmobilier.com/condos-drummond-au-centre-ville-de-montreal/", "https://www.coastunderwriters.ca/", "https://www.theratech.com/fr/",
+	"https://www.mcgill.ca/biology/", "https://www.mcgill.ca/pharma/", "https://www.mcgill.ca/physiology/" ];
 	
 	Guynames = [ "Universit&eacute; Concordia, campus Sir George Williams", 
 	"&Eacute;cole de Gestion John-Molson", 
