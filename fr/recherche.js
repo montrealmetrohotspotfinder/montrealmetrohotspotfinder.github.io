@@ -822,7 +822,7 @@ function init(){
 	"https://www.mcgill.ca/biology/", "https://www.mcgill.ca/pharma/", "https://www.mcgill.ca/physiology/" ];
 	
 	Guynames = [ "Universit&eacute; Concordia, campus Sir George Williams", 
-	"&Eacute;cole de Gestion John-Molson", 
+	"Universit&eacute; Concordia, &Eacute;cole de Gestion John-Molson", 
 	"Coll&egrave;ge LaSalle", 
 	"Mus&eacute;e des Beaux-Arts de Montr&eacute;al",  
 	"Mille Carr&eacute; Dor&eacute;",
