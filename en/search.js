@@ -426,7 +426,11 @@ function init(){
 	{name: "McGill University, Faculty of Engineering", type: "University", address: "817 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/engineering/"},
 	{name: "The Presbyterian College", type: "College", address: "3495 Boulevard Robert-Bourassa", site: "https://www.presbyteriancollege.ca/"},
 	{name: "Fonds d&#39;Assurance Responsabilit&eacute; Professionnelle de l&#39;Ordre des Pharmaciens du Qu&eacute;bec", type: "Agency", address: "2020 Boulevard Robert-Bourassa", site: "https://www.farpopq.com/"},
-	{name: "RSA Group, Montreal offices", type: "Office", address: "2000 Avenue McGill College", site: "https://www.rsagroup.ca/"}];
+	{name: "RSA Group, Montreal offices", type: "Office", address: "2000 Avenue McGill College", site: "https://www.rsagroup.ca/"},
+	{name: "McGill University, Department of Psychology", type: "University", address: "2001 Avenue McGill College", site: "https://www.mcgill.ca/psychology/"},
+	{name: "Fiera Capital", type: "Office", address: "1981 Avenue McGill College", site: "https://www.fieracapital.com/en"},
+	{name: "McGill University, Faculty of Arts", type: "University", address: "853 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/arts/"},
+	{name: "McGill University, School of Urban Planning", type: "University", address: "815 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/urbanplanning/"}];
 	
 	Peel = [{name: "Les Cours Mont-Royal", type: "Mall", address: "1455 Rue Peel", site: "https://lcmr.ca/"},
 	{name: "Carrefour Industrielle Alliance", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
