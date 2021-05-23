@@ -480,7 +480,7 @@ function init(){
 	{name: "Le Sommet 3475", type: "Residence", address: "3475 Rue de la Montagne", site: "https://lesommet3475.com/en/"},
 	{name: "McGill University, Faculty of Medicine and Health Sciences", type: "University", address: "3605 Rue de la Montagne", site: "https://www.mcgill.ca/medhealthsci/"},
 	{name: "McGill University, Faculty of Law", type: "University", address: "3644 Rue Peel", site: "https://www.mcgill.ca/law/"},
-	{name: "McGill University, Faculty of Education", type: "University", address: "3644 Rue McTavish", site: "https://www.mcgill.ca/education/"},
+	{name: "McGill University, Faculty of Education", type: "University", address: "3700 Rue McTavish", site: "https://www.mcgill.ca/education/"},
 	{name: "LUNA Appartements Urbains", type: "Residence", address: "1100 Avenue du Docteur-Penfield", site: "http://www.appartementsluna.com/en/home.html"},
 	{name: "Royal Penfield", type: "Residence", address: "1230 Avenue du Docteur-Penfield", site: "https://www.groupeaccueilres.ca/the-royal-penfield-"},
 	{name: "Le Drummond", type: "Residence", address: "1211 Rue Stanley", site: "http://www.mcgillimmobilier.com/en/drummond-condos-in-montreal-downtown/"},
