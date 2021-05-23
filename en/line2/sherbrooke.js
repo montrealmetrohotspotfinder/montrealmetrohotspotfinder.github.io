@@ -31,7 +31,9 @@ function init()
 	{name: "&Eacute;cole Marguerite-Bourgeoys", type: "School", address: "2070 Rue Plessis", site: "https://marguerite-bourgeoys.cssdm.gouv.qc.ca/"},
 	{name: "H&ocirc;pital Notre-Dame", type: "Hospital", address: "1560 Rue Sherbrooke Est", site: "https://www.ciusss-centresudmtl.gouv.qc.ca/etablissement/hopital-notre-dame"},
 	{name: "Parc Persillier-Lachapelle", type: "Park", address: "2040 Rue Alexandre-DeS&egrave;ve", site: "https://montreal.ca/en/places/parc-persillier-lachapelle"},
-	{name: "Place Charles-de-Gaulle", type: "Park", address: "", site: "https://montreal.ca/en/places/place-charles-de-gaulle"}];
+	{name: "Place Charles-de-Gaulle", type: "Park", address: "", site: "https://montreal.ca/en/places/place-charles-de-gaulle"},
+	{name: "&Eacute;cole au Pied-de-la-Montagne", type: "School", address: "311 Avenue des Pins Est", site: "https://au-pied-de-la-montagne.cssdm.gouv.qc.ca/ecole/pavillon-jjolier/"},
+	{name: "Les Fusiliers Mont-Royal", type: "Museum", address: "3721 Avenue Henri-Julien", site: "http://lesfusiliersmont-royal.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
