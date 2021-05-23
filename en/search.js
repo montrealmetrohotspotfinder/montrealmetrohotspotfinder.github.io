@@ -461,7 +461,7 @@ function init(){
 	{name: "H&ocirc;tel Le Cantlie Suites", type: "Hotel", address: "1110 Rue Sherbrooke Ouest", site: "http://www.hotelcantlie.com/"},
 	{name: "Residence Inn by Marriott Montr&eacute;al Centre-Ville", type: "Hotel", address: "2045 Rue Peel", site: "https://www.marriott.com/hotels/travel/yulri-residence-inn-montreal-downtown"},
 	{name: "Best Western Ville-Marie Montreal Hotel & Suites", type: "Hotel", address: "3407 Rue Peel", site: "https://www.bestwestern.com/en_US/book/hotel-rooms.67012.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67012"},
-	{name: "McGill University, Desautels Faculty of Management", type: "University", address: "1001 Rue Sherbrooke Ouest", site: "http://virtualcampustour.mcgill.ca/en/details/20/bronfman-building"},
+	{name: "McGill University, Desautels Faculty of Management", type: "University", address: "1001 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/desautels/"},
 	{name: "McGill University, McLennan Library Building", type: "Library", address: "3459 Rue McTavish", site: "https://www.mcgill.ca/library/"},
 	{name: "Reuben&#39;s Deli & Steakhouse", type: "Restaurant", address: "1116 Rue Sainte-Catherine Ouest", site: "http://reubensdeli.com/"},
 	{name: "Canada Goose", type: "Shopping", address: "1020 Rue Sainte-Catherine Ouest", site: "https://www.canadagoose.com/ca/en/montreal-store.html"},
