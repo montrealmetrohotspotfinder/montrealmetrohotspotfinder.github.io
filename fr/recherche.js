@@ -37,10 +37,11 @@ function init(){
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Paul-G&eacute;rin-Lajoie",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon des Sciences de la Gestion",
 	"Fairfield Inn by Marriott Montreal Downtown",
-	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Centre Sportif" ];
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Centre Sportif",
+	"Biblioth&egrave;que Saint-Sulpice" ];
 	
 	BerriUqamtypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;", "H&ocirc;tel",
-		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement", "Universit&eacute;", "Parc", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "Sports" ];
+		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement", "Universit&eacute;", "Parc", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "Sports", "Biblioth&egrave;que" ];
 	
 	BerriUqamaddresses = [ "405 Rue Sainte-Catherine Est",
 	"475 Boulevard de Maisonneuve Est",
@@ -78,7 +79,8 @@ function init(){
 	"1205 Rue Saint-Denis",
 	"315 Rue Sainte-Catherine Est",
 	"1199 Rue Berri",
-	"1212 Rue Sanguinet" ];
+	"1212 Rue Sanguinet",
+	"1700 Rue Saint-Denis" ];
 	
 	BerriUqamsites = [ "http://www.uqam.ca/", 
 	"http://www.banq.qc.ca/accueil/", 
@@ -116,7 +118,8 @@ function init(){
 	"https://carte.uqam.ca/pavillon-n",
 	"https://carte.uqam.ca/pavillon-r",
 	"https://www.marriott.fr/hotels/travel/yulfd-fairfield-montreal-downtown",
-	"https://carte.uqam.ca/pavillon-cs" ];
+	"https://carte.uqam.ca/pavillon-cs",
+	"https://banq-saint-sulpice.business.site/" ];
 	
 	JeanTalonnames = [ "Tour Jean-Talon", "March&eacute; Jean-Talon", "Plaza Saint-Hubert", "R&eacute;sidence Alfredo-Gagliardi", "Casa D&#39;Italia", "&Eacute;glise Orthodoxe Antiochienne Saint-Georges", "Parc Le Pr&eacute;vost", "Patro Villeray",
 	"&Eacute;cole Saint-Ars&egrave;ne", "&Eacute;glise Saint-Ars&egrave;ne" ];
