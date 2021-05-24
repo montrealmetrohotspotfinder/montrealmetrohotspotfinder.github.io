@@ -8,7 +8,8 @@ function init()
 	{name: "Centre Communautaire de Loisir de la C&ocirc;te-des-Neiges", type: "Cultural Centre", address: "5347 Chemin de la C&ocirc;te-des-Neiges", site: "https://celocdn.org/"},
 	{name: "Parc Jean-Brillant", type: "Park", address: "5252 Avenue Decelles", site: "https://montreal.ca/en/places/parc-jean-brillant-cote-des-neiges-notre-dame-de-grace"},
 	{name: "&Eacute;cole de Th&eacute;ologie &Eacute;vang&eacute;lique du Qu&eacute;bec", type: "School", address: "4824 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.eteq.ca/d8/en"},
-	{name: "Centre Hospitalier de St. Mary", type: "Hospital", address: "3830 Avenue Lacombe", site: "http://www.smhc.qc.ca/en/"}];
+	{name: "Centre Hospitalier de St. Mary", type: "Hospital", address: "3830 Avenue Lacombe", site: "http://www.smhc.qc.ca/en/"},
+	{name: "&Eacute;cole Notre-Dame-des-Neiges", type: "School", address: "5309 Chemin de la C&ocirc;te-des-Neiges", site: "https://notre-dame-des-neiges.cssdm.gouv.qc.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
