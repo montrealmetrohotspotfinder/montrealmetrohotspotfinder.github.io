@@ -11,7 +11,9 @@ function init()
 	{name: "Centre Hospitalier de St. Mary", type: "Hospital", address: "3830 Avenue Lacombe", site: "http://www.smhc.qc.ca/en/"},
 	{name: "&Eacute;cole Notre-Dame-des-Neiges", type: "School", address: "5309 Chemin de la C&ocirc;te-des-Neiges", site: "https://notre-dame-des-neiges.cssdm.gouv.qc.ca/"},
 	{name: "March&eacute; Jean-Brillant", type: "Market", address: "", site: "https://sdc-cotedesneiges.ca/en/etablissements/jean-brillant-market/"},
-	{name: "&Eacute;glise Notre-Dame-des-Neiges", type: "Church", address: "5366 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-des-neiges"}];
+	{name: "&Eacute;glise Notre-Dame-des-Neiges", type: "Church", address: "5366 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-des-neiges"},
+	{name: "Parc Troie", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-troie"},
+	{name: "Place du 6-D&eacute;cembre-1989", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-6-decembre-1989"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
