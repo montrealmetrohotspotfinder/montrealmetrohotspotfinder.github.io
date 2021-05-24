@@ -158,7 +158,9 @@ function init(){
 	{name: "Parc Jean-Brillant", type: "Park", address: "5252 Avenue Decelles", site: "https://montreal.ca/en/places/parc-jean-brillant-cote-des-neiges-notre-dame-de-grace"},
 	{name: "&Eacute;cole de Th&eacute;ologie &Eacute;vang&eacute;lique du Qu&eacute;bec", type: "School", address: "4824 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.eteq.ca/d8/en"},
 	{name: "Centre Hospitalier de St. Mary", type: "Hospital", address: "3830 Avenue Lacombe", site: "http://www.smhc.qc.ca/en/"},
-	{name: "&Eacute;cole Notre-Dame-des-Neiges", type: "School", address: "5309 Chemin de la C&ocirc;te-des-Neiges", site: "https://notre-dame-des-neiges.cssdm.gouv.qc.ca/"}];
+	{name: "&Eacute;cole Notre-Dame-des-Neiges", type: "School", address: "5309 Chemin de la C&ocirc;te-des-Neiges", site: "https://notre-dame-des-neiges.cssdm.gouv.qc.ca/"},
+	{name: "March&eacute; Jean-Brillant", type: "Market", address: "", site: "https://sdc-cotedesneiges.ca/en/etablissements/jean-brillant-market/"},
+	{name: "&Eacute;glise Notre-Dame-des-Neiges", type: "Church", address: "5366 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-des-neiges"}];
 	
 	//GREEN LINE
 	HonoreBeaugrand = [{name: "Village Champlain", type: "Mall", address: "7788 Rue Sherbrooke Est", site: "#"},
