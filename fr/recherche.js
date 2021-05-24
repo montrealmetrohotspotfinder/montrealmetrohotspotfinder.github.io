@@ -314,16 +314,18 @@ function init(){
 	
 	CoteDesNeigesnames = [ "Cimeti&egrave;re Notre-Dame-des-Neiges", "Oratoire Saint-Joseph", "H&ocirc;pital G&eacute;n&eacute;ral Juif", 
 	"CHU Sainte-Justine", "Maison de la Culture C&ocirc;te-des-Neiges", "Centre Communautaire de Loisir de la C&ocirc;te-des-Neiges", "Parc Jean-Brillant",
-	"&Eacute;cole de Th&eacute;ologie &Eacute;vang&eacute;lique du Qu&eacute;bec", "Centre Hospitalier de St. Mary" ];
+	"&Eacute;cole de Th&eacute;ologie &Eacute;vang&eacute;lique du Qu&eacute;bec", "Centre Hospitalier de St. Mary", "&Eacute;cole Notre-Dame-des-Neiges" ];
 	
-	CoteDesNeigestypes = [ "Cimeti&egrave;re", "&Eacute;glise", "H&ocirc;pital", "H&ocirc;pital", "Th&eacute;&acirc;tre", "Centre Culturel", "Parc", "&Eacute;cole", "H&ocirc;pital" ];
+	CoteDesNeigestypes = [ "Cimeti&egrave;re", "&Eacute;glise", "H&ocirc;pital", "H&ocirc;pital", "Th&eacute;&acirc;tre", "Centre Culturel", "Parc", "&Eacute;cole", "H&ocirc;pital", "&Eacute;cole" ];
 	
 	CoteDesNeigesaddresses = [ "4601 Chemin de la C&ocirc;te-des-Neiges", "3800 Chemin Queen-Mary", "3755 Chemin de la C&ocirc;te-Sainte-Catherine", "3175 Chemin de la C&ocirc;te-Sainte-Catherine",
-	"5290 Chemin de la C&ocirc;te-des-Neiges", "5347 Chemin de la C&ocirc;te-des-Neiges", "5252 Avenue Decelles", "4824 Chemin de la C&ocirc;te-des-Neiges", "3830 Avenue Lacombe" ];
+	"5290 Chemin de la C&ocirc;te-des-Neiges", "5347 Chemin de la C&ocirc;te-des-Neiges", "5252 Avenue Decelles", "4824 Chemin de la C&ocirc;te-des-Neiges", "3830 Avenue Lacombe",
+	"5309 Chemin de la C&ocirc;te-des-Neiges" ];
 	
 	CoteDesNeigessites = [ "https://www.cimetierenotredamedesneiges.ca/fr", "https://www.saint-joseph.org/fr", "https://www.hgj.ca/", 
 	"https://www.chusj.org/fr/accueil", "http://ville.montreal.qc.ca/culture/maison-de-la-culture-de-cote-des-neiges", "https://celocdn.org/", 
-	"https://montreal.ca/lieux/parc-jean-brillant-cote-des-neiges-notre-dame-de-grace", "https://www.eteq.ca/d8/", "http://www.smhc.qc.ca/fr/homepage" ];
+	"https://montreal.ca/lieux/parc-jean-brillant-cote-des-neiges-notre-dame-de-grace", "https://www.eteq.ca/d8/", "http://www.smhc.qc.ca/fr/homepage",
+	"https://notre-dame-des-neiges.cssdm.gouv.qc.ca/" ];
 	
 	//GREEN LINE
 	HonoreBeaugrandnames = [ "Village Champlain", "Place Versailles", "Terminus Honor&eacute;-Beaugrand", "Parc Li&eacute;bert", "&Eacute;cole Sainte-Louise-de-Marillac", "Parc Michel-Bourdon", "Manoir Claudette Barr&eacute;",
