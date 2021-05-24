@@ -13,7 +13,8 @@ function init()
 	{name: "March&eacute; Jean-Brillant", type: "Market", address: "", site: "https://sdc-cotedesneiges.ca/en/etablissements/jean-brillant-market/"},
 	{name: "&Eacute;glise Notre-Dame-des-Neiges", type: "Church", address: "5366 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-des-neiges"},
 	{name: "Parc Troie", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-troie"},
-	{name: "Place du 6-D&eacute;cembre-1989", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-6-decembre-1989"}];
+	{name: "Place du 6-D&eacute;cembre-1989", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-6-decembre-1989"},
+	{name: "CLSC C&ocirc;te-des-Neiges", type: "Agency", address: "5700 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.ciussswestcentral.ca/sites-and-resources/clsc/clsc-cote-des-neiges/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
