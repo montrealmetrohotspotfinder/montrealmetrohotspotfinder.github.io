@@ -315,19 +315,23 @@ function init(){
 	CoteDesNeigesnames = [ "Cimeti&egrave;re Notre-Dame-des-Neiges", "Oratoire Saint-Joseph", "H&ocirc;pital G&eacute;n&eacute;ral Juif", 
 	"CHU Sainte-Justine", "Maison de la Culture C&ocirc;te-des-Neiges", "Centre Communautaire de Loisir de la C&ocirc;te-des-Neiges", "Parc Jean-Brillant",
 	"&Eacute;cole de Th&eacute;ologie &Eacute;vang&eacute;lique du Qu&eacute;bec", "Centre Hospitalier de St. Mary", "&Eacute;cole Notre-Dame-des-Neiges",
-	"March&eacute; Jean-Brillant", "&Eacute;glise Notre-Dame-des-Neiges", "Parc Troie", "Place du 6-D&eacute;cembre-1989", "CLSC C&ocirc;te-des-Neiges" ];
+	"March&eacute; Jean-Brillant", "&Eacute;glise Notre-Dame-des-Neiges", "Parc Troie", "Place du 6-D&eacute;cembre-1989", "CLSC C&ocirc;te-des-Neiges",
+	"&Eacute;cole Saint-Pascal-Baylon", "Parc Martin-Luther-King" ];
 	
-	CoteDesNeigestypes = [ "Cimeti&egrave;re", "&Eacute;glise", "H&ocirc;pital", "H&ocirc;pital", "Th&eacute;&acirc;tre", "Centre Culturel", "Parc", "&Eacute;cole", "H&ocirc;pital", "&Eacute;cole", "March&eacute;", "&Eacute;glise", "Parc", "Parc", "Agence" ];
+	CoteDesNeigestypes = [ "Cimeti&egrave;re", "&Eacute;glise", "H&ocirc;pital", "H&ocirc;pital", "Th&eacute;&acirc;tre", "Centre Culturel", "Parc", "&Eacute;cole", "H&ocirc;pital", "&Eacute;cole", "March&eacute;", "&Eacute;glise", "Parc", "Parc", "Agence",
+	"&Eacute;cole", "Parc" ];
 	
 	CoteDesNeigesaddresses = [ "4601 Chemin de la C&ocirc;te-des-Neiges", "3800 Chemin Queen-Mary", "3755 Chemin de la C&ocirc;te-Sainte-Catherine", "3175 Chemin de la C&ocirc;te-Sainte-Catherine",
 	"5290 Chemin de la C&ocirc;te-des-Neiges", "5347 Chemin de la C&ocirc;te-des-Neiges", "5252 Avenue Decelles", "4824 Chemin de la C&ocirc;te-des-Neiges", "3830 Avenue Lacombe",
-	"5309 Chemin de la C&ocirc;te-des-Neiges", "", "5366 Chemin de la C&ocirc;te-des-Neiges", "", "", "5700 Chemin de la C&ocirc;te-des-Neiges" ];
+	"5309 Chemin de la C&ocirc;te-des-Neiges", "", "5366 Chemin de la C&ocirc;te-des-Neiges", "", "", "5700 Chemin de la C&ocirc;te-des-Neiges",
+	"6320 Chemin de la C&ocirc;te-des-Neiges", "3453 Avenue de Kent" ];
 	
 	CoteDesNeigessites = [ "https://www.cimetierenotredamedesneiges.ca/fr", "https://www.saint-joseph.org/fr", "https://www.hgj.ca/", 
 	"https://www.chusj.org/fr/accueil", "http://ville.montreal.qc.ca/culture/maison-de-la-culture-de-cote-des-neiges", "https://celocdn.org/", 
 	"https://montreal.ca/lieux/parc-jean-brillant-cote-des-neiges-notre-dame-de-grace", "https://www.eteq.ca/d8/", "http://www.smhc.qc.ca/fr/homepage",
 	"https://notre-dame-des-neiges.cssdm.gouv.qc.ca/", "https://sdc-cotedesneiges.ca/etablissements/marche-jean-brillant-market/", "https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-neiges",
-	"https://montreal.ca/lieux/parc-troie", "https://montreal.ca/lieux/place-du-6-decembre-1989", "https://www.ciussscentreouest.ca/etablissements-et-ressources/clsc/clsc-de-cote-des-neiges/" ];
+	"https://montreal.ca/lieux/parc-troie", "https://montreal.ca/lieux/place-du-6-decembre-1989", "https://www.ciussscentreouest.ca/etablissements-et-ressources/clsc/clsc-de-cote-des-neiges/",
+	"https://st-pascal-baylon.cssdm.gouv.qc.ca/", "https://montreal.ca/lieux/parc-martin-luther-king" ];
 	
 	//GREEN LINE
 	HonoreBeaugrandnames = [ "Village Champlain", "Place Versailles", "Terminus Honor&eacute;-Beaugrand", "Parc Li&eacute;bert", "&Eacute;cole Sainte-Louise-de-Marillac", "Parc Michel-Bourdon", "Manoir Claudette Barr&eacute;",
