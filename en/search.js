@@ -1351,6 +1351,10 @@ function onClick(e){
 	{
 		document.getElementById("search-box").value = "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine";
 	}
+	if(document.getElementById("search-box").value.toLowerCase() == "parc kent")
+	{
+		document.getElementById("search-box").value = "Parc Martin-Luther-King";
+	}
 	
 	street = document.getElementById("streets").value;
 	category = document.getElementById("categories").value;
