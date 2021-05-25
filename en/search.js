@@ -165,7 +165,8 @@ function init(){
 	{name: "Place du 6-D&eacute;cembre-1989", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-6-decembre-1989"},
 	{name: "CLSC C&ocirc;te-des-Neiges", type: "Agency", address: "5700 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.ciussswestcentral.ca/sites-and-resources/clsc/clsc-cote-des-neiges/"},
 	{name: "&Eacute;cole Saint-Pascal-Baylon", type: "School", address: "6320 Chemin de la C&ocirc;te-des-Neiges", site: "https://st-pascal-baylon.cssdm.gouv.qc.ca/"},
-	{name: "Parc Martin-Luther-King", type: "Park", address: "3453 Avenue de Kent", site: "https://montreal.ca/en/places/parc-martin-luther-king"}];
+	{name: "Parc Martin-Luther-King", type: "Park", address: "3453 Avenue de Kent", site: "https://montreal.ca/en/places/parc-martin-luther-king"},
+	{name: "Coll&egrave;ge Jean-de-Br&eacute;beuf", type: "College", address: "3200 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://www.brebeuf.qc.ca/"}];
 	
 	//GREEN LINE
 	HonoreBeaugrand = [{name: "Village Champlain", type: "Mall", address: "7788 Rue Sherbrooke Est", site: "#"},
