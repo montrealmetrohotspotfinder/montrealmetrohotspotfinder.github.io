@@ -14,7 +14,9 @@ function init()
 	{name: "&Eacute;glise Notre-Dame-des-Neiges", type: "Church", address: "5366 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-des-neiges"},
 	{name: "Parc Troie", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-troie"},
 	{name: "Place du 6-D&eacute;cembre-1989", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-6-decembre-1989"},
-	{name: "CLSC C&ocirc;te-des-Neiges", type: "Agency", address: "5700 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.ciussswestcentral.ca/sites-and-resources/clsc/clsc-cote-des-neiges/"}];
+	{name: "CLSC C&ocirc;te-des-Neiges", type: "Agency", address: "5700 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.ciussswestcentral.ca/sites-and-resources/clsc/clsc-cote-des-neiges/"},
+	{name: "&Eacute;cole Saint-Pascal-Baylon", type: "School", address: "6320 Chemin de la C&ocirc;te-des-Neiges", site: "https://st-pascal-baylon.cssdm.gouv.qc.ca/"},
+	{name: "Parc Martin-Luther-King", type: "Park", address: "3453 Avenue de Kent", site: "https://montreal.ca/en/places/parc-martin-luther-king"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
