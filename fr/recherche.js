@@ -296,13 +296,13 @@ function init(){
 	"https://montreal.ca/lieux/parc-raoul-dandurand", "https://montreal.ca/lieux/parc-john-f-kennedy", "http://www.stanislas.qc.ca/montreal/", "https://montreal.ca/lieux/arena-doutremont",
 	"https://guydrummond.ecoleoutremont.com/", "https://lajoie.ecoleoutremont.com/" ];
 	
-	EdouardMontpetitnames = [ "CEPSUM", "&Eacute;cole de Musique Vincent-d&#39;Indy" ];
+	EdouardMontpetitnames = [ "CEPSUM", "&Eacute;cole de Musique Vincent-d&#39;Indy", "&Eacute;cole Saint-Germain-d&#39;Outremont", "Paroisse Saint-Germain-d&#39;Outremont" ];
 	
-	EdouardMontpetittypes = [ "Sports", "Coll&egrave;ge" ];
+	EdouardMontpetittypes = [ "Sports", "Coll&egrave;ge", "&Eacute;cole", "&Eacute;glise" ];
 	
-	EdouardMontpetitaddresses = [ "2100 Boulevard &Eacute;douard-Montpetit", "628 Chemin de la C&ocirc;te-Sainte-Catherine" ];
+	EdouardMontpetitaddresses = [ "2100 Boulevard &Eacute;douard-Montpetit", "628 Chemin de la C&ocirc;te-Sainte-Catherine", "46 Avenue Vincent-d&#39;Indy", "28 Avenue Vincent-d&#39;Indy" ];
 	
-	EdouardMontpetitsites = [ "https://www.cepsum.umontreal.ca/", "http://www.emvi.qc.ca/" ];
+	EdouardMontpetitsites = [ "https://www.cepsum.umontreal.ca/", "http://www.emvi.qc.ca/", "https://www.csmb.qc.ca/fr-CA/enseignement/primaire/ecoles/liste/saint-germain-doutremont.aspx", "https://paroisse-saint-germain.org/" ];
 	
 	UdeMnames = [ "Universit&eacute; de Montr&eacute;al", "Coll&egrave;ge Jean-de-Br&eacute;beuf", "CHU Sainte-Justine", "HEC Montr&eacute;al" ];
 	
