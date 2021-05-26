@@ -144,7 +144,8 @@ function init(){
 	EdouardMontpetit = [{name: "CEPSUM", type: "Sports", address: "2100 Boulevard &Eacute;douard-Montpetit", site: "https://www.cepsum.umontreal.ca/"},
 	{name: "&Eacute;cole de Musique Vincent-d&#39;Indy", type: "College", address: "628 Chemin de la C&ocirc;te-Sainte-Catherine", site: "http://www.emvi.qc.ca/"},
 	{name: "&Eacute;cole Saint-Germain-d&#39;Outremont", type: "School", address: "46 Avenue Vincent-d&#39;Indy", site: "https://www.csmb.qc.ca/fr-CA/enseignement/primaire/ecoles/liste/saint-germain-doutremont.aspx"},
-	{name: "Paroisse Saint-Germain-d&#39;Outremont", type: "Church", address: "28 Avenue Vincent-d&#39;Indy", site: "https://paroisse-saint-germain.org/"}];
+	{name: "Paroisse Saint-Germain-d&#39;Outremont", type: "Church", address: "28 Avenue Vincent-d&#39;Indy", site: "https://paroisse-saint-germain.org/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Music Faculty", type: "University", address: "200 Avenue Vincent-d&#39;Indy", site: "https://musique.umontreal.ca/en/home/"}];
 	
 	UdeM = [{name: "Universit&eacute; de Montr&eacute;al", type: "University", address: "2900 Boulevard &Eacute;douard-Montpetit", site: "https://www.umontreal.ca/en/"},
 	{name: "Coll&egrave;ge Jean-de-Br&eacute;beuf", type: "College", address: "3200 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://www.brebeuf.qc.ca/"},
