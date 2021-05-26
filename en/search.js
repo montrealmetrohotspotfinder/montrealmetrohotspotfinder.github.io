@@ -908,7 +908,7 @@ function init(){
 	{name: "Tribunal Administratif du Logement du Qu&eacute;bec, Montreal offices", type: "Agency", address: "1425 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.tal.gouv.qc.ca/en"},
 	{name: "1350-1360 Ren&eacute;-L&eacute;vesque Ouest", type: "Office", address: "1360 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.1350rene-levesque.com/"},
 	{name: "Best Western Plus Montr&eacute;al Centre-Ville H&ocirc;tel Europa", type: "Hotel", address: "1240 Rue Drummond", site: "https://www.bestwestern.com/en_US/book/hotel-rooms.67013.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67013"},
-	{name: "1250 Ren&eacute;-L&eacute;vesque via Underground City", type: "Office", address: "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://imtl.org/montreal/building/IBM-Marathon.php"}];
+	{name: "1250 Ren&eacute;-L&eacute;vesque", type: "Office", address: "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://imtl.org/montreal/building/IBM-Marathon.php"}];
 	
 	GeorgesVanier = [{name: "Parc Oscar-Peterson", type: "Park", address: "810 Rue Chatham", site: "https://montreal.ca/en/places/parc-oscar-peterson"},
 	{name: "Paroisse Saint Anthony of Padua", type: "Church", address: "1950 Rue Saint-Antoine Ouest", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-anthony-padua"},
