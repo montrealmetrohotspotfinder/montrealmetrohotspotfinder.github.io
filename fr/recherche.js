@@ -297,13 +297,15 @@ function init(){
 	"https://guydrummond.ecoleoutremont.com/", "https://lajoie.ecoleoutremont.com/" ];
 	
 	EdouardMontpetitnames = [ "CEPSUM", "&Eacute;cole de Musique Vincent-d&#39;Indy", "&Eacute;cole Saint-Germain-d&#39;Outremont", "Paroisse Saint-Germain-d&#39;Outremont", "Universit&eacute; de Montr&eacute;al, Facult&eacute; de Musique",
-	"Universit&eacute; de Montr&eacute;al, Facult&eacute; des Sciences Infirmi&egrave;res" ];
+	"Universit&eacute; de Montr&eacute;al, Facult&eacute; des Sciences Infirmi&egrave;res", "Cath&eacute;drale Orthodoxe Grecque Saint-Georges", "&Eacute;glise Saint-Albert-le-Grand" ];
 	
-	EdouardMontpetittypes = [ "Sports", "Coll&egrave;ge", "&Eacute;cole", "&Eacute;glise", "Universit&eacute;", "Universit&eacute;" ];
+	EdouardMontpetittypes = [ "Sports", "Coll&egrave;ge", "&Eacute;cole", "&Eacute;glise", "Universit&eacute;", "Universit&eacute;", "&Eacute;glise", "&Eacute;glise" ];
 	
-	EdouardMontpetitaddresses = [ "2100 Boulevard &Eacute;douard-Montpetit", "628 Chemin de la C&ocirc;te-Sainte-Catherine", "46 Avenue Vincent-d&#39;Indy", "28 Avenue Vincent-d&#39;Indy", "200 Avenue Vincent-d&#39;Indy", "2375 Chemin de la C&ocirc;te-Sainte-Catherine" ];
+	EdouardMontpetitaddresses = [ "2100 Boulevard &Eacute;douard-Montpetit", "628 Chemin de la C&ocirc;te-Sainte-Catherine", "46 Avenue Vincent-d&#39;Indy", "28 Avenue Vincent-d&#39;Indy", "200 Avenue Vincent-d&#39;Indy", "2375 Chemin de la C&ocirc;te-Sainte-Catherine",
+	"2455 Chemin de la C&ocirc;te-Sainte-Catherine", "2715 Chemin de la C&ocirc;te-Sainte-Catherine" ];
 	
-	EdouardMontpetitsites = [ "https://www.cepsum.umontreal.ca/", "http://www.emvi.qc.ca/", "https://www.csmb.qc.ca/fr-CA/enseignement/primaire/ecoles/liste/saint-germain-doutremont.aspx", "https://paroisse-saint-germain.org/", "https://musique.umontreal.ca/accueil/", "https://fsi.umontreal.ca/accueil/" ];
+	EdouardMontpetitsites = [ "https://www.cepsum.umontreal.ca/", "http://www.emvi.qc.ca/", "https://www.csmb.qc.ca/fr-CA/enseignement/primaire/ecoles/liste/saint-germain-doutremont.aspx", "https://paroisse-saint-germain.org/", "https://musique.umontreal.ca/accueil/", "https://fsi.umontreal.ca/accueil/",
+	"https://hcgm.org/st-george-cathedral/?lang=fr", "http://www.st-albert.org/" ];
 	
 	UdeMnames = [ "Universit&eacute; de Montr&eacute;al", "Coll&egrave;ge Jean-de-Br&eacute;beuf", "CHU Sainte-Justine", "HEC Montr&eacute;al" ];
 	
