@@ -122,15 +122,16 @@ function init(){
 	"https://banq-saint-sulpice.business.site/" ];
 	
 	JeanTalonnames = [ "Tour Jean-Talon", "March&eacute; Jean-Talon", "Plaza Saint-Hubert", "R&eacute;sidence Alfredo-Gagliardi", "Casa D&#39;Italia", "&Eacute;glise Orthodoxe Antiochienne Saint-Georges", "Parc Le Pr&eacute;vost", "Patro Villeray",
-	"&Eacute;cole Saint-Ars&egrave;ne", "&Eacute;glise Saint-Ars&egrave;ne", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense" ];
+	"&Eacute;cole Saint-Ars&egrave;ne", "&Eacute;glise Saint-Ars&egrave;ne", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", "Parc Dante" ];
 	
-	JeanTalontypes = [ "Bureau", "March&eacute;", "Magasinage", "R&eacute;sidence", "Centre Culturel", "&Eacute;glise", "Parc", "Centre Culturel", "&Eacute;cole", "&Eacute;glise", "&Eacute;glise" ];
+	JeanTalontypes = [ "Bureau", "March&eacute;", "Magasinage", "R&eacute;sidence", "Centre Culturel", "&Eacute;glise", "Parc", "Centre Culturel", "&Eacute;cole", "&Eacute;glise", "&Eacute;glise", "Parc" ];
 	
 	JeanTalonaddresses = [ "600 Rue Jean-Talon Est", "7070 Avenue Henri-Julien", "6841 Rue Saint-Hubert", "7170 Rue Berri", "505 Rue Jean-Talon Est", "575 Rue Jean-Talon Est", "7275 Avenue Christophe-Colomb", "7355 Avenue Christophe-Colomb",
-	"6972 Avenue Christophe-Colomb", "1015 Rue B&eacute;langer", "6800 Avenue Henri-Julien" ];
+	"6972 Avenue Christophe-Colomb", "1015 Rue B&eacute;langer", "6800 Avenue Henri-Julien", "" ];
 	
 	JeanTalonsites = [ "https://montrealsouterrain.ca/tour/tour-jean-talon/", "https://www.marchespublics-mtl.com/marches/jean-talon/", "https://www.plazasthubert.com/fr/", "https://www.residencesenharmonie.qc.ca/residences/residence-alfredo-gagliardi", "https://www.casaditalia.org/t-fr-ca",
-	"https://saintgeorgemontreal.org/", "https://montreal.ca/lieux/parc-le-prevost", "https://patrovilleray.ca/", "https://st-arsene.cssdm.gouv.qc.ca/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-arsene", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-defense-italiens" ];
+	"https://saintgeorgemontreal.org/", "https://montreal.ca/lieux/parc-le-prevost", "https://patrovilleray.ca/", "https://st-arsene.cssdm.gouv.qc.ca/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-arsene", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-defense-italiens",
+	"https://montreal.ca/lieux/parc-dante" ];
 	
 	LionelGroulxnames = [ "March&eacute; Atwater", "Parc Vinet", "Th&eacute;&acirc;tre Corona" ];
 	
@@ -1155,14 +1156,14 @@ function init(){
 		 "https://centre-ste-croix.cssdm.gouv.qc.ca/" ];
 	
 	Beaubiennames = [ "Plaza Saint-Hubert", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", "&Eacute;glise Saint-&Eacute;douard", "&Eacute;cole La Mennais", "Chambre de la Jeunesse",
-		 "Th&eacute;&acirc;tre Plaza", "Beaubien Bagel" ];
+		 "Th&eacute;&acirc;tre Plaza", "Beaubien Bagel", "Parc Dante" ];
 	
-	Beaubientypes = [ "Magasinage", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "Tribunal", "Th&eacute;&acirc;tre", "Restaurant" ];
+	Beaubientypes = [ "Magasinage", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "Tribunal", "Th&eacute;&acirc;tre", "Restaurant", "Parc" ];
 	
-	Beaubienaddresses = [ "6841 Rue Saint-Hubert", "6800 Avenue Henri-Julien", "6500 Rue de Saint-Vallier", "6521 Rue Saint-Denis", "410 Rue de Bellechasse", "6505 Rue Saint-Hubert", "828 Rue Beaubien Est" ];
+	Beaubienaddresses = [ "6841 Rue Saint-Hubert", "6800 Avenue Henri-Julien", "6500 Rue de Saint-Vallier", "6521 Rue Saint-Denis", "410 Rue de Bellechasse", "6505 Rue Saint-Hubert", "828 Rue Beaubien Est", "" ];
 	
 	Beaubiensites = [ "https://www.plazasthubert.com/fr/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-defense-italiens", "#", "https://la-mennais.csdm.ca/",
-	"https://www.justice.gouv.qc.ca/systeme-judiciaire/tribunaux-du-quebec/cour-du-quebec/chambre-de-la-jeunesse", "https://www.theatreplaza.ca/", "#" ];
+	"https://www.justice.gouv.qc.ca/systeme-judiciaire/tribunaux-du-quebec/cour-du-quebec/chambre-de-la-jeunesse", "https://www.theatreplaza.ca/", "#", "https://montreal.ca/lieux/parc-dante" ];
 	
 	Rosemontnames = [ "Biblioth&egrave;que Marc-Favreau", "Parc des Carri&egrave;res", "Parc Luc-Durand", "Habitations Saint-Vallier" ];
 	
