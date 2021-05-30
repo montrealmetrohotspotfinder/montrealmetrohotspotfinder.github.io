@@ -157,7 +157,8 @@ function init(){
 	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Environmental Design", type: "University", address: "2940 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://amenagement.umontreal.ca/accueil/"},
 	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Medicine", type: "University", address: "2900 Boulevard &Eacute;douard-Montpetit", site: "https://medecine.umontreal.ca/medical-school/"},
 	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Pharmacy", type: "University", address: "2940 Chemin de Polytechnique", site: "https://pharm.umontreal.ca/english/home/"},
-	{name: "Polytechnique Montr&eacute;al", type: "University", address: "2500 Chemin de Polytechnique", site: "https://www.polymtl.ca/en/"}];
+	{name: "Polytechnique Montr&eacute;al", type: "University", address: "2500 Chemin de Polytechnique", site: "https://www.polymtl.ca/en/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Arts and Sciences", type: "University", address: "3150 Rue Jean-Brillant", site: "https://fas.umontreal.ca/accueil/"}];
 	
 	CoteDesNeiges = [{name: "Cimeti&egrave;re Notre-Dame-des-Neiges", type: "Cemetery", address: "4601 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.cimetierenotredamedesneiges.ca/en"},
 	{name: "Oratoire Saint-Joseph", type: "Church", address: "3800 Chemin Queen-Mary", site: "https://www.saint-joseph.org/en/"},
