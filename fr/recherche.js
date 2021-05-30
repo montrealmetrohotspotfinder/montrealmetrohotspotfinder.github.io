@@ -190,9 +190,10 @@ function init(){
 	"Le D&#39;Assigny",
 	"Revenu Qu&eacute;bec, bureaux longueuillois",
 	"Tribunal Administratif du Logement du Qu&eacute;bec, bureaux longueuillois",
-	"Les Habitats Lafayette" ];
+	"Les Habitats Lafayette",
+	"SSQ Assurance, bureaux longueuillois" ];
 	
-	Longueuiltypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence" ];
+	Longueuiltypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence", "Bureau" ];
 	
 	Longueuiladdresses = [ "120 Place Charles-Lemoyne", 
 	"150 Place Charles-Lemoyne", 
@@ -208,7 +209,8 @@ function init(){
 	"110 Rue de la Barre",
 	"825 Rue Saint-Laurent Ouest",
 	"201 Place Charles-Lemoyne",
-	"100 Boulevard La Fayette" ];
+	"100 Boulevard La Fayette",
+	"1225 Rue Saint-Charles Ouest" ];
 	
 	Longueuilsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-longueuil", 
 	"http://www.usherbrooke.ca/longueuil/", 
@@ -224,7 +226,8 @@ function init(){
 	"https://groupemercille.com/fr/residentiel/3-12",
 	"https://www.revenuquebec.ca/fr/",
 	"https://www.tal.gouv.qc.ca/",
-	"http://www.residences6etoiles.com/fr/lafayette.html" ];
+	"http://www.residences6etoiles.com/fr/lafayette.html",
+	"https://ssq.ca/fr" ];
 	
 	//BLUE LINE
 	SaintMichelnames = [ "Petit Maghreb", "Parc Fran&ccedil;ois-Perrault", "Biblioth&egrave;que de Saint-Michel", "&Eacute;cole Secondaire John F. Kennedy", "Parc Sandro-Pertini", "&Eacute;cole Saint-Mathieu",
