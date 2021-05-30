@@ -145,15 +145,17 @@ function init(){
 	{name: "&Eacute;cole de Musique Vincent-d&#39;Indy", type: "College", address: "628 Chemin de la C&ocirc;te-Sainte-Catherine", site: "http://www.emvi.qc.ca/"},
 	{name: "&Eacute;cole Saint-Germain-d&#39;Outremont", type: "School", address: "46 Avenue Vincent-d&#39;Indy", site: "https://www.csmb.qc.ca/fr-CA/enseignement/primaire/ecoles/liste/saint-germain-doutremont.aspx"},
 	{name: "Paroisse Saint-Germain-d&#39;Outremont", type: "Church", address: "28 Avenue Vincent-d&#39;Indy", site: "https://paroisse-saint-germain.org/"},
-	{name: "Universit&eacute; de Montr&eacute;al, Music Faculty", type: "University", address: "200 Avenue Vincent-d&#39;Indy", site: "https://musique.umontreal.ca/en/home/"},
-	{name: "Universit&eacute; de Montr&eacute;al, Nursing Sciences Faculty", type: "University", address: "2375 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://fsi.umontreal.ca/accueil/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Music", type: "University", address: "200 Avenue Vincent-d&#39;Indy", site: "https://musique.umontreal.ca/en/home/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Faculty Nursing Sciences", type: "University", address: "2375 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://fsi.umontreal.ca/accueil/"},
 	{name: "Cath&eacute;drale Orthodoxe Grecque Saint-Georges", type: "Church", address: "2455 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://hcgm.org/churches/st-george-cathedral/"},
 	{name: "&Eacute;glise Saint-Albert-le-Grand", type: "Church", address: "2715 Chemin de la C&ocirc;te-Sainte-Catherine", site: "http://www.st-albert.org/"}];
 	
 	UdeM = [{name: "Universit&eacute; de Montr&eacute;al", type: "University", address: "2900 Boulevard &Eacute;douard-Montpetit", site: "https://www.umontreal.ca/en/"},
 	{name: "Coll&egrave;ge Jean-de-Br&eacute;beuf", type: "College", address: "3200 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://www.brebeuf.qc.ca/"},
 	{name: "CHU Sainte-Justine", type: "Hospital", address: "3175 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://www.chusj.org/Home"},
-	{name: "HEC Montr&eacute;al", type: "School", address: "3000 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://www.hec.ca/en/"}];
+	{name: "HEC Montr&eacute;al", type: "School", address: "3000 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://www.hec.ca/en/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Environmental Design", type: "University", address: "2940 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://amenagement.umontreal.ca/accueil/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Medicine", type: "University", address: "2900 Boulevard &Eacute;douard-Montpetit", site: "https://medecine.umontreal.ca/medical-school/"}];
 	
 	CoteDesNeiges = [{name: "Cimeti&egrave;re Notre-Dame-des-Neiges", type: "Cemetery", address: "4601 Chemin de la C&ocirc;te-des-Neiges", site: "https://www.cimetierenotredamedesneiges.ca/en"},
 	{name: "Oratoire Saint-Joseph", type: "Church", address: "3800 Chemin Queen-Mary", site: "https://www.saint-joseph.org/en/"},
