@@ -85,7 +85,8 @@ function init(){
 	{name: "Le D&#39;Assigny", type: "Residence", address: "110 Rue de la Barre", site: "https://groupemercille.com/residential/3-12#le-dassigny"},
 	{name: "Revenu Qu&eacute;bec, Longueuil offices", type: "Agency", address: "825 Rue Saint-Laurent Ouest", site: "https://www.revenuquebec.ca/en/"},
 	{name: "Tribunal Administratif du Logement du Qu&eacute;bec, Longueuil offices", type: "Agency", address: "201 Place Charles-Lemoyne", site: "https://www.tal.gouv.qc.ca/en"},
-	{name: "Les Habitats Lafayette", type: "Residence", address: "100 Boulevard La Fayette", site: "http://www.residences6etoiles.com/en/lafayette.html"}];
+	{name: "Les Habitats Lafayette", type: "Residence", address: "100 Boulevard La Fayette", site: "http://www.residences6etoiles.com/en/lafayette.html"},
+	{name: "SSQ Insurance, Longueuil offices", type: "Office", address: "1225 Rue Saint-Charles Ouest", site: "https://ssq.ca/en"}];
 	
 	//BLUE LINE
 	SaintMichel = [{name: "Little Maghreb", type: "District", address: "", site: "#"},
