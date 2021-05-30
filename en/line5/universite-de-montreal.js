@@ -8,7 +8,10 @@ function init()
 	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Medicine", type: "University", address: "2900 Boulevard &Eacute;douard-Montpetit", site: "https://medecine.umontreal.ca/medical-school/"},
 	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Pharmacy", type: "University", address: "2940 Chemin de Polytechnique", site: "https://pharm.umontreal.ca/english/home/"},
 	{name: "Polytechnique Montr&eacute;al", type: "University", address: "2500 Chemin de Polytechnique", site: "https://www.polymtl.ca/en/"},
-	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Arts and Sciences", type: "University", address: "3150 Rue Jean-Brillant", site: "https://fas.umontreal.ca/accueil/"}];
+	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Arts and Sciences", type: "University", address: "3150 Rue Jean-Brillant", site: "https://fas.umontreal.ca/accueil/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Department of Pharmacology and Physiology", type: "University", address: "2960 Chemin de la Tour", site: "https://pharmacologie-physiologie.umontreal.ca/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Law", type: "University", address: "3101 Chemin de la Tour", site: "https://droit.umontreal.ca/en/home/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Department of Computer Science and Operations Research", type: "University", address: "2920 Chemin de la Tour", site: "https://diro.umontreal.ca/english/home/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
