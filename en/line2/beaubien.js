@@ -6,7 +6,8 @@ function init()
 	{name: "&Eacute;cole La Mennais", type: "School", address: "6521 Rue Saint-Denis", site: "https://la-mennais.csdm.ca/"},
 	{name: "Chambre de la Jeunesse", type: "Courthouse", address: "410 Rue de Bellechasse", site: "https://www.justice.gouv.qc.ca/en/judicial-system/courts-and-tribunals-of-quebec/court-of-quebec/youth-division"},
 	{name: "Th&eacute;&acirc;tre Plaza", type: "Theatre", address: "6505 Rue Saint-Hubert", site: "https://www.theatreplaza.ca/"},
-	{name: "Beaubien Bagel", type: "Restaurant", address: "828 Rue Beaubien Est", site: "#"}];
+	{name: "Beaubien Bagel", type: "Restaurant", address: "828 Rue Beaubien Est", site: "#"},
+	{name: "Parc Dante", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-dante"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
