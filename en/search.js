@@ -50,7 +50,8 @@ function init(){
 	{name: "Patro Villeray", type: "Cultural Centre", address: "7355 Avenue Christophe-Colomb", site: "https://patrovilleray.ca/"},
 	{name: "&Eacute;cole Saint-Ars&egrave;ne", type: "School", address: "6972 Avenue Christophe-Colomb", site: "https://st-arsene.cssdm.gouv.qc.ca/"},
 	{name: "&Eacute;glise Saint-Ars&egrave;ne", type: "Church", address: "1015 Rue B&eacute;langer", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-arsene"},
-	{name: "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", type: "Church", address: "6800 Avenue Henri-Julien", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-de-la-defense-italiens"}];
+	{name: "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", type: "Church", address: "6800 Avenue Henri-Julien", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-de-la-defense-italiens"},
+	{name: "Parc Dante", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-dante"}];
 	
 	LionelGroulx = [{name: "March&eacute; Atwater", type: "Market", address: "138 Avenue Atwater", site: "https://www.marchespublics-mtl.com/en/marches/atwater-market/"},
 	{name: "Parc Vinet", type: "Park", address: "550 Rue Vinet", site: "https://montreal.ca/en/places/parc-vinet"},
@@ -685,7 +686,8 @@ function init(){
 	{name: "&Eacute;cole La Mennais", type: "School", address: "6521 Rue Saint-Denis", site: "https://la-mennais.csdm.ca/"},
 	{name: "Chambre de la Jeunesse", type: "Courthouse", address: "410 Rue de Bellechasse", site: "https://www.justice.gouv.qc.ca/en/judicial-system/courts-and-tribunals-of-quebec/court-of-quebec/youth-division"},
 	{name: "Th&eacute;&acirc;tre Plaza", type: "Theatre", address: "6505 Rue Saint-Hubert", site: "https://www.theatreplaza.ca/"},
-	{name: "Beaubien Bagel", type: "Restaurant", address: "828 Rue Beaubien Est", site: "#"}];
+	{name: "Beaubien Bagel", type: "Restaurant", address: "828 Rue Beaubien Est", site: "#"},
+	{name: "Parc Dante", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-dante"}];
 	
 	Rosemont = [{name: "Biblioth&egrave;que Marc-Favreau", type: "Library", address: "500 Boulevard Rosemont", site: "https://montreal.ca/en/places/bibliotheque-marc-favreau"},
 	{name: "Parc des Carri&egrave;res", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-des-carrieres"},
