@@ -14,9 +14,10 @@ function init()
 	"Le D&#39;Assigny",
 	"Revenu Qu&eacute;bec, bureaux longueuillois",
 	"Tribunal Administratif du Logement du Qu&eacute;bec, bureaux longueuillois",
-	"Les Habitats Lafayette" ];
+	"Les Habitats Lafayette",
+	"SSQ Assurance, bureaux longueuillois" ];
 	
-	htypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence" ];
+	htypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence", "Bureau" ];
 	
 	haddresses = [ "120 Place Charles-Lemoyne", 
 	"150 Place Charles-Lemoyne", 
@@ -32,7 +33,8 @@ function init()
 	"110 Rue de la Barre",
 	"825 Rue Saint-Laurent Ouest",
 	"201 Place Charles-Lemoyne",
-	"100 Boulevard La Fayette" ];
+	"100 Boulevard La Fayette",
+	"1225 Rue Saint-Charles Ouest" ];
 	
 	hsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-longueuil", 
 	"http://www.usherbrooke.ca/longueuil/", 
@@ -48,7 +50,8 @@ function init()
 	"https://groupemercille.com/fr/residentiel/3-12",
 	"https://www.revenuquebec.ca/fr/",
 	"https://www.tal.gouv.qc.ca/",
-	"http://www.residences6etoiles.com/fr/lafayette.html" ];
+	"http://www.residences6etoiles.com/fr/lafayette.html",
+	"https://ssq.ca/fr" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
