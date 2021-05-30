@@ -9,7 +9,8 @@ function init()
 	{name: "Parc Le Pr&eacute;vost", type: "Park", address: "7275 Avenue Christophe-Colomb", site: "https://montreal.ca/en/places/parc-le-prevost"},
 	{name: "Patro Villeray", type: "Cultural Centre", address: "7355 Avenue Christophe-Colomb", site: "https://patrovilleray.ca/"},
 	{name: "&Eacute;cole Saint-Ars&egrave;ne", type: "School", address: "6972 Avenue Christophe-Colomb", site: "https://st-arsene.cssdm.gouv.qc.ca/"},
-	{name: "&Eacute;glise Saint-Ars&egrave;ne", type: "Church", address: "1015 Rue B&eacute;langer", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-arsene"}];
+	{name: "&Eacute;glise Saint-Ars&egrave;ne", type: "Church", address: "1015 Rue B&eacute;langer", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-arsene"},
+	{name: "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", type: "Church", address: "6800 Avenue Henri-Julien", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-de-la-defense-italiens"}];
 					
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
