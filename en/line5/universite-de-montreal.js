@@ -11,7 +11,8 @@ function init()
 	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Arts and Sciences", type: "University", address: "3150 Rue Jean-Brillant", site: "https://fas.umontreal.ca/accueil/"},
 	{name: "Universit&eacute; de Montr&eacute;al, Department of Pharmacology and Physiology", type: "University", address: "2960 Chemin de la Tour", site: "https://pharmacologie-physiologie.umontreal.ca/"},
 	{name: "Universit&eacute; de Montr&eacute;al, Faculty of Law", type: "University", address: "3101 Chemin de la Tour", site: "https://droit.umontreal.ca/en/home/"},
-	{name: "Universit&eacute; de Montr&eacute;al, Department of Computer Science and Operations Research", type: "University", address: "2920 Chemin de la Tour", site: "https://diro.umontreal.ca/english/home/"}];
+	{name: "Universit&eacute; de Montr&eacute;al, Department of Computer Science and Operations Research", type: "University", address: "2920 Chemin de la Tour", site: "https://diro.umontreal.ca/english/home/"},
+	{name: "Universit&eacute; de Montr&eacute;al, Biblioth&egrave;que des Lettres et Sciences Humaines", type: "Library", address: "3000 Rue Jean-Brillant", site: "https://bib.umontreal.ca/travailler/les-bibliotheques/lettres-sciences-humaines"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
