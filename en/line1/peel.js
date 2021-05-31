@@ -56,7 +56,8 @@ function init()
 	{name: "Theratechnologies", type: "Office", address: "2015 Rue Peel", site: "https://www.theratech.com/"},
 	{name: "McGill University, Department of Biology", type: "University", address: "1205 Avenue du Docteur-Penfield", site: "https://www.mcgill.ca/biology/"},
 	{name: "McGill University, Department of Pharmacology &amp; Therapeutics", type: "University", address: "3655 Promenade Sir-William-Osler", site: "https://www.mcgill.ca/pharma/"},
-	{name: "McGill University, Department of Physiology", type: "University", address: "3655 Promenade Sir-William-Osler", site: "https://www.mcgill.ca/physiology/"}];
+	{name: "McGill University, Department of Physiology", type: "University", address: "3655 Promenade Sir-William-Osler", site: "https://www.mcgill.ca/physiology/"},
+	{name: "H&ocirc;tel Chez Swann", type: "Hotel", address: "1444 Rue Drummond", site: "http://hotelchezswann.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
