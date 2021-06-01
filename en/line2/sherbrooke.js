@@ -33,7 +33,8 @@ function init()
 	{name: "Parc Persillier-Lachapelle", type: "Park", address: "2040 Rue Alexandre-DeS&egrave;ve", site: "https://montreal.ca/en/places/parc-persillier-lachapelle"},
 	{name: "Place Charles-de-Gaulle", type: "Park", address: "", site: "https://montreal.ca/en/places/place-charles-de-gaulle"},
 	{name: "&Eacute;cole au Pied-de-la-Montagne", type: "School", address: "311 Avenue des Pins Est", site: "https://au-pied-de-la-montagne.cssdm.gouv.qc.ca/ecole/pavillon-jjolier/"},
-	{name: "Les Fusiliers Mont-Royal", type: "Museum", address: "3721 Avenue Henri-Julien", site: "http://lesfusiliersmont-royal.com/"}];
+	{name: "Les Fusiliers Mont-Royal", type: "Museum", address: "3721 Avenue Henri-Julien", site: "http://lesfusiliersmont-royal.com/"},
+	{name: "H&ocirc;tel Manoir Sherbrooke", type: "Hotel", address: "157 Rue Sherbrooke Est", site: "https://manoirsherbrooke.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
