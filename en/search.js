@@ -38,7 +38,9 @@ function init(){
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Management Science Pavilion", type: "University", address: "315 Rue Sainte-Catherine Est", site: "https://carte.uqam.ca/pavillon-r"},
 	{name: "Fairfield Inn by Marriott Montreal Downtown", type: "Hotel", address: "1199 Rue Berri", site: "https://www.marriott.com/hotels/travel/yulfd-fairfield-montreal-downtown/"},
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Sports Centre", type: "Sports", address: "1212 Rue Sanguinet", site: "https://carte.uqam.ca/pavillon-cs"},
-	{name: "Biblioth&egrave;que Saint-Sulpice", type: "Library", address: "1700 Rue Saint-Denis", site: "https://banq-saint-sulpice.business.site/"}];
+	{name: "Biblioth&egrave;que Saint-Sulpice", type: "Library", address: "1700 Rue Saint-Denis", site: "https://banq-saint-sulpice.business.site/"},
+	{name: "Boxotel", type: "Hotel", address: "175 Rue Ontario Est", site: "https://www.boxotel.com/"},
+	{name: "H&eacute;ritage Victorien", type: "Hotel", address: "305 Rue Ontario Est", site: "http://www.montrealbedandbreakfast.ca/index.html"}];
 	
 	JeanTalon = [{name: "Tour Jean-Talon", type: "Office", address: "600 Rue Jean-Talon Est", site: "https://montrealundergroundcity.com/tour/tour-jean-talon/"},
 	{name: "March&eacute; Jean-Talon", type: "Market", address: "7070 Avenue Henri-Julien", site: "https://www.marchespublics-mtl.com/en/marches/jean-talon-market/"},
