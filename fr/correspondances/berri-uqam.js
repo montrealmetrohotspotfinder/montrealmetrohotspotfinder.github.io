@@ -21,7 +21,7 @@ function init()
 	"La Cin&eacute;math&egrave;que Qu&eacute;b&eacute;coise", 
 	"Institut National de l&#39;Image et du Son",
 	"Centre Pierre-P&eacute;ladeau",
-	"&Eacute;cole de Design de l&#39;UQAM",
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, &Eacute;cole de Design",
 	"Parc Saint-Jacques",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Judith-Jasmin",
 	"H&ocirc;tel Le Relais Lyonnais",
