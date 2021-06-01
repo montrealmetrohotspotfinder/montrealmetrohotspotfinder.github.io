@@ -12,7 +12,8 @@ function init()
 	{name: "H&ocirc;tel Faubourg Montr&eacute;al", type: "Hotel", address: "155 Boulevard Ren&eacute;-L&eacute;vesque Est", site: "https://www.hotelfaubourgmontreal.com/"},
 	{name: "H&ocirc;tel Chrome Montr&eacute;al Centre-Ville", type: "Hotel", address: "215 Boulevard Ren&eacute;-L&eacute;vesque Est", site: "https://www.hotelchrome.com/"},
 	{name: "Candlewood Suites Montr&eacute;al Centre-Ville", type: "Hotel", address: "191 Boulevard Ren&eacute;-L&eacute;vesque Est", site: "https://www.ihg.com/candlewood/hotels/us/en/montreal/yullb/hoteldetail?cm_mmc=GoogleMaps-_-CW-_-CA-_-YULLB"},
-	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Sainte-Catherine Pavilion", type: "University", address: "209 Rue Sainte-Catherine Est", site: "http://carte.uqam.ca/pavillon-v"}];
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Sainte-Catherine Pavilion", type: "University", address: "209 Rue Sainte-Catherine Est", site: "http://carte.uqam.ca/pavillon-v"},
+	{name: "H&ocirc;tel 10", type: "Hotel", address: "10 Rue Sherbrooke Ouest", site: "https://www.hotel10montreal.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
