@@ -27,7 +27,7 @@ function init()
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pr&eacute;sident-Kennedy Pavilion", type: "University", address: "201 Avenue du Pr&eacute;sident-Kennedy", site: "https://sciences.uqam.ca/"},
 	{name: "St. John the Evangelist Church", type: "Church", address: "137 Avenue du Pr&eacute;sident-Kennedy", site: "https://www.redroof.ca/"},
 	{name: "Office Qu&eacute;b&eacute;cois de la Langue Fran&ccedil;aise", type: "Agency", address: "125 Rue Sherbrooke Ouest", site: "http://www.oqlf.gouv.qc.ca/accueil.aspx"},
-	{name: "Biblioth&egrave;que des Sciences de l&#39;UQAM", type: "Library", address: "145 Avenue du Pr&eacute;sident-Kennedy", site: "https://bibliotheques.uqam.ca/bibliotheque/sciences/"},
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Biblioth&egrave;que des Sciences", type: "Library", address: "145 Avenue du Pr&eacute;sident-Kennedy", site: "https://bibliotheques.uqam.ca/bibliotheque/sciences/"},
 	{name: "&Eacute;cole des Arts Num&eacute;riques, de l&#39;Animation et du Design", type: "University", address: "1501 Rue de Bleury", site: "https://www.nad.ca/fr"},
 	{name: "&Eacute;cole de Danse Contemporaine de Montr&eacute;al", type: "School", address: "1435 Rue de Bleury", site: "https://www.edcm.ca/en"},
 	{name: "Directeur de l&#39;&Eacute;tat Civil du Qu&eacute;bec", type: "Agency", address: "2050 Rue de Bleury", site: "http://www.etatcivil.gouv.qc.ca/en/default.html"},
