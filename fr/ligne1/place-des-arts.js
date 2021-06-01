@@ -27,7 +27,7 @@ function init()
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Pr&eacute;sident-Kennedy",
 	"&Eacute;glise St. John the Evangelist",
 	"Office Qu&eacute;b&eacute;cois de la Langue Fran&ccedil;aise",
-	"Biblioth&egrave;que des Sciences de l&#39;UQAM",
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Biblioth&egrave;que des Sciences",
 	"&Eacute;cole des Arts Num&eacute;riques, de l&#39;Animation et du Design",
 	"&Eacute;cole de Danse Contemporaine de Montr&eacute;al",
 	"Directeur de l&#39;&Eacute;tat Civil du Qu&eacute;bec",
