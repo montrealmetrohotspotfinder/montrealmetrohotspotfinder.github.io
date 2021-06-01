@@ -758,7 +758,9 @@ function init(){
 	{name: "Place Charles-de-Gaulle", type: "Park", address: "", site: "https://montreal.ca/en/places/place-charles-de-gaulle"},
 	{name: "&Eacute;cole au Pied-de-la-Montagne", type: "School", address: "311 Avenue des Pins Est", site: "https://au-pied-de-la-montagne.cssdm.gouv.qc.ca/ecole/pavillon-jjolier/"},
 	{name: "Les Fusiliers Mont-Royal", type: "Museum", address: "3721 Avenue Henri-Julien", site: "http://lesfusiliersmont-royal.com/"},
-	{name: "H&ocirc;tel Manoir Sherbrooke", type: "Hotel", address: "157 Rue Sherbrooke Est", site: "https://manoirsherbrooke.ca/"}];
+	{name: "H&ocirc;tel Manoir Sherbrooke", type: "Hotel", address: "157 Rue Sherbrooke Est", site: "https://manoirsherbrooke.ca/"},
+	{name: "Boxotel", type: "Hotel", address: "175 Rue Ontario Est", site: "https://www.boxotel.com/"},
+	{name: "H&eacute;ritage Victorien", type: "Hotel", address: "305 Rue Ontario Est", site: "http://www.montrealbedandbreakfast.ca/index.html"}];
 	
 	ChampDeMars = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
