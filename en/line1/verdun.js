@@ -8,7 +8,9 @@ function init()
 	{name: "Parc du Souvenir", type: "Park", address: "4525 Rue de Verdun", site: "https://montreal.ca/en/places/parc-du-souvenir"},
 	{name: "&Eacute;glise de Notre-Dame-de-Lourdes", type: "Church", address: "4949 Rue de Verdun", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-de-lourdes"},
 	{name: "&Eacute;cole Notre-Dame-de-Lourdes", type: "School", address: "504 5e Avenue", site: "https://ndl.ecoleverdun.com/"},
-	{name: "Grace Church", type: "Church", address: "501 5e Avenue", site: "http://www.gracechurchverdun.com/"}];
+	{name: "Grace Church", type: "Church", address: "501 5e Avenue", site: "http://www.gracechurchverdun.com/"},
+	{name: "Centre Islamique de Verdun", type: "Cultural Centre", address: "4538 Rue de Verdun", site: "https://centres.macnet.ca/civ/en/"},
+	{name: "&Eacute;glise Sainte-Willibrord", type: "Church", address: "351 Rue Willibrord", site: "https://www.stwillibrordparish.org/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
