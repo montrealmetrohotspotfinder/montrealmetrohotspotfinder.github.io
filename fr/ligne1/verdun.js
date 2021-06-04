@@ -1,16 +1,17 @@
 function init()
 {
 	hnames = [ "Centre Communautaire Marcel-Giroux", "Mairie de Verdun", "Parc Willibrord", "&Eacute;cole L&eacute;vis-Sauv&eacute;", "&Eacute;cole Chanoine-Joseph-Th&eacute;or&ecirc;t",
-	"Parc du Souvenir", "&Eacute;glise de Notre-Dame-de-Lourdes", "&Eacute;cole Notre-Dame-de-Lourdes", "Grace Church" ];
+	"Parc du Souvenir", "&Eacute;glise de Notre-Dame-de-Lourdes", "&Eacute;cole Notre-Dame-de-Lourdes", "Grace Church", "Centre Islamique de Verdun", "&Eacute;glise Sainte-Willibrord" ];
 	
-	htypes = [ "Centre Culturel", "Gouvernement", "Parc", "&Eacute;cole", "&Eacute;cole", "Parc", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise" ];
+	htypes = [ "Centre Culturel", "Gouvernement", "Parc", "&Eacute;cole", "&Eacute;cole", "Parc", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise", "Centre Culturel", "&Eacute;glise" ];
 	
 	haddresses = [ "4501 Avenue Bannantyne", "4555 Rue de Verdun", "1018 Rue Willibrord", "655 Rue Willibrord", "990 5e Avenue",
-	"4525 Rue de Verdun", "4949 Rue de Verdun", "504 5e Avenue", "501 5e Avenue" ];
+	"4525 Rue de Verdun", "4949 Rue de Verdun", "504 5e Avenue", "501 5e Avenue", "4538 Rue de Verdun", "351 Rue Willibrord" ];
 	
 	hsites = [ "https://montreal.ca/lieux/centre-communautaire-marcel-giroux", "https://montreal.ca/lieux/mairie-darrondissement-de-verdun", 
 	"https://montreal.ca/lieux/parc-willibrord", "https://levissauve.ecoleverdun.com/", "https://cjt.ecoleverdun.com/", "https://montreal.ca/lieux/parc-du-souvenir",
-	"https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-lourdes", "https://ndl.ecoleverdun.com/", "http://www.gracechurchverdun.com/" ];
+	"https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-lourdes", "https://ndl.ecoleverdun.com/", "http://www.gracechurchverdun.com/",
+	"https://centres.macnet.ca/civ/fr/", "https://www.stwillibrordparish.org/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
