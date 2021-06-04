@@ -30,7 +30,8 @@ function init()
 	{name: "Parc de la Chasse-Galerie", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-de-la-chasse-galerie"},
 	{name: "Place Victor-Morin", type: "Park", address: "", site: "https://montreal.ca/en/places/place-victor-morin"},
 	{name: "Parc Fran&ccedil;ois-Dollier-De Casson", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-francois-dollier-de-casson"},
-	{name: "H&ocirc;pital Chinois de Montr&eacute;al", type: "Hospital", address: "189 Avenue Viger Est", site: "http://www.montrealchinesehospital.ca/home_en.html"}];
+	{name: "H&ocirc;pital Chinois de Montr&eacute;al", type: "Hospital", address: "189 Avenue Viger Est", site: "http://www.montrealchinesehospital.ca/home_en.html"},
+	{name: "Perch&eacute;", type: "Restaurant", address: "153 Rue Saint-Amable", site: "https://perchemtl.com/en/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
