@@ -31,7 +31,11 @@ function init()
 	{name: "Place Victor-Morin", type: "Park", address: "", site: "https://montreal.ca/en/places/place-victor-morin"},
 	{name: "Parc Fran&ccedil;ois-Dollier-De Casson", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-francois-dollier-de-casson"},
 	{name: "H&ocirc;pital Chinois de Montr&eacute;al", type: "Hospital", address: "189 Avenue Viger Est", site: "http://www.montrealchinesehospital.ca/home_en.html"},
-	{name: "Perch&eacute;", type: "Restaurant", address: "153 Rue Saint-Amable", site: "https://perchemtl.com/en/"}];
+	{name: "Perch&eacute;", type: "Restaurant", address: "153 Rue Saint-Amable", site: "https://perchemtl.com/en/"},
+	{name: "Square Viger", type: "Town Square", address: "", site: "https://montreal.ca/en/places/square-viger"},
+	{name: "Centre Culturel Marocain Dar Al Maghrib", type: "Cultural Centre", address: "515 Avenue Viger Est", site: "http://www.lecentreculturelmarocain.ca/"},
+	{name: "Maison Sainte-Th&eacute;r&egrave;se", type: "Hotel", address: "110 Rue Sainte-Th&eacute;r&egrave;se", site: "https://maisonsco.com/"},
+	{name: "Maison Saint-Vincent", type: "Hotel", address: "443 Rue Saint-Vincent", site: "https://maisonsco.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
