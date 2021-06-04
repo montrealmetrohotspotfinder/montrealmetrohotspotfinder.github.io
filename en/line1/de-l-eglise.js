@@ -7,7 +7,11 @@ function init()
 	{name: "Stade Ronald-Pich&eacute;", type: "Sports", address: "3750 Boulevard Ga&eacute;tan-Laberge", site: "#"},
 	{name: "H&ocirc;pital de Verdun", type: "Hospital", address: "4000 Boulevard LaSalle", site: "https://www.ciusss-centresudmtl.gouv.qc.ca/etablissement/hopital-de-verdun"},
 	{name: "Parc J.-Albert-Gari&eacute;py", type: "Park", address: "10 All&eacute;e des Brises-du-Fleuve", site: "https://montreal.ca/en/places/parc-j-albert-gariepy"},
-	{name: "&Eacute;glise Notre-Dame-des-Sept-Douleurs de Montr&eacute;al", type: "Church", address: "4155 Rue Wellington", site: "http://nddt.org/"}];
+	{name: "&Eacute;glise Notre-Dame-des-Sept-Douleurs de Montr&eacute;al", type: "Church", address: "4155 Rue Wellington", site: "http://nddt.org/"},
+	{name: "Church of the Epiphany", type: "Church", address: "4322 Rue Wellington", site: "https://epiphanyverdun.com/"},
+	{name: "&Eacute;cole Notre-Dame-des-Sept-Douleurs", type: "School", address: "320 Rue de l&#39;&Eacute;glise", site: "https://nddsd.ecoleverdun.com/"},
+	{name: "Onward Gospel Church", type: "Church", address: "165 Rue Galt", site: "http://www.onwardgospelchurch.com/"},
+	{name: "Parc Joannette", type: "Park", address: "292 Rue Hickson", site: "https://montreal.ca/en/places/parc-joannette"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
