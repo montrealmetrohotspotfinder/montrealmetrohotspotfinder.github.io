@@ -611,7 +611,10 @@ function init(){
 	{name: "Centre Islamique de Verdun", type: "Cultural Centre", address: "4538 Rue de Verdun", site: "https://centres.macnet.ca/civ/en/"},
 	{name: "&Eacute;glise Sainte-Willibrord", type: "Church", address: "351 Rue Willibrord", site: "https://www.stwillibrordparish.org/"}];
 	
-	Jolicoeur = [{name: "Parc de la V&eacute;rendrye", type: "Park", address: "5900 Rue Drake", site: "https://montreal.ca/en/places/parc-de-la-verendrye"}];
+	Jolicoeur = [{name: "Parc de la V&eacute;rendrye", type: "Park", address: "5900 Rue Drake", site: "https://montreal.ca/en/places/parc-de-la-verendrye"},
+	{name: "&Eacute;glise Notre-Dame-Porte-de-l&#39;Aurore", type: "Church", address: "1465 Rue de S&egrave;ve", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-porte-de-laurore-lituaniens"},
+	{name: "&Eacute;glise Coeur-Immacul&eacute;-de-Marie", type: "Church", address: "6300 Rue Laurendeau", site: "https://www.diocesemontreal.org/en/faith-community/church/coeur-immacule-de-marie"},
+	{name: "&Eacute;cole Coeur-Immacul&eacute;-de-Marie", type: "School", address: "1845 Boulevard Desmarchais", site: "https://coeur-immacule-de-marie.cssdm.gouv.qc.ca/"}];
 	
 	Monk = [{name: "Institut Douglas", type: "Hospital", address: "6875 Boulevard LaSalle", site: "http://www.douglas.qc.ca/?locale=en"},
 	{name: "Centre Hospitalier Ville-&Eacute;mard", type: "Hospital", address: "6935 Rue Hamilton", site: "https://ciusss-centresudmtl.gouv.qc.ca/etablissement/clsc-de-ville-emard"},
