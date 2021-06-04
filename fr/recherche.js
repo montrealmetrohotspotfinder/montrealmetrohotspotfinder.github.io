@@ -1058,13 +1058,13 @@ function init(){
 	"https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-lourdes", "https://ndl.ecoleverdun.com/", "http://www.gracechurchverdun.com/",
 	"https://centres.macnet.ca/civ/fr/", "https://www.stwillibrordparish.org/" ];
 	
-	Jolicoeurnames = [ "Parc de la V&eacute;rendrye" ];
+	Jolicoeurnames = [ "Parc de la V&eacute;rendrye", "&Eacute;glise Notre-Dame-Porte-de-l&#39;Aurore", "&Eacute;glise Coeur-Immacul&eacute;-de-Marie", "&Eacute;cole Coeur-Immacul&eacute;-de-Marie" ];
 	
-	Jolicoeurtypes = [ "Parc" ];
+	Jolicoeurtypes = [ "Parc", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole" ];
 	
-	Jolicoeuraddresses = [ "5900 Rue Drake" ];
+	Jolicoeuraddresses = [ "5900 Rue Drake", "1465 Rue de S&egrave;ve", "6300 Rue Laurendeau", "1845 Boulevard Desmarchais" ];
 	
-	Jolicoeursites = [ "https://montreal.ca/lieux/parc-de-la-verendrye" ];
+	Jolicoeursites = [ "https://montreal.ca/lieux/parc-de-la-verendrye", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-porte-laurore-lituaniens", "https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/coeur-immacule-marie", "https://coeur-immacule-de-marie.cssdm.gouv.qc.ca/" ];
 	
 	Monknames = [ "Institut Douglas", "Centre Hospitalier Ville-&Eacute;mard", "&Eacute;cole Honor&eacute;-Mercier", 
 	"&Eacute;cole Dollard-des-Ormeaux", "&Eacute;cole Saint-Jean-de-Matha", "Parc Clifford", "Parc D&#39;Arcy-McGee", "Parc Cur&eacute;-Albert-Arnold",
