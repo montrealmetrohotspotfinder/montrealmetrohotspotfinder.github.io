@@ -41,7 +41,9 @@ function init(){
 	{name: "Biblioth&egrave;que Saint-Sulpice", type: "Library", address: "1700 Rue Saint-Denis", site: "https://banq-saint-sulpice.business.site/"},
 	{name: "Boxotel", type: "Hotel", address: "175 Rue Ontario Est", site: "https://www.boxotel.com/"},
 	{name: "H&eacute;ritage Victorien", type: "Hotel", address: "305 Rue Ontario Est", site: "http://www.montrealbedandbreakfast.ca/index.html"},
-	{name: "Cath&eacute;drale Saint-Jacques", type: "Church", address: "1455 Rue Saint-Denis", site: "#"}];
+	{name: "Cath&eacute;drale Saint-Jacques", type: "Church", address: "1455 Rue Saint-Denis", site: "#"},
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Biblioth&egrave;que Centrale", type: "Library", address: "400 Rue Sainte-Catherine Est", site: "https://bibliotheques.uqam.ca/bibliotheque/centrale/"},
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, J.-A.-DeS&egrave;ve Pavilion", type: "University", address: "320 Rue Sainte-Catherine Est", site: "https://carte.uqam.ca/pavillon-ds"}];
 	
 	JeanTalon = [{name: "Tour Jean-Talon", type: "Office", address: "600 Rue Jean-Talon Est", site: "https://montrealundergroundcity.com/tour/tour-jean-talon/"},
 	{name: "March&eacute; Jean-Talon", type: "Market", address: "7070 Avenue Henri-Julien", site: "https://www.marchespublics-mtl.com/en/marches/jean-talon-market/"},
