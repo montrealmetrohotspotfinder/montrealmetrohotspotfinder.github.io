@@ -1,12 +1,12 @@
 function init()
 {
-	hnames = [ "Parc de la V&eacute;rendrye" ];
+	hnames = [ "Parc de la V&eacute;rendrye", "&Eacute;glise Notre-Dame-Porte-de-l&#39;Aurore", "&Eacute;glise Coeur-Immacul&eacute;-de-Marie", "&Eacute;cole Coeur-Immacul&eacute;-de-Marie" ];
 	
-	htypes = [ "Parc" ];
+	htypes = [ "Parc", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole" ];
 	
-	haddresses = [ "5900 Rue Drake" ];
+	haddresses = [ "5900 Rue Drake", "1465 Rue de S&egrave;ve", "6300 Rue Laurendeau", "1845 Boulevard Desmarchais" ];
 	
-	hsites = [ "https://montreal.ca/lieux/parc-de-la-verendrye" ];
+	hsites = [ "https://montreal.ca/lieux/parc-de-la-verendrye", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-porte-laurore-lituaniens", "https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/coeur-immacule-marie", "https://coeur-immacule-de-marie.cssdm.gouv.qc.ca/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
