@@ -40,10 +40,12 @@ function init()
 	"Biblioth&egrave;que Saint-Sulpice",
 	"Boxotel",
 	"H&eacute;ritage Victorien",
-	"Cath&eacute;drale Saint-Jacques" ];
+	"Cath&eacute;drale Saint-Jacques",
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Biblioth&egrave;que Centrale",
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon J.-A.-DeS&egrave;ve" ];
 	
 	htypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;", "H&ocirc;tel",
-		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement", "Universit&eacute;", "Parc", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "Sports", "Biblioth&egrave;que", "H&ocirc;tel", "H&ocirc;tel", "&Eacute;glise" ];
+		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement", "Universit&eacute;", "Parc", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "Sports", "Biblioth&egrave;que", "H&ocirc;tel", "H&ocirc;tel", "&Eacute;glise", "Biblioth&egrave;que", "Universit&eacute;" ];
 	
 	haddresses = [ "405 Rue Sainte-Catherine Est",
 	"475 Boulevard de Maisonneuve Est",
@@ -85,7 +87,9 @@ function init()
 	"1700 Rue Saint-Denis",
 	"175 Rue Ontario Est",
 	"305 Rue Ontario Est",
-	"1455 Rue Saint-Denis" ];
+	"1455 Rue Saint-Denis",
+	"400 Rue Sainte-Catherine Est",
+	"320 Rue Sainte-Catherine Est" ];
 	
 	hsites = [ "http://www.uqam.ca/", 
 	"http://www.banq.qc.ca/accueil/", 
@@ -127,7 +131,9 @@ function init()
 	"https://banq-saint-sulpice.business.site/",
 	"https://www.boxotel.com/fr/",
 	"http://www.montrealbedandbreakfast.ca/index.html",
-	"#" ];
+	"#",
+	"https://bibliotheques.uqam.ca/bibliotheque/centrale/",
+	"https://carte.uqam.ca/pavillon-ds" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
