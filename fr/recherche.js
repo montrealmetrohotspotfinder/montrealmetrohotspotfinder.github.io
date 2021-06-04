@@ -1025,12 +1025,12 @@ function init(){
 	"https://verdun.centrecsmb.com/", "https://monseigneur-richard.ecoleverdun.com/", "https://montreal.ca/lieux/parc-sutherland-sackville-bain" ];
 	
 	DeLEglisenames = [ "Promenade Wellington", "Auditorium de Verdun", "Plage de Verdun", "Parc Arthur-Therrien", "Stade Ronald-Pich&eacute;", "H&ocirc;pital de Verdun", "Parc J.-Albert-Gari&eacute;py",
-	"&Eacute;glise Notre-Dame-des-Sept-Douleurs de Montr&eacute;al" ];
+	"&Eacute;glise Notre-Dame-des-Sept-Douleurs de Montr&eacute;al", "&Eacute;glise de l&#39;&Eacute;piphanie", "&Eacute;cole Notre-Dame-des-Sept-Douleurs", "Onward Gospel Church", "Parc Joannette" ];
 	
-	DeLEglisetypes = [ "Magasinage", "Sports", "Plage", "Parc", "Sports", "H&ocirc;pital", "Parc", "&Eacute;glise" ];
+	DeLEglisetypes = [ "Magasinage", "Sports", "Plage", "Parc", "Sports", "H&ocirc;pital", "Parc", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise", "Parc" ];
 	
 	DeLEgliseaddresses = [ "266 Rue Hickson", "4110 Boulevard LaSalle", "4110 Boulevard LaSalle", "3750 Boulevard Ga&eacute;tan-Laberge", "3750 Boulevard Ga&eacute;tan-Laberge",
-	"4000 Boulevard LaSalle", "10 All&eacute;e des Brises-du-Fleuve", "4155 Rue Wellington" ];
+	"4000 Boulevard LaSalle", "10 All&eacute;e des Brises-du-Fleuve", "4155 Rue Wellington", "4322 Rue Wellington", "320 Rue de l&#39;&Eacute;glise", "165 Rue Galt", "292 Rue Hickson" ];
 	
 	DeLEglisesites = [ "http://www.promenadewellington.com/fr", 
 	"https://montreal.ca/lieux/auditorium-de-verdun", 
@@ -1039,7 +1039,11 @@ function init(){
 	"#",
 	"https://www.ciusss-centresudmtl.gouv.qc.ca/etablissement/hopital-de-verdun",
 	"https://montreal.ca/lieux/parc-j-albert-gariepy",
-	"http://nddt.org/" ];
+	"http://nddt.org/",
+	"https://epiphanyverdun.com/",
+	"https://nddsd.ecoleverdun.com/",
+	"http://www.onwardgospelchurch.com/",
+	"https://montreal.ca/lieux/parc-joannette" ];
 	
 	Verdunnames = [ "Centre Communautaire Marcel-Giroux", "Mairie de Verdun", "Parc Willibrord", "&Eacute;cole L&eacute;vis-Sauv&eacute;", "&Eacute;cole Chanoine-Joseph-Th&eacute;or&ecirc;t",
 	"Parc du Souvenir", "&Eacute;glise de Notre-Dame-de-Lourdes", "&Eacute;cole Notre-Dame-de-Lourdes", "Grace Church", "Centre Islamique de Verdun", "&Eacute;glise Sainte-Willibrord" ];
