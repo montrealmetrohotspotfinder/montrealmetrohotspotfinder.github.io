@@ -44,7 +44,7 @@ function init()
 	{name: "Chamber of Commerce of Metropolitan Montreal", type: "Office", address: "393 Rue Saint-Jacques", site: "https://www.ccmm.ca/en/"},
 	{name: "H&ocirc;tel Gault", type: "Hotel", address: "449 Rue Sainte-H&eacute;l&egrave;ne", site: "https://hotelgault.com/"},
 	{name: "Appartements-Boutique", type: "Residence", address: "715 Rue William", site: "http://www.appartementsboutique.ca/en/home.html"},
-	{name: "Square des Fr&egrave;res-Charon", type: "Park", address: "", site: "https://montreal.ca/en/places/square-des-freres-charon"},
+	{name: "Square des Fr&egrave;res-Charon", type: "Town Square", address: "", site: "https://montreal.ca/en/places/square-des-freres-charon"},
 	{name: "DOMO Appartements", type: "Residence", address: "650 Rue Wellington", site: "https://www.mondev.ca/apartments-for-rent-montreal/old-montreal/wellington-650"},
 	{name: "Alstom", type: "Office", address: "1050 C&ocirc;te du Beaver Hall", site: "https://www.alstom.com/"},
 	{name: "Place du Fr&egrave;re-Andr&eacute;", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-frere-andre"}];
