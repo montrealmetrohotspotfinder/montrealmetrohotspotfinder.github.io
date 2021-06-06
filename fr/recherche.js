@@ -1295,19 +1295,19 @@ function init(){
 	"&Eacute;difice Jacques-Parizeau", "&Eacute;glise de la Mission-Catholique-Chinoise-du-Saint-Esprit", "H&ocirc;tel &Eacute;pik Montr&eacute;al", "Le Petit H&ocirc;tel", "Coll&egrave;ge Sup&eacute;rieur de Montr&eacute;al", "Ogilvy, bureaux montr&eacute;alais",
 	"Vieux S&eacute;minaire de Saint-Sulpice", "500 Place d&#39;Armes", "Th&eacute;&acirc;tre Centaur", "H&ocirc;tel Bonaparte", "Centre de Commerce Mondial de Montr&eacute;al", "Place Sun-Yat-Sen", "H&ocirc;tel Monville", "SNC-Lavalin", "H&ocirc;tel Le Dauphin Montr&eacute;al Centre-Ville", "Basilique Saint-Patrick", 
 	"&Eacute;difice Aldred", "Cour d&#39;Appel du Qu&eacute;bec", "R&eacute;gie des Alcools, des Courses et des Jeux du Qu&eacute;bec, bureaux montr&eacute;alais", "Expedia, bureaux montr&eacute;alais", "SpringHill Suites Vieux Montr&eacute;al",
-	"Place Marguerite-Bourgeoys", "&Eacute;cole du Barreau", "Modavie" ];
+	"Place Marguerite-Bourgeoys", "&Eacute;cole du Barreau", "Modavie", "Toqu&eacute;!" ];
 	
 	PlaceDArmestypes = [ "District", "Port", "Mus&eacute;e", "Mus&eacute;e", "Mus&eacute;e", "Place de la Ville", "Restaurant", "Restaurant", "District", "Bureau", "Site Historique", "Centre de Convention", "Tribunal", "&Eacute;glise",
 	"Site Historique", "Bureau", "Bureau", "H&ocirc;tel", "Gouvernement", "Centre Commercial", "H&ocirc;tel", "Restaurant", "Restaurant", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Restaurant", "H&ocirc;tel", "Restaurant", "Restaurant", "Restaurant",
 	"Agence", "Place de la Ville", "Bureau", "&Eacute;glise", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Bureau", "Site Historique", "Bureau", "Th&eacute;&acirc;tre", "H&ocirc;tel", "Centre Commercial", "Parc", "H&ocirc;tel", "Bureau", "H&ocirc;tel", "&Eacute;glise",
-	"Bureau", "Tribunal", "Agence", "Bureau", "H&ocirc;tel", "Parc", "&Eacute;cole", "Restaurant" ];
+	"Bureau", "Tribunal", "Agence", "Bureau", "H&ocirc;tel", "Parc", "&Eacute;cole", "Restaurant", "Restaurant" ];
 	
 	PlaceDArmesaddresses = [ "", "333 Rue de la Commune Ouest", "2 Rue de la Commune Ouest", "350 Place Royale", "150 Rue Saint-Paul Ouest", "", "298 Place d&#39;Youville", "351 Place Royale", "", "40 Rue Saint-Antoine Ouest", "915 Rue Clark",
 	"1001 Place Jean-Paul-Riopelle", "1 Rue Notre-Dame Est", "110 Rue Notre-Dame Ouest", "", "119 Rue Saint-Jacques", "511 Place d&#39;Armes", "414 Rue Saint-Sulpice", "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "150 Rue Sainte-Catherine Ouest", 
 	"55 Rue Saint-Jacques", "55 Rue Saint-Jacques", "711 C&ocirc;te de la Place d&#39;Armes", "999 Rue Saint-Urbain", "355 Rue McGill", "204 Place d&#39;Youville", "115 Rue de la Commune Ouest", "208 Rue Saint-Antoine Ouest", "97 Rue de la Commune Est", "100 Rue Saint-Paul Ouest", "106 Rue Saint-Paul Ouest", "106 Rue Saint-Paul Ouest", "89 Rue de la Commune Est", "124 Rue Saint-Paul Ouest",
 	"1000 Place Jean-Paul-Riopelle", "1000 Place Jean-Paul-Riopelle", "1000 Place Jean-Paul-Riopelle", "979 Rue C&ocirc;t&eacute;", "171 Rue Saint-Paul Ouest", "168 Rue Saint-Paul Ouest", "205 Avenue Viger Ouest", "215 Rue Saint-Jacques", "116 Rue Notre-Dame Ouest", "500 Place d&#39;Armes", "453 Rue Saint-Fran&ccedil;ois-Xavier", "447 Rue Saint-Fran&ccedil;ois-Xavier", "747 Rue du Square-Victoria",
 	"1055 Rue Clark", "1041 Rue de Bleury", "455 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1025 Rue de Bleury", "460 Boulevard Ren&eacute;-L&eacute;vesque Ouest",
-	"507 Place d&#39;Armes", "100 Rue Notre-Dame Est", "1 Rue Notre-Dame Est", "63 Rue de Br&eacute;soles", "445 Rue Saint-Jean-Baptiste", "", "445 Boulevard Saint-Laurent", "1 Rue Saint-Paul Ouest" ];
+	"507 Place d&#39;Armes", "100 Rue Notre-Dame Est", "1 Rue Notre-Dame Est", "63 Rue de Br&eacute;soles", "445 Rue Saint-Jean-Baptiste", "", "445 Boulevard Saint-Laurent", "1 Rue Saint-Paul Ouest", "900 Place Jean-Paul-Riopelle" ];
 	
 	PlaceDArmessites = [ "https://vieuxmontreal.ca/", "https://www.vieuxportdemontreal.com/", "https://www.centredessciencesdemontreal.com/", "https://pacmusee.qc.ca/fr/", "https://pacmusee.qc.ca/fr/histoires-de-montreal/article/l-ancienne-douane-joyau-de-l-architecture-dici/",
 	"https://www.mtl.org/fr/quoi-faire/patrimoine-et-architecture/place-d-youville", "https://www.gibbys.com/?lang=fr", "https://www.seasaltmontreal.ca/?lang=fr", "https://www.mtl.org/fr/experience/quartier-chinois-montreal", "https://www.lapresse.ca/", "https://www.missionoldbrewery.ca/fr/", 
@@ -1316,7 +1316,7 @@ function init(){
 	"https://hotelstpaul.com/fr/", "https://uvillehotelmontreal.com/fr/", "http://auberge-de-la-place-royale.to-montreal-hotels.com/fr/", "https://www.hiltonhotels.com/fr_FR/canada/embassy-suites-by-hilton-montreal/?cultureKey=fr_FR", "http://aubergeduvieuxport.com/fr/", "https://versesrestaurant.com/fr/", "https://hotelnelligan.com/fr", "http://terrassenelligan.com/accueil/", "https://tavernegaspar.com/", "https://mechantboeuf.com/",
 	"https://www.cdpq.com/fr", "https://www.mtl.org/fr/quoi-faire/patrimoine-et-architecture/place-jean-paul-riopelle", "http://edificejacques-parizeau.com/", "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92746&type=bien",
 	"http://www.epikmontreal.com/fr/", "https://petithotelmontreal.com/fr/accueil/", "https://www.collegecsm.com/", "https://www.ogilvy.com/ca/fre", "https://universcultureldesaintsulpice.ca/vs_fr.html", "#", "https://centaurtheatre.com/fr/", "http://bonaparte.com/", "https://www.alliedreit.com/fr/property/__trashed/", "https://montreal.ca/lieux/place-sun-yat-sen", "https://www.hotelmonville.com/", "https://www.snclavalin.com/fr-FR", "https://www.hotelsdauphin.ca/hotels/montreal/",
-	"http://www.stpatricksmtl.ca/", "https://imtl.org/edifices/Aldred-Building.php", "https://courdappelduquebec.ca/", "https://www.racj.gouv.qc.ca/accueil.html", "https://www.expedia.ca/fr/?langid=3084&", "https://www.marriott.fr/hotels/travel/yulsh-springhill-suites-old-montreal", "https://montreal.ca/lieux/place-marguerite-bourgeoys", "http://www.ecoledubarreau.qc.ca/fr/", "https://modavie.com/fr/" ];
+	"http://www.stpatricksmtl.ca/", "https://imtl.org/edifices/Aldred-Building.php", "https://courdappelduquebec.ca/", "https://www.racj.gouv.qc.ca/accueil.html", "https://www.expedia.ca/fr/?langid=3084&", "https://www.marriott.fr/hotels/travel/yulsh-springhill-suites-old-montreal", "https://montreal.ca/lieux/place-marguerite-bourgeoys", "http://www.ecoledubarreau.qc.ca/fr/", "https://modavie.com/fr/", "https://www.restaurant-toque.com/fr/" ];
 	
 	SquareVictorianames = [ "Vieux Montr&eacute;al", "Vieux Port de Montr&eacute;al", "Square Victoria", "Quebecor Media", "Tour de la Bourse", "Tour Banque Nationale", "Tour Viger", "Place Jean-Paul-Riopelle", "Quartier International",
 	"Maison de l&#39;OACI", "Centre de Commerce Mondial de Montr&eacute;al", "H&ocirc;tel Le Saint-James", "Raymond Chabot Grant Thornton", "Somwhr Liquor Lounge", "Le Westin Montr&eacute;al", "W Montr&eacute;al",
@@ -1324,18 +1324,18 @@ function init(){
 	"Caisse de D&eacute;p&ocirc;t et Placement du Qu&eacute;bec", "AON", "&Eacute;difice Jacques-Parizeau", "Soci&eacute;t&eacute; Qu&eacute;b&eacute;coise d&#39;Information Juridique", "Groupe CSL",
 	"Maison des R&eacute;gions", "Place Victoria", "Agence Mondiale Antidopage", "Association Internationale du Transport A&eacute;rien", "Autorit&eacute; des March&eacute;s Financiers", "La Vo&ucirc;te", "Ivanho&eacute; Cambridge", "Atlific Hotels",
 	"Th&eacute;&acirc;tre St-James", "CIMA+", "KoSc&egrave;ne", "Saint-M2", "Chambre de Commerce du Montr&eacute;al M&eacute;tropolitain", "H&ocirc;tel Gault", "Appartements-Boutique", "Square des Fr&egrave;res-Charon", "DOMO Appartements", "Alstom",
-	"Place du Fr&egrave;re-Andr&eacute;" ];
+	"Place du Fr&egrave;re-Andr&eacute;", "Toqu&eacute;!" ];
 	
 	SquareVictoriatypes = [ "District", "Port", "Place de la Ville", "Bureau", "Bureau", "Bureau", "Bureau", "Place de la Ville", "District", "Bureau", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel",
 	"District", "Centre de Convention", "Centre de Convention", "R&eacute;sidence", "Restaurant", "H&ocirc;tel", "Agence", "Bureau", "Bureau", "Agence", "Bureau", "Bureau", "Centre Commercial", "Bureau", "Bureau", "Agence", "Restaurant", "Bureau", "Bureau", "Salle de R&eacute;ception",
-	"Bureau", "Bureau", "R&eacute;sidence", "Bureau", "H&ocirc;tel", "R&eacute;sidence", "Place de la Ville", "R&eacute;sidence", "Bureau", "Parc" ];
+	"Bureau", "Bureau", "R&eacute;sidence", "Bureau", "H&ocirc;tel", "R&eacute;sidence", "Place de la Ville", "R&eacute;sidence", "Bureau", "Parc", "Restaurant" ];
 	
 	SquareVictoriaaddresses = [ "", "333 Rue de la Commune Ouest", "", "612 Rue Saint-Jacques", "800 Rue Gauvin", "600 Rue de la Gaucheti&egrave;re Ouest", "525 Avenue Viger Ouest", "1000 Place Jean-Paul-Riopelle", "",
 	"999 Boulevard Robert-Bourassa", "747 Rue du Square-Victoria", "355 Rue Saint-Jacques", "600 Rue de la Gaucheti&egrave;re Ouest", "401 Rue Notre-Dame Ouest", "270 Rue Saint-Antoine Ouest", "901 Rue du Square-Victoria", 
 	"262 Rue Saint-Jacques", "360 Rue Saint-Antoine Ouest", "", "1001 Place Jean-Paul-Riopelle", "800 Rue de la Gaucheti&egrave;re Ouest", "777 Boulevard Robert-Bourassa", "777 Boulevard Robert-Bourassa", "208 Rue Saint-Antoine Ouest",
 	"1000 Place Jean-Paul-Riopelle", "700 Rue de la Gaucheti&egrave;re Ouest", "1000 Place Jean-Paul-Riopelle", "715 Rue du Square-Victoria", "759 Rue du Square-Victoria", "500 Rue Saint-Jacques", "800 Rue du Square-Victoria", "800 Rue du Square-Victoria",
 	"800 Rue du Square-Victoria", "800 Rue du Square-Victoria", "360 Rue Saint-Jacques", "1001 Rue du Square-Victoria", "250 Rue Saint-Antoine Ouest", "265 Rue Saint-Jacques",
-	"740 Rue Notre-Dame Ouest", "651 Rue Notre-Dame Ouest", "464 Rue Saint-Henri", "393 Rue Saint-Jacques", "449 Rue Sainte-H&eacute;l&egrave;ne", "715 Rue William", "", "650 Rue Wellington", "1050 C&ocirc;te du Beaver Hall", "" ];
+	"740 Rue Notre-Dame Ouest", "651 Rue Notre-Dame Ouest", "464 Rue Saint-Henri", "393 Rue Saint-Jacques", "449 Rue Sainte-H&eacute;l&egrave;ne", "715 Rue William", "", "650 Rue Wellington", "1050 C&ocirc;te du Beaver Hall", "", "900 Place Jean-Paul-Riopelle" ];
 	
 	SquareVictoriasites = [ "https://vieuxmontreal.ca/", "https://www.vieuxportdemontreal.com/", "https://montreal.ca/lieux/square-victoria", "https://www.quebecor.com/fr/accueil", "http://www.tourdelabourse.com/", "#", "https://www.touraimia.com/index.php",
 	"https://www.mtl.org/fr/quoi-faire/patrimoine-et-architecture/place-jean-paul-riopelle", "https://www.mtl.org/fr/quoi-faire/patrimoine-et-architecture/quartier-international-de-montreal", "https://www.icao.int/Pages/default.aspx", 
@@ -1344,7 +1344,7 @@ function init(){
 	"https://www.evomontreal.com/fr", "https://portus360.com/", "https://www.hiltonhotels.com/fr_FR/canada/embassy-suites-by-hilton-montreal/?cultureKey=fr_FR", "https://www.cdpq.com/fr", "https://www.aon.com/canada/fr/default.jsp",
 	"http://edificejacques-parizeau.com/", "https://soquij.qc.ca/", "https://www.cslships.com/fr", "https://maisondesregions.com/", "http://www.groupepetra.com/fra/properties/view?id=41index2_fr.php", "https://www.wada-ama.org/fr", "https://www.iata.org/", "https://lautorite.qc.ca/",
 	"https://lavoutemontreal.com/", "https://www.ivanhoecambridge.com/", "https://fr.atlific.com/", "https://www.stjamestheatre.ca/francais", "https://www.cima.ca/", "http://www.koscene.ca/", "https://www.saintm2.com/fr/", "https://www.ccmm.ca/", "https://hotelgault.com/fr/", "http://www.appartementsboutique.ca/",
-	"https://montreal.ca/lieux/square-des-freres-charon", "https://www.mondev.ca/fr/appartements-a-louer-montreal/old-montreal/wellington-650", "https://www.alstom.com/fr", "https://montreal.ca/lieux/place-du-frere-andre" ];
+	"https://montreal.ca/lieux/square-des-freres-charon", "https://www.mondev.ca/fr/appartements-a-louer-montreal/old-montreal/wellington-650", "https://www.alstom.com/fr", "https://montreal.ca/lieux/place-du-frere-andre", "https://www.restaurant-toque.com/fr/" ];
 	
 	Bonaventurenames = [ "Gare Centrale", "Terminus Centre-Ville", "Les Halles de la Gare", "Place Bonaventure", "STM, si&egrave;ge social", "Centre Bell", "1000 De La Gaucheti&egrave;re", "Place Ville Marie",
 	"H&ocirc;tel Fairmont Reine Elizabeth", "Marriott Ch&acirc;teau Champlain", "Maison de l&#39;OACI", "Cath&eacute;drale Marie Reine du Monde", "Square Dorchester", "&Eacute;difice Sun Life", 
