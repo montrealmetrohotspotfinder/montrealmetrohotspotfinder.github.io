@@ -4,16 +4,16 @@ function init()
 	"March&eacute; Bonsecours", "Terrasses Bonsecours", "Chappelle Notre-Dame-de-Bon-Secours", "Place Jacques-Cartier", "Quai Jacques-Cartier", "Quai de l&#39;Horloge", "Bassin Bonsecours", 
 	"H&ocirc;tel William Gray", "Maggie Oakes", "BEVO Bar + Pizzeria", "Vieux-Port Steakhouse", "Auberge Saint-Gabriel", "Jardin Nelson", "Rue Saint-Amable", "Place de la Dauversi&egrave;re",
 	"Parc Fleury-Mesplet", "Le Solano", "Parc de la Chasse-Galerie", "Place Victor-Morin", "Parc Fran&ccedil;ois-Dollier-De Casson", "H&ocirc;pital Chinois de Montr&eacute;al", "Perch&eacute;",
-	"Square Viger", "Centre Culturel Marocain Dar Al Maghrib", "Maison Sainte-Th&eacute;r&egrave;se", "Maison Saint-Vincent" ];
+	"Square Viger", "Centre Culturel Marocain Dar Al Maghrib", "Maison Sainte-Th&eacute;r&egrave;se", "Maison Saint-Vincent", "Terrasse William Gray" ];
 	
 	htypes = [ "District", "Port", "Parc", "H&ocirc;pital", "District", "Place de la Ville", "Site Historique", "Gouvernement", "Gouvernement", "Site Historique", "Magasinage", "Restaurant", "&Eacute;glise", "District", "Port", "Port", "Lac",
 	"H&ocirc;tel", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Site Historique", "Parc", "Parc", "R&eacute;sidence", "Parc", "Parc", "Parc", "H&ocirc;pital", "Restaurant",
-	"Place de la Ville", "Centre Culturel", "H&ocirc;tel", "H&ocirc;tel" ];
+	"Place de la Ville", "Centre Culturel", "H&ocirc;tel", "H&ocirc;tel", "Restaurant" ];
 	
 	haddresses = [ "", "333 Rue de la Commune Ouest", "", "1051 Rue Sanguinet", "", "275 Rue Notre-Dame Est", "158 Rue Saint-Antoine Est", "275 Rue Notre-Dame Est", "155 Rue Notre-Dame Est", "280 Rue Notre-Dame Est",
 	"350 Rue Saint-Paul Est", "364 Rue de la Commune Est", "400 Rue Saint-Paul Est", "", "", "", "", "421 Rue Saint-Vincent", "426 Place Jacques-Cartier", "410 Rue Saint-Vincent", "39 Rue Saint-Paul Est",
 	"426 Rue Saint-Gabriel", "407 Place Jacques-Cartier", "", "", "", "901 Rue de la Commune Est", "", "", "", "189 Avenue Viger Est", "153 Rue Saint-Amable",
-	"", "515 Avenue Viger Est", "110 Rue Sainte-Th&eacute;r&egrave;se", "443 Rue Saint-Vincent" ];
+	"", "515 Avenue Viger Est", "110 Rue Sainte-Th&eacute;r&egrave;se", "443 Rue Saint-Vincent", "421 Rue Saint-Vincent" ];
 	
 	hsites = [ "https://vieuxmontreal.ca/", "https://www.vieuxportdemontreal.com/", "https://montreal.ca/lieux/place-des-montrealaises", "https://www.chumontreal.qc.ca/", "https://www.mtl.org/fr/experience/quartier-chinois-montreal", 
 	"https://montreal.ca/lieux/place-vauquelin", "https://montreal.ca/lieux/le-champ-de-mars", "https://montreal.ca/lieux/hotel-de-ville", "https://montreal.ca/lieux/edifice-lucien-saulnier", "https://www.chateauramezay.qc.ca/fr/", 
@@ -22,7 +22,7 @@ function init()
 	"https://www.societeduvieuxport.com/activite/bassin-bonsecours", "https://hotelwilliamgray.com/fr", "https://maggieoakes.com", "https://bevopizza.com", "https://vieuxportsteakhouse.com",
 	"http://aubergesaint-gabriel.com", "https://jardinnelson.com/", "https://vieuxmontreal.ca/publications/il-etait-une-fois-la-rue-saint-amable", "https://vieuxmontreal.ca/commerces/place-de-la-dauversiere", "https://montreal.ca/lieux/parc-fleury-mesplet",
 	"https://www.lesolano.com/", "https://montreal.ca/lieux/parc-de-la-chasse-galerie", "https://montreal.ca/lieux/place-victor-morin", "https://montreal.ca/lieux/parc-francois-dollier-de-casson", "http://www.montrealchinesehospital.ca/", "https://perchemtl.com/",
-	"https://montreal.ca/lieux/square-viger", "http://www.lecentreculturelmarocain.ca/", "https://maisonsco.com/fr/maisonsco", "https://maisonsco.com/fr/maisonsco"];
+	"https://montreal.ca/lieux/square-viger", "http://www.lecentreculturelmarocain.ca/", "https://maisonsco.com/fr/maisonsco", "https://maisonsco.com/fr/maisonsco", "https://hotelwilliamgray.com/fr/food/terrasse-william-gray-fr/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
