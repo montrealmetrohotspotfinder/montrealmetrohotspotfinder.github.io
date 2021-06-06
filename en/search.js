@@ -864,7 +864,12 @@ function init(){
 	{name: "H&ocirc;tel Monville", type: "Hotel", address: "1041 Rue de Bleury", site: "https://www.hotelmonville.com/en/"},
 	{name: "SNC-Lavalin", type: "Office", address: "455 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.snclavalin.com/en"},
 	{name: "H&ocirc;tel Le Dauphin Montr&eacute;al Centre-Ville", type: "Hotel", address: "1025 Rue de Bleury", site: "https://www.hotelsdauphin.ca/en/hotels/montreal/"},
-	{name: "Saint Patrick&#39;s Basilica", type: "Church", address: "460 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "http://www.stpatricksmtl.ca/"}];
+	{name: "Saint Patrick&#39;s Basilica", type: "Church", address: "460 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "http://www.stpatricksmtl.ca/"},
+	{name: "&Eacute;difice Aldred", type: "Office", address: "507 Place d&#39;Armes", site: "https://imtl.org/montreal/building/Aldred-Building.php"},
+	{name: "Cour d&#39;Appel du Qu&eacute;bec", type: "Courthouse", address: "100 Rue Notre-Dame Est", site: "https://courdappelduquebec.ca/en/"},
+	{name: "R&eacute;gie des Alcools, des Courses et des Jeux du Qu&eacute;bec", type: "Agency", address: "1 Rue Notre-Dame Est", site: "https://www.racj.gouv.qc.ca/accueil.html"},
+	{name: "Expedia, Montreal offices", type: "Office", address: "63 Rue de Br&eacute;soles", site: "https://www.expedia.ca/"},
+	{name: "SpringHill Suites Vieux Montr&eacute;al", type: "Hotel", address: "445 Rue Saint-Jean-Baptiste", site: "https://www.marriott.com/hotels/travel/yulsh-springhill-suites-old-montreal"}];
 	
 	SquareVictoria = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
