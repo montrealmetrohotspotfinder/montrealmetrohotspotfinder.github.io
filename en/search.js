@@ -871,7 +871,8 @@ function init(){
 	{name: "Expedia, Montreal offices", type: "Office", address: "63 Rue de Br&eacute;soles", site: "https://www.expedia.ca/"},
 	{name: "SpringHill Suites Vieux Montr&eacute;al", type: "Hotel", address: "445 Rue Saint-Jean-Baptiste", site: "https://www.marriott.com/hotels/travel/yulsh-springhill-suites-old-montreal"},
 	{name: "Place Marguerite-Bourgeoys", type: "Park", address: "", site: "https://montreal.ca/en/places/place-marguerite-bourgeoys"},
-	{name: "&Eacute;cole du Barreau", type: "School", address: "445 Boulevard Saint-Laurent", site: "http://www.ecoledubarreau.qc.ca/fr/"}];
+	{name: "&Eacute;cole du Barreau", type: "School", address: "445 Boulevard Saint-Laurent", site: "http://www.ecoledubarreau.qc.ca/fr/"},
+	{name: "Modavie", type: "Restaurant", address: "1 Rue Saint-Paul Ouest", site: "https://modavie.com/en/"}];
 	
 	SquareVictoria = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
