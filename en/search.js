@@ -872,7 +872,8 @@ function init(){
 	{name: "SpringHill Suites Vieux Montr&eacute;al", type: "Hotel", address: "445 Rue Saint-Jean-Baptiste", site: "https://www.marriott.com/hotels/travel/yulsh-springhill-suites-old-montreal"},
 	{name: "Place Marguerite-Bourgeoys", type: "Park", address: "", site: "https://montreal.ca/en/places/place-marguerite-bourgeoys"},
 	{name: "&Eacute;cole du Barreau", type: "School", address: "445 Boulevard Saint-Laurent", site: "http://www.ecoledubarreau.qc.ca/fr/"},
-	{name: "Modavie", type: "Restaurant", address: "1 Rue Saint-Paul Ouest", site: "https://modavie.com/en/"}];
+	{name: "Modavie", type: "Restaurant", address: "1 Rue Saint-Paul Ouest", site: "https://modavie.com/en/"},
+	{name: "Toqu&eacute;!", type: "Restaurant", address: "900 Place Jean-Paul-Riopelle", site: "https://www.restaurant-toque.com/en"}];
 	
 	SquareVictoria = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
@@ -921,7 +922,8 @@ function init(){
 	{name: "Square des Fr&egrave;res-Charon", type: "Town Square", address: "", site: "https://montreal.ca/en/places/square-des-freres-charon"},
 	{name: "DOMO Appartements", type: "Residence", address: "650 Rue Wellington", site: "https://www.mondev.ca/apartments-for-rent-montreal/old-montreal/wellington-650"},
 	{name: "Alstom", type: "Office", address: "1050 C&ocirc;te du Beaver Hall", site: "https://www.alstom.com/"},
-	{name: "Place du Fr&egrave;re-Andr&eacute;", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-frere-andre"}];
+	{name: "Place du Fr&egrave;re-Andr&eacute;", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-frere-andre"},
+	{name: "Toqu&eacute;!", type: "Restaurant", address: "900 Place Jean-Paul-Riopelle", site: "https://www.restaurant-toque.com/en"}];
 	
 	Bonaventure = [{name: "Gare Centrale", type: "Train Station", address: "895 Rue de la Gaucheti&egrave;re Ouest", site: "https://garecentrale.ca/en/"},
 	{name: "Terminus Centre-Ville", type: "Bus Terminal", address: "1000 Rue de la Gaucheti&egrave;re Ouest", site: "https://exo.quebec/en/trip-planner/intermodal-installations/terminus-centre-ville"},
