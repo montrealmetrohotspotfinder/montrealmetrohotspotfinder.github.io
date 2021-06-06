@@ -47,7 +47,8 @@ function init()
 	{name: "Square des Fr&egrave;res-Charon", type: "Town Square", address: "", site: "https://montreal.ca/en/places/square-des-freres-charon"},
 	{name: "DOMO Appartements", type: "Residence", address: "650 Rue Wellington", site: "https://www.mondev.ca/apartments-for-rent-montreal/old-montreal/wellington-650"},
 	{name: "Alstom", type: "Office", address: "1050 C&ocirc;te du Beaver Hall", site: "https://www.alstom.com/"},
-	{name: "Place du Fr&egrave;re-Andr&eacute;", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-frere-andre"}];
+	{name: "Place du Fr&egrave;re-Andr&eacute;", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-frere-andre"},
+	{name: "Toqu&eacute;!", type: "Restaurant", address: "900 Place Jean-Paul-Riopelle", site: "https://www.restaurant-toque.com/en"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
