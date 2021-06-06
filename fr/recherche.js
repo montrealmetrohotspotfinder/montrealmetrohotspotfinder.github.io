@@ -484,17 +484,17 @@ function init(){
 	
 	Frontenacnames = [ "Place Frontenac", "Maison de la Culture et Biblioth&egrave;que Frontenac", "Bar Metro Pub", "Parc M&eacute;d&eacute;ric-Martin", "Centre Jean-Claude-Mal&eacute;part", "Parc Walter-Stewart", "Parc Jos-Montferrand", "Centre G&eacute;d&eacute;on-Ouimet",
 	"Mosqu&eacute;e Tawuba", "&Eacute;cole Jean-Baptiste-Meilleur", "&Eacute;cole Pierre-Dupuy", "&Eacute;cole des M&eacute;tiers des Faubourgs-de-Montr&eacute;al", "Parc Baldwin",
-	"&Eacute;cole Saint-Louis-de-Gonzague", "Parc Guido-Nincheri", "Centre d&#39;H&eacute;bergement Armand-Lavergne", "Centre d&#39;H&eacute;bergement Paul-Bruch&eacute;si", "&Eacute;glise Presbyt&eacute;rienne Sarang Montr&eacute;al", "&Eacute;nergir", "Place Joseph-Venne",
+	"&Eacute;cole Saint-Louis-de-Gonzague", "Centre d&#39;H&eacute;bergement Armand-Lavergne", "Centre d&#39;H&eacute;bergement Paul-Bruch&eacute;si", "&Eacute;glise Presbyt&eacute;rienne Sarang Montr&eacute;al", "&Eacute;nergir", "Place Joseph-Venne",
 	"Parc Coupal", "Parc Magnan" ];
 	
-	Frontenactypes = [ "Centre Commercial", "Th&eacute;&acirc;tre", "Restaurant", "Parc", "Centre Culturel", "Parc", "Parc", "&Eacute;cole", "Mosqu&eacute;e", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole de M&eacute;tiers", "Parc", "&Eacute;cole", "Parc", "R&eacute;sidence", "R&eacute;sidence", "&Eacute;glise", "Bureau", "Parc", "Parc", "Parc" ];
+	Frontenactypes = [ "Centre Commercial", "Th&eacute;&acirc;tre", "Restaurant", "Parc", "Centre Culturel", "Parc", "Parc", "&Eacute;cole", "Mosqu&eacute;e", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole de M&eacute;tiers", "Parc", "&Eacute;cole", "R&eacute;sidence", "R&eacute;sidence", "&Eacute;glise", "Bureau", "Parc", "Parc", "Parc" ];
 	
 	Frontenacaddresses = [ "2600 Rue Ontario Est", "2550 Rue Ontario Est", "2553 Rue Ontario Est", "2329 Avenue Gascon", "2633 Rue Ontario Est", "2455 Rue Larivi&egrave;re", "2560 Boulevard de Maisonneuve Est", "1960 Rue Poupart",
-	"2315 Rue Ontario Est", "2237 Rue Fullum", "2000 Rue Parthenais", "2000 Rue Parthenais", "4355 Rue Fullum", "2430 Terrasse Mercure", "", "3500 Rue Chapleau", "2225 Rue Rachel Est", "2315 Rue Rachel Est", "1717 Rue du Havre", "",
+	"2315 Rue Ontario Est", "2237 Rue Fullum", "2000 Rue Parthenais", "2000 Rue Parthenais", "4355 Rue Fullum", "2430 Terrasse Mercure", "3500 Rue Chapleau", "2225 Rue Rachel Est", "2315 Rue Rachel Est", "1717 Rue du Havre", "",
 	"2340 Rue Coupal", "2337 Rue Magnan" ];
 	
 	Frontenacsites = [ "#", "https://frontenac.tuxedobillet.com/", "#", "https://montreal.ca/lieux/parc-mederic-martin", "https://cjcm.ca/", "https://montreal.ca/lieux/parc-walter-stewart", "https://montreal.ca/lieux/parc-jos-montferrand", "https://centre-gedeon-ouimet.csdm.ca/",
-	"#", "https://jean-baptiste-meilleur.csdm.ca/", "https://pierre-dupuy.csdm.ca/", "https://ecole-metiers-faubourgs.csdm.ca/", "https://montreal.ca/lieux/parc-baldwin", "https://st-louis-de-gonzague.cssdm.gouv.qc.ca/", "https://montreal.ca/lieux/parc-guido-nincheri", "https://ciusss-centresudmtl.gouv.qc.ca/etablissement/centre-dhebergement-armand-lavergne", 
+	"#", "https://jean-baptiste-meilleur.csdm.ca/", "https://pierre-dupuy.csdm.ca/", "https://ecole-metiers-faubourgs.csdm.ca/", "https://montreal.ca/lieux/parc-baldwin", "https://st-louis-de-gonzague.cssdm.gouv.qc.ca/", "https://ciusss-centresudmtl.gouv.qc.ca/etablissement/centre-dhebergement-armand-lavergne", 
 	"https://ciusss-centresudmtl.gouv.qc.ca/etablissement/centre-dhebergement-paul-bruchesi", "http://www.sarangchurch.ca/", "https://www.energir.com/", "https://montreal.ca/lieux/place-joseph-venne", "https://montreal.ca/lieux/parc-coupal", "https://montreal.ca/lieux/parc-magnan" ];
 	
 	Papineaunames = [ "Le Village", "Conf&eacute;d&eacute;ration des Syndicats Nationaux", "Parc des Faubourgs", "Prison du Pied-du-Courant", "Parc des V&eacute;t&eacute;rans", "Place Emmett-Johns", "Appartements Urbains FARO",
