@@ -56,7 +56,8 @@ function init()
 	{name: "Cour d&#39;Appel du Qu&eacute;bec", type: "Courthouse", address: "100 Rue Notre-Dame Est", site: "https://courdappelduquebec.ca/en/"},
 	{name: "R&eacute;gie des Alcools, des Courses et des Jeux du Qu&eacute;bec, Montreal offices", type: "Agency", address: "1 Rue Notre-Dame Est", site: "https://www.racj.gouv.qc.ca/accueil.html"},
 	{name: "Expedia, Montreal offices", type: "Office", address: "63 Rue de Br&eacute;soles", site: "https://www.expedia.ca/"},
-	{name: "SpringHill Suites Vieux Montr&eacute;al", type: "Hotel", address: "445 Rue Saint-Jean-Baptiste", site: "https://www.marriott.com/hotels/travel/yulsh-springhill-suites-old-montreal"}];
+	{name: "SpringHill Suites Vieux Montr&eacute;al", type: "Hotel", address: "445 Rue Saint-Jean-Baptiste", site: "https://www.marriott.com/hotels/travel/yulsh-springhill-suites-old-montreal"},
+	{name: "Place Marguerite-Bourgeoys", type: "Park", address: "", site: "https://montreal.ca/en/places/place-marguerite-bourgeoys"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
