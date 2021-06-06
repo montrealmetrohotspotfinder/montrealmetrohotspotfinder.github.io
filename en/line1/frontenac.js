@@ -14,7 +14,6 @@ function init()
 	{name: "&Eacute;cole des M&eacute;tiers des Faubourgs-de-Montr&eacute;al", type: "Trade School", address: "2000 Rue Parthenais", site: "https://ecole-metiers-faubourgs.csdm.ca/"},
 	{name: "Parc Baldwin", type: "Park", address: "4355 Rue Fullum", site: "https://montreal.ca/en/places/parc-baldwin"},
 	{name: "&Eacute;cole Saint-Louis-de-Gonzague", type: "School", address: "2430 Terrasse Mercure", site: "https://st-louis-de-gonzague.cssdm.gouv.qc.ca/"},
-	{name: "Parc Guido-Nincheri", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-guido-nincheri"},
 	{name: "Centre d&#39;H&eacute;bergement Armand-Lavergne", type: "Residence", address: "3500 Rue Chapleau", site: "https://ciusss-centresudmtl.gouv.qc.ca/etablissement/centre-dhebergement-armand-lavergne"},
 	{name: "Centre d&#39;H&eacute;bergement Paul-Bruch&eacute;si", type: "Residence", address: "2225 Rue Rachel Est", site: "https://ciusss-centresudmtl.gouv.qc.ca/etablissement/centre-dhebergement-paul-bruchesi"},
 	{name: "&Eacute;glise Presbyt&eacute;rienne Sarang Montr&eacute;al", type: "Church", address: "2315 Rue Rachel Est", site: "http://www.sarangchurch.ca/"},
