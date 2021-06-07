@@ -447,20 +447,20 @@ function init(){
 	"Centre Pierre-Charbonneau",
 	"&Eacute;cole Eulalie-Durocher", "&Eacute;cole Saint-Jean-Baptiste-de-la-Salle", "Ch&acirc;teau Dufresne",
 	"&Eacute;glise de Saint-Jean-Baptiste-De-La Salle", "&Eacute;cole Ir&eacute;n&eacute;e-Lussier",
-	"Parc L&eacute;on-Provancher" ];
+	"Parc L&eacute;on-Provancher", "Parc Guido-Nincheri" ];
 	
 	PieIXtypes = [ "Sports", "Sports", "Mus&eacute;e", "Nature", "Nature", "Sports", "Cin&eacute;ma", "Mus&eacute;e", "H&ocirc;tel", "Fitness", "&Eacute;cole", "&Eacute;cole", "Mus&eacute;e",
-	"&Eacute;glise", "&Eacute;cole", "Parc" ];
+	"&Eacute;glise", "&Eacute;cole", "Parc", "Parc" ];
 	
 	PieIXaddresses = [ "4545 Avenue Pierre-de-Coubertin", "4750 Rue Sherbrooke Est", "4777 Avenue Pierre-de-Coubertin", "4101 Rue Sherbrooke Est", "4581 Rue Sherbrooke Est", "2800 Rue Viau", 
 	"4825 Avenue Pierre-de-Coubertin", "4801 Avenue Pierre-de-Coubertin", "5000 Rue Sherbrooke Est", "3000 Rue Viau", "2455 Rue L&eacute;tourneux", "2355 Boulevard Pie-IX",
-	"2929 Avenue Jeanne-d&#39;Arc", "2585 Boulevard Pie-IX", "4100 Rue Hochelaga", "5576 Boulevard Pie-IX" ];
+	"2929 Avenue Jeanne-d&#39;Arc", "2585 Boulevard Pie-IX", "4100 Rue Hochelaga", "5576 Boulevard Pie-IX", "" ];
 	
 	PieIXsites = [ "https://parcolympique.qc.ca/", "https://www.impactmontreal.com/fr/stadium/stade-saputo", "https://espacepourlavie.ca/biodome", "https://espacepourlavie.ca/jardin-botanique",
 	"https://m.espacepourlavie.ca/mobile/insectarium", "https://montreal.ca/lieux/arena-maurice-richard", "https://www.cineplex.com/Cinemas/theatredetails2017?theatre_url=cinema-starcite-montreal",
 	"https://espacepourlavie.ca/le-planetarium-une-realisation-architecturale", "https://www.hoteluniverselmontreal.com/", "http://www.centrepierrecharbonneau.com/", "https://eulalie-durocher.csdm.ca/", "https://st-jean-baptiste-de-la-salle.csdm.ca/",
 	"https://chateaudufresne.com/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-jean-baptiste-salle", "https://irenee-lussier.cssdm.gouv.qc.ca/",
-	"https://montreal.ca/lieux/parc-leon-provancher" ];
+	"https://montreal.ca/lieux/parc-leon-provancher", "https://montreal.ca/lieux/parc-guido-nincheri" ];
 	
 	Joliettenames = [ "Coll&egrave;ge de Maisonneuve", "CLSC de Maisonneuve", "Parc Lalancette", "&Eacute;cole Saint-&Eacute;mile", "Parc Saint-&Eacute;mile", "&Eacute;cole Sainte-Jeanne-d&#39;Arc",
 	"Parc Victor-Bourgeau", "Manoir Louisiane", "Paroisse Sainte-Jeanne-d&#39;Arc" ];
