@@ -15,7 +15,8 @@ function init()
 	{name: "Ch&acirc;teau Dufresne", type: "Museum", address: "2929 Avenue Jeanne-d&#39;Arc", site: "https://chateaudufresne.com/en/home/"},
 	{name: "&Eacute;glise de Saint-Jean-Baptiste-De-La Salle", type: "Church", address: "2585 Boulevard Pie-IX", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-jean-baptiste-de-la-salle"},
 	{name: "&Eacute;cole Ir&eacute;n&eacute;e-Lussier", type: "School", address: "4100 Rue Hochelaga", site: "https://irenee-lussier.cssdm.gouv.qc.ca/"},
-	{name: "Parc L&eacute;on-Provancher", type: "Park", address: "5576 Boulevard Pie-IX", site: "https://montreal.ca/en/places/parc-leon-provancher"}];
+	{name: "Parc L&eacute;on-Provancher", type: "Park", address: "5576 Boulevard Pie-IX", site: "https://montreal.ca/en/places/parc-leon-provancher"},
+	{name: "Parc Guido-Nincheri", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-guido-nincheri"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
