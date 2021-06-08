@@ -2,12 +2,12 @@ function init()
 {
 	hnames = [ "Terminus Angrignon", "Carrefour Angrignon", "Parc Angrignon", 
 	"Place Newman", "Les Tours Angrignon", "Les Tours Serenity", "C&eacute;gep Andr&eacute;-Laurendeau via Bus 113", "Habitations Angrignon I et II",
-	"Le Conrad" ];
+	"Le Conrad", "Habitations Les Trinitaires" ];
 	
-	htypes = [ "Terminus d&#39;Autobus", "Centre Commercial", "Parc", "Centre Commercial", "R&eacute;sidence", "R&eacute;sidence", "Coll&egrave;ge", "R&eacute;sidence", "R&eacute;sidence" ];
+	htypes = [ "Terminus d&#39;Autobus", "Centre Commercial", "Parc", "Centre Commercial", "R&eacute;sidence", "R&eacute;sidence", "Coll&egrave;ge", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence" ];
 	
 	haddresses = [ "3500 Boulevard des Trinitaires", "7077 Boulevard Newman", "3400 Boulevard des Trinitaires",
-	"2101 Avenue Dollard", "1500 Boulevard Angrignon", "1700 Boulevard Angrignon", "1111 Rue Lapierre", "3055 Boulevard des Trinitaires", "1601 Boulevard Angrignon" ];
+	"2101 Avenue Dollard", "1500 Boulevard Angrignon", "1700 Boulevard Angrignon", "1111 Rue Lapierre", "3055 Boulevard des Trinitaires", "1601 Boulevard Angrignon", "1771 Boulevard Angrignon" ];
 	
 	hsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-angrignon", 
 				"http://www.carrefourangrignon.com", 
@@ -17,7 +17,8 @@ function init()
 				"https://serenitytowers.ca/", 
 				"https://www.claurendeau.qc.ca/",
 				"https://www.omhm.qc.ca/fr/services-aux-locataires/habitations-angrignon-i-et-ii/",
-				"https://www.leconrad.com/" ];
+				"https://www.leconrad.com/",
+		 		"https://habitationslestrinitaires.weebly.com/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
