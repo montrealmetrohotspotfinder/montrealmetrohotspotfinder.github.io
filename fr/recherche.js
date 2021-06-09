@@ -1083,12 +1083,14 @@ function init(){
 	
 	Monknames = [ "Institut Douglas", "Centre Hospitalier Ville-&Eacute;mard", "&Eacute;cole Honor&eacute;-Mercier", 
 	"&Eacute;cole Dollard-des-Ormeaux", "&Eacute;cole Saint-Jean-de-Matha", "Parc Clifford", "Parc D&#39;Arcy-McGee", "Parc Cur&eacute;-Albert-Arnold",
-	"Paroisse Saint-Jean-de-Matha" ];
+	"Paroisse Saint-Jean-de-Matha", "Parc Saint-Jean-Bosco", "Paroisse Saint-Jean-Bosco", "Parc Garneau", "Parc &Eacute;douard-Fabre", "Parc Saint-Jean-de-Matha", "Mosqu&eacute;e El-Balkan" ];
 	
-	Monktypes = [ "H&ocirc;pital", "H&ocirc;pital", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole", "Parc", "Parc", "Parc", "&Eacute;glise" ];
+	Monktypes = [ "H&ocirc;pital", "H&ocirc;pital", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole", "Parc", "Parc", "Parc", "&Eacute;glise",
+	"Parc", "&Eacute;glise", "Parc", "Parc", "Parc", "Mosqu&eacute;e" ];
 	
 	Monkaddresses = [ "6875 Boulevard LaSalle", "6935 Rue Hamilton", "1935 Boulevard Desmarchais",
-	"6639 Rue d&#39;Aragon", "6970 Rue Dumas", "1820 Avenue Clifford", "1500 Avenue Egan", "6855 Rue Hamilton", "2700 Rue Allard" ];
+	"6639 Rue d&#39;Aragon", "6970 Rue Dumas", "1820 Avenue Clifford", "1500 Avenue Egan", "6855 Rue Hamilton", "2700 Rue Allard",
+	"", "2510 Rue Springland", "", "", "", "2836 Rue Allard" ];
 	
 	Monksites = [ "http://www.douglas.qc.ca/", 
 				"https://ciusss-centresudmtl.gouv.qc.ca/etablissement/clsc-de-ville-emard", 
@@ -1098,7 +1100,13 @@ function init(){
 				"https://montreal.ca/lieux/parc-clifford", 
 				"https://montreal.ca/lieux/parc-darcy-mcgee",
 				"https://montreal.ca/lieux/parc-cure-albert-arnold",
-				"https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-jean-matha" ];
+				"https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-jean-matha",
+		 		"#",
+		 		"https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-jean-bosco",
+		 		"https://montreal.ca/lieux/parc-garneau",
+		 		"https://montreal.ca/lieux/parc-edouard-fabre",
+		 		"https://montreal.ca/lieux/parc-saint-jean-de-matha",
+		 		"https://balkanmc.wordpress.com/" ];
 				
 	Angrignonnames = [ "Terminus Angrignon", "Carrefour Angrignon", "Parc Angrignon", 
 	"Place Newman", "Les Tours Angrignon", "Les Tours Serenity", "C&eacute;gep Andr&eacute;-Laurendeau", "Habitations Angrignon I et II",
