@@ -631,7 +631,13 @@ function init(){
 	{name: "Parc Clifford", type: "Park", address: "1820 Avenue Clifford", site: "https://montreal.ca/en/places/parc-clifford"},
 	{name: "Parc D&#39;Arcy-McGee", type: "Park", address: "1500 Avenue Egan", site: "https://montreal.ca/en/places/parc-darcy-mcgee"},
 	{name: "Parc Cur&eacute;-Albert-Arnold", type: "Park", address: "6855 Rue Hamilton", site: "https://montreal.ca/en/places/parc-cure-albert-arnold"},
-	{name: "Paroisse Saint-Jean-de-Matha", type: "Church", address: "2700 Rue Allard", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/saint-jean-de-matha"}];
+	{name: "Paroisse Saint-Jean-de-Matha", type: "Church", address: "2700 Rue Allard", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/saint-jean-de-matha"},
+	{name: "Parc Saint-Jean-Bosco", type: "Park", address: "", site: "#"},
+	{name: "Paroisse Saint-Jean-Bosco", type: "Church", address: "2510 Rue Springland", site: "https://www.diocesemontreal.org/en/lets-connect/churches-parishes/saint-jean-bosco"},
+	{name: "Parc Garneau", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-garneau"},
+	{name: "Parc &Eacute;douard-Fabre", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-edouard-fabre"},
+	{name: "Parc Saint-Jean-de-Matha", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-saint-jean-de-matha"},
+	{name: "Mosqu&eacute;e El-Balkan", type: "Mosque", address: "2836 Rue Allard", site: "https://balkanmc.wordpress.com/"}];
 				
 	Angrignon = [{name: "Terminus Angrignon", type: "Bus Terminal", address: "3500 Boulevard des Trinitaires", site: "https://exo.quebec/en/trip-planner/intermodal-installations/angrignon-terminal"},
 	{name: "Carrefour Angrignon", type: "Mall", address: "7077 Boulevard Newman", site: "http://www.carrefourangrignon.com/en/"},
