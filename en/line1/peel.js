@@ -57,7 +57,13 @@ function init()
 	{name: "McGill University, Department of Biology", type: "University", address: "1205 Avenue du Docteur-Penfield", site: "https://www.mcgill.ca/biology/"},
 	{name: "McGill University, Department of Pharmacology &amp; Therapeutics", type: "University", address: "3655 Promenade Sir-William-Osler", site: "https://www.mcgill.ca/pharma/"},
 	{name: "McGill University, Department of Physiology", type: "University", address: "3655 Promenade Sir-William-Osler", site: "https://www.mcgill.ca/physiology/"},
-	{name: "H&ocirc;tel Chez Swann", type: "Hotel", address: "1444 Rue Drummond", site: "http://hotelchezswann.com/"}];
+	{name: "H&ocirc;tel Chez Swann", type: "Hotel", address: "1444 Rue Drummond", site: "http://hotelchezswann.com/"},
+	{name: "Chez Alexandre", type: "Restaurant", address: "1454 Rue Peel", site: "https://www.chezalexandre.com/en/"},
+	{name: "Ferreira Caf&eacute;", type: "Restaurant", address: "1446 Rue Peel", site: "https://ferreiracafe.com/en/"},
+	{name: "Ib&eacute;rica", type: "Restaurant", address: "1450 Rue Peel", site: "http://www.iberica.ca/?lang=en"},
+	{name: "Caf&eacute; Vasco Da Gama", type: "Restaurant", address: "1472 Rue Peel", site: "https://vascodagama.ca/en/"},
+	{name: "Zante", type: "Restaurant", address: "1112 Rue Sherbrooke Ouest", site: "https://www.restaurantzante.ca/?lang=en"},
+	{name: "Campo", type: "Restaurant", address: "1108 Boulevard de Maisonneuve Ouest", site: "https://campomtl.com/en/"} ];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
