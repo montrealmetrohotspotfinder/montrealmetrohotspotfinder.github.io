@@ -530,7 +530,8 @@ function init(){
 	{name: "Ib&eacute;rica", type: "Restaurant", address: "1450 Rue Peel", site: "http://www.iberica.ca/?lang=en"},
 	{name: "Caf&eacute; Vasco Da Gama", type: "Restaurant", address: "1472 Rue Peel", site: "https://vascodagama.ca/en/"},
 	{name: "Zante", type: "Restaurant", address: "1112 Rue Sherbrooke Ouest", site: "https://www.restaurantzante.ca/?lang=en"},
-	{name: "Campo", type: "Restaurant", address: "1108 Boulevard de Maisonneuve Ouest", site: "https://campomtl.com/en/"}];
+	{name: "Campo", type: "Restaurant", address: "1108 Boulevard de Maisonneuve Ouest", site: "https://campomtl.com/en/"},
+	{name: "H&ocirc;tel Ambrose", type: "Hotel", address: "3422 Rue Stanley", site: "https://hotelambrose.ca/en"}];
 	
 	Guy = [{name: "Concordia University, Sir George Williams campus", type: "University", address: "1455 Boulevard de Maisonneuve Ouest", site: "http://www.concordia.ca/"},
 	{name: "Concordia University, John Molson School of Business", type: "University", address: "1450 Rue Guy", site: "http://www.concordia.ca/jmsb.html"},
