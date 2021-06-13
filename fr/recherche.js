@@ -1769,6 +1769,10 @@ function onClick(e){
 	{
 		document.getElementById("search-box").value = "Parc Martin-Luther-King";
 	}
+	if(document.getElementById("search-box").value.toLowerCase() == "la baia dei formaggi")
+	{
+		document.getElementById("search-box").value = "La Baie des Fromages";
+	}
 	
 	/*TO TREAT STREETS AND CATEGORIES (FRENCH VERSION) WITH SPECIAL CHARACTERS*/
 	var street = document.getElementById("streets").value;
