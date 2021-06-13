@@ -277,16 +277,16 @@ function init(){
 	"https://www.emsb.qc.ca/trudeau" ];
 	
 	DeCastelnaunames = [ "Petite Italie", "March&eacute; Jean-Talon", "Parc Jarry", "Stade IGA", "&Eacute;cole Sainte-C&eacute;cile", "&Eacute;glise Orthodoxe Saint-Nicolas d&#39;Antioche", "&Eacute;glise Sainte-C&eacute;cile",
-	"Parc Victorien-Pesant" ];
+	"Parc Victorien-Pesant", "Parc de la Petite-Italie", "Parc Guglielmo-Marconi", "Fruiterie Milano" ];
 	
-	DeCastelnautypes = [ "District", "March&eacute;", "Parc", "Sports", "&Eacute;cole", "&Eacute;glise", "&Eacute;glise", "Parc" ];
+	DeCastelnautypes = [ "District", "March&eacute;", "Parc", "Sports", "&Eacute;cole", "&Eacute;glise", "&Eacute;glise", "Parc", "Parc", "Parc", "Magasinage" ];
 	
 	DeCastelnauaddresses = [ "", "7070 Avenue Henri-Julien", "285 Rue Gary-Carter", "285 Rue Gary-Carter", "7230 Avenue de Gasp&eacute;", "80 Rue de Castelnau Est", "7390 Avenue Henri-Julien",
-	"7345 Avenue de Gasp&eacute;" ];
+	"7345 Avenue de Gasp&eacute;", "6634 Rue Clark", "", "6862 Boulevard Saint-Laurent" ];
 	
 	DeCastelnausites = [ "https://www.mtl.org/fr/experience/bienvenue-petite-italie-montreal", "https://www.marchespublics-mtl.com/marches/jean-talon/", 
 	"https://montreal.ca/lieux/parc-jarry", "http://stadeiga.com/", "https://ste-cecile.csdm.ca/", "http://stnicholasmtl.com/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/sainte-cecile",
-	"https://montreal.ca/lieux/parc-victorien-pesant" ];
+	"https://montreal.ca/lieux/parc-victorien-pesant", "https://montreal.ca/lieux/parc-de-la-petite-italie", "https://montreal.ca/lieux/parc-guglielmo-marconi", "https://milanofruiterie.ca/fr/" ];
 	
 	Parcnames = [ "&Eacute;cole de Sant&eacute; Publique de l&#39;Universit&eacute; de Montr&eacute;al", "Centre William-Hingston", "Parc Saint-Roch" ];
 	
