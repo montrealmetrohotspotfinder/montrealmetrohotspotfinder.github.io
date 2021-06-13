@@ -1,13 +1,13 @@
 function init()
 {
-	hnames = [ "&Eacute;glise Notre-Dame-de-la-Consolata", "H&ocirc;pital Jean-Talon", "Parc de Turin", "&Eacute;cole Saint-Gabriel-Lalemant", "&Eacute;cole Pierre Elliott Trudeau" ];
+	hnames = [ "&Eacute;glise Notre-Dame-de-la-Consolata", "H&ocirc;pital Jean-Talon", "Parc de Turin", "&Eacute;cole Saint-Gabriel-Lalemant", "&Eacute;cole Pierre Elliott Trudeau", "La Baie des Fromages" ];
 	
-	htypes = [ "&Eacute;glise", "H&ocirc;pital", "Parc", "&Eacute;cole", "&Eacute;cole" ];
+	htypes = [ "&Eacute;glise", "H&ocirc;pital", "Parc", "&Eacute;cole", "&Eacute;cole", "Magasinage" ];
 	
-	haddresses = [ "1700 Rue Jean-Talon Est", "1385 Rue Jean-Talon Est", "7205 Rue Chambord", "7350 Rue Garnier", "6855 Rue Cartier" ];
+	haddresses = [ "1700 Rue Jean-Talon Est", "1385 Rue Jean-Talon Est", "7205 Rue Chambord", "7350 Rue Garnier", "6855 Rue Cartier", "1715 Rue Jean-Talon Est" ];
 	
 	hsites = [ "https://www.paroisseconsolatamtl.ca/", "https://www.ciusssnordmtl.ca/installations/hopitaux/hopital-jean-talon/", "https://montreal.ca/lieux/parc-de-turin", "https://st-gabriel-lalemant.csdm.ca/",
-	"https://www.emsb.qc.ca/trudeau" ];
+	"https://www.emsb.qc.ca/trudeau", "https://www.labaiadeiformaggi.com/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
