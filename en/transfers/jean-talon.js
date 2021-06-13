@@ -11,7 +11,8 @@ function init()
 	{name: "&Eacute;cole Saint-Ars&egrave;ne", type: "School", address: "6972 Avenue Christophe-Colomb", site: "https://st-arsene.cssdm.gouv.qc.ca/"},
 	{name: "&Eacute;glise Saint-Ars&egrave;ne", type: "Church", address: "1015 Rue B&eacute;langer", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-arsene"},
 	{name: "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", type: "Church", address: "6800 Avenue Henri-Julien", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-de-la-defense-italiens"},
-	{name: "Parc Dante", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-dante"}];
+	{name: "Parc Dante", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-dante"},
+	{name: "Maison de la Culture Claude-L&eacute;veill&eacute;e", type: "Cultural Centre", address: "911 Rue Jean-Talon Est", site: "https://montreal.ca/en/places/maison-de-la-culture-claude-leveillee"}];
 					
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
