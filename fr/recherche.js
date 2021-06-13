@@ -137,16 +137,16 @@ function init(){
 	"https://carte.uqam.ca/pavillon-ds" ];
 	
 	JeanTalonnames = [ "Tour Jean-Talon", "March&eacute; Jean-Talon", "Plaza Saint-Hubert", "R&eacute;sidence Alfredo-Gagliardi", "Casa D&#39;Italia", "&Eacute;glise Orthodoxe Antiochienne Saint-Georges", "Parc Le Pr&eacute;vost", "Patro Villeray",
-	"&Eacute;cole Saint-Ars&egrave;ne", "&Eacute;glise Saint-Ars&egrave;ne", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", "Parc Dante" ];
+	"&Eacute;cole Saint-Ars&egrave;ne", "&Eacute;glise Saint-Ars&egrave;ne", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", "Parc Dante", "Maison de la Culture Claude-L&eacute;veill&eacute;e" ];
 	
-	JeanTalontypes = [ "Bureau", "March&eacute;", "Magasinage", "R&eacute;sidence", "Centre Culturel", "&Eacute;glise", "Parc", "Centre Culturel", "&Eacute;cole", "&Eacute;glise", "&Eacute;glise", "Parc" ];
+	JeanTalontypes = [ "Bureau", "March&eacute;", "Magasinage", "R&eacute;sidence", "Centre Culturel", "&Eacute;glise", "Parc", "Centre Culturel", "&Eacute;cole", "&Eacute;glise", "&Eacute;glise", "Parc", "Centre Culturel" ];
 	
 	JeanTalonaddresses = [ "600 Rue Jean-Talon Est", "7070 Avenue Henri-Julien", "6841 Rue Saint-Hubert", "7170 Rue Berri", "505 Rue Jean-Talon Est", "575 Rue Jean-Talon Est", "7275 Avenue Christophe-Colomb", "7355 Avenue Christophe-Colomb",
-	"6972 Avenue Christophe-Colomb", "1015 Rue B&eacute;langer", "6800 Avenue Henri-Julien", "" ];
+	"6972 Avenue Christophe-Colomb", "1015 Rue B&eacute;langer", "6800 Avenue Henri-Julien", "", "911 Rue Jean-Talon Est" ];
 	
 	JeanTalonsites = [ "https://montrealsouterrain.ca/tour/tour-jean-talon/", "https://www.marchespublics-mtl.com/marches/jean-talon/", "https://www.plazasthubert.com/fr/", "https://www.residencesenharmonie.qc.ca/residences/residence-alfredo-gagliardi", "https://www.casaditalia.org/t-fr-ca",
 	"https://saintgeorgemontreal.org/", "https://montreal.ca/lieux/parc-le-prevost", "https://patrovilleray.ca/", "https://st-arsene.cssdm.gouv.qc.ca/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-arsene", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-defense-italiens",
-	"https://montreal.ca/lieux/parc-dante" ];
+	"https://montreal.ca/lieux/parc-dante", "https://montreal.ca/lieux/maison-de-la-culture-claude-leveillee" ];
 	
 	LionelGroulxnames = [ "March&eacute; Atwater", "Parc Vinet", "Th&eacute;&acirc;tre Corona" ];
 	
