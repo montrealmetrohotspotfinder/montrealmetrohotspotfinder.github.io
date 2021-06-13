@@ -267,14 +267,14 @@ function init(){
 	Ibervillesites = [ "https://alexiaianniciello1.wixsite.com/fvlaconcadoro", "https://montreal.ca/lieux/parc-gabriel-sagard", "https://st-barthelemy.csdm.ca/", "#",
 	"https://montreal.ca/lieux/parc-molson", "https://www.diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-mathieu", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-barthelemy" ];
 	
-	Fabrenames = [ "&Eacute;glise Notre-Dame-de-la-Consolata", "H&ocirc;pital Jean-Talon", "Parc de Turin", "&Eacute;cole Saint-Gabriel-Lalemant", "&Eacute;cole Pierre Elliott Trudeau" ];
+	Fabrenames = [ "&Eacute;glise Notre-Dame-de-la-Consolata", "H&ocirc;pital Jean-Talon", "Parc de Turin", "&Eacute;cole Saint-Gabriel-Lalemant", "&Eacute;cole Pierre Elliott Trudeau", "La Baie des Fromages" ];
 	
-	Fabretypes = [ "&Eacute;glise", "H&ocirc;pital", "Parc", "&Eacute;cole", "&Eacute;cole" ];
+	Fabretypes = [ "&Eacute;glise", "H&ocirc;pital", "Parc", "&Eacute;cole", "&Eacute;cole", "Magasinage" ];
 	
-	Fabreaddresses = [ "1700 Rue Jean-Talon Est", "1385 Rue Jean-Talon Est", "7205 Rue Chambord", "7350 Rue Garnier", "6855 Rue Cartier" ];
+	Fabreaddresses = [ "1700 Rue Jean-Talon Est", "1385 Rue Jean-Talon Est", "7205 Rue Chambord", "7350 Rue Garnier", "6855 Rue Cartier", "1715 Rue Jean-Talon Est" ];
 	
 	Fabresites = [ "https://www.paroisseconsolatamtl.ca/", "https://www.ciusssnordmtl.ca/installations/hopitaux/hopital-jean-talon/", "https://montreal.ca/lieux/parc-de-turin", "https://st-gabriel-lalemant.csdm.ca/",
-	"https://www.emsb.qc.ca/trudeau" ];
+	"https://www.emsb.qc.ca/trudeau", "https://www.labaiadeiformaggi.com/" ];
 	
 	DeCastelnaunames = [ "Petite Italie", "March&eacute; Jean-Talon", "Parc Jarry", "Stade IGA", "&Eacute;cole Sainte-C&eacute;cile", "&Eacute;glise Orthodoxe Saint-Nicolas d&#39;Antioche", "&Eacute;glise Sainte-C&eacute;cile",
 	"Parc Victorien-Pesant", "Parc de la Petite-Italie", "Parc Guglielmo-Marconi", "Fruiterie Milano" ];
