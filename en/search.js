@@ -120,7 +120,8 @@ function init(){
 	{name: "H&ocirc;pital Jean-Talon", type: "Hospital", address: "1385 Rue Jean-Talon Est", site: "https://www.ciusssnordmtl.ca/installations/hopitaux/hopital-jean-talon/"},
 	{name: "Parc de Turin", type: "Park", address: "7205 Rue Chambord", site: "https://montreal.ca/en/places/parc-de-turin"},
 	{name: "&Eacute;cole Saint-Gabriel-Lalemant", type: "School", address: "7350 Rue Garnier", site: "https://st-gabriel-lalemant.csdm.ca/"},
-	{name: "&Eacute;cole Pierre Elliott Trudeau", type: "School", address: "6855 Rue Cartier", site: "https://www.emsb.qc.ca/trudeau"}];
+	{name: "&Eacute;cole Pierre Elliott Trudeau", type: "School", address: "6855 Rue Cartier", site: "https://www.emsb.qc.ca/trudeau"},
+	{name: "La Baie des Fromages", type: "Shopping", address: "1715 Rue Jean-Talon Est", site: "https://en.labaiadeiformaggi.com/"}];
 	
 	DeCastelnau = [{name: "Little Italy", type: "District", address: "", site: "https://www.mtl.org/en/experience/welcome-little-italy"},
 	{name: "March&eacute; Jean-Talon", type: "Market", address: "7070 Avenue Henri-Julien", site: "https://www.marchespublics-mtl.com/en/marches/jean-talon-market/"},
@@ -1434,6 +1435,10 @@ function onClick(e){
 	if(document.getElementById("search-box").value.toLowerCase() == "montreal chinese hospital")
 	{
 		document.getElementById("search-box").value = "H&ocirc;pital Chinois de Montr&eacute;al";
+	}
+	if(document.getElementById("search-box").value.toLowerCase() == "la baia dei formaggi")
+	{
+		document.getElementById("search-box").value = "La Baie des Fromages";
 	}
 	
 	street = document.getElementById("streets").value;
