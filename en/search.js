@@ -129,7 +129,10 @@ function init(){
 	{name: "&Eacute;cole Sainte-C&eacute;cile", type: "School", address: "7230 Avenue de Gasp&eacute;", site: "https://ste-cecile.csdm.ca/"},
 	{name: "Saint Nicholas Antiochian Orthodox Church", type: "Church", address: "80 Rue de Castelnau Est", site: "http://stnicholasmtl.com/"},
 	{name: "&Eacute;glise Sainte-C&eacute;cile", type: "Church", address: "7390 Avenue Henri-Julien", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/sainte-cecile"},
-	{name: "Parc Victorien-Pesant", type: "Park", address: "7345 Avenue de Gasp&eacute;", site: "https://montreal.ca/en/places/parc-victorien-pesant"}];
+	{name: "Parc Victorien-Pesant", type: "Park", address: "7345 Avenue de Gasp&eacute;", site: "https://montreal.ca/en/places/parc-victorien-pesant"},
+	{name: "Parc de la Petite-Italie", type: "Park", address: "6634 Rue Clark", site: "https://montreal.ca/en/places/parc-de-la-petite-italie"},
+	{name: "Parc Guglielmo-Marconi", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-guglielmo-marconi"},
+	{name: "Fruiterie Milano", type: "Shopping", address: "6862 Boulevard Saint-Laurent", site: "https://milanofruiterie.ca/"}];
 	
 	Parc = [{name: "&Eacute;cole de Sant&eacute; Publique de l&#39;Universit&eacute; de Montr&eacute;al", type: "University", address: "7101 Avenue du Parc", site: "https://espum.umontreal.ca/english/home/"},
 	{name: "Centre William-Hingston", type: "School", address: "419 Rue Saint-Roch", site: "https://centre-william-hingston.csdm.ca/"},
