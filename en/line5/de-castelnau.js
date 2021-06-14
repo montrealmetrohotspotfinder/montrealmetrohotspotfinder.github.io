@@ -10,7 +10,8 @@ function init()
 	{name: "Parc Victorien-Pesant", type: "Park", address: "7345 Avenue de Gasp&eacute;", site: "https://montreal.ca/en/places/parc-victorien-pesant"},
 	{name: "Parc de la Petite-Italie", type: "Park", address: "6634 Rue Clark", site: "https://montreal.ca/en/places/parc-de-la-petite-italie"},
 	{name: "Parc Guglielmo-Marconi", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-guglielmo-marconi"},
-	{name: "Fruiterie Milano", type: "Shopping", address: "6862 Boulevard Saint-Laurent", site: "https://milanofruiterie.ca/"}];
+	{name: "Fruiterie Milano", type: "Shopping", address: "6862 Boulevard Saint-Laurent", site: "https://milanofruiterie.ca/"},
+	{name: "Place Shamrock", type: "Park", address: "70 Avenue Shamrock", site: "https://montreal.ca/en/places/place-shamrock"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
