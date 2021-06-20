@@ -1538,6 +1538,11 @@ function onClick(e){
 			street = "Boulevard de la C&ocirc;te-Vertu";
 			break;
 		}
+		case "18":
+		{
+			street = "Boulevard des Galeries-d&#39;Anjou";
+			break;
+		}
 		default:
 		{
 			street = street;
