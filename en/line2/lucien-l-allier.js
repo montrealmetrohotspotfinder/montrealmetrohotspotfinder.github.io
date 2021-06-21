@@ -16,7 +16,10 @@ function init()
 	{name: "Tribunal Administratif du Logement du Qu&eacute;bec, Montreal offices", type: "Agency", address: "1425 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.tal.gouv.qc.ca/en"},
 	{name: "1350-1360 Ren&eacute;-L&eacute;vesque Ouest", type: "Office", address: "1360 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.1350rene-levesque.com/"},
 	{name: "Best Western Plus Montr&eacute;al Centre-Ville H&ocirc;tel Europa", type: "Hotel", address: "1240 Rue Drummond", site: "https://www.bestwestern.com/en_US/book/hotel-rooms.67013.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67013"},
-	{name: "1250 Ren&eacute;-L&eacute;vesque via Underground City", type: "Office", address: "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://imtl.org/montreal/building/IBM-Marathon.php"}];
+	{name: "1250 Ren&eacute;-L&eacute;vesque via Underground City", type: "Office", address: "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://imtl.org/montreal/building/IBM-Marathon.php"},
+	{name: "Parc Julia-Drummond", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-julia-drummond"},
+	{name: "Auberge Les Bons Matins", type: "Hotel", address: "1401 Avenue Argyle", site: "https://www.bonsmatins.com/en"},
+	{name: "Roccabella", type: "Residence", address: "1059 Rue de la Montagne", site: "https://roccabella.ca/en/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
