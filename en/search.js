@@ -833,7 +833,10 @@ function init(){
 	{name: "Centre Culturel Marocain Dar Al Maghrib", type: "Cultural Centre", address: "515 Avenue Viger Est", site: "http://www.lecentreculturelmarocain.ca/"},
 	{name: "Maison Sainte-Th&eacute;r&egrave;se", type: "Hotel", address: "110 Rue Sainte-Th&eacute;r&egrave;se", site: "https://maisonsco.com/"},
 	{name: "Maison Saint-Vincent", type: "Hotel", address: "443 Rue Saint-Vincent", site: "https://maisonsco.com/"},
-	{name: "Terrasse William Gray", type: "Restaurant", address: "421 Rue Saint-Vincent", site: "https://hotelwilliamgray.com/food/terrasse-william-gray/"}];
+	{name: "Terrasse William Gray", type: "Restaurant", address: "421 Rue Saint-Vincent", site: "https://hotelwilliamgray.com/food/terrasse-william-gray/"},
+	{name: "Le S&eacute;nateur", type: "Restaurant", address: "254 Rue Saint-Paul Est", site: "https://vieuxmontreal.ca/en/business/le-senateur-en"},
+	{name: "L&#39;Usine de Spaghetti", type: "Restaurant", address: "273 Rue Saint-Paul Est", site: "https://www.lusinedespaghettimtl.com/welcome"},
+	{name: "Montr&eacute;al Poutine", type: "Restaurant", address: "181 Rue Saint-Paul Est", site: "https://www.montrealpoutine.us/"}];
 	
 	PlaceDArmes = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
