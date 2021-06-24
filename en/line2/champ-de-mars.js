@@ -39,7 +39,8 @@ function init()
 	{name: "Terrasse William Gray", type: "Restaurant", address: "421 Rue Saint-Vincent", site: "https://hotelwilliamgray.com/food/terrasse-william-gray/"},
 	{name: "Le S&eacute;nateur", type: "Restaurant", address: "254 Rue Saint-Paul Est", site: "https://vieuxmontreal.ca/en/business/le-senateur-en"},
 	{name: "L&#39;Usine de Spaghetti", type: "Restaurant", address: "273 Rue Saint-Paul Est", site: "https://www.lusinedespaghettimtl.com/welcome"},
-	{name: "Montr&eacute;al Poutine", type: "Restaurant", address: "181 Rue Saint-Paul Est", site: "https://www.montrealpoutine.us/"}];
+	{name: "Montr&eacute;al Poutine", type: "Restaurant", address: "181 Rue Saint-Paul Est", site: "https://www.montrealpoutine.us/"},
+	{name: "Le Club Chasse et P&ecirc;che", type: "Restaurant", address: "423 Rue Saint-Claude", site: "https://www.leclubchasseetpeche.com/en/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
