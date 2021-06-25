@@ -14,7 +14,7 @@ function init()
 	{name: "Parc des Roseraies via Bus 44", type: "Park", address: "7070 Avenue de la Nantaise", site: "https://montreal.ca/en/places/parc-des-roseraies"},
 	{name: "Les Terrasses Versailles via Bus 44", type: "Residence", address: "6923 Boulevard des Galeries-d&#39;Anjou", site: "https://www.residencesexcellence.com/residences/terrasses-versailles/accueil"},
 	{name: "&Eacute;cole des Roseraies via Bus 44", type: "School", address: "6440 Boulevard des Galeries-d&#39;Anjou", site: "https://desros.jimdofree.com/"},
-	{name: "Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", type: "Hospital", address: "7401 Rue Hochelaga", site: "https://ciusss-estmtl.gouv.qc.ca/soins-et-services/cliniques-specialisees-par-installation/institut-universitaire-en-sante-mentale"}];
+	{name: "Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", type: "Hospital", address: "7401 Rue Hochelaga", site: "https://ciusss-estmtl.gouv.qc.ca/etablissement/institut-universitaire-en-sante-mentale-de-montreal"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
