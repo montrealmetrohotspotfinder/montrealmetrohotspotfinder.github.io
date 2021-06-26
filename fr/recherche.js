@@ -794,15 +794,17 @@ function init(){
 		"Caf&eacute; Vasco Da Gama",
 		"Zante",
 		"Campo",
-		"H&ocirc;tel Ambrose" ];
+		"H&ocirc;tel Ambrose",
+		"Maison Louis-Joseph-Forget",
+		"Maison James-Reid-Wilson" ];
 	
 	Peeltypes = [ "Centre Commercial", "Centre Commercial", "Cin&eacute;ma", "Bureau", "Bureau", "Universit&eacute;", 
 	"Centre Commercial", "R&eacute;sidence", "Fitness", "Restaurant", "Restaurant", 
 	"Place de la Ville", "Sports", "Mus&eacute;e", "Magasinage", "Bureau", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Bureau",
 	"H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Universit&eacute;", "Biblioth&egrave;que", "Restaurant", "Magasinage", "Bureau", "R&eacute;sidence", "Bureau", "Bureau", "Bureau", "Bureau", "Studio",
-	"Restaurant", "Restaurant", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence",
-	"Bureau", "Bureau", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel",
-	"Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "H&ocirc;tel" ];
+	"Restaurant", "Restaurant", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "R&eacute;sidence", "R&eacute;sidence",
+	"R&eacute;sidence", "Bureau", "Bureau", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel",
+	"Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "H&ocirc;tel", "Site Historique", "Site Historique" ];
 	
 	Peeladdresses = [ "1455 Rue Peel", 
 	"977 Rue Sainte-Catherine Ouest",
@@ -868,7 +870,9 @@ function init(){
 	"1472 Rue Peel",
 	"1112 Rue Sherbrooke Ouest",
 	"1108 Boulevard de Maisonneuve Ouest",
-	"3422 Rue Stanley" ];
+	"3422 Rue Stanley",
+	"1195 Rue Sherbrooke Ouest",
+	"1201 Rue Sherbrooke Ouest" ];
 	
 	Peelsites = [ "https://lcmr.ca/fr/accueil/", "http://www.carrefourindustriellealliance.com/", "https://www.cineplex.com/Cinemas/theatredetails2017?theatre_url=cinema-banque-scotia-montreal", "#", "#", 
 	"https://www.mcgill.ca/fr", "https://www.placemontrealtrust.com/fr", "https://www.gwlraresidential.com/apartments/qc/montreal/le-demetrius/index.aspx?_yTrackUser=OTQxNzA5NjYwIzE5MTk5NTcxODg%3d-DwVHUNDST0M%3d&_yTrackVisit=MTY5OTE0MzIwOSMyMDE4MTk4NTE2-%2fRw0D2%2biQPY%3d&_yTrackReqDT=08380320201210&lang=38", "https://www.ymcaquebec.org/fr/Trouver-un-Y/YMCA-Centre-ville", 
@@ -877,10 +881,10 @@ function init(){
 	"https://www.marriott.fr/hotels/travel/yulsi-le-centre-sheraton-montreal-hotel",
 	"https://www.ritzcarlton.com/fr/hotels/canada/montreal", "https://www.germainhotels.com/fr/hotel-le-germain/montreal", "https://www.lemountstephen.com/fr/", "https://www.hiltonhotels.com/fr_FR/canada/vogue-hotel-montreal-downtown/?cultureKey=fr_FR", "https://lestmartinmontreal.com/fr/", "https://all.accor.com/hotel/3646/index.fr.shtml",
 	"https://www.cnq.org/", "https://imtl.org/edifices/Dominion-Square-Building.php", "http://www.hotelcantlie.com/fr", "https://www.marriott.fr/hotels/travel/yulri-residence-inn-montreal-downtown", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67012.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67012",
-	"https://www.mcgill.ca/desautels/", "https://www.mcgill.ca/library/", "http://reubensdeli.com/fr/", "https://www.canadagoose.com/ca/fr/montreal-store.html", "https://www.ccifcmtl.ca/", "http://downtowncondosmontreal.com/1200-de-maisonneuve/", "https://www.procomservices.com/fr-ca/", "https://ocpm.qc.ca/", "https://cmm.qc.ca/",
-	"https://montrealgazette.com/", "https://www.reflectorentertainment.com/fr/", "https://mcleanspub.com/fr/", "#", "https://www.fourseasons.com/fr/montreal/?seo=google_local_mqu1_amer", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67013.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67013", "http://www.stanleytower.com/?lang=fr",
-	"https://lesommet3475.com/fr/", "https://www.mcgill.ca/medhealthsci/fr", "https://www.mcgill.ca/law/fr", "https://www.mcgill.ca/education/fr", "http://www.appartementsluna.com/", "https://www.groupeaccueilres.ca/royal-penfield", "http://www.mcgillimmobilier.com/condos-drummond-au-centre-ville-de-montreal/", "https://www.coastunderwriters.ca/", "https://www.theratech.com/fr/",
-	"https://www.mcgill.ca/biology/", "https://www.mcgill.ca/pharma/", "https://www.mcgill.ca/physiology/", "http://hotelchezswann.com/fr", "https://www.chezalexandre.com/", "https://ferreiracafe.com/fr/", "http://www.iberica.ca/", "https://vascodagama.ca/fr/", "https://www.restaurantzante.ca/?lang=fr", "https://campomtl.com/fr/", "https://hotelambrose.ca/fr" ];
+	"http://virtualcampustour.mcgill.ca/fr/details/20/pavillon-bronfman", "https://www.mcgill.ca/library/", "http://reubensdeli.com/fr/", "https://www.canadagoose.com/ca/fr/montreal-store.html", "https://www.ccifcmtl.ca/", "http://downtowncondosmontreal.com/1200-de-maisonneuve/", "https://www.procomservices.com/fr-ca/", "https://ocpm.qc.ca/", "https://cmm.qc.ca/", "https://montrealgazette.com/",
+	"https://www.reflectorentertainment.com/fr/", "https://mcleanspub.com/fr/", "#", "https://www.fourseasons.com/fr/montreal/?seo=google_local_mqu1_amer", "https://www.bestwestern.com/fr_FR/book/hotel-rooms.67013.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:67013", "http://www.stanleytower.com/?lang=fr", "https://lesommet3475.com/fr/", "https://www.mcgill.ca/medhealthsci/fr",
+	"https://www.mcgill.ca/law/fr", "https://www.mcgill.ca/education/fr", "http://www.appartementsluna.com/", "https://www.groupeaccueilres.ca/royal-penfield", "http://www.mcgillimmobilier.com/condos-drummond-au-centre-ville-de-montreal/", "https://www.coastunderwriters.ca/", "https://www.theratech.com/fr/", "https://www.mcgill.ca/biology/", "https://www.mcgill.ca/pharma/", "https://www.mcgill.ca/physiology/",
+	"http://hotelchezswann.com/fr", "https://www.chezalexandre.com/", "https://ferreiracafe.com/fr/", "http://www.iberica.ca/", "https://vascodagama.ca/fr/", "https://www.restaurantzante.ca/?lang=fr", "https://campomtl.com/fr/", "https://hotelambrose.ca/fr", "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92828&type=bien", "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92829&type=bien" ];
 	
 	Guynames = [ "Universit&eacute; Concordia, campus Sir George Williams", 
 	"Universit&eacute; Concordia, &Eacute;cole de Gestion John-Molson", 
