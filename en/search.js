@@ -545,7 +545,9 @@ function init(){
 	{name: "Caf&eacute; Vasco Da Gama", type: "Restaurant", address: "1472 Rue Peel", site: "https://vascodagama.ca/en/"},
 	{name: "Zante", type: "Restaurant", address: "1112 Rue Sherbrooke Ouest", site: "https://www.restaurantzante.ca/?lang=en"},
 	{name: "Campo", type: "Restaurant", address: "1108 Boulevard de Maisonneuve Ouest", site: "https://campomtl.com/en/"},
-	{name: "H&ocirc;tel Ambrose", type: "Hotel", address: "3422 Rue Stanley", site: "https://hotelambrose.ca/en"}];
+	{name: "H&ocirc;tel Ambrose", type: "Hotel", address: "3422 Rue Stanley", site: "https://hotelambrose.ca/en"},
+	{name: "Maison Louis-Joseph-Forget", type: "Historical Site", address: "1195 Rue Sherbrooke Ouest", site: "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92828&type=bien"},
+	{name: "Maison James-Reid-Wilson", type: "Historical Site", address: "1201 Rue Sherbrooke Ouest", site: "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92829&type=bien"} ];
 	
 	Guy = [{name: "Concordia University, Sir George Williams campus", type: "University", address: "1455 Boulevard de Maisonneuve Ouest", site: "http://www.concordia.ca/"},
 	{name: "Concordia University, John Molson School of Business", type: "University", address: "1450 Rue Guy", site: "http://www.concordia.ca/jmsb.html"},
