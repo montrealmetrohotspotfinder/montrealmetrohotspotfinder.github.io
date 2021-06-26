@@ -1778,6 +1778,11 @@ function onClick(e){
 	{
 		document.getElementById("search-box").value = "La Baie des Fromages";
 	}
+	if(document.getElementById("search-box").value.toLowerCase() == "ecole edward murphy" || document.getElementById("search-box").value.toLowerCase() == "ecole primaire edward murphy" ||
+	document.getElementById("search-box").value.toLowerCase() == "&eacute;cole primaire edward murphy")
+	{
+		document.getElementById("search-box").value = "&Eacute;cole Edward Murphy";
+	}
 	
 	/*TO TREAT STREETS AND CATEGORIES (FRENCH VERSION) WITH SPECIAL CHARACTERS*/
 	var street = document.getElementById("streets").value;
