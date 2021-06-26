@@ -1457,6 +1457,9 @@ function onClick(e){
 	if(document.getElementById("search-box").value.toLowerCase() == "la baia dei formaggi")
 	{
 		document.getElementById("search-box").value = "La Baie des Fromages";
+	}if(document.getElementById("search-box").value.toLowerCase() == "edward murphy elementary school")
+	{
+		document.getElementById("search-box").value = "Edward Murphy School";
 	}
 	
 	street = document.getElementById("streets").value;
