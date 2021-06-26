@@ -61,7 +61,8 @@ function init()
 	{name: "&Eacute;cole du Barreau", type: "School", address: "445 Boulevard Saint-Laurent", site: "http://www.ecoledubarreau.qc.ca/fr/"},
 	{name: "Modavie", type: "Restaurant", address: "1 Rue Saint-Paul Ouest", site: "https://modavie.com/en/"},
 	{name: "Toqu&eacute;!", type: "Restaurant", address: "900 Place Jean-Paul-Riopelle", site: "https://www.restaurant-toque.com/en"},
-	{name: "Pub Saint Pierre", type: "Restaurant", address: "410 Rue Saint-Pierre", site: "https://www.pubsaintpierre.ca/"}];
+	{name: "Pub Saint Pierre", type: "Restaurant", address: "410 Rue Saint-Pierre", site: "https://www.pubsaintpierre.ca/"},
+	{name: "Terrasse sur l&#39;Auberge", type: "Restaurant", address: "97 Rue de la Commune Est", site: "https://aubergeduvieuxport.com/food/terrasse-sur-lauberge/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
