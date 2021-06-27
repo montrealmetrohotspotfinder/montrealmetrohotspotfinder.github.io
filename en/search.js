@@ -740,7 +740,10 @@ function init(){
 	Rosemont = [{name: "Biblioth&egrave;que Marc-Favreau", type: "Library", address: "500 Boulevard Rosemont", site: "https://montreal.ca/en/places/bibliotheque-marc-favreau"},
 	{name: "Parc des Carri&egrave;res", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-des-carrieres"},
 	{name: "Parc Luc-Durand", type: "Park", address: "600 Rue des Ateliers", site: "https://montreal.ca/en/places/parc-luc-durand"},
-	{name: "Habitations Saint-Vallier", type: "Residence", address: "401 Rue des Carri&egrave;res", site: "https://www.omhm.qc.ca/en/housing-directory/habitations-saint-vallier"}];
+	{name: "Habitations Saint-Vallier", type: "Residence", address: "401 Rue des Carri&egrave;res", site: "https://www.omhm.qc.ca/en/housing-directory/habitations-saint-vallier"},
+	{name: "Universit&eacute; T&Eacute;LUQ, Montreal offices", type: "Office", address: "5800 Rue Saint-Denis", site: "https://www.teluq.ca/site/en/"},
+	{name: "Place Raymond-Plante", type: "Park", address: "780 Boulevard Rosemont", site: "https://montreal.ca/en/places/place-raymond-plante"},
+	{name: "Le Saint-&Eacute;douard", type: "Restaurant", address: "808 Boulevard Rosemont", site: "https://lesaintedouard.com/"}];
 	
 	Laurier = [{name: "Spectrum Productions", type: "Studio", address: "5445 Avenue de Gasp&eacute;", site: "http://www.productionsspectrum.com/"},
 	{name: "Parc Sir-Wilfrid-Laurier", type: "Park", address: "1115 Avenue Laurier Est", site: "https://montreal.ca/en/places/parc-sir-wilfrid-laurier"},
