@@ -1225,13 +1225,14 @@ function init(){
 	Beaubiensites = [ "https://www.plazasthubert.com/fr/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-defense-italiens", "#", "https://la-mennais.csdm.ca/",
 	"https://www.justice.gouv.qc.ca/systeme-judiciaire/tribunaux-du-quebec/cour-du-quebec/chambre-de-la-jeunesse", "https://www.theatreplaza.ca/", "#", "https://montreal.ca/lieux/parc-dante" ];
 	
-	Rosemontnames = [ "Biblioth&egrave;que Marc-Favreau", "Parc des Carri&egrave;res", "Parc Luc-Durand", "Habitations Saint-Vallier" ];
+	Rosemontnames = [ "Biblioth&egrave;que Marc-Favreau", "Parc des Carri&egrave;res", "Parc Luc-Durand", "Habitations Saint-Vallier", "Universit&eacute; T&Eacute;LUQ, bureaux montr&eacute;alais", "Place Raymond-Plante", "Le Saint-&Eacute;douard" ];
 	
-	Rosemonttypes = [ "Biblioth&egrave;que", "Parc", "Parc", "R&eacute;sidence" ];
+	Rosemonttypes = [ "Biblioth&egrave;que", "Parc", "Parc", "R&eacute;sidence", "Bureau", "Parc", "Restaurant" ];
 	
-	Rosemontaddresses = [ "500 Boulevard Rosemont", "", "600 Rue des Ateliers", "401 Rue des Carri&egrave;res" ];
+	Rosemontaddresses = [ "500 Boulevard Rosemont", "", "600 Rue des Ateliers", "401 Rue des Carri&egrave;res", "5800 Rue Saint-Denis", "780 Boulevard Rosemont", "808 Boulevard Rosemont" ];
 	
-	Rosemontsites = [ "https://montreal.ca/lieux/bibliotheque-marc-favreau", "https://montreal.ca/lieux/parc-des-carrieres", "https://montreal.ca/lieux/parc-luc-durand", "https://www.omhm.qc.ca/fr/repertoire-des-habitations/habitations-saint-vallier" ];
+	Rosemontsites = [ "https://montreal.ca/lieux/bibliotheque-marc-favreau", "https://montreal.ca/lieux/parc-des-carrieres", "https://montreal.ca/lieux/parc-luc-durand", "https://www.omhm.qc.ca/fr/repertoire-des-habitations/habitations-saint-vallier",
+	"https://www.teluq.ca/", "https://montreal.ca/lieux/place-raymond-plante", "https://lesaintedouard.com/" ];
 	
 	Lauriernames = [ "Spectrum Productions", "Parc Sir-Wilfrid-Laurier", "&Eacute;cole Nationale de Th&eacute;&acirc;tre", "&Eacute;cole Sup&eacute;rieure de Ballet du Qu&eacute;bec",
 	"&Eacute;glise Catholique Saint-Denis", "&Eacute;cole Laurier", "Centre Champagnat", "Parc Berri-Saint-Joseph" ];
