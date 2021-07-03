@@ -1,13 +1,14 @@
 function init()
 {
-	hnames = [ "Biblioth&egrave;que Marc-Favreau", "Parc des Carri&egrave;res", "Parc Luc-Durand", "Habitations Saint-Vallier", "Universit&eacute; T&Eacute;LUQ, bureaux montr&eacute;alais", "Place Raymond-Plante", "Le Saint-&Eacute;douard" ];
+	hnames = [ "Biblioth&egrave;que Marc-Favreau", "Parc des Carri&egrave;res", "Parc Luc-Durand", "Habitations Saint-Vallier", "Universit&eacute; T&Eacute;LUQ, bureaux montr&eacute;alais", "Place Raymond-Plante", "Le Saint-&Eacute;douard",
+	"Parc du P&egrave;re-Marquette", "Centre P&egrave;re-Marquette", "Ar&eacute;na P&egrave;re-Marquette", "&Eacute;cole P&egrave;re-Marquette" ];
 	
-	htypes = [ "Biblioth&egrave;que", "Parc", "Parc", "R&eacute;sidence", "Bureau", "Parc", "Restaurant" ];
+	htypes = [ "Biblioth&egrave;que", "Parc", "Parc", "R&eacute;sidence", "Bureau", "Parc", "Restaurant", "Parc", "Centre Culturel", "Sports", "&Eacute;cole" ];
 	
-	haddresses = [ "500 Boulevard Rosemont", "", "600 Rue des Ateliers", "401 Rue des Carri&egrave;res", "5800 Rue Saint-Denis", "780 Boulevard Rosemont", "808 Boulevard Rosemont" ];
+	haddresses = [ "500 Boulevard Rosemont", "", "600 Rue des Ateliers", "401 Rue des Carri&egrave;res", "5800 Rue Saint-Denis", "780 Boulevard Rosemont", "808 Boulevard Rosemont", "1602 Rue de Bellechasse", "1600 Rue de Drucourt", "1605 Rue de Bellechasse", "6030 Rue Marquette" ];
 	
 	hsites = [ "https://montreal.ca/lieux/bibliotheque-marc-favreau", "https://montreal.ca/lieux/parc-des-carrieres", "https://montreal.ca/lieux/parc-luc-durand", "https://www.omhm.qc.ca/fr/repertoire-des-habitations/habitations-saint-vallier",
-	"https://www.teluq.ca/", "https://montreal.ca/lieux/place-raymond-plante", "https://lesaintedouard.com/" ];
+	"https://www.teluq.ca/", "https://montreal.ca/lieux/place-raymond-plante", "https://lesaintedouard.com/", "https://montreal.ca/lieux/parc-du-pere-marquette", "http://centreperemarquette.ca/", "https://montreal.ca/lieux/arena-pere-marquette", "https://pere-marquette.cssdm.gouv.qc.ca/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
