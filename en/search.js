@@ -743,7 +743,11 @@ function init(){
 	{name: "Habitations Saint-Vallier", type: "Residence", address: "401 Rue des Carri&egrave;res", site: "https://www.omhm.qc.ca/en/housing-directory/habitations-saint-vallier"},
 	{name: "Universit&eacute; T&Eacute;LUQ, Montreal offices", type: "Office", address: "5800 Rue Saint-Denis", site: "https://www.teluq.ca/site/en/"},
 	{name: "Place Raymond-Plante", type: "Park", address: "780 Boulevard Rosemont", site: "https://montreal.ca/en/places/place-raymond-plante"},
-	{name: "Le Saint-&Eacute;douard", type: "Restaurant", address: "808 Boulevard Rosemont", site: "https://lesaintedouard.com/"}];
+	{name: "Le Saint-&Eacute;douard", type: "Restaurant", address: "808 Boulevard Rosemont", site: "https://lesaintedouard.com/"},
+	{name: "Parc du P&egrave;re-Marquette", type: "Park", address: "1602 Rue de Bellechasse", site: "https://montreal.ca/en/places/parc-du-pere-marquette"},
+	{name: "Centre P&egrave;re-Marquette", type: "Cultural Centre", address: "1600 Rue de Drucourt", site: "http://centreperemarquette.ca/"},
+	{name: "Ar&eacute;na P&egrave;re-Marquette", type: "Sports", address: "1605 Rue de Bellechasse", site: "https://montreal.ca/en/places/arena-pere-marquette"},
+	{name: "&Eacute;cole P&egrave;re-Marquette", type: "School", address: "6030 Rue Marquette", site: "https://pere-marquette.cssdm.gouv.qc.ca/"}];
 	
 	Laurier = [{name: "Spectrum Productions", type: "Studio", address: "5445 Avenue de Gasp&eacute;", site: "http://www.productionsspectrum.com/"},
 	{name: "Parc Sir-Wilfrid-Laurier", type: "Park", address: "1115 Avenue Laurier Est", site: "https://montreal.ca/en/places/parc-sir-wilfrid-laurier"},
