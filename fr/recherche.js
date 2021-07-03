@@ -1225,14 +1225,15 @@ function init(){
 	Beaubiensites = [ "https://www.plazasthubert.com/fr/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-defense-italiens", "#", "https://la-mennais.csdm.ca/",
 	"https://www.justice.gouv.qc.ca/systeme-judiciaire/tribunaux-du-quebec/cour-du-quebec/chambre-de-la-jeunesse", "https://www.theatreplaza.ca/", "#", "https://montreal.ca/lieux/parc-dante" ];
 	
-	Rosemontnames = [ "Biblioth&egrave;que Marc-Favreau", "Parc des Carri&egrave;res", "Parc Luc-Durand", "Habitations Saint-Vallier", "Universit&eacute; T&Eacute;LUQ, bureaux montr&eacute;alais", "Place Raymond-Plante", "Le Saint-&Eacute;douard" ];
+	Rosemontnames = [ "Biblioth&egrave;que Marc-Favreau", "Parc des Carri&egrave;res", "Parc Luc-Durand", "Habitations Saint-Vallier", "Universit&eacute; T&Eacute;LUQ, bureaux montr&eacute;alais", "Place Raymond-Plante", "Le Saint-&Eacute;douard",
+	"Parc du P&egrave;re-Marquette", "Centre P&egrave;re-Marquette", "Ar&eacute;na P&egrave;re-Marquette", "&Eacute;cole P&egrave;re-Marquette" ];
 	
-	Rosemonttypes = [ "Biblioth&egrave;que", "Parc", "Parc", "R&eacute;sidence", "Bureau", "Parc", "Restaurant" ];
+	Rosemonttypes = [ "Biblioth&egrave;que", "Parc", "Parc", "R&eacute;sidence", "Bureau", "Parc", "Restaurant", "Parc", "Centre Culturel", "Sports", "&Eacute;cole" ];
 	
-	Rosemontaddresses = [ "500 Boulevard Rosemont", "", "600 Rue des Ateliers", "401 Rue des Carri&egrave;res", "5800 Rue Saint-Denis", "780 Boulevard Rosemont", "808 Boulevard Rosemont" ];
+	Rosemontaddresses = [ "500 Boulevard Rosemont", "", "600 Rue des Ateliers", "401 Rue des Carri&egrave;res", "5800 Rue Saint-Denis", "780 Boulevard Rosemont", "808 Boulevard Rosemont", "1602 Rue de Bellechasse", "1600 Rue de Drucourt", "1605 Rue de Bellechasse", "6030 Rue Marquette" ];
 	
 	Rosemontsites = [ "https://montreal.ca/lieux/bibliotheque-marc-favreau", "https://montreal.ca/lieux/parc-des-carrieres", "https://montreal.ca/lieux/parc-luc-durand", "https://www.omhm.qc.ca/fr/repertoire-des-habitations/habitations-saint-vallier",
-	"https://www.teluq.ca/", "https://montreal.ca/lieux/place-raymond-plante", "https://lesaintedouard.com/" ];
+	"https://www.teluq.ca/", "https://montreal.ca/lieux/place-raymond-plante", "https://lesaintedouard.com/", "https://montreal.ca/lieux/parc-du-pere-marquette", "http://centreperemarquette.ca/", "https://montreal.ca/lieux/arena-pere-marquette", "https://pere-marquette.cssdm.gouv.qc.ca/" ];
 	
 	Lauriernames = [ "Spectrum Productions", "Parc Sir-Wilfrid-Laurier", "&Eacute;cole Nationale de Th&eacute;&acirc;tre", "&Eacute;cole Sup&eacute;rieure de Ballet du Qu&eacute;bec",
 	"&Eacute;glise Catholique Saint-Denis", "&Eacute;cole Laurier", "Centre Champagnat", "Parc Berri-Saint-Joseph" ];
