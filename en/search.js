@@ -924,7 +924,8 @@ function init(){
 	{name: "Toqu&eacute;!", type: "Restaurant", address: "900 Place Jean-Paul-Riopelle", site: "https://www.restaurant-toque.com/en"},
 	{name: "Pub Saint Pierre", type: "Restaurant", address: "410 Rue Saint-Pierre", site: "https://www.pubsaintpierre.ca/"},
 	{name: "Terrasse sur l&#39;Auberge", type: "Restaurant", address: "97 Rue de la Commune Est", site: "https://aubergeduvieuxport.com/food/terrasse-sur-lauberge/"},
-	{name: "Restaurant Oskar", type: "Restaurant", address: "414 Rue Saint-Sulpice", site: "http://restaurantoskar.com/"}];
+	{name: "Restaurant Oskar", type: "Restaurant", address: "414 Rue Saint-Sulpice", site: "http://restaurantoskar.com/"},
+	{name: "Brasserie 701", type: "Restaurant", address: "701 C&ocirc;te de la Place d&#39;Armes", site: "https://brasserie701.com/en/"}];
 	
 	SquareVictoria = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
