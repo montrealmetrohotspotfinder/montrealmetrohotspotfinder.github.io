@@ -40,7 +40,12 @@ function init()
 	{name: "Le S&eacute;nateur", type: "Restaurant", address: "254 Rue Saint-Paul Est", site: "https://vieuxmontreal.ca/en/business/le-senateur-en"},
 	{name: "L&#39;Usine de Spaghetti", type: "Restaurant", address: "273 Rue Saint-Paul Est", site: "https://www.lusinedespaghettimtl.com/welcome"},
 	{name: "Montr&eacute;al Poutine", type: "Restaurant", address: "181 Rue Saint-Paul Est", site: "https://www.montrealpoutine.us/"},
-	{name: "Le Club Chasse et P&ecirc;che", type: "Restaurant", address: "423 Rue Saint-Claude", site: "https://www.leclubchasseetpeche.com/en/"}];
+	{name: "Le Club Chasse et P&ecirc;che", type: "Restaurant", address: "423 Rue Saint-Claude", site: "https://www.leclubchasseetpeche.com/en/"},
+	{name: "John Michael&#39;s Pub", type: "Restaurant", address: "458 Place Jacques-Cartier", site: "https://pubmontreal.com/"},
+	{name: "Jacopo", type: "Restaurant", address: "436 Place Jacques-Cartier", site: "https://jacopomtl.com/en/"},
+	{name: "Restaurant Papillon", type: "Restaurant", address: "85 Rue Saint-Paul Est", site: "https://restaurantpapillon.business.site/"},
+	{name: "Trattoria Gio", type: "Restaurant", address: "452 Place Jacques-Cartier", site: "https://www.trattoriagio.com/english/"},
+	{name: "Restaurant Jacques-Cartier", type: "Restaurant", address: "444 Place Jacques-Cartier", site: "https://www.restaurantjacquescartier.ca/?lang=en"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
