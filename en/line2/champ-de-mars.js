@@ -45,7 +45,8 @@ function init()
 	{name: "Jacopo", type: "Restaurant", address: "436 Place Jacques-Cartier", site: "https://jacopomtl.com/en/"},
 	{name: "Restaurant Papillon", type: "Restaurant", address: "85 Rue Saint-Paul Est", site: "https://restaurantpapillon.business.site/"},
 	{name: "Trattoria Gio", type: "Restaurant", address: "452 Place Jacques-Cartier", site: "https://www.trattoriagio.com/english/"},
-	{name: "Restaurant Jacques-Cartier", type: "Restaurant", address: "444 Place Jacques-Cartier", site: "https://www.restaurantjacquescartier.ca/?lang=en"}];
+	{name: "Restaurant Jacques-Cartier", type: "Restaurant", address: "444 Place Jacques-Cartier", site: "https://www.restaurantjacquescartier.ca/?lang=en"},
+	{name: "La Mar&eacute;e", type: "Restaurant", address: "404 Place Jacques-Cartier", site: "#"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
