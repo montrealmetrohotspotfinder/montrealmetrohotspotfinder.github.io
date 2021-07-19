@@ -65,7 +65,9 @@ function init(){
 	{name: "Parc Victor-Rousselot", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-victor-rousselot"},
 	{name: "&Eacute;cole Victor-Rousselot", type: "School", address: "3525 Rue Sainte-&Eacute;milie", site: "https://victor-rousselot.cssdm.gouv.qc.ca/"},
 	{name: "Lemay, Montreal offices", type: "Office", address: "3500 Rue Saint-Jacques", site: "https://lemay.com/"},
-	{name: "&Eacute;glise Saint-Ir&eacute;n&eacute;e-de-Lyon", type: "Church", address: "3030 Rue Delisle", site: "http://st-irenee.org/accueil"}];
+	{name: "&Eacute;glise Saint-Ir&eacute;n&eacute;e-de-Lyon", type: "Church", address: "3030 Rue Delisle", site: "http://st-irenee.org/accueil"},
+	{name: "Habitations Workman-Delisle", type: "Residence", address: "2705 Rue Workman", site: "https://www.omhm.qc.ca/en/tenant-services/habitations-workman-delisle-5/"},
+	{name: "Joe Beef", type: "Restaurant", address: "2491 Rue Notre-Dame Ouest", site: "https://joebeef.squarespace.com/"}];
 	
 	Snowdon = [{name: "Oratoire Saint-Joseph", type: "Church", address: "3800 Chemin Queen-Mary", site: "https://www.saint-joseph.org/"},
 	{name: "C&ocirc;te-des-Neiges / N.D.G. Borough Hall", type: "Government", address: "5160 Boulevard D&eacute;carie", site: "https://montreal.ca/en/cote-des-neiges-notre-dame-de-grace"},
