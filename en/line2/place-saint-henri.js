@@ -8,7 +8,11 @@ function init()
 	{name: "CLSC Saint-Henri", type: "Agency", address: "3833 Rue Notre-Dame Ouest", site: "https://ciusss-centresudmtl.gouv.qc.ca/etablissement/clsc-de-saint-henri"},
 	{name: "&Eacute;cole des M&eacute;tiers du Sud-Ouest-de-Montr&eacute;al", type: "Trade School", address: "717 Rue Saint-Ferdinand", site: "https://ecole-metiers-sud-ouest.csdm.ca/"},
 	{name: "Parc &Eacute;mile-Berliner", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-emile-berliner"},
-	{name: "&Eacute;cole Ludger-Duvernay", type: "School", address: "770 Rue du Couvent", site: "https://ludger-duvernay.cssdm.gouv.qc.ca/"}];
+	{name: "&Eacute;cole Ludger-Duvernay", type: "School", address: "770 Rue du Couvent", site: "https://ludger-duvernay.cssdm.gouv.qc.ca/"},
+	{name: "Arthurs Nosh Bar", type: "Restaurant", address: "4621 Rue Notre-Dame Ouest", site: "http://arthursmtl.com/"},
+	{name: "&Eacute;glise Saint-Zotique", type: "Church", address: "4561 Rue Notre-Dame Ouest", site: "https://eglise-saint-zotique.business.site/"},
+	{name: "Tacos Frida", type: "Restaurant", address: "4350 Rue Notre-Dame Ouest", site: "https://www.tacosfridamtl.ca/?lang=en"},
+	{name: "Biblioth&egrave;que Saint-Henri", type: "Library", address: "4707 Rue Notre-Dame Ouest", site: "https://montreal.ca/en/places/bibliotheque-saint-henri"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
