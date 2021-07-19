@@ -148,13 +148,14 @@ function init(){
 	"https://saintgeorgemontreal.org/", "https://montreal.ca/lieux/parc-le-prevost", "https://patrovilleray.ca/", "https://st-arsene.cssdm.gouv.qc.ca/", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/saint-arsene", "https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/dame-defense-italiens",
 	"https://montreal.ca/lieux/parc-dante", "https://montreal.ca/lieux/maison-de-la-culture-claude-leveillee" ];
 	
-	LionelGroulxnames = [ "March&eacute; Atwater", "Parc Vinet", "Th&eacute;&acirc;tre Corona" ];
+	LionelGroulxnames = [ "March&eacute; Atwater", "Parc Vinet", "Th&eacute;&acirc;tre Corona", "Parc Victor-Rousselot", "&Eacute;cole Victor-Rousselot", "Lemay, bureaux montr&eacute;alais", "&Eacute;glise Saint-Ir&eacute;n&eacute;e-de-Lyon" ];
 	
-	LionelGroulxtypes = [ "March&eacute;", "Parc", "Th&eacute;&acirc;tre" ];
+	LionelGroulxtypes = [ "March&eacute;", "Parc", "Th&eacute;&acirc;tre", "Parc", "&Eacute;cole", "Bureau", "&Eacute;glise" ];
 	
-	LionelGroulxaddresses = [ "138 Avenue Atwater", "550 Rue Vinet", "2490 Rue Notre-Dame Ouest" ];
+	LionelGroulxaddresses = [ "138 Avenue Atwater", "550 Rue Vinet", "2490 Rue Notre-Dame Ouest", "", "3525 Rue Sainte-&Eacute;milie", "3500 Rue Saint-Jacques", "3030 Rue Delisle" ];
 	
-	LionelGroulxsites = [ "https://www.marchespublics-mtl.com/marches/atwater/", "https://montreal.ca/lieux/parc-vinet", "https://www.theatrecorona.ca/" ];
+	LionelGroulxsites = [ "https://www.marchespublics-mtl.com/marches/atwater/", "https://montreal.ca/lieux/parc-vinet", "https://www.theatrecorona.ca/", "https://montreal.ca/lieux/parc-victor-rousselot", "https://victor-rousselot.cssdm.gouv.qc.ca/", 
+	"https://lemay.com/fr/", "http://st-irenee.org/" ];
 	
 	Snowdonnames = [ "Oratoire Saint-Joseph", "Mairie de C&ocirc;te-des-Neiges / N.D.G.", "&Eacute;cole Iona", "Deli Snowdon" ];
 	
