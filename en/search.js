@@ -891,7 +891,6 @@ function init(){
 	{name: "Terrasse Place d&#39;Armes", type: "Restaurant", address: "55 Rue Saint-Jacques", site: "http://terrasseplacedarmes.com/en/oasis-urbain/"},
 	{name: "Kyo Bar Japonais", type: "Restaurant", address: "711 C&ocirc;te de la Place d&#39;Armes", site: "https://kyobar.com/en/"},
 	{name: "Holiday Inn Montr&eacute;al Centre-Ville Downtown", type: "Hotel", address: "999 Rue Saint-Urbain", site: "https://www.ihg.com/holidayinn/hotels/us/en/montreal/yulca/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-CA-_-YULCA"},
-	{name: "H&ocirc;tel St-Paul", type: "Hotel", address: "355 Rue McGill", site: "https://hotelstpaul.com/en/"},
 	{name: "H&ocirc;tel Uville", type: "Hotel", address: "204 Place d&#39;Youville", site: "https://uvillehotelmontreal.com/"},
 	{name: "Auberge de la Place Royale", type: "Hotel", address: "115 Rue de la Commune Ouest", site: "http://auberge-de-la-place-royale.to-montreal-hotels.com/en/"},
 	{name: "Embassy Suites by Hilton Montr&eacute;al", type: "Hotel", address: "208 Rue Saint-Antoine Ouest", site: "https://www.hilton.com/en/hotels/yuldnes-embassy-suites-montreal/"},
@@ -982,7 +981,8 @@ function init(){
 	{name: "Alstom", type: "Office", address: "1050 C&ocirc;te du Beaver Hall", site: "https://www.alstom.com/"},
 	{name: "Place du Fr&egrave;re-Andr&eacute;", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-frere-andre"},
 	{name: "Toqu&eacute;!", type: "Restaurant", address: "900 Place Jean-Paul-Riopelle", site: "https://www.restaurant-toque.com/en"},
-	{name: "Terrasse W Montr&eacute;al", type: "Restaurant", address: "901 Rue du Square-Victoria", site: "https://www.marriott.com/hotels/hotel-information/restaurant/details/yulwh-w-montreal/6760117/"}];
+	{name: "Terrasse W Montr&eacute;al", type: "Restaurant", address: "901 Rue du Square-Victoria", site: "https://www.marriott.com/hotels/hotel-information/restaurant/details/yulwh-w-montreal/6760117/"},
+	{name: "H&ocirc;tel St-Paul", type: "Hotel", address: "355 Rue McGill", site: "https://hotelstpaul.com/en/"}];
 	
 	Bonaventure = [{name: "Gare Centrale", type: "Train Station", address: "895 Rue de la Gaucheti&egrave;re Ouest", site: "https://garecentrale.ca/en/"},
 	{name: "Terminus Centre-Ville", type: "Bus Terminal", address: "1000 Rue de la Gaucheti&egrave;re Ouest", site: "https://exo.quebec/en/trip-planner/intermodal-installations/terminus-centre-ville"},
