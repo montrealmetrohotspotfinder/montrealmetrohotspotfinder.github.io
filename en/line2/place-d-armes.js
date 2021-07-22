@@ -24,7 +24,6 @@ function init()
 	{name: "Terrasse Place d&#39;Armes", type: "Restaurant", address: "55 Rue Saint-Jacques", site: "http://terrasseplacedarmes.com/en/oasis-urbain/"},
 	{name: "Kyo Bar Japonais", type: "Restaurant", address: "711 C&ocirc;te de la Place d&#39;Armes", site: "https://kyobar.com/en/"},
 	{name: "Holiday Inn Montr&eacute;al Centre-Ville Downtown", type: "Hotel", address: "999 Rue Saint-Urbain", site: "https://www.ihg.com/holidayinn/hotels/us/en/montreal/yulca/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-CA-_-YULCA"},
-	{name: "H&ocirc;tel St-Paul", type: "Hotel", address: "355 Rue McGill", site: "https://hotelstpaul.com/en/"},
 	{name: "H&ocirc;tel Uville", type: "Hotel", address: "204 Place d&#39;Youville", site: "https://uvillehotelmontreal.com/"},
 	{name: "Auberge de la Place Royale", type: "Hotel", address: "115 Rue de la Commune Ouest", site: "http://auberge-de-la-place-royale.to-montreal-hotels.com/en/"},
 	{name: "Embassy Suites by Hilton Montr&eacute;al", type: "Hotel", address: "208 Rue Saint-Antoine Ouest", site: "https://www.hilton.com/en/hotels/yuldnes-embassy-suites-montreal/"},
