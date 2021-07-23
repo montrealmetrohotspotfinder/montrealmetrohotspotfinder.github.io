@@ -50,7 +50,8 @@ function init()
 	{name: "Place du Fr&egrave;re-Andr&eacute;", type: "Park", address: "", site: "https://montreal.ca/en/places/place-du-frere-andre"},
 	{name: "Toqu&eacute;!", type: "Restaurant", address: "900 Place Jean-Paul-Riopelle", site: "https://www.restaurant-toque.com/en"},
 	{name: "Terrasse W Montr&eacute;al", type: "Restaurant", address: "901 Rue du Square-Victoria", site: "https://www.marriott.com/hotels/hotel-information/restaurant/details/yulwh-w-montreal/6760117/"},
-	{name: "H&ocirc;tel St-Paul", type: "Hotel", address: "355 Rue McGill", site: "https://hotelstpaul.com/en/"}];
+	{name: "H&ocirc;tel St-Paul", type: "Hotel", address: "355 Rue McGill", site: "https://hotelstpaul.com/en/"},
+	{name: "The Farsides", type: "Restaurant", address: "690 Rue Notre-Dame Ouest", site: "https://www.thefarsides.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
