@@ -765,7 +765,8 @@ function init(){
 	{name: "Parc Berri-Saint-Joseph", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-berri-saint-joseph"},
 	{name: "Parc Lahaie", type: "Park", address: "4921 Boulevard Saint-Laurent", site: "https://montreal.ca/en/places/parc-lahaie"},
 	{name: "Parc Saint-Michel", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-saint-michel"},
-	{name: "&Eacute;cole Saint-Enfant-J&eacute;sus", type: "School", address: "75 Rue Villeneuve Est", site: "https://st-enfant-jesus.cssdm.gouv.qc.ca/"}];
+	{name: "&Eacute;cole Saint-Enfant-J&eacute;sus", type: "School", address: "75 Rue Villeneuve Est", site: "https://st-enfant-jesus.cssdm.gouv.qc.ca/"},
+	{name: "Faberg&eacute;", type: "Restaurant", address: "25 Avenue Fairmount Ouest", site: "https://www.faberge514.com/eng/home"}];
 	
 	MontRoyal = [{name: "Parc Mont-Royal", type: "Park", address: "1260 Chemin Remembrance", site: "https://montreal.ca/en/places/parc-du-mont-royal"},
 	{name: "L&#39;Avenue du Mont-Royal", type: "District", address: "1012 Avenue du Mont-Royal Est", site: "https://www.mont-royal.net/"},
