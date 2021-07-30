@@ -7,7 +7,10 @@ function init()
 	{name: "&Eacute;glise Catholique Saint-Denis", type: "Church", address: "454 Avenue Laurier Est", site: "https://sites.google.com/view/eglisesaintdenismontreal/accueil"},
 	{name: "&Eacute;cole Laurier", type: "School", address: "505 Avenue Laurier Est", site: "https://laurier.cssdm.gouv.qc.ca/"},
 	{name: "Centre Champagnat", type: "School", address: "5017 Rue Saint-Hubert", site: "https://centre-champagnat.cssdm.gouv.qc.ca/"},
-	{name: "Parc Berri-Saint-Joseph", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-berri-saint-joseph"}];
+	{name: "Parc Berri-Saint-Joseph", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-berri-saint-joseph"},
+	{name: "Parc Lahaie", type: "Park", address: "4921 Boulevard Saint-Laurent", site: "https://montreal.ca/en/places/parc-lahaie"},
+	{name: "Parc Saint-Michel", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-saint-michel"},
+	{name: "&Eacute;cole Saint-Enfant-J&eacute;sus", type: "School", address: "75 Rue Villeneuve Est", site: "https://st-enfant-jesus.cssdm.gouv.qc.ca/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
