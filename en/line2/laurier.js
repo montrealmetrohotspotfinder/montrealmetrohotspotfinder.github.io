@@ -10,7 +10,8 @@ function init()
 	{name: "Parc Berri-Saint-Joseph", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-berri-saint-joseph"},
 	{name: "Parc Lahaie", type: "Park", address: "4921 Boulevard Saint-Laurent", site: "https://montreal.ca/en/places/parc-lahaie"},
 	{name: "Parc Saint-Michel", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-saint-michel"},
-	{name: "&Eacute;cole Saint-Enfant-J&eacute;sus", type: "School", address: "75 Rue Villeneuve Est", site: "https://st-enfant-jesus.cssdm.gouv.qc.ca/"}];
+	{name: "&Eacute;cole Saint-Enfant-J&eacute;sus", type: "School", address: "75 Rue Villeneuve Est", site: "https://st-enfant-jesus.cssdm.gouv.qc.ca/"},
+	{name: "Faberg&eacute;", type: "Restaurant", address: "25 Avenue Fairmount Ouest", site: "https://www.faberge514.com/eng/home"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
