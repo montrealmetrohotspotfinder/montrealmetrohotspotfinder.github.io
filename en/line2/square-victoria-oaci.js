@@ -52,7 +52,8 @@ function init()
 	{name: "Terrasse W Montr&eacute;al", type: "Restaurant", address: "901 Rue du Square-Victoria", site: "https://www.marriott.com/hotels/hotel-information/restaurant/details/yulwh-w-montreal/6760117/"},
 	{name: "H&ocirc;tel St-Paul", type: "Hotel", address: "355 Rue McGill", site: "https://hotelstpaul.com/en/"},
 	{name: "The Farsides", type: "Restaurant", address: "690 Rue Notre-Dame Ouest", site: "https://www.thefarsides.com/"},
-	{name: "Holder", type: "Restaurant", address: "407 Rue McGill", site: "http://restaurantholder.com/en/"}];
+	{name: "Holder", type: "Restaurant", address: "407 Rue McGill", site: "http://restaurantholder.com/en/"},
+	{name: "Le Cartet Resto Boutique", type: "Restaurant", address: "106 Rue McGill", site: "https://lecartet.ca/indexen.html"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
