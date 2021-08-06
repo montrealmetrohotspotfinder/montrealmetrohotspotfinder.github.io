@@ -37,11 +37,11 @@
 				var s = new Date();
 				var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-				var d = new Date().toLocaleString("fr-CA", { dateStyle: "full", timeStyle: "medium" } );
+				var d = new Date().toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium" } );
 
 				setInterval( function() {
 					d = new Date().toLocaleString("fr-CA", { dateStyle: "full", timeStyle: "medium" } );
-				    document.getElementById("dateTime").innerHTML = "<br/><br/>It is presently "+days[r.getDay()]+" "+months[s.getMonth()]+" "+d.getDate()+" "+d.getFullYear()+", "+d.getHours()+":"+d.getMintes()+":"+d.getSeconds();
+				    document.getElementById("dateTime").innerHTML = "<br/><br/>It is presently "+d;
 				}, 1000);
 			</script>
 			
