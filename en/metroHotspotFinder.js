@@ -8,7 +8,7 @@ function addEvent(obj, type, fn){
 }
 
 function init(){
-	var d = new Date().toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium" } );
+	var d = new Date().toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 	document.getElementById("dateTime").innerHTML = "It is presently "+d;
 }
 
