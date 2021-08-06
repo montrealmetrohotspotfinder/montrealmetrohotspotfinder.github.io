@@ -31,7 +31,7 @@
 			<p style="font-size:16px" id="dateTime"></p>
 			
 			<script>
-				var d = new Date().toLocaleString("fr-CA", { dateStyle: "full", timeStyle: "medium" } );
+				var d = new Date().toLocaleString("fr-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 
 				setInterval( function() {
 					d = new Date().toLocaleString("fr-CA", { dateStyle: "full", timeStyle: "medium" } );
