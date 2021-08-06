@@ -4,7 +4,7 @@
 		<script type="text/javascript" src="metroHotspotFinder.js"></script>
 		<script src="https://www.w3schools.com/lib/w3.js"></script>
 		<link rel="stylesheet" type="text/css" href="metroHotspotFinder.css">
-		<title>Trouveur de Points d'Intérêt près du Métro de Montréal</title>
+		<title>Trouveur de Points d&#39;Int&eacute;r&ecirc;t pr&egrave;s du M&eacute;tro de Montr&eacute;al</title>
 	</head>
 	
 	<body id="bg-home">
@@ -24,6 +24,16 @@
 				  </ul>
 				</div>
 			</header>
+			
+			<p style="font-size:16px" id="dateTime"></p>
+			<script>
+				var d = new Date().toLocaleString("fr-CA", { dateStyle: "full", timeStyle: "medium" } );
+
+				setInterval( function() {
+					d = new Date().toLocaleString("fr-CA", { dateStyle: "full", timeStyle: "medium" } );
+				    document.getElementById("dateTime").innerHTML = "Il est pr&eacute;sentement le "+d;
+				}, 1000);
+			</script>
 	
 			<h1><em lang="fr">Trouveur de Points d'Intérêt près du Métro de Montréal</em></h1>
 			<p style="margin-left:12.5%;margin-right:12.5%"><em lang="fr">Cliquez sur n&#39;importe quelle ligne du m&eacute;tro pour voir toutes ses stations et tous ses points d&#39;int&eacute;r&ecirc;t, ou cliquez sur un des boutons &agrave; la droite des lignes du m&eacute;tro pour voir une liste de stations dans des lieux cl&eacute;s de Montr&eacute;al, ou des stations qui fournissent de l&#39;acc&egrave;s au train de banlieue EXO vers des communaut&eacute;s &agrave; l&#39;ext&eacute;rieur de l&#39;&Icirc;le de Montr&eacute;al. Vous pouvez aussi chercher un point d&#39;int&eacute;r&ecirc;t sp&eacute;cifique en cliquant <a href="recherche.html">ici.</a></em></p>
