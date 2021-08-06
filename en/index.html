@@ -31,12 +31,6 @@
 			
 			<p style="font-size:16px" id="dateTime"></p>
 			<script>
-				var r = new Date();
-				var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-				var s = new Date();
-				var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
 				var d = new Date().toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium" } );
 
 				setInterval( function() {
