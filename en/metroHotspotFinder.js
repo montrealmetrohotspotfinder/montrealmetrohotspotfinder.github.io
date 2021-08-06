@@ -8,6 +8,8 @@ function addEvent(obj, type, fn){
 }
 
 function init(){
+	var d = new Date();
+	document.getElementById("dateTime").innerHTML = "It is presently "+d;
 }
 
 window.onload = init;
