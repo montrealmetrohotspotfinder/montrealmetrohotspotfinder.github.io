@@ -784,7 +784,9 @@ function init(){
 	{name: "Parc Palomino-Brind&#39;Amour", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-palomino-brindamour"},
 	{name: "Conservatoire de Musique de Montr&eacute;al", type: "School", address: "4750 Avenue Henri-Julien", site: "https://www.conservatoire.gouv.qc.ca/"},
 	{name: "Place des Fleurs-de-Macadam", type: "Park", address: "", site: "https://montreal.ca/en/places/place-des-fleurs-de-macadam"},
-	{name: "La Banquise", type: "Restaurant", address: "994 Rue Rachel Est", site: "https://labanquise.com/en/"}];
+	{name: "La Banquise", type: "Restaurant", address: "994 Rue Rachel Est", site: "https://labanquise.com/en/"},
+	{name: "Beautys", type: "Restaurant", address: "93 Avenue du Mont-Royal Ouest", site: "https://beautys.ca/"},
+	{name: "Parc Jeanne-Mance", type: "Park", address: "4422 Avenue de l&#39;Esplanade", site: "https://montreal.ca/en/places/parc-jeanne-mance"}];
 	
 	Sherbrooke = [{name: "Institut de Tourisme et d&#39;H&ocirc;tellerie du Qu&eacute;bec", type: "University", address: "3535 Rue Saint-Denis", site: "https://www.ithq.qc.ca/en/institute/"},
 	{name: "H&ocirc;tel de l&#39;ITHQ", type: "Hotel", address: "3535 Rue Saint-Denis", site: "http://www.ithq.qc.ca/en/hotel/"},
