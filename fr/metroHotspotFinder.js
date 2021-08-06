@@ -8,6 +8,8 @@ function addEvent(obj, type, fn){
 }
 
 function init(){
+	var d = new Date().toLocaleString("fr-CA", { dateStyle: "full", timeStyle: "medium" } );
+	document.getElementById("dateTime").innerHTML = "Il est pr&eacute;sentement "+d;
 }
 
 window.onload = init;
