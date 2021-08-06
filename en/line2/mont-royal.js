@@ -15,7 +15,9 @@ function init()
 	{name: "Parc Palomino-Brind&#39;Amour", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-palomino-brindamour"},
 	{name: "Conservatoire de Musique de Montr&eacute;al", type: "School", address: "4750 Avenue Henri-Julien", site: "https://www.conservatoire.gouv.qc.ca/"},
 	{name: "Place des Fleurs-de-Macadam", type: "Park", address: "", site: "https://montreal.ca/en/places/place-des-fleurs-de-macadam"},
-	{name: "La Banquise", type: "Restaurant", address: "994 Rue Rachel Est", site: "https://labanquise.com/en/"}];
+	{name: "La Banquise", type: "Restaurant", address: "994 Rue Rachel Est", site: "https://labanquise.com/en/"},
+	{name: "Beautys", type: "Restaurant", address: "93 Avenue du Mont-Royal Ouest", site: "https://beautys.ca/"},
+	{name: "Parc Jeanne-Mance", type: "Park", address: "4422 Avenue de l&#39;Esplanade", site: "https://montreal.ca/en/places/parc-jeanne-mance"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
