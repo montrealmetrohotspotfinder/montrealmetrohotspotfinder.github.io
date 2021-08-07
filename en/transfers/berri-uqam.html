@@ -120,6 +120,13 @@
 					}
 					case 6:{ /*SATURDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
+						if(d.getHours() > 6 && d.getHours() <= 23){
+							lastLongueuilTrainSaturdays = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 0, 0, 0, 0);
+							lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 1530);
+							
+							diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+(diffLongueuilTrainSaturdays % 1000 % 60 % 60)+":"+(diffLongueuilTrainSaturdays % 1000 % 60)+":"+(diffLongueuilTrainSaturdays % 1000)+"</p>";
+						}
 						break;
 					}
 				}
