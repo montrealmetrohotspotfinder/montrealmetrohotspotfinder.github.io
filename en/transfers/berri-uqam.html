@@ -141,7 +141,7 @@
 							lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 1530);
 							
 							diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>"+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+":"+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+":"+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+"</p>";
+							document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+"hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+"min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+"sec</p>";
 						
 							setInterval(function(){
 								lastLongueuilTrainSaturdays = new Date();
@@ -155,8 +155,46 @@
 								lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 1530);
 								
 							diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>"+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+":"+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+":"+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+"</p>";
+							document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+"hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+"min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+"sec</p>";
 							}, 1000);
+						}
+						else if (d.getHours() == 0 || d.getHours() == 1){
+							switch(d.getHours()){
+								case 1: {
+									document.getElementById("toLongueuil").innerHTML = "<p>CLOSED</p>";
+									break;
+								}
+								case 0: {
+									lastLongueuilTrainWeekdays = new Date();
+									lastLongueuilTrainWeekdays.setFullYear(d.getFullYear());
+									lastLongueuilTrainWeekdays.setMonth(d.getMonth());
+									lastLongueuilTrainWeekdays.setDate(d.getDate());
+									lastLongueuilTrainWeekdays.setHours(0);
+									lastLongueuilTrainWeekdays.setMinutes(0);
+									lastLongueuilTrainWeekdays.setSeconds(0);
+									lastLongueuilTrainWeekdays.setMilliseconds(0);
+									lastLongueuilTrainWeekdays.setMinutes(lastLongueuilTrainWeekdays.getMinutes() + 60);
+
+									diffLongueuilTrainWeekdays = lastLongueuilTrainWeekdays - d;
+									document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainWeekdays / 1000 / 60 / 60) % 24))+"hr "+(Math.floor((diffLongueuilTrainWeekdays / 1000 / 60) % 60))+"min "+(Math.floor((diffLongueuilTrainWeekdays / 1000) % 60))+"sec</p>";
+						
+									setInterval(function(){
+										lastLongueuilTrainWeekdays = new Date();
+										lastLongueuilTrainWeekdays.setFullYear(d.getFullYear());
+										lastLongueuilTrainWeekdays.setMonth(d.getMonth());
+										lastLongueuilTrainWeekdays.setDate(d.getDate());
+										lastLongueuilTrainWeekdays.setHours(0);
+										lastLongueuilTrainWeekdays.setMinutes(0);
+										lastLongueuilTrainWeekdays.setSeconds(0);
+										lastLongueuilTrainWeekdays.setMilliseconds(0);
+										lastLongueuilTrainWeekdays.setMinutes(lastLongueuilTrainWeekdays.getMinutes() + 60);
+								
+										diffLongueuilTrainWeekdays = lastLongueuilTrainWeekdays - d;
+										document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainWeekdays / 1000 / 60 / 60) % 24))+"hr "+(Math.floor((diffLongueuilTrainWeekdays / 1000 / 60) % 60))+"min "+(Math.floor((diffLongueuilTrainWeekdays / 1000) % 60))+"sec</p>";
+										}, 1000);
+									break;
+								}
+							}
 						}
 						break;
 					}
