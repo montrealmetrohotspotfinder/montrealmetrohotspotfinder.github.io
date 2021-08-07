@@ -86,25 +86,6 @@
 				switch(d.getDay()){
 					case 0:{ /*SUNDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
-						//YELLOW
-						if(d.getHours() > 6 && d.getHours() <= 23){
-							lastLongueuilTrainSundays = new Date();
-							lastLongueuilTrainSundays.setFullYear(d.getFullYear());
-							lastLongueuilTrainSundays.setMonth(d.getMonth());
-							lastLongueuilTrainSundays.setDate(d.getDate());
-							lastLongueuilTrainSundays.setHours(0);
-							lastLongueuilTrainSundays.setMinutes(0);
-							lastLongueuilTrainSundays.setSeconds(0);
-							lastLongueuilTrainSundays.setMilliseconds(0);
-							lastLongueuilTrainSundays.setMinutes(lastLongueuilTrainSundays.getMinutes() + 1500);
-							
-							diffLongueuilTrainSundays = lastLongueuilTrainSundays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>"+(Math.floor((diffLongueuilTrainSundays / 1000 / 60 / 60) % 24))+":"+(Math.floor((diffLongueuilTrainSundays / 1000 / 60) % 60))+":"+(Math.floor((diffLongueuilTrainSundays / 1000) % 60))+"</p>";
-						}
-						
-						//ORANGE
-						
-						//GREEN
 						break;
 					}
 					case 1:{ /*MONDAY*/
@@ -157,8 +138,8 @@
 							diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
 							document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+"hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+"min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+"sec</p>";
 							}, 1000);
-						}
-						else if (d.getHours() == 0 || d.getHours() == 1){
+						} //END 6AM TO 11PM, YELLOW
+						else if (d.getHours() > 0 && d.getHours() <= 1){
 							switch(d.getHours()){
 								case 1: {
 									document.getElementById("toLongueuil").innerHTML = "<p>CLOSED</p>";
@@ -195,10 +176,17 @@
 									break;
 								}
 							}
-						}
-						break;
-					}
-				}
+						} //END MIDNIGHT-1AM, YELLOW
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>CLOSED</p>";
+						} //END DORMANT PERIOD, YELLOW
+						
+						//TODO: ORANGE
+						//TODO: GREEN
+						
+						break;	
+					} //END SATURDAY
+				} //END SWITCH STATEMENT
 			</script>
 			
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2755.7092358905247!2d-73.56315588461597!3d45.51505933806963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bb2b0ae66c9%3A0x4be86e79a672e1a0!2sBerri-UQAM!5e1!3m2!1sen!2sca!4v1601265310802!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
