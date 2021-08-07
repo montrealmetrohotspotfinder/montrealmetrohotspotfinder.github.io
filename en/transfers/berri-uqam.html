@@ -70,30 +70,39 @@
 					d = new Date(); 
 				}, 1000 );
 				var lastHonoreBeaugrandTrain, lastAngrignonTrain, lastMontmorencyTrain, lastCoteVertuTrain, lastLongueuilTrain;
-				var currentDay = d.getDay();
+				var hours = d.getHours();
+				var minutes = d.getMinutes();
+				var seconds = d.getSeconds();
 				
 				/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
-				switch(currentDay){
+				switch(d.getDay()){
 					case 0:{ /*SUNDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
+						break;
 					}
 					case 1:{ /*MONDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SUNDAY SCHEDULE APPLIES. OTHERWISE, MONDAY SCHEDULE APPLIES*/
+						break;
 					}
 					case 2:{ /*TUESDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, MONDAY SCHEDULE APPLIES. OTHERWISE, TUESDAY SCHEDULE APPLIES*/
+						break;
 					}
 					case 3:{ /*WEDNESDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, TUESDAY SCHEDULE APPLIES. OTHERWISE, WEDNESDAY SCHEDULE APPLIES*/
+						break;
 					}
 					case 4:{ /*THURSDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, WEDNESDAY SCHEDULE APPLIES. OTHERWISE, THURSDAY SCHEDULE APPLIES*/
+						break;
 					}
 					case 5:{ /*FRIDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, THURSDAY SCHEDULE APPLIES. OTHERWISE, FRIDAY SCHEDULE APPLIES*/
+						break;
 					}
 					case 6:{ /*SATURDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
+						break;
 					}
 				}
 			</script>
