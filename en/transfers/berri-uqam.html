@@ -89,7 +89,6 @@
 						//YELLOW
 						if(d.getHours() > 6 && d.getHours() <= 23){
 							lastLongueuilTrainSundays = new Date();
-							lastLongueuilTrainSundays = lastLongueuilTrainSundays.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 							lastLongueuilTrainSundays.setFullYear(d.getFullYear());
 							lastLongueuilTrainSundays.setMonth(d.getMonth());
 							lastLongueuilTrainSundays.setDate(d.getDate());
@@ -132,7 +131,6 @@
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
 						if(d.getHours() > 6 && d.getHours() <= 23){
 							lastLongueuilTrainSaturdays = new Date();
-							lastLongueuilTrainSaturdays = lastLongueuilTrainSaturdays.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 							lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
 							lastLongueuilTrainSaturdays.setMonth(d.getMonth());
 							lastLongueuilTrainSaturdays.setDate(d.getDate());
