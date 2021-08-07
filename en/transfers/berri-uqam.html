@@ -89,7 +89,7 @@
 					case "Sunday":{ /*SUNDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
 						//YELLOW
-						if(Date.now().getHours() > 6 && Date.now().getHours() <= 23){
+						if(new Date().getHours() > 6 && new Date().getHours() <= 23){
 							lastLongueuilTrainSundays = new Date();
 							lastLongueuilTrainSundays = lastLongueuilTrainSundays.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 							lastLongueuilTrainSundays.setFullYear(d.getFullYear());
@@ -132,7 +132,7 @@
 					}
 					case "Saturday":{ /*SATURDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
-						if(Date.now().getHours() > 6 && Date.now().getHours() <= 23){
+						if(new Date().getHours() > 6 && new Date().getHours() <= 23){
 							lastLongueuilTrainSaturdays = new Date();
 							lastLongueuilTrainSaturdays = lastLongueuilTrainSaturdays.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 							lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
