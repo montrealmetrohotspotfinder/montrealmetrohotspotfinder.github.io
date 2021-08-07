@@ -66,6 +66,9 @@
 			</div>
 			<script>
 				var d = new Date();
+				setInterval( function() { 
+					d = new Date() 
+				}, 1000 );
 				var lastHonoreBeaugrandTrain, lastAngrignonTrain, lastMontmorencyTrain, lastCoteVertuTrain, lastLongueuilTrain;
 				var currentDay = d.getDay();
 				
