@@ -90,7 +90,7 @@
 							lastLongueuilTrainSundays.setMinutes(lastLongueuilTrainSundays.getMinutes() + 1500);
 							
 							diffLongueuilTrainSundays = lastLongueuilTrainSundays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>"+(diffLongueuilTrainSundays % 1000 % 60 % 60)+":"+(diffLongueuilTrainSundays % 1000 % 60)+":"+(diffLongueuilTrainSundays % 1000)+"</p>";
+							document.getElementById("toLongueuil").innerHTML = "<p>"+(diffLongueuilTrainSundays / 1000 / 60 / 60)+":"+(diffLongueuilTrainSundays / 1000 / 60)+":"+(diffLongueuilTrainSundays / 1000)+"</p>";
 						}
 						
 						//ORANGE
