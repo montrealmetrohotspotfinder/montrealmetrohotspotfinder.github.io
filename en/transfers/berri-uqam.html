@@ -69,7 +69,11 @@
 				setInterval( function() { 
 					d = new Date(); 
 				}, 1000 );
-				var lastHonoreBeaugrandTrain, lastAngrignonTrain, lastMontmorencyTrain, lastCoteVertuTrain, lastLongueuilTrain;
+				var lastHonoreBeaugrandTrainWeekdays, lastHonoreBeaugrandTrainSaturdays, lastHonoreBeaugrandTrainSundays,
+				    lastAngrignonTrainWeekdays, lastAngrignonTrainSaturdays, lastAngrignonTrainSundays,
+				    lastMontmorencyTrainWeekdays, lastMontmorencyTrainSaturdays, lastMontmorencyTrainSundays,
+				    lastCoteVertuTrainWeekdays, lastCoteVertuTrainSaturdays, lastCoteVertuTrainSundays,
+				    lastLongueuilTrainWeekdays, lastLongueuilTrainSaturdays, lastLongueuilTrainSundays;
 				
 				/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
 				switch(d.getDay()){
