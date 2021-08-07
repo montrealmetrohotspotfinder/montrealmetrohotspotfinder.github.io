@@ -90,7 +90,7 @@
 							lastLongueuilTrainSundays.setMinutes(lastLongueuilTrainSundays.getMinutes() + 1500);
 							
 							diffLongueuilTrainSundays = lastLongueuilTrainSundays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>"+(diffLongueuilTrainSundays / 1000 / 60 / 60)+":"+(diffLongueuilTrainSundays / 1000 / 60)+":"+(diffLongueuilTrainSundays / 1000)+"</p>";
+							document.getElementById("toLongueuil").innerHTML = "<p>"+(diffLongueuilTrainSundays / 1000 / 60 / 60)+":"+(diffLongueuilTrainSundays / 1000 / 60)+":"+(diffLongueuilTrainSundays / 1000 % 60)+"</p>";
 						}
 						
 						//ORANGE
@@ -125,7 +125,7 @@
 							lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 1530);
 							
 							diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>"+(diffLongueuilTrainSaturdays % 1000 % 60 % 60)+":"+(diffLongueuilTrainSaturdays % 1000 % 60)+":"+(diffLongueuilTrainSaturdays % 1000)+"</p>";
+							document.getElementById("toLongueuil").innerHTML = "<p>"+(diffLongueuilTrainSaturdays / 1000 / 60 / 60)+":"+(diffLongueuilTrainSaturdays / 1000 / 60)+":"+(diffLongueuilTrainSaturdays / 1000 % 60)+"</p>";
 						}
 						break;
 					}
