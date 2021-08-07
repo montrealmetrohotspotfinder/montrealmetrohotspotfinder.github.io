@@ -74,11 +74,28 @@
 				    lastMontmorencyTrainWeekdays, lastMontmorencyTrainSaturdays, lastMontmorencyTrainSundays,
 				    lastCoteVertuTrainWeekdays, lastCoteVertuTrainSaturdays, lastCoteVertuTrainSundays,
 				    lastLongueuilTrainWeekdays, lastLongueuilTrainSaturdays, lastLongueuilTrainSundays;
+				var diffHonoreBeaugrandTrainWeekdays, diffHonoreBeaugrandTrainSaturdays, diffHonoreBeaugrandTrainSundays,
+				    diffAngrignonTrainWeekdays, diffAngrignonTrainSaturdays, diffAngrignonTrainSundays,
+				    diffMontmorencyTrainWeekdays, diffMontmorencyTrainSaturdays, diffMontmorencyTrainSundays,
+				    diffCoteVertuTrainWeekdays, diffCoteVertuTrainSaturdays, diffCoteVertuTrainSundays,
+				    diffLongueuilTrainWeekdays, diffLongueuilTrainSaturdays, diffLongueuilTrainSundays;
 				
 				/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
 				switch(d.getDay()){
 					case 0:{ /*SUNDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
+						//YELLOW
+						if(d.getHours() > 6 && d.getHours() <= 23){
+							lastLongueuilTrainSundays = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 0, 0, 0, 0);
+							lastLongueuilTrainSundays.setMinutes(lastLongueuilTrainSundays.getMinutes() + 1500);
+							
+							diffLongueuilTrainSundays = lastLongueuilTrainSundays - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+(diffLongueuilTrainSundays % 1000 % 60 % 60)+":"+(diffLongueuilTrainSundays % 1000 % 60)+":"+(diffLongueuilTrainSundays % 1000)+"</p>";
+						}
+						
+						//ORANGE
+						
+						//GREEN
 						break;
 					}
 					case 1:{ /*MONDAY*/
