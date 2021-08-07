@@ -65,9 +65,9 @@
 				</table>
 			</div>
 			<script>
-				var d = new Date.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
+				var d = new Date().toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 				setInterval( function() { 
-					d = new Date.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } ); 
+					d = new Date().toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } ); 
 				}, 1000 );
 				var lastHonoreBeaugrandTrainWeekdays, lastHonoreBeaugrandTrainSaturdays, lastHonoreBeaugrandTrainSundays,
 				    lastAngrignonTrainWeekdays, lastAngrignonTrainSaturdays, lastAngrignonTrainSundays,
@@ -86,7 +86,7 @@
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
 						//YELLOW
 						if(d.getHours() > 6 && d.getHours() <= 23){
-							lastLongueuilTrainSundays = new Date.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
+							lastLongueuilTrainSundays = new Date().toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 							lastLongueuilTrainSundays.setFullYear(d.getFullYear());
 							lastLongueuilTrainSundays.setMonth(d.getMonth());
 							lastLongueuilTrainSundays.setDate(d.getDate());
@@ -128,7 +128,7 @@
 					case 6:{ /*SATURDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
 						if(d.getHours() > 6 && d.getHours() <= 23){
-							lastLongueuilTrainSaturdays = new Date.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
+							lastLongueuilTrainSaturdays = new Date().toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 							lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
 							lastLongueuilTrainSaturdays.setMonth(d.getMonth());
 							lastLongueuilTrainSaturdays.setDate(d.getDate());
