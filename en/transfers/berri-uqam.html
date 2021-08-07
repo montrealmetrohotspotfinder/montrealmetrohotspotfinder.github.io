@@ -65,9 +65,9 @@
 				</table>
 			</div>
 			<script>
-				var d = new Date();
+				var d = new Date.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
 				setInterval( function() { 
-					d = new Date(); 
+					d = new Date.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } ); 
 				}, 1000 );
 				var lastHonoreBeaugrandTrainWeekdays, lastHonoreBeaugrandTrainSaturdays, lastHonoreBeaugrandTrainSundays,
 				    lastAngrignonTrainWeekdays, lastAngrignonTrainSaturdays, lastAngrignonTrainSundays,
@@ -86,7 +86,14 @@
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
 						//YELLOW
 						if(d.getHours() > 6 && d.getHours() <= 23){
-							lastLongueuilTrainSundays = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 0, 0, 0, 0);
+							lastLongueuilTrainSundays = new Date.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
+							lastLongueuilTrainSundays.setFullYear(d.getFullYear());
+							lastLongueuilTrainSundays.setMonth(d.getMonth());
+							lastLongueuilTrainSundays.setDate(d.getDate());
+							lastLongueuilTrainSundays.setHours(0);
+							lastLongueuilTrainSundays.setMinutes(0);
+							lastLongueuilTrainSundays.setSeconds(0);
+							lastLongueuilTrainSundays.setMilliseconds(0);
 							lastLongueuilTrainSundays.setMinutes(lastLongueuilTrainSundays.getMinutes() + 1500);
 							
 							diffLongueuilTrainSundays = lastLongueuilTrainSundays - d;
@@ -121,7 +128,14 @@
 					case 6:{ /*SATURDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
 						if(d.getHours() > 6 && d.getHours() <= 23){
-							lastLongueuilTrainSaturdays = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 0, 0, 0, 0);
+							lastLongueuilTrainSaturdays = new Date.toLocaleString("en-CA", { dateStyle: "full", timeStyle: "medium", timeZone: 'America/New_York' } );
+							lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
+							lastLongueuilTrainSaturdays.setMonth(d.getMonth());
+							lastLongueuilTrainSaturdays.setDate(d.getDate());
+							lastLongueuilTrainSaturdays.setHours(0);
+							lastLongueuilTrainSaturdays.setMinutes(0);
+							lastLongueuilTrainSaturdays.setSeconds(0);
+							lastLongueuilTrainSaturdays.setMilliseconds(0);
 							lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 1530);
 							
 							diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
