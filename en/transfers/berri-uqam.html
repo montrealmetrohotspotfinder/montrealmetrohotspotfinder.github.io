@@ -89,7 +89,7 @@
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
 						//GREEN
 						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
-							if(d.getUTCHours() == 5 && d.getUTCMinutes() == 27) {
+							if(d.getUTCHours() == 5 && d.getUTCMinutes() == 27 && d.getUTCSeconds() == 0) {
 								document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
 							}
 							else {
