@@ -89,7 +89,13 @@
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
 						//GREEN
 						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
-							if(d.getUTCHours() == 5 && d.getUTCMinutes() == 27 && d.getUTCSeconds() == 0) {
+							lastHonoreBeaugrandTrainSaturdays = new Date();
+							lastHonoreBeaugrandTrainSaturdays.setUTCHours(5);
+							lastHonoreBeaugrandTrainSaturdays.setUTCMinutes(27);
+							lastHonoreBeaugrandTrainSaturdays.setUTCSeconds(0);
+							lastHonoreBeaugrandTrainSaturdays.setUTCMilliseconds(0);
+							
+							if(d.getTime() >= lastHonoreBeaugrandTrainSaturdays && d.getHours() < 11) {
 								document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
 							}
 							else {
@@ -115,7 +121,13 @@
 							}
 						}
 						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
-							if(d.getUTCHours() == 5 && d.getUTCMinutes() == 27 && d.getUTCSeconds() == 0) {
+							lastAngrignonTrainSaturdays = new Date();
+							lastAngrignonTrainSaturdays.setUTCHours(5);
+							lastAngrignonTrainSaturdays.setUTCMinutes(27);
+							lastAngrignonTrainSaturdays.setUTCSeconds(0);
+							lastAngrignonTrainSaturdays.setUTCMilliseconds(0);
+							
+							if(d.getTime() >= lastAngrignonTrainSaturdays && d.getHours() < 11) {
 								document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
 							}
 							else {
