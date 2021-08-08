@@ -114,6 +114,32 @@
 								}, 1000);
 							}
 						}
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							if(d.getUTCHours() == 5 && d.getUTCMinutes() == 27 && d.getUTCSeconds() == 0) {
+								document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastAngrignonTrainSaturdays = new Date();
+								lastAngrignonTrainSaturdays.setUTCHours(5);
+								lastAngrignonTrainSaturdays.setUTCMinutes(27);
+								lastAngrignonTrainSaturdays.setUTCSeconds(0);
+								lastAngrignonTrainSaturdays.setUTCMilliseconds(0);
+								
+								diffAngrignonTrainSaturdays = lastAngrignonTrainSaturdays - d;
+								document.getElementById("toAngrignon").innerHTML = "<p>In "+Math.floor((diffAngrignonTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignonTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignonTrainSaturdays / 1000) % 60)+" sec</p>";
+							
+								setInterval(function(){
+									lastAngrignonTrainSaturdays = new Date();
+									lastAngrignonTrainSaturdays.setUTCHours(5);
+									lastAngrignonTrainSaturdays.setUTCMinutes(27);
+									lastAngrignonTrainSaturdays.setUTCSeconds(0);
+									lastAngrignonTrainSaturdays.setUTCMilliseconds(0);
+
+									diffAngrignonTrainSaturdays = lastAngrignonTrainSaturdays - d;
+									document.getElementById("toAngrignon").innerHTML = "<p>In "+Math.floor((diffAngrignonTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignonTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignonTrainSaturdays / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
 						
 						//ORANGE
 						
