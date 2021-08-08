@@ -88,7 +88,7 @@
 					case 0:{ /*SUNDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
 						//GREEN
-						if(d.getUTCHours() >= 4 && d.getUTCHours() <= 5){
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
 							lastHonoreBeaugrandTrainSaturdays = new Date();
 							lastHonoreBeaugrandTrainSaturdays.setUTCHours(5);
 							lastHonoreBeaugrandTrainSaturdays.setUTCMinutes(27);
@@ -120,7 +120,7 @@
 								}, 1000);
 							}
 						}
-						if(d.getUTCHours() >= 4 && d.getUTCHours() <= 5){
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
 							lastAngrignonTrainSaturdays = new Date();
 							lastAngrignonTrainSaturdays.setUTCHours(5);
 							lastAngrignonTrainSaturdays.setUTCMinutes(27);
@@ -154,6 +154,70 @@
 						}
 						
 						//ORANGE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastMontmorencyTrainSaturdays = new Date();
+							lastMontmorencyTrainSaturdays.setUTCHours(5);
+							lastMontmorencyTrainSaturdays.setUTCMinutes(27);
+							lastMontmorencyTrainSaturdays.setUTCSeconds(0);
+							lastMontmorencyTrainSaturdays.setUTCMilliseconds(0);
+							
+							if(d.getTime() >= lastMontmorencyTrainSaturdays && d.getHours() < 11) {
+								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastMontmorencyTrainSaturdays = new Date();
+								lastMontmorencyTrainSaturdays.setUTCHours(5);
+								lastMontmorencyTrainSaturdays.setUTCMinutes(27);
+								lastMontmorencyTrainSaturdays.setUTCSeconds(0);
+								lastMontmorencyTrainSaturdays.setUTCMilliseconds(0);
+								
+								diffMontmorencyTrainSaturdays = lastMontmorencyTrainSaturdays - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>In "+Math.floor((diffMontmorencyTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorencyTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorencyTrainSaturdays / 1000) % 60)+" sec</p>";
+							
+								setInterval(function(){
+									lastMontmorencyTrainSaturdays = new Date();
+									lastMontmorencyTrainSaturdays.setUTCHours(5);
+									lastMontmorencyTrainSaturdays.setUTCMinutes(27);
+									lastMontmorencyTrainSaturdays.setUTCSeconds(0);
+									lastMontmorencyTrainSaturdays.setUTCMilliseconds(0);
+
+									diffMontmorencyTrainSaturdays = lastMontmorencyTrainSaturdays - d;
+									document.getElementById("toMontmorency").innerHTML = "<p>In "+Math.floor((diffMontmorencyTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorencyTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorencyTrainSaturdays / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastCoteVertuTrainSaturdays = new Date();
+							lastCoteVertuTrainSaturdays.setUTCHours(5);
+							lastCoteVertuTrainSaturdays.setUTCMinutes(27);
+							lastCoteVertuTrainSaturdays.setUTCSeconds(0);
+							lastCoteVertuTrainSaturdays.setUTCMilliseconds(0);
+							
+							if(d.getTime() >= lastCoteVertuTrainSaturdays && d.getHours() < 11) {
+								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastCoteVertuTrainSaturdays = new Date();
+								lastCoteVertuTrainSaturdays.setUTCHours(5);
+								lastCoteVertuTrainSaturdays.setUTCMinutes(27);
+								lastCoteVertuTrainSaturdays.setUTCSeconds(0);
+								lastCoteVertuTrainSaturdays.setUTCMilliseconds(0);
+								
+								diffCoteVertuTrainSaturdays = lastCoteVertuTrainSaturdays - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>In "+Math.floor((diffCoteVertuTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertuTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertuTrainSaturdays / 1000) % 60)+" sec</p>";
+							
+								setInterval(function(){
+									lastCoteVertuTrainSaturdays = new Date();
+									lastCoteVertuTrainSaturdays.setUTCHours(5);
+									lastCoteVertuTrainSaturdays.setUTCMinutes(27);
+									lastCoteVertuTrainSaturdays.setUTCSeconds(0);
+									lastCoteVertuTrainSaturdays.setUTCMilliseconds(0);
+
+									diffCoteVertuTrainSaturdays = lastCoteVertuTrainSaturdays - d;
+									document.getElementById("toCoteVertu").innerHTML = "<p>In "+Math.floor((diffCoteVertuTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertuTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertuTrainSaturdays / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
 						
 						//YELLOW
 						break;
