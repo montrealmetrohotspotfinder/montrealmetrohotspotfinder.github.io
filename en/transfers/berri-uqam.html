@@ -120,6 +120,32 @@
 								}, 1000);
 							}
 						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastHonoreBeaugrandTrainSundays = new Date();
+							lastHonoreBeaugrandTrainSundays.setUTCHours(4);
+							lastHonoreBeaugrandTrainSundays.setUTCMinutes(57);
+							lastHonoreBeaugrandTrainSundays.setUTCSeconds(0);
+							lastHonoreBeaugrandTrainSundays.setUTCMilliseconds(0);
+							
+							diffHonoreBeaugrandTrainSundays = lastHonoreBeaugrandTrainSundays - d;
+							document.getElementById("toHonoreBeaugrand").innerHTML = "<p>In "+Math.floor((diffHonoreBeaugrandTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrandTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrandTrainSundays / 1000) % 60)+" sec</p>";
+								
+							setInterval(function(){
+								lastHonoreBeaugrandTrainSundays = new Date();
+								lastHonoreBeaugrandTrainSundays.setUTCHours(4);
+								lastHonoreBeaugrandTrainSundays.setUTCMinutes(57);
+								lastHonoreBeaugrandTrainSundays.setUTCSeconds(0);
+								lastHonoreBeaugrandTrainSundays.setUTCMilliseconds(0);
+
+								diffHonoreBeaugrandTrainSundays = lastHonoreBeaugrandTrainSundays - d;
+								document.getElementById("toHonoreBeaugrand").innerHTML = "<p>In "+Math.floor((diffHonoreBeaugrandTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrandTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrandTrainSundays / 1000) % 60)+" sec</p>";
+							}, 1000);
+							
+						}
+						else {
+							document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+						}
+						
 						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
 							lastAngrignonTrainSaturdays = new Date();
 							lastAngrignonTrainSaturdays.setUTCHours(5);
@@ -151,6 +177,31 @@
 									document.getElementById("toAngrignon").innerHTML = "<p>In "+Math.floor((diffAngrignonTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignonTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignonTrainSaturdays / 1000) % 60)+" sec</p>";
 								}, 1000);
 							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastAngrignonTrainSundays = new Date();
+							lastAngrignonTrainSundays.setUTCHours(4);
+							lastAngrignonTrainSundays.setUTCMinutes(57);
+							lastAngrignonTrainSundays.setUTCSeconds(0);
+							lastAngrignonTrainSundays.setUTCMilliseconds(0);
+							
+							diffAngrignonTrainSundays = lastAngrignonTrainSundays - d;
+							document.getElementById("toAngrignon").innerHTML = "<p>In "+Math.floor((diffAngrignonTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignonTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignonTrainSundays / 1000) % 60)+" sec</p>";
+								
+							setInterval(function(){
+								lastAngrignonTrainSundays = new Date();
+								lastAngrignonTrainSundays.setUTCHours(4);
+								lastAngrignonTrainSundays.setUTCMinutes(57);
+								lastAngrignonTrainSundays.setUTCSeconds(0);
+								lastAngrignonTrainSundays.setUTCMilliseconds(0);
+
+								diffAngrignonTrainSundays = lastAngrignonTrainSundays - d;
+								document.getElementById("toAngrignon").innerHTML = "<p>In "+Math.floor((diffAngrignonTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignonTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignonTrainSundays / 1000) % 60)+" sec</p>";
+							}, 1000);
+							
+						}
+						else {
+							document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
 						}
 						
 						//ORANGE
