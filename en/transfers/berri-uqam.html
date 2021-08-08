@@ -100,7 +100,7 @@
 								lastHonoreBeaugrandTrainSaturdays.setUTCMilliseconds(0);
 								
 								diffHonoreBeaugrandTrainSaturdays = lastHonoreBeaugrandTrainSaturdays - d;
-								document.getElementById("toHonoreBeaugrand").innerHTML = "<p>In "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000 / 60) % 60)+" hr "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000) % 60)+" min "+Math.floor(diffHonoreBeaugrandTrainSaturdays % 60)+" sec</p>";
+								document.getElementById("toHonoreBeaugrand").innerHTML = "<p>In "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000) % 60)+" sec</p>";
 							
 								setInterval(function(){
 									lastHonoreBeaugrandTrainSaturdays = new Date();
@@ -110,7 +110,7 @@
 									lastHonoreBeaugrandTrainSaturdays.setUTCMilliseconds(0);
 
 									diffHonoreBeaugrandTrainSaturdays = lastHonoreBeaugrandTrainSaturdays - d;
-									document.getElementById("toHonoreBeaugrand").innerHTML = "<p>In "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000 / 60) % 60)+" hr "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000) % 60)+" min "+Math.floor(diffHonoreBeaugrandTrainSaturdays % 60)+" sec</p>";
+									document.getElementById("toHonoreBeaugrand").innerHTML = "<p>In "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000) % 60)+" sec</p>";
 								}, 1000);
 							}
 						}
