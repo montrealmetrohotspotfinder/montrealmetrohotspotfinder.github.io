@@ -211,7 +211,7 @@
 							lastMontmorencyTrainSaturdays.setUTCMinutes(27);
 							lastMontmorencyTrainSaturdays.setUTCSeconds(0);
 							lastMontmorencyTrainSaturdays.setUTCMilliseconds(0);
-							
+
 							if(d.getTime() >= lastMontmorencyTrainSaturdays && d.getHours() < 11) {
 								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
 							}
@@ -221,10 +221,10 @@
 								lastMontmorencyTrainSaturdays.setUTCMinutes(27);
 								lastMontmorencyTrainSaturdays.setUTCSeconds(0);
 								lastMontmorencyTrainSaturdays.setUTCMilliseconds(0);
-								
+
 								diffMontmorencyTrainSaturdays = lastMontmorencyTrainSaturdays - d;
 								document.getElementById("toMontmorency").innerHTML = "<p>In "+Math.floor((diffMontmorencyTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorencyTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorencyTrainSaturdays / 1000) % 60)+" sec</p>";
-							
+
 								setInterval(function(){
 									lastMontmorencyTrainSaturdays = new Date();
 									lastMontmorencyTrainSaturdays.setUTCHours(5);
@@ -237,13 +237,37 @@
 								}, 1000);
 							}
 						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastMontmorencyTrainSundays = new Date();
+							lastMontmorencyTrainSundays.setUTCHours(4);
+							lastMontmorencyTrainSundays.setUTCMinutes(57);
+							lastMontmorencyTrainSundays.setUTCSeconds(0);
+							lastMontmorencyTrainSundays.setUTCMilliseconds(0);
+
+							diffMontmorencyTrainSundays = lastMontmorencyTrainSundays - d;
+							document.getElementById("toMontmorency").innerHTML = "<p>In "+Math.floor((diffMontmorencyTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorencyTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorencyTrainSundays / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastMontmorencyTrainSundays = new Date();
+								lastMontmorencyTrainSundays.setUTCHours(4);
+								lastMontmorencyTrainSundays.setUTCMinutes(57);
+								lastMontmorencyTrainSundays.setUTCSeconds(0);
+								lastMontmorencyTrainSundays.setUTCMilliseconds(0);
+
+								diffMontmorencyTrainSundays = lastMontmorencyTrainSundays - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>In "+Math.floor((diffMontmorencyTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorencyTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorencyTrainSundays / 1000) % 60)+" sec</p>";
+							}, 1000);
+						}
+						else {
+							document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+						}
 						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
 							lastCoteVertuTrainSaturdays = new Date();
 							lastCoteVertuTrainSaturdays.setUTCHours(5);
 							lastCoteVertuTrainSaturdays.setUTCMinutes(27);
 							lastCoteVertuTrainSaturdays.setUTCSeconds(0);
 							lastCoteVertuTrainSaturdays.setUTCMilliseconds(0);
-							
+
 							if(d.getTime() >= lastCoteVertuTrainSaturdays && d.getHours() < 11) {
 								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
 							}
@@ -253,10 +277,10 @@
 								lastCoteVertuTrainSaturdays.setUTCMinutes(27);
 								lastCoteVertuTrainSaturdays.setUTCSeconds(0);
 								lastCoteVertuTrainSaturdays.setUTCMilliseconds(0);
-								
+
 								diffCoteVertuTrainSaturdays = lastCoteVertuTrainSaturdays - d;
 								document.getElementById("toCoteVertu").innerHTML = "<p>In "+Math.floor((diffCoteVertuTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertuTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertuTrainSaturdays / 1000) % 60)+" sec</p>";
-							
+
 								setInterval(function(){
 									lastCoteVertuTrainSaturdays = new Date();
 									lastCoteVertuTrainSaturdays.setUTCHours(5);
@@ -269,6 +293,31 @@
 								}, 1000);
 							}
 						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastCoteVertuTrainSundays = new Date();
+							lastCoteVertuTrainSundays.setUTCHours(4);
+							lastCoteVertuTrainSundays.setUTCMinutes(57);
+							lastCoteVertuTrainSundays.setUTCSeconds(0);
+							lastCoteVertuTrainSundays.setUTCMilliseconds(0);
+
+							diffCoteVertuTrainSundays = lastCoteVertuTrainSundays - d;
+							document.getElementById("toCoteVertu").innerHTML = "<p>In "+Math.floor((diffCoteVertuTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertuTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertuTrainSundays / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastCoteVertuTrainSundays = new Date();
+								lastCoteVertuTrainSundays.setUTCHours(4);
+								lastCoteVertuTrainSundays.setUTCMinutes(57);
+								lastCoteVertuTrainSundays.setUTCSeconds(0);
+								lastCoteVertuTrainSundays.setUTCMilliseconds(0);
+
+								diffCoteVertuTrainSundays = lastCoteVertuTrainSundays - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>In "+Math.floor((diffCoteVertuTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertuTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertuTrainSundays / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+						}
 						
 						//YELLOW
 						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
@@ -277,7 +326,7 @@
 							lastLongueuilTrainSaturdays.setUTCMinutes(30);
 							lastLongueuilTrainSaturdays.setUTCSeconds(0);
 							lastLongueuilTrainSaturdays.setUTCMilliseconds(0);
-							
+
 							if(d.getTime() >= lastLongueuilTrainSaturdays && d.getHours() < 11) {
 								document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
 							}
@@ -287,10 +336,10 @@
 								lastLongueuilTrainSaturdays.setUTCMinutes(30);
 								lastLongueuilTrainSaturdays.setUTCSeconds(0);
 								lastLongueuilTrainSaturdays.setUTCMilliseconds(0);
-								
+
 								diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
 								document.getElementById("toLongueuil").innerHTML = "<p>In "+Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuilTrainSaturdays / 1000) % 60)+" sec</p>";
-							
+
 								setInterval(function(){
 									lastLongueuilTrainSaturdays = new Date();
 									lastLongueuilTrainSaturdays.setUTCHours(5);
@@ -302,6 +351,31 @@
 									document.getElementById("toLongueuil").innerHTML = "<p>In "+Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuilTrainSaturdays / 1000) % 60)+" sec</p>";
 								}, 1000);
 							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastLongueuilTrainSundays = new Date();
+							lastLongueuilTrainSundays.setUTCHours(5);
+							lastLongueuilTrainSundays.setUTCMinutes(0);
+							lastLongueuilTrainSundays.setUTCSeconds(0);
+							lastLongueuilTrainSundays.setUTCMilliseconds(0);
+
+							diffLongueuilTrainSundays = lastLongueuilTrainSundays - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>In "+Math.floor((diffLongueuilTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuilTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuilTrainSundays / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastLongueuilTrainSundays = new Date();
+								lastLongueuilTrainSundays.setUTCHours(5);
+								lastLongueuilTrainSundays.setUTCMinutes(0);
+								lastLongueuilTrainSundays.setUTCSeconds(0);
+								lastLongueuilTrainSundays.setUTCMilliseconds(0);
+
+								diffLongueuilTrainSundays = lastLongueuilTrainSundays - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>In "+Math.floor((diffLongueuilTrainSundays / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuilTrainSundays / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuilTrainSundays / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
 						}
 						
 						break;
