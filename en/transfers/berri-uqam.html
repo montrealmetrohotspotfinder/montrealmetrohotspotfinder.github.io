@@ -84,111 +84,40 @@
 				    diffLongueuilTrainWeekdays, diffLongueuilTrainSaturdays, diffLongueuilTrainSundays;
 				
 				/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
-				switch(d.getDay()){
+				switch(d.getUTCDay()){
 					case 0:{ /*SUNDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
-						if(d.getHours() > 7 && d.getHours() <= 23){
-							lastLongueuilTrainSundays = new Date();
-							lastLongueuilTrainSundays.setFullYear(d.getFullYear());
-							lastLongueuilTrainSundays.setMonth(d.getMonth());
-							lastLongueuilTrainSundays.setDate(d.getDate());
-							lastLongueuilTrainSundays.setHours(0);
-							lastLongueuilTrainSundays.setMinutes(0);
-							lastLongueuilTrainSundays.setSeconds(0);
-							lastLongueuilTrainSundays.setMilliseconds(0);
-							lastLongueuilTrainSundays.setMinutes(lastLongueuilTrainSundays.getMinutes() + 1500);
-							
-							diffLongueuilTrainSundays = lastLongueuilTrainSundays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSundays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainSundays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainSundays / 1000) % 60))+" sec</p>";
-						
-							setInterval(function(){
-								lastLongueuilTrainSundays = new Date();
-								lastLongueuilTrainSundays.setFullYear(d.getFullYear());
-								lastLongueuilTrainSundays.setMonth(d.getMonth());
-								lastLongueuilTrainSundays.setDate(d.getDate());
-								lastLongueuilTrainSundays.setHours(0);
-								lastLongueuilTrainSundays.setMinutes(0);
-								lastLongueuilTrainSundays.setSeconds(0);
-								lastLongueuilTrainSundays.setMilliseconds(0);
-								lastLongueuilTrainSundays.setMinutes(lastLongueuilTrainSundays.getMinutes() + 1500);
-								
-							diffLongueuilTrainSaturdays = lastLongueuilTrainSundays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSundays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainSundays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainSundays / 1000) % 60))+" sec</p>";
-							}, 1000);
-						} //END 7AM TO 11PM, YELLOW LONGUEUIL-UNIVERSITÉ-DE-SHERBROOKE
-						else if (d.getHours() > 0 && d.getHours() <= 1){
-							switch(d.getHours()){
-								case 1: {
-									if(d.getMinutes() <= 30){ //CLOSING TIME ON SATURDAY IS 1:30 AM
-										lastLongueuilTrainSaturdays = new Date();
-										lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
-										lastLongueuilTrainSaturdays.setMonth(d.getMonth());
-										lastLongueuilTrainSaturdays.setDate(d.getDate());
-										lastLongueuilTrainSaturdays.setHours(0);
-										lastLongueuilTrainSaturdays.setMinutes(0);
-										lastLongueuilTrainSaturdays.setSeconds(0);
-										lastLongueuilTrainSaturdays.setMilliseconds(0);
-										lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 30);
-
-										diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-										document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+" sec</p>";
-						
-									setInterval(function(){
-										lastLongueuilTrainSaturdays = new Date();
-										lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
-										lastLongueuilTrainSaturdays.setMonth(d.getMonth());
-										lastLongueuilTrainSaturdays.setDate(d.getDate());
-										lastLongueuilTrainSaturdays.setHours(0);
-										lastLongueuilTrainSaturdays.setMinutes(0);
-										lastLongueuilTrainSaturdays.setSeconds(0);
-										lastLongueuilTrainSaturdays.setMilliseconds(0);
-										lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 30);
-								
-										diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-										document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+" sec</p>";
-										}, 1000);
-									}
-									else {
-										document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
-									}
-									
-									break;
-								}
-								case 0: {
-									lastLongueuilTrainSaturdays = new Date();
-									lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
-									lastLongueuilTrainSaturdays.setMonth(d.getMonth());
-									lastLongueuilTrainSaturdays.setDate(d.getDate());
-									lastLongueuilTrainSaturdays.setHours(0);
-									lastLongueuilTrainSaturdays.setMinutes(0);
-									lastLongueuilTrainSaturdays.setSeconds(0);
-									lastLongueuilTrainSaturdays.setMilliseconds(0);
-									lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 90);
-
-									diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-									document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+" sec</p>";
-						
-									setInterval(function(){
-										lastLongueuilTrainSaturdays = new Date();
-										lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
-										lastLongueuilTrainSaturdays.setMonth(d.getMonth());
-										lastLongueuilTrainSaturdays.setDate(d.getDate());
-										lastLongueuilTrainSaturdays.setHours(0);
-										lastLongueuilTrainSaturdays.setMinutes(0);
-										lastLongueuilTrainSaturdays.setSeconds(0);
-										lastLongueuilTrainSaturdays.setMilliseconds(0);
-										lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 90);
-								
-										diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-										document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+" sec</p>";
-										}, 1000);
-									break;
-								}
+						//GREEN
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							if(d.getUTCHours() == 5 && d.getUTCMinutes() == 27) {
+								document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
 							}
-						} //END MIDNIGHT-1AM, YELLOW LONGUEUIL-UNIVERSITÉ-DE-SHERBROOKE
-						else {
-							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
-						} //END DORMANT PERIOD, YELLOW LONGUEUIL-UNIVERSITÉ-DE-SHERBROOKE
+							else {
+								lastHonoreBeaugrandTrainSaturdays = new Date();
+								lastHonoreBeaugrandTrainSaturdays.setUTCHours(5);
+								lastHonoreBeaugrandTrainSaturdays.setUTCMinutes(27);
+								lastHonoreBeaugrandTrainSaturdays.setUTCSeconds(0);
+								lastHonoreBeaugrandTrainSaturdays.setUTCMilliseconds(0);
+								
+								diffHonoreBeaugrandTrainSaturdays = lastHonoreBeaugrandTrainSaturdays - d;
+								document.getElementById("toHonoreBeaugrand").innerHTML = "<p>In "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000 / 60) % 60)+" hr "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000) % 60)+" min "+Math.floor(diffHonoreBeaugrandTrainSaturdays % 60)+" sec</p>";
+							
+								setInterval(function(){
+									lastHonoreBeaugrandTrainSaturdays = new Date();
+									lastHonoreBeaugrandTrainSaturdays.setUTCHours(5);
+									lastHonoreBeaugrandTrainSaturdays.setUTCMinutes(27);
+									lastHonoreBeaugrandTrainSaturdays.setUTCSeconds(0);
+									lastHonoreBeaugrandTrainSaturdays.setUTCMilliseconds(0);
+
+									diffHonoreBeaugrandTrainSaturdays = lastHonoreBeaugrandTrainSaturdays - d;
+									document.getElementById("toHonoreBeaugrand").innerHTML = "<p>In "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000 / 60) % 60)+" hr "+Math.floor((diffHonoreBeaugrandTrainSaturdays / 1000) % 60)+" min "+Math.floor(diffHonoreBeaugrandTrainSaturdays % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						
+						//ORANGE
+						
+						//YELLOW
 						break;
 					}
 					case 1:{ /*MONDAY*/
@@ -213,82 +142,8 @@
 					}
 					case 6:{ /*SATURDAY*/
 						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
-						if(d.getHours() > 7 && d.getHours() <= 23){
-							lastLongueuilTrainSaturdays = new Date();
-							lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
-							lastLongueuilTrainSaturdays.setMonth(d.getMonth());
-							lastLongueuilTrainSaturdays.setDate(d.getDate());
-							lastLongueuilTrainSaturdays.setHours(0);
-							lastLongueuilTrainSaturdays.setMinutes(0);
-							lastLongueuilTrainSaturdays.setSeconds(0);
-							lastLongueuilTrainSaturdays.setMilliseconds(0);
-							lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 1530);
-							
-							diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+" sec</p>";
-						
-							setInterval(function(){
-								lastLongueuilTrainSaturdays = new Date();
-								lastLongueuilTrainSaturdays.setFullYear(d.getFullYear());
-								lastLongueuilTrainSaturdays.setMonth(d.getMonth());
-								lastLongueuilTrainSaturdays.setDate(d.getDate());
-								lastLongueuilTrainSaturdays.setHours(0);
-								lastLongueuilTrainSaturdays.setMinutes(0);
-								lastLongueuilTrainSaturdays.setSeconds(0);
-								lastLongueuilTrainSaturdays.setMilliseconds(0);
-								lastLongueuilTrainSaturdays.setMinutes(lastLongueuilTrainSaturdays.getMinutes() + 1530);
-								
-							diffLongueuilTrainSaturdays = lastLongueuilTrainSaturdays - d;
-							document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainSaturdays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainSaturdays / 1000) % 60))+" sec</p>";
-							}, 1000);
-						} //END 7AM TO 11PM, YELLOW LONGUEUIL-UNIVERSITÉ-DE-SHERBROOKE
-						else if (d.getHours() > 0 && d.getHours() <= 1){
-							switch(d.getHours()){
-								case 1: {
-									document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
-									break;
-								}
-								case 0: {
-									lastLongueuilTrainWeekdays = new Date();
-									lastLongueuilTrainWeekdays.setFullYear(d.getFullYear());
-									lastLongueuilTrainWeekdays.setMonth(d.getMonth());
-									lastLongueuilTrainWeekdays.setDate(d.getDate());
-									lastLongueuilTrainWeekdays.setHours(0);
-									lastLongueuilTrainWeekdays.setMinutes(0);
-									lastLongueuilTrainWeekdays.setSeconds(0);
-									lastLongueuilTrainWeekdays.setMilliseconds(0);
-									lastLongueuilTrainWeekdays.setMinutes(lastLongueuilTrainWeekdays.getMinutes() + 60);
-
-									diffLongueuilTrainWeekdays = lastLongueuilTrainWeekdays - d;
-									document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainWeekdays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainWeekdays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainWeekdays / 1000) % 60))+" sec</p>";
-						
-									setInterval(function(){
-										lastLongueuilTrainWeekdays = new Date();
-										lastLongueuilTrainWeekdays.setFullYear(d.getFullYear());
-										lastLongueuilTrainWeekdays.setMonth(d.getMonth());
-										lastLongueuilTrainWeekdays.setDate(d.getDate());
-										lastLongueuilTrainWeekdays.setHours(0);
-										lastLongueuilTrainWeekdays.setMinutes(0);
-										lastLongueuilTrainWeekdays.setSeconds(0);
-										lastLongueuilTrainWeekdays.setMilliseconds(0);
-										lastLongueuilTrainWeekdays.setMinutes(lastLongueuilTrainWeekdays.getMinutes() + 60);
-								
-										diffLongueuilTrainWeekdays = lastLongueuilTrainWeekdays - d;
-										document.getElementById("toLongueuil").innerHTML = "<p>In "+(Math.floor((diffLongueuilTrainWeekdays / 1000 / 60 / 60) % 24))+" hr "+(Math.floor((diffLongueuilTrainWeekdays / 1000 / 60) % 60))+" min "+(Math.floor((diffLongueuilTrainWeekdays / 1000) % 60))+" sec</p>";
-										}, 1000);
-									break;
-								}
-							}
-						} //END MIDNIGHT-1AM, YELLOW LONGUEUIL-UNIVERSITÉ-DE-SHERBROOKE
-						else {
-							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
-						} //END DORMANT PERIOD, YELLOW LONGUEUIL-UNIVERSITÉ-DE-SHERBROOKE
-						
-						//TODO: ORANGE
-						//TODO: GREEN
-						
 						break;	
-					} //END SATURDAY
+					}
 				} //END SWITCH STATEMENT
 			</script>
 			
