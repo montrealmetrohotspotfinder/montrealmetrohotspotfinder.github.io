@@ -25,7 +25,8 @@ function init()
 	{name: "H&ocirc;tel Espresso Montr&eacute;al Centre-Ville", type: "Hotel", address: "1005 Rue Guy", site: "https://www.hotelespresso.ca/"},
 	{name: "Matrix College of Management, Technology and Healthcare", type: "College", address: "1980 Rue Sherbrooke Ouest", site: "http://www.matrixcollege.ca/home?"},
 	{name: "1900 Lincoln", type: "Residence", address: "1900 Avenue Lincoln", site: "https://www.montrealapartmentdowntown.com/indexEn.html"},
-	{name: "Ch&acirc;teau Lincoln", type: "Residence", address: "1950 Avenue Lincoln", site: "https://www.chateau-lincoln.com/en/"}];
+	{name: "Ch&acirc;teau Lincoln", type: "Residence", address: "1950 Avenue Lincoln", site: "https://www.chateau-lincoln.com/en/"},
+	{name: "Hurley&#39;s Irish Pub", type: "Restaurant", address: "1225 Rue Crescent", site: "http://www.hurleysirishpub.com/en_home.html"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
