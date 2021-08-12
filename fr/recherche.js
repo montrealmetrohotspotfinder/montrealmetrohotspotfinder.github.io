@@ -913,10 +913,11 @@ function init(){
 	"H&ocirc;tel Espresso Montr&eacute;al Centre-Ville",
 	"Coll&egrave;ge de Gestion, Technologie et Sant&eacute; Matrix",
 	"1900 Lincoln",
-	"Ch&acirc;teau Lincoln" ];
+	"Ch&acirc;teau Lincoln",
+	"Hurley&#39;s Irish Pub" ];
 	
 	Guytypes = [ "Universit&eacute;", "Universit&eacute;", "Coll&egrave;ge", "Mus&eacute;e", "District", "Centre Commercial", "Restaurant", "H&ocirc;pital", "R&eacute;sidence", "Site Historique", "Universit&eacute;", "R&eacute;sidence", "Biblioth&egrave;que", "R&eacute;sidence", "Restaurant", "&Eacute;cole de M&eacute;tiers", "Place de la Ville", "Mus&eacute;e", 
-	"R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "R&eacute;sidence", "R&eacute;sidence" ];
+	"R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "R&eacute;sidence", "R&eacute;sidence", "Restaurant" ];
 	
 	Guyaddresses = [ "1455 Boulevard de Maisonneuve Ouest", 
 	"1450 Rue Guy", 
@@ -943,7 +944,8 @@ function init(){
 	"1005 Rue Guy",
 	"1980 Rue Sherbrooke Ouest",
 	"1900 Avenue Lincoln",
-	"1950 Avenue Lincoln" ];
+	"1950 Avenue Lincoln",
+	"1225 Rue Crescent" ];
 	
 	Guysites = [ "https://www.concordia.ca/fr.html", 
 	"http://www.concordia.ca/jmsb.html", 
@@ -970,7 +972,8 @@ function init(){
 	"https://www.hotelespresso.ca/accueil",
 	"http://www.matrixcollege.ca/fr/accueil?",
 	"https://www.montrealapartmentdowntown.com/index.html",
-	"https://www.chateau-lincoln.com/" ];
+	"https://www.chateau-lincoln.com/",
+	"http://www.hurleysirishpub.com/fr_home.html" ];
 	
 	Atwaternames = [ "C&eacute;gep Dawson", 
 	"Place Alexis-Nihon", 
