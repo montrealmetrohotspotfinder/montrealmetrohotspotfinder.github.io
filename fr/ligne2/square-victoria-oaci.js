@@ -29,7 +29,7 @@ function init()
 	"https://www.iata.org/", "https://lautorite.qc.ca/", "https://lavoutemontreal.com/", "https://www.ivanhoecambridge.com/", "https://fr.atlific.com/", "https://www.stjamestheatre.ca/francais",
 	"https://www.cima.ca/", "http://www.koscene.ca/", "https://www.saintm2.com/fr/", "https://www.ccmm.ca/", "https://hotelgault.com/fr/", "http://www.appartementsboutique.ca/", "https://montreal.ca/lieux/square-des-freres-charon", "https://www.mondev.ca/fr/appartements-a-louer-montreal/old-montreal/wellington-650",
 	"https://www.alstom.com/fr", "https://montreal.ca/lieux/place-du-frere-andre", "https://www.restaurant-toque.com/fr/", "https://www.marriott.fr/hotels/hotel-information/restaurant/details/yulwh-w-montreal/6760117/", "https://hotelstpaul.com/fr/", "https://www.thefarsides.com/?lang=fr", "http://restaurantholder.com/", "https://lecartet.ca/",
-	"http://dandymtl.com/" ];
+	"http://dandymtl.com/fr/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
