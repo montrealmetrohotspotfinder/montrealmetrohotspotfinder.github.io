@@ -29,6 +29,877 @@
 			<h3>Previous Station: <a id="prev" href="../transfers/berri-uqam.html">BERRI-UQAM</a></h3>
 			<h3>Next Station: <a id="next" href="longueuil-universite-de-sherbrooke.html">LONGUEUIL&#8211;UNIVERSITÉ-DE-SHERBROOKE</a></h3>
 			
+			<h1 style="font-size:20pt">Last Train</h1>
+			<p>Since all metro stations and their platforms open at different times, some a few minutes before and some a few minutes after 6am, 7am is used as the start time here since all stations are open at that time every day of the week, so all clocks will count down from 7am until closing time. All clocks are in the Eastern Time Zone.</p>
+			<div id="last-train" style="align-left: 16%">
+				<table>
+					<tr>
+						<th style="background-color:yellow; color: black">TO BERRI-UQAM</th>
+						<td id="toBerriUQAM"></td>
+					</tr>
+					<tr>
+						<th style="background-color:yellow; color: black">TO LONGUEUIL&#8211;UNIVERSIT&Eacute;-DE-SHERBROOKE</th>
+						<td id="toLongueuil"></td>
+					</tr>
+				</table>
+			</div>
+			<script>
+				var d = new Date();
+				
+				setInterval( function() { 
+					d = new Date(); 
+				}, 1000 );
+				
+				var lastBerriUQAM, lastLongueuil;
+				var diffBerriUQAM, diffLongueuil;
+				
+				/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
+				switch(d.getUTCDay()){
+					case 0:{ /*SUNDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
+						
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(32);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(32);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(32);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(32);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastLongueuil && d.getHours() < 11) {
+								document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(32);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastLongueuil = new Date();
+									lastLongueuil.setUTCHours(5);
+									lastLongueuil.setUTCMinutes(32);
+									lastLongueuil.setUTCSeconds(0);
+									lastLongueuil.setUTCMilliseconds(0);
+
+									diffLongueuil = lastLongueuil - d;
+									document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							diffLongueuil = lastLongueuil - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 1:{ /*MONDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SUNDAY SCHEDULE APPLIES. OTHERWISE, MONDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(2);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastLongueuil && d.getHours() < 11) {
+								document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastLongueuil = new Date();
+									lastLongueuil.setUTCHours(5);
+									lastLongueuil.setUTCMinutes(2);
+									lastLongueuil.setUTCSeconds(0);
+									lastLongueuil.setUTCMilliseconds(0);
+
+									diffLongueuil = lastLongueuil - d;
+									document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							diffLongueuil = lastLongueuil - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 2:{ /*TUESDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, MONDAY SCHEDULE APPLIES. OTHERWISE, TUESDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(2);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastLongueuil && d.getHours() < 11) {
+								document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastLongueuil = new Date();
+									lastLongueuil.setUTCHours(5);
+									lastLongueuil.setUTCMinutes(2);
+									lastLongueuil.setUTCSeconds(0);
+									lastLongueuil.setUTCMilliseconds(0);
+
+									diffLongueuil = lastLongueuil - d;
+									document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							diffLongueuil = lastLongueuil - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 3:{ /*WEDNESDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, TUESDAY SCHEDULE APPLIES. OTHERWISE, WEDNESDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(2);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastLongueuil && d.getHours() < 11) {
+								document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastLongueuil = new Date();
+									lastLongueuil.setUTCHours(5);
+									lastLongueuil.setUTCMinutes(2);
+									lastLongueuil.setUTCSeconds(0);
+									lastLongueuil.setUTCMilliseconds(0);
+
+									diffLongueuil = lastLongueuil - d;
+									document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							diffLongueuil = lastLongueuil - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 4:{ /*THURSDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, WEDNESDAY SCHEDULE APPLIES. OTHERWISE, THURSDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(2);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastLongueuil && d.getHours() < 11) {
+								document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastLongueuil = new Date();
+									lastLongueuil.setUTCHours(5);
+									lastLongueuil.setUTCMinutes(2);
+									lastLongueuil.setUTCSeconds(0);
+									lastLongueuil.setUTCMilliseconds(0);
+
+									diffLongueuil = lastLongueuil - d;
+									document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							diffLongueuil = lastLongueuil - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 5:{ /*FRIDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, THURSDAY SCHEDULE APPLIES. OTHERWISE, FRIDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(2);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastLongueuil && d.getHours() < 11) {
+								document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastLongueuil = new Date();
+									lastLongueuil.setUTCHours(5);
+									lastLongueuil.setUTCMinutes(2);
+									lastLongueuil.setUTCSeconds(0);
+									lastLongueuil.setUTCMilliseconds(0);
+
+									diffLongueuil = lastLongueuil - d;
+									document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							diffLongueuil = lastLongueuil - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 6:{ /*SATURDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(2);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(2);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(2);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(32);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(32);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(2);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastLongueuil && d.getHours() < 11) {
+								document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(2);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastLongueuil = new Date();
+									lastLongueuil.setUTCHours(5);
+									lastLongueuil.setUTCMinutes(2);
+									lastLongueuil.setUTCSeconds(0);
+									lastLongueuil.setUTCMilliseconds(0);
+
+									diffLongueuil = lastLongueuil - d;
+									document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastLongueuil = new Date();
+							lastLongueuil.setUTCHours(5);
+							lastLongueuil.setUTCMinutes(32);
+							lastLongueuil.setUTCSeconds(0);
+							lastLongueuil.setUTCMilliseconds(0);
+
+							diffLongueuil = lastLongueuil - d;
+							document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastLongueuil = new Date();
+								lastLongueuil.setUTCHours(5);
+								lastLongueuil.setUTCMinutes(32);
+								lastLongueuil.setUTCSeconds(0);
+								lastLongueuil.setUTCMilliseconds(0);
+
+								diffLongueuil = lastLongueuil - d;
+								document.getElementById("toLongueuil").innerHTML = "<p>"+Math.floor((diffLongueuil / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffLongueuil / 1000 / 60) % 60)+" min "+Math.floor((diffLongueuil / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toLongueuil").innerHTML = "<p>-</p>";
+						}
+						break;	
+					}
+				} //END SWITCH STATEMENT
+			</script>
+			
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2755.8364049904944!2d-73.5353338846161!3d45.512462338243026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91b02d25d9bb1%3A0xfb16ea3d39e09d25!2sJean-Drapeau!5e1!3m2!1sen!2sca!4v1601266529937!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			
 			<div id="hotspot-list">
