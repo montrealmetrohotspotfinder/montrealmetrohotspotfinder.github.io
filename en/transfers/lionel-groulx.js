@@ -8,7 +8,8 @@ function init()
 	{name: "Lemay, Montreal offices", type: "Office", address: "3500 Rue Saint-Jacques", site: "https://lemay.com/"},
 	{name: "&Eacute;glise Saint-Ir&eacute;n&eacute;e-de-Lyon", type: "Church", address: "3030 Rue Delisle", site: "http://st-irenee.org/accueil"},
 	{name: "Habitations Workman-Delisle", type: "Residence", address: "2705 Rue Workman", site: "https://www.omhm.qc.ca/en/tenant-services/habitations-workman-delisle-5/"},
-	{name: "Joe Beef", type: "Restaurant", address: "2491 Rue Notre-Dame Ouest", site: "https://joebeef.squarespace.com/"}];
+	{name: "Joe Beef", type: "Restaurant", address: "2491 Rue Notre-Dame Ouest", site: "https://joebeef.squarespace.com/"},
+	{name: "Barley Bar &agrave; C&eacute;r&eacute;ales", type: "Restaurant", address: "2613 Rue Notre-Dame Ouest", site: "https://barleybar.ca/"}];
 					
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
