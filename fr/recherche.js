@@ -149,14 +149,15 @@ function init(){
 	"https://montreal.ca/lieux/parc-dante", "https://montreal.ca/lieux/maison-de-la-culture-claude-leveillee" ];
 	
 	LionelGroulxnames = [ "March&eacute; Atwater", "Parc Vinet", "Th&eacute;&acirc;tre Corona", "Parc Victor-Rousselot", "&Eacute;cole Victor-Rousselot", "Lemay, bureaux montr&eacute;alais", "&Eacute;glise Saint-Ir&eacute;n&eacute;e-de-Lyon",
-	"Habitations Workman-Delisle", "Joe Beef" ];
+	"Habitations Workman-Delisle", "Joe Beef", "Barley Bar &agrave; C&eacute;r&eacute;ales" ];
 	
-	LionelGroulxtypes = [ "March&eacute;", "Parc", "Th&eacute;&acirc;tre", "Parc", "&Eacute;cole", "Bureau", "&Eacute;glise", "R&eacute;sidence", "Restaurant" ];
+	LionelGroulxtypes = [ "March&eacute;", "Parc", "Th&eacute;&acirc;tre", "Parc", "&Eacute;cole", "Bureau", "&Eacute;glise", "R&eacute;sidence", "Restaurant", "Restaurant" ];
 	
-	LionelGroulxaddresses = [ "138 Avenue Atwater", "550 Rue Vinet", "2490 Rue Notre-Dame Ouest", "", "3525 Rue Sainte-&Eacute;milie", "3500 Rue Saint-Jacques", "3030 Rue Delisle", "2705 Rue Workman", "2491 Rue Notre-Dame Ouest" ];
+	LionelGroulxaddresses = [ "138 Avenue Atwater", "550 Rue Vinet", "2490 Rue Notre-Dame Ouest", "", "3525 Rue Sainte-&Eacute;milie", "3500 Rue Saint-Jacques", "3030 Rue Delisle", "2705 Rue Workman", "2491 Rue Notre-Dame Ouest",
+	"2613 Rue Notre-Dame Ouest" ];
 	
 	LionelGroulxsites = [ "https://www.marchespublics-mtl.com/marches/atwater/", "https://montreal.ca/lieux/parc-vinet", "https://www.theatrecorona.ca/", "https://montreal.ca/lieux/parc-victor-rousselot", "https://victor-rousselot.cssdm.gouv.qc.ca/", 
-	"https://lemay.com/fr/", "http://st-irenee.org/", "https://www.omhm.qc.ca/fr/services-aux-locataires/habitations-workman-delisle-5/", "https://joebeef.squarespace.com/" ];
+	"https://lemay.com/fr/", "http://st-irenee.org/", "https://www.omhm.qc.ca/fr/services-aux-locataires/habitations-workman-delisle-5/", "https://joebeef.squarespace.com/", "https://barleybar.ca/" ];
 	
 	Snowdonnames = [ "Oratoire Saint-Joseph", "Mairie de C&ocirc;te-des-Neiges / N.D.G.", "&Eacute;cole Iona", "Deli Snowdon" ];
 	
