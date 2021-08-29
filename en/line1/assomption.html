@@ -29,6 +29,910 @@
 			<h3>Previous Station: <a id="prev" href="cadillac.html">CADILLAC</a></h3>
 			<h3>Next Station: <a id="next" href="viau.html">VIAU</a></h3>
 			
+			<h1 style="font-size:20pt">Last Train</h1>
+<p>Since all metro stations and their platforms open at different times, some a few minutes before and some a few minutes after 6am, 7am is used as the start time here since all stations are open at that time every day of the week, so all clocks will count down from 7am until closing time. All clocks are in the Eastern Time Zone.</p>
+<div id="last-train" style="align-left: 16%">
+	<table>
+		<tr>
+			<th style="background-color:green">TO HONOR&Eacute;-BEAUGRAND</th>
+			<td id="toHonoreBeaugrand"></td>
+		</tr>
+		<tr>
+			<th style="background-color:green">TO ANGRIGNON</th>
+			<td id="toAngrignon"></td>
+		</tr>
+	</table>
+</div>
+<script>
+	var d = new Date();
+	
+	setInterval( function() { 
+		d = new Date(); 
+	}, 1000 );
+	
+	var lastHonoreBeaugrand, lastAngrignon;
+	var diffHonoreBeaugrand, diffAngrignon;
+	
+	/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
+	switch(d.getUTCDay()){
+		case 0:{ /*SUNDAY*/
+			/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
+			//GREEN
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCHours(5);
+				lastAngrignon.setUTCMinutes(12);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastAngrignon && d.getHours() < 11) {
+					document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCHours(5);
+					lastAngrignon.setUTCMinutes(12);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastAngrignon = new Date();
+						lastAngrignon.setUTCHours(5);
+						lastAngrignon.setUTCMinutes(12);
+						lastAngrignon.setUTCSeconds(0);
+						lastAngrignon.setUTCMilliseconds(0);
+
+						diffAngrignon = lastAngrignon - d;
+						document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCDate(d.getDate() + 1);
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				diffAngrignon = lastAngrignon - d;
+				document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCDate(d.getDate() + 1);
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+			}
+			
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(38);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastHonoreBeaugrand && d.getHours() < 11) {
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(38);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastHonoreBeaugrand = new Date();
+						lastHonoreBeaugrand.setUTCHours(5);
+						lastHonoreBeaugrand.setUTCMinutes(38);
+						lastHonoreBeaugrand.setUTCSeconds(0);
+						lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+						diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+						document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+			}
+			
+			break;
+		}
+		case 1:{ /*MONDAY*/
+			/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SUNDAY SCHEDULE APPLIES. OTHERWISE, MONDAY SCHEDULE APPLIES*/
+			//GREEN
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastAngrignon && d.getHours() < 11) {
+					document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastAngrignon = new Date();
+						lastAngrignon.setUTCHours(4);
+						lastAngrignon.setUTCMinutes(42);
+						lastAngrignon.setUTCSeconds(0);
+						lastAngrignon.setUTCMilliseconds(0);
+
+						diffAngrignon = lastAngrignon - d;
+						document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCDate(d.getDate() + 1);
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				diffAngrignon = lastAngrignon - d;
+				document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCDate(d.getDate() + 1);
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+			}
+			
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastHonoreBeaugrand && d.getHours() < 11) {
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastHonoreBeaugrand = new Date();
+						lastHonoreBeaugrand.setUTCHours(5);
+						lastHonoreBeaugrand.setUTCMinutes(8);
+						lastHonoreBeaugrand.setUTCSeconds(0);
+						lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+						diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+						document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+			}
+			
+			break;
+		}
+		case 2:{ /*TUESDAY*/
+			/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, MONDAY SCHEDULE APPLIES. OTHERWISE, TUESDAY SCHEDULE APPLIES*/
+			//GREEN
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastAngrignon && d.getHours() < 11) {
+					document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastAngrignon = new Date();
+						lastAngrignon.setUTCHours(4);
+						lastAngrignon.setUTCMinutes(42);
+						lastAngrignon.setUTCSeconds(0);
+						lastAngrignon.setUTCMilliseconds(0);
+
+						diffAngrignon = lastAngrignon - d;
+						document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCDate(d.getDate() + 1);
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				diffAngrignon = lastAngrignon - d;
+				document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCDate(d.getDate() + 1);
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+			}
+			
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastHonoreBeaugrand && d.getHours() < 11) {
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastHonoreBeaugrand = new Date();
+						lastHonoreBeaugrand.setUTCHours(5);
+						lastHonoreBeaugrand.setUTCMinutes(8);
+						lastHonoreBeaugrand.setUTCSeconds(0);
+						lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+						diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+						document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+			}
+			
+			break;
+		}
+		case 3:{ /*WEDNESDAY*/
+			/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, TUESDAY SCHEDULE APPLIES. OTHERWISE, WEDNESDAY SCHEDULE APPLIES*/
+			//GREEN
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastAngrignon && d.getHours() < 11) {
+					document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastAngrignon = new Date();
+						lastAngrignon.setUTCHours(4);
+						lastAngrignon.setUTCMinutes(42);
+						lastAngrignon.setUTCSeconds(0);
+						lastAngrignon.setUTCMilliseconds(0);
+
+						diffAngrignon = lastAngrignon - d;
+						document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCDate(d.getDate() + 1);
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				diffAngrignon = lastAngrignon - d;
+				document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCDate(d.getDate() + 1);
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+			}
+			
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastHonoreBeaugrand && d.getHours() < 11) {
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastHonoreBeaugrand = new Date();
+						lastHonoreBeaugrand.setUTCHours(5);
+						lastHonoreBeaugrand.setUTCMinutes(8);
+						lastHonoreBeaugrand.setUTCSeconds(0);
+						lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+						diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+						document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+			}
+			
+			break;
+		}
+		case 4:{ /*THURSDAY*/
+			/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, WEDNESDAY SCHEDULE APPLIES. OTHERWISE, THURSDAY SCHEDULE APPLIES*/
+			//GREEN
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastAngrignon && d.getHours() < 11) {
+					document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastAngrignon = new Date();
+						lastAngrignon.setUTCHours(4);
+						lastAngrignon.setUTCMinutes(42);
+						lastAngrignon.setUTCSeconds(0);
+						lastAngrignon.setUTCMilliseconds(0);
+
+						diffAngrignon = lastAngrignon - d;
+						document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCDate(d.getDate() + 1);
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				diffAngrignon = lastAngrignon - d;
+				document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCDate(d.getDate() + 1);
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+			}
+			
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastHonoreBeaugrand && d.getHours() < 11) {
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastHonoreBeaugrand = new Date();
+						lastHonoreBeaugrand.setUTCHours(5);
+						lastHonoreBeaugrand.setUTCMinutes(8);
+						lastHonoreBeaugrand.setUTCSeconds(0);
+						lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+						diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+						document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+			}
+			
+			break;
+		}
+		case 5:{ /*FRIDAY*/
+			/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, THURSDAY SCHEDULE APPLIES. OTHERWISE, FRIDAY SCHEDULE APPLIES*/
+			//GREEN
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastAngrignon && d.getHours() < 11) {
+					document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastAngrignon = new Date();
+						lastAngrignon.setUTCHours(4);
+						lastAngrignon.setUTCMinutes(42);
+						lastAngrignon.setUTCSeconds(0);
+						lastAngrignon.setUTCMilliseconds(0);
+
+						diffAngrignon = lastAngrignon - d;
+						document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCDate(d.getDate() + 1);
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				diffAngrignon = lastAngrignon - d;
+				document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCDate(d.getDate() + 1);
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+			}
+			
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastHonoreBeaugrand && d.getHours() < 11) {
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastHonoreBeaugrand = new Date();
+						lastHonoreBeaugrand.setUTCHours(5);
+						lastHonoreBeaugrand.setUTCMinutes(8);
+						lastHonoreBeaugrand.setUTCSeconds(0);
+						lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+						diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+						document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+			}
+			
+			break;
+		}
+		case 6:{ /*SATURDAY*/
+			/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
+			//GREEN
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCHours(4);
+				lastAngrignon.setUTCMinutes(42);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastAngrignon && d.getHours() < 11) {
+					document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCHours(4);
+					lastAngrignon.setUTCMinutes(42);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastAngrignon = new Date();
+						lastAngrignon.setUTCHours(4);
+						lastAngrignon.setUTCMinutes(42);
+						lastAngrignon.setUTCSeconds(0);
+						lastAngrignon.setUTCMilliseconds(0);
+
+						diffAngrignon = lastAngrignon - d;
+						document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastAngrignon = new Date();
+				lastAngrignon.setUTCDate(d.getDate() + 1);
+				lastAngrignon.setUTCHours(5);
+				lastAngrignon.setUTCMinutes(12);
+				lastAngrignon.setUTCSeconds(0);
+				lastAngrignon.setUTCMilliseconds(0);
+
+				diffAngrignon = lastAngrignon - d;
+				document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastAngrignon = new Date();
+					lastAngrignon.setUTCDate(d.getDate() + 1);
+					lastAngrignon.setUTCHours(5);
+					lastAngrignon.setUTCMinutes(12);
+					lastAngrignon.setUTCSeconds(0);
+					lastAngrignon.setUTCMilliseconds(0);
+
+					diffAngrignon = lastAngrignon - d;
+					document.getElementById("toAngrignon").innerHTML = "<p>"+Math.floor((diffAngrignon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffAngrignon / 1000 / 60) % 60)+" min "+Math.floor((diffAngrignon / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toAngrignon").innerHTML = "<p>-</p>";
+			}
+			
+			if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(8);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				if(d.getTime() >= lastHonoreBeaugrand && d.getHours() < 11) {
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+				}
+				else {
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(8);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+					setInterval(function(){
+						lastHonoreBeaugrand = new Date();
+						lastHonoreBeaugrand.setUTCHours(5);
+						lastHonoreBeaugrand.setUTCMinutes(8);
+						lastHonoreBeaugrand.setUTCSeconds(0);
+						lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+						diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+						document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+					}, 1000);
+				}
+			}
+			else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+				lastHonoreBeaugrand = new Date();
+				lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+				lastHonoreBeaugrand.setUTCHours(5);
+				lastHonoreBeaugrand.setUTCMinutes(38);
+				lastHonoreBeaugrand.setUTCSeconds(0);
+				lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+				diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+
+				setInterval(function(){
+					lastHonoreBeaugrand = new Date();
+					lastHonoreBeaugrand.setUTCDate(d.getDate() + 1);
+					lastHonoreBeaugrand.setUTCHours(5);
+					lastHonoreBeaugrand.setUTCMinutes(38);
+					lastHonoreBeaugrand.setUTCSeconds(0);
+					lastHonoreBeaugrand.setUTCMilliseconds(0);
+
+					diffHonoreBeaugrand = lastHonoreBeaugrand - d;
+					document.getElementById("toHonoreBeaugrand").innerHTML = "<p>"+Math.floor((diffHonoreBeaugrand / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffHonoreBeaugrand / 1000 / 60) % 60)+" min "+Math.floor((diffHonoreBeaugrand / 1000) % 60)+" sec</p>";
+				}, 1000);
+
+			}
+			else {
+				document.getElementById("toHonoreBeaugrand").innerHTML = "<p>-</p>";
+			}
+			
+			break;
+		}
+	} //END SWITCH STATEMENT
+</script>
+			
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2753.0503171956257!2d-73.54893558461423!3d45.56933233444351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91c1674bbc1fb%3A0x8aee161720cd3da8!2sL&#39;Assomption!5e1!3m2!1sen!2sca!4v1601263248846!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			
 			<div id="hotspot-list">
