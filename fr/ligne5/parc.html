@@ -28,6 +28,910 @@
 			<h3><em lang="fr">Station Pr&eacute;c&eacute;dente:</em> <a id="prev" href="de-castelnau.html">DE CASTELNAU</a></h3>
 			<h3><em lang="fr">Prochaine Station:</em> <a id="next" href="acadie.html">ACADIE</a></h3>
 			
+			<h1 style="font-size:20pt"><em lang="fr">Dernier Train</em></h1>
+<p><em lang="fr">Car toutes les stations du m&eacute;tro et leurs plateformes ouvrent &agrave; des temps diff&eacute;rents, quelques unes avant et quelques autres apr&egrave;s 6h, 7h est utilis&eacute; en tant que le temps de d&eacute;but car toutes les stations sont ouvertes &agrave; cette heure tous les jours de la semaine, alors tous les horloges vont compter &agrave; rebours de 7h jusqu&#39;&agrave; le temps de fermeture. Tous les horloges sont dans l&#39;Heure Normale de l&#39;Est.</em></p>
+<div id="last-train" style="align-left: 16%">
+				<table>
+					<tr>
+						<th style="background-color:blue">VERS SAINT-MICHEL</th>
+						<td id="toSaintMichel"></td>
+					</tr>
+					<tr>
+						<th style="background-color:blue">VERS SNOWDON</th>
+						<td id="toSnowdon"></td>
+					</tr>
+				</table>
+			</div>
+			<script>
+				var d = new Date();
+				
+				setInterval( function() { 
+					d = new Date(); 
+				}, 1000 );
+				
+				var lastSaintMichel, lastSnowdon;
+				var diffSaintMichel, diffSnowdon;
+				
+				/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
+				switch(d.getUTCDay()){
+					case 0:{ /*SUNDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
+						//BLUE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCHours(5);
+							lastSnowdon.setUTCMinutes(21);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSnowdon && d.getHours() < 11) {
+								document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCHours(5);
+								lastSnowdon.setUTCMinutes(21);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSnowdon = new Date();
+									lastSnowdon.setUTCHours(5);
+									lastSnowdon.setUTCMinutes(21);
+									lastSnowdon.setUTCSeconds(0);
+									lastSnowdon.setUTCMilliseconds(0);
+
+									diffSnowdon = lastSnowdon - d;
+									document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCDate(d.getDate() + 1);
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							diffSnowdon = lastSnowdon - d;
+							document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCDate(d.getDate() + 1);
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+						}
+
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCHours(5);
+							lastSaintMichel.setUTCMinutes(23);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSaintMichel && d.getHours() < 11) {
+								document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCHours(5);
+								lastSaintMichel.setUTCMinutes(23);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSaintMichel = new Date();
+									lastSaintMichel.setUTCHours(5);
+									lastSaintMichel.setUTCMinutes(23);
+									lastSaintMichel.setUTCSeconds(0);
+									lastSaintMichel.setUTCMilliseconds(0);
+
+									diffSaintMichel = lastSaintMichel - d;
+									document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCDate(d.getDate() + 1);
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							diffSaintMichel = lastSaintMichel - d;
+							document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCDate(d.getDate() + 1);
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 1:{ /*MONDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SUNDAY SCHEDULE APPLIES. OTHERWISE, MONDAY SCHEDULE APPLIES*/
+						//BLUE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSnowdon && d.getHours() < 11) {
+								document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSnowdon = new Date();
+									lastSnowdon.setUTCHours(4);
+									lastSnowdon.setUTCMinutes(51);
+									lastSnowdon.setUTCSeconds(0);
+									lastSnowdon.setUTCMilliseconds(0);
+
+									diffSnowdon = lastSnowdon - d;
+									document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCDate(d.getDate() + 1);
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							diffSnowdon = lastSnowdon - d;
+							document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCDate(d.getDate() + 1);
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+						}
+
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSaintMichel && d.getHours() < 11) {
+								document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSaintMichel = new Date();
+									lastSaintMichel.setUTCHours(4);
+									lastSaintMichel.setUTCMinutes(53);
+									lastSaintMichel.setUTCSeconds(0);
+									lastSaintMichel.setUTCMilliseconds(0);
+
+									diffSaintMichel = lastSaintMichel - d;
+									document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCDate(d.getDate() + 1);
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							diffSaintMichel = lastSaintMichel - d;
+							document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCDate(d.getDate() + 1);
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 2:{ /*TUESDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, MONDAY SCHEDULE APPLIES. OTHERWISE, TUESDAY SCHEDULE APPLIES*/
+						//BLUE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSnowdon && d.getHours() < 11) {
+								document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSnowdon = new Date();
+									lastSnowdon.setUTCHours(4);
+									lastSnowdon.setUTCMinutes(51);
+									lastSnowdon.setUTCSeconds(0);
+									lastSnowdon.setUTCMilliseconds(0);
+
+									diffSnowdon = lastSnowdon - d;
+									document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCDate(d.getDate() + 1);
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							diffSnowdon = lastSnowdon - d;
+							document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCDate(d.getDate() + 1);
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+						}
+
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSaintMichel && d.getHours() < 11) {
+								document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSaintMichel = new Date();
+									lastSaintMichel.setUTCHours(4);
+									lastSaintMichel.setUTCMinutes(53);
+									lastSaintMichel.setUTCSeconds(0);
+									lastSaintMichel.setUTCMilliseconds(0);
+
+									diffSaintMichel = lastSaintMichel - d;
+									document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCDate(d.getDate() + 1);
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							diffSaintMichel = lastSaintMichel - d;
+							document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCDate(d.getDate() + 1);
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 3:{ /*WEDNESDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, TUESDAY SCHEDULE APPLIES. OTHERWISE, WEDNESDAY SCHEDULE APPLIES*/
+						//BLUE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSnowdon && d.getHours() < 11) {
+								document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSnowdon = new Date();
+									lastSnowdon.setUTCHours(4);
+									lastSnowdon.setUTCMinutes(51);
+									lastSnowdon.setUTCSeconds(0);
+									lastSnowdon.setUTCMilliseconds(0);
+
+									diffSnowdon = lastSnowdon - d;
+									document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCDate(d.getDate() + 1);
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							diffSnowdon = lastSnowdon - d;
+							document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCDate(d.getDate() + 1);
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+						}
+
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSaintMichel && d.getHours() < 11) {
+								document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSaintMichel = new Date();
+									lastSaintMichel.setUTCHours(4);
+									lastSaintMichel.setUTCMinutes(53);
+									lastSaintMichel.setUTCSeconds(0);
+									lastSaintMichel.setUTCMilliseconds(0);
+
+									diffSaintMichel = lastSaintMichel - d;
+									document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCDate(d.getDate() + 1);
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							diffSaintMichel = lastSaintMichel - d;
+							document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCDate(d.getDate() + 1);
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 4:{ /*THURSDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, WEDNESDAY SCHEDULE APPLIES. OTHERWISE, THURSDAY SCHEDULE APPLIES*/
+						//BLUE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSnowdon && d.getHours() < 11) {
+								document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSnowdon = new Date();
+									lastSnowdon.setUTCHours(4);
+									lastSnowdon.setUTCMinutes(51);
+									lastSnowdon.setUTCSeconds(0);
+									lastSnowdon.setUTCMilliseconds(0);
+
+									diffSnowdon = lastSnowdon - d;
+									document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCDate(d.getDate() + 1);
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							diffSnowdon = lastSnowdon - d;
+							document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCDate(d.getDate() + 1);
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+						}
+
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSaintMichel && d.getHours() < 11) {
+								document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSaintMichel = new Date();
+									lastSaintMichel.setUTCHours(4);
+									lastSaintMichel.setUTCMinutes(53);
+									lastSaintMichel.setUTCSeconds(0);
+									lastSaintMichel.setUTCMilliseconds(0);
+
+									diffSaintMichel = lastSaintMichel - d;
+									document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCDate(d.getDate() + 1);
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							diffSaintMichel = lastSaintMichel - d;
+							document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCDate(d.getDate() + 1);
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 5:{ /*FRIDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, THURSDAY SCHEDULE APPLIES. OTHERWISE, FRIDAY SCHEDULE APPLIES*/
+						//BLUE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSnowdon && d.getHours() < 11) {
+								document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSnowdon = new Date();
+									lastSnowdon.setUTCHours(4);
+									lastSnowdon.setUTCMinutes(51);
+									lastSnowdon.setUTCSeconds(0);
+									lastSnowdon.setUTCMilliseconds(0);
+
+									diffSnowdon = lastSnowdon - d;
+									document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCDate(d.getDate() + 1);
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							diffSnowdon = lastSnowdon - d;
+							document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCDate(d.getDate() + 1);
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+						}
+
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSaintMichel && d.getHours() < 11) {
+								document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSaintMichel = new Date();
+									lastSaintMichel.setUTCHours(4);
+									lastSaintMichel.setUTCMinutes(53);
+									lastSaintMichel.setUTCSeconds(0);
+									lastSaintMichel.setUTCMilliseconds(0);
+
+									diffSaintMichel = lastSaintMichel - d;
+									document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCDate(d.getDate() + 1);
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							diffSaintMichel = lastSaintMichel - d;
+							document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCDate(d.getDate() + 1);
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 6:{ /*SATURDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
+						//BLUE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCHours(4);
+							lastSnowdon.setUTCMinutes(51);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSnowdon && d.getHours() < 11) {
+								document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCHours(4);
+								lastSnowdon.setUTCMinutes(51);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSnowdon = new Date();
+									lastSnowdon.setUTCHours(4);
+									lastSnowdon.setUTCMinutes(51);
+									lastSnowdon.setUTCSeconds(0);
+									lastSnowdon.setUTCMilliseconds(0);
+
+									diffSnowdon = lastSnowdon - d;
+									document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSnowdon = new Date();
+							lastSnowdon.setUTCDate(d.getDate() + 1);
+							lastSnowdon.setUTCHours(5);
+							lastSnowdon.setUTCMinutes(21);
+							lastSnowdon.setUTCSeconds(0);
+							lastSnowdon.setUTCMilliseconds(0);
+
+							diffSnowdon = lastSnowdon - d;
+							document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSnowdon = new Date();
+								lastSnowdon.setUTCDate(d.getDate() + 1);
+								lastSnowdon.setUTCHours(5);
+								lastSnowdon.setUTCMinutes(21);
+								lastSnowdon.setUTCSeconds(0);
+								lastSnowdon.setUTCMilliseconds(0);
+
+								diffSnowdon = lastSnowdon - d;
+								document.getElementById("toSnowdon").innerHTML = "<p>"+Math.floor((diffSnowdon / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSnowdon / 1000 / 60) % 60)+" min "+Math.floor((diffSnowdon / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSnowdon").innerHTML = "<p>-</p>";
+						}
+
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCHours(4);
+							lastSaintMichel.setUTCMinutes(53);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastSaintMichel && d.getHours() < 11) {
+								document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCHours(4);
+								lastSaintMichel.setUTCMinutes(53);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastSaintMichel = new Date();
+									lastSaintMichel.setUTCHours(4);
+									lastSaintMichel.setUTCMinutes(53);
+									lastSaintMichel.setUTCSeconds(0);
+									lastSaintMichel.setUTCMilliseconds(0);
+
+									diffSaintMichel = lastSaintMichel - d;
+									document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastSaintMichel = new Date();
+							lastSaintMichel.setUTCDate(d.getDate() + 1);
+							lastSaintMichel.setUTCHours(5);
+							lastSaintMichel.setUTCMinutes(23);
+							lastSaintMichel.setUTCSeconds(0);
+							lastSaintMichel.setUTCMilliseconds(0);
+
+							diffSaintMichel = lastSaintMichel - d;
+							document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastSaintMichel = new Date();
+								lastSaintMichel.setUTCDate(d.getDate() + 1);
+								lastSaintMichel.setUTCHours(5);
+								lastSaintMichel.setUTCMinutes(23);
+								lastSaintMichel.setUTCSeconds(0);
+								lastSaintMichel.setUTCMilliseconds(0);
+
+								diffSaintMichel = lastSaintMichel - d;
+								document.getElementById("toSaintMichel").innerHTML = "<p>"+Math.floor((diffSaintMichel / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffSaintMichel / 1000 / 60) % 60)+" min "+Math.floor((diffSaintMichel / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toSaintMichel").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+				} //END SWITCH STATEMENT
+			</script>
+			
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2754.949565732101!2d-73.62534470855067!3d45.53057063073883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9190e9083d791%3A0xfd0be28d33888a7f!2sParc!5e1!3m2!1sen!2sca!4v1601267098385!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			
 			<div id="hotspot-list">
