@@ -28,6 +28,480 @@
 			<h3><em lang="fr">Station Pr&eacute;c&eacute;dente:</em> <a id="prev" href="jean-drapeau.html">JEAN-DRAPEAU</a></h3>
 			<h3><em lang="fr">Prochaine Station:</em> TERMINUS</h3>
 			
+			<h1 style="font-size:20pt"><em lang="fr">Dernier Train</em></h1>
+			<p><em lang="fr">Car toutes les stations du m&eacute;tro et leurs plateformes ouvrent &agrave; des temps diff&eacute;rents, quelques unes avant et quelques autres apr&egrave;s 6h, 7h est utilis&eacute; en tant que le temps de d&eacute;but car toutes les stations sont ouvertes &agrave; cette heure tous les jours de la semaine, alors tous les horloges vont compter &agrave; rebours de 7h jusqu&#39;&agrave; le temps de fermeture. Tous les horloges sont dans l&#39;Heure Normale de l&#39;Est.</em></p>
+			<div id="last-train" style="align-left: 16%">
+				<table>
+					<tr>
+						<th style="background-color:yellow; color: black">VERS BERRI-UQAM</th>
+						<td id="toBerriUQAM"></td>
+					</tr>
+				</table>
+			</div>
+			<script>
+				var d = new Date();
+				
+				setInterval( function() { 
+					d = new Date(); 
+				}, 1000 );
+				
+				var lastBerriUQAM;
+				var diffBerriUQAM;
+				
+				/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
+				switch(d.getUTCDay()){
+					case 0:{ /*SUNDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(30);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(30);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(30);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCDate(d.getDate() + 1);
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCDate(d.getDate() + 1);
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 1:{ /*MONDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SUNDAY SCHEDULE APPLIES. OTHERWISE, MONDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(0);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCDate(d.getDate() + 1);
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCDate(d.getDate() + 1);
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 2:{ /*TUESDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, MONDAY SCHEDULE APPLIES. OTHERWISE, TUESDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(0);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCDate(d.getDate() + 1);
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCDate(d.getDate() + 1);
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 3:{ /*WEDNESDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, TUESDAY SCHEDULE APPLIES. OTHERWISE, WEDNESDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(0);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCDate(d.getDate() + 1);
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCDate(d.getDate() + 1);
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 4:{ /*THURSDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, WEDNESDAY SCHEDULE APPLIES. OTHERWISE, THURSDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(0);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCDate(d.getDate() + 1);
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCDate(d.getDate() + 1);
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 5:{ /*FRIDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, THURSDAY SCHEDULE APPLIES. OTHERWISE, FRIDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(0);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCDate(d.getDate() + 1);
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCDate(d.getDate() + 1);
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						break;
+					}
+					case 6:{ /*SATURDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
+						/*YELLOW*/
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(0);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastBerriUQAM && d.getHours() < 11) {
+								document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(0);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastBerriUQAM = new Date();
+									lastBerriUQAM.setUTCHours(5);
+									lastBerriUQAM.setUTCMinutes(0);
+									lastBerriUQAM.setUTCSeconds(0);
+									lastBerriUQAM.setUTCMilliseconds(0);
+
+									diffBerriUQAM = lastBerriUQAM - d;
+									document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastBerriUQAM = new Date();
+							lastBerriUQAM.setUTCDate(d.getDate() + 1);
+							lastBerriUQAM.setUTCHours(5);
+							lastBerriUQAM.setUTCMinutes(30);
+							lastBerriUQAM.setUTCSeconds(0);
+							lastBerriUQAM.setUTCMilliseconds(0);
+
+							diffBerriUQAM = lastBerriUQAM - d;
+							document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastBerriUQAM = new Date();
+								lastBerriUQAM.setUTCDate(d.getDate() + 1);
+								lastBerriUQAM.setUTCHours(5);
+								lastBerriUQAM.setUTCMinutes(30);
+								lastBerriUQAM.setUTCSeconds(0);
+								lastBerriUQAM.setUTCMilliseconds(0);
+
+								diffBerriUQAM = lastBerriUQAM - d;
+								document.getElementById("toBerriUQAM").innerHTML = "<p>"+Math.floor((diffBerriUQAM / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffBerriUQAM / 1000 / 60) % 60)+" min "+Math.floor((diffBerriUQAM / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toBerriUQAM").innerHTML = "<p>-</p>";
+						}
+						break;	
+					}
+				} //END SWITCH STATEMENT
+			</script>
+			
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2755.228640315046!2d-73.52420808461567!3d45.52487283741421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91b13ad0239f3%3A0x73b3f953115c62d5!2sLongueuil%20-%20Universit%C3%A9-de-Sherbrookee!5e1!3m2!1sen!2sca!4v1601266560543!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			
 			<div id="hotspot-list">
