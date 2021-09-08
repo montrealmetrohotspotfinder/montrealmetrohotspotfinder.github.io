@@ -1018,7 +1018,10 @@ function init(){
 	{name: "H&ocirc;tel Bonaventure", type: "Hotel", address: "900 Rue de la Gaucheti&egrave;re Ouest", site: "https://hotelbonaventure.com/en/"},
 	{name: "Place du Canada", type: "Town Square", address: "1010 Rue de la Gaucheti&egrave;re Ouest", site: "https://montreal.ca/en/places/place-du-canada"},
 	{name: "1250 Ren&eacute;-L&eacute;vesque", type: "Office", address: "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://imtl.org/montreal/building/IBM-Marathon.php"},
-	{name: "Vargas", type: "Restaurant", address: "690 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.vargas.ca/"}];
+	{name: "Vargas", type: "Restaurant", address: "690 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.vargas.ca/"},
+	{name: "Telus, Montreal offices", type: "Office", address: "630 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.telus.com/en/"},
+	{name: "AlphaCCO", type: "Office", address: "625 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://alphacco.com/en/"},
+	{name: "Curateur Public du Qu&eacute;bec", type: "Agency", address: "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.curateur.gouv.qc.ca/cura/en/index.html"}];
 	
 	LucienLAllier = [{name: "Bell Centre", type: "Sports", address: "1909 Avenue des Canadiens-de-Montr&eacute;al", site: "https://www.centrebell.ca/en"},
 	{name: "Tour Deloitte", type: "Office", address: "1115 Rue Saint-Antoine Ouest", site: "https://www.cfoffice.ca/property/home/cf-deloitte-tower"},
