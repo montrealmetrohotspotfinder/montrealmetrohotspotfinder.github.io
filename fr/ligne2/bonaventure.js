@@ -5,7 +5,7 @@ function init()
 	"Time Supper Club", "Immigration, R&eacute;fugi&eacute;s et Citoyennet&eacute; Canada", "H&ocirc;tel Bonaventure", "Place du Canada", "1250 Ren&eacute;-L&eacute;vesque", "Vargas" ];
 	
 	htypes = [ "Station de Train", "Terminus d&#39;Autobus", "Centre Commercial", "Centre de Convention", "Bureau", "Sports", "Bureau", "Centre Commercial", "H&ocirc;tel", "H&ocirc;tel", 
-	"Bureau", "&Eacute;glise", "Place de la Ville", "Bureau", "Salle de R&eacute;ception", "Gouvernement", "H&ocirc;tel", "Place de la Ville", "Bureau", "Restaurant" ];
+	"Bureau", "&Eacute;glise", "Place de la Ville", "Bureau", "Salle de R&eacute;ception", "Agence", "H&ocirc;tel", "Place de la Ville", "Bureau", "Restaurant" ];
 	
 	haddresses = [ "895 Rue de la Gaucheti&egrave;re Ouest", "1000 Rue de la Gaucheti&egrave;re Ouest", "895 Rue de la Gaucheti&egrave;re Ouest", "800 Rue de la Gaucheti&egrave;re Ouest", 
 	"800 Rue de la Gaucheti&egrave;re Ouest", "1909 Avenue des Canadiens-de-Montr&eacute;al", "1000 Rue de la Gaucheti&egrave;re Ouest", "1 Place Ville Marie", "900 Boulevard Ren&eacute;-L&eacute;vesque Ouest", 
