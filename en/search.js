@@ -1014,7 +1014,7 @@ function init(){
 	{name: "Square Dorchester", type: "Town Square", address: "2903 Rue Peel", site: "https://montreal.ca/en/places/square-dorchester"},
 	{name: "&Eacute;difice Sun Life", type: "Office", address: "1155 Rue Metcalfe", site: "https://www.sunlifebuilding.ca/"},
 	{name: "Time Supper Club", type: "Reception Hall", address: "997 Rue Saint-Jacques", site: "https://timesupperclub.com/"},
-	{name: "Immigration, Refugees and Citizenship Canada", type: "Government", address: "1010 Rue Saint-Antoine Ouest", site: "https://www.canada.ca/en/services/immigration-citizenship.html"},
+	{name: "Immigration, Refugees and Citizenship Canada", type: "Agency", address: "1010 Rue Saint-Antoine Ouest", site: "https://www.canada.ca/en/services/immigration-citizenship.html"},
 	{name: "H&ocirc;tel Bonaventure", type: "Hotel", address: "900 Rue de la Gaucheti&egrave;re Ouest", site: "https://hotelbonaventure.com/en/"},
 	{name: "Place du Canada", type: "Town Square", address: "1010 Rue de la Gaucheti&egrave;re Ouest", site: "https://montreal.ca/en/places/place-du-canada"},
 	{name: "1250 Ren&eacute;-L&eacute;vesque", type: "Office", address: "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://imtl.org/montreal/building/IBM-Marathon.php"},
