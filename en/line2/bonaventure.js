@@ -19,7 +19,10 @@ function init()
 	{name: "H&ocirc;tel Bonaventure", type: "Hotel", address: "900 Rue de la Gaucheti&egrave;re Ouest", site: "https://hotelbonaventure.com/en/"},
 	{name: "Place du Canada", type: "Town Square", address: "1010 Rue de la Gaucheti&egrave;re Ouest", site: "https://montreal.ca/en/places/place-du-canada"},
 	{name: "1250 Ren&eacute;-L&eacute;vesque", type: "Office", address: "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://imtl.org/montreal/building/IBM-Marathon.php"},
-	{name: "Vargas", type: "Restaurant", address: "690 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.vargas.ca/"}];
+	{name: "Vargas", type: "Restaurant", address: "690 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.vargas.ca/"},
+	{name: "Telus, Montreal offices", type: "Office", address: "630 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.telus.com/en/"},
+	{name: "AlphaCCO", type: "Office", address: "625 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://alphacco.com/en/"},
+	{name: "Curateur Public du Qu&eacute;bec", type: "Agency", address: "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.curateur.gouv.qc.ca/cura/en/index.html"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
