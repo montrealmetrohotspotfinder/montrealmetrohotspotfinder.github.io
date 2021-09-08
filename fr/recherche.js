@@ -1124,12 +1124,12 @@ function init(){
 				
 	Angrignonnames = [ "Terminus Angrignon", "Carrefour Angrignon", "Parc Angrignon", 
 	"Place Newman", "Les Tours Angrignon", "Les Tours Serenity", "C&eacute;gep Andr&eacute;-Laurendeau", "Habitations Angrignon I et II",
-	"Le Conrad", "Habitations Les Trinitaires" ];
+	"Le Conrad", "Habitations Les Trinitaires", "EQ8" ];
 	
-	Angrignontypes = [ "Terminus d&#39;Autobus", "Centre Commercial", "Parc", "Centre Commercial", "R&eacute;sidence", "R&eacute;sidence", "Coll&egrave;ge", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence" ];
+	Angrignontypes = [ "Terminus d&#39;Autobus", "Centre Commercial", "Parc", "Centre Commercial", "R&eacute;sidence", "R&eacute;sidence", "Coll&egrave;ge", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence" ];
 	
 	Angrignonaddresses = [ "3500 Boulevard des Trinitaires", "7077 Boulevard Newman", "3400 Boulevard des Trinitaires",
-	"2101 Avenue Dollard", "1500 Boulevard Angrignon", "1700 Boulevard Angrignon", "1111 Rue Lapierre", "3055 Boulevard des Trinitaires", "1601 Boulevard Angrignon", "1771 Boulevard Angrignon" ];
+	"2101 Avenue Dollard", "1500 Boulevard Angrignon", "1700 Boulevard Angrignon", "1111 Rue Lapierre", "3055 Boulevard des Trinitaires", "1601 Boulevard Angrignon", "1771 Boulevard Angrignon", "6760 Boulevard Newman" ];
 	
 	Angrignonsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-angrignon", 
 				"http://www.carrefourangrignon.com", 
@@ -1140,7 +1140,8 @@ function init(){
 				"https://www.claurendeau.qc.ca/",
 				"https://www.omhm.qc.ca/fr/services-aux-locataires/habitations-angrignon-i-et-ii/",
 				"https://www.leconrad.com/",
-		 		"https://habitationslestrinitaires.weebly.com/" ];
+		 		"https://habitationslestrinitaires.weebly.com/",
+		 		"https://eq8.ca/" ];
 	
 	//ORANGE LINE
 	Montmorencynames = [ "Place Bell", "Universit&eacute; de Montr&eacute;al, campus Laval", "Terminus Montmorency", 
