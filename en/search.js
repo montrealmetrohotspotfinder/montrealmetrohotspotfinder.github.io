@@ -672,7 +672,8 @@ function init(){
 	{name: "C&eacute;gep Andr&eacute;-Laurendeau", type: "College", address: "1111 Rue Lapierre", site: "https://www.claurendeau.qc.ca/"},
 	{name: "Habitations Angrignon I et II", type: "Residence", address: "3055 Boulevard des Trinitaires", site: "https://www.omhm.qc.ca/en/tenant-services/habitations-angrignon-i-et-ii/"},
 	{name: "Le Conrad", type: "Residence", address: "1601 Boulevard Angrignon", site: "https://www.leconrad.com/en/"},
-	{name: "Habitations Les Trinitaires", type: "Residence", address: "1771 Boulevard Angrignon", site: "https://habitationslestrinitaires.weebly.com/"}];
+	{name: "Habitations Les Trinitaires", type: "Residence", address: "1771 Boulevard Angrignon", site: "https://habitationslestrinitaires.weebly.com/"},
+	{name: "EQ8", type: "Residence", address: "6760 Boulevard Newman", site: "https://eq8.ca/en/"}];
 	
 	//ORANGE LINE
 	Montmorency = [{name: "Place Bell", type: "Sports", address: "1950 Rue Claude-Gagn&eacute;", site: "https://www.placebell.ca/en"},
