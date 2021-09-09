@@ -40,7 +40,9 @@ function init()
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Adrien-Pinard Pavilion", type: "University", address: "100 Rue Sherbrooke Ouest", site: "http://carte.uqam.ca/pavillon-su"},
 	{name: "Place du Cardinal P.-&Eacute;. L&eacute;ger", type: "Park", address: "", site: "#"},
 	{name: "Louis Boh&egrave;me", type: "Residence", address: "350 Boulevard de Maisonneuve Ouest", site: "https://www.louisboheme.com/en/"},
-	{name: "Le Concorde", type: "Residence", address: "441 Avenue du Pr&eacute;sident-Kennedy", site: "http://downtowncondosmontreal.com/le-concorde-2/"}];
+	{name: "Le Concorde", type: "Residence", address: "441 Avenue du Pr&eacute;sident-Kennedy", site: "http://downtowncondosmontreal.com/le-concorde-2/"},
+	{name: "Le Peterson", type: "Residence", address: "405 Rue de la Concorde", site: "https://lepeterson.com/"},
+	{name: "Le Smith", type: "Residence", address: "2100 Rue de Bleury", site: "https://www.summitmanagement.ca/apartments/le-smith"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
