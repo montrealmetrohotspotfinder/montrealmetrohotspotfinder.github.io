@@ -40,12 +40,15 @@ function init()
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Adrien-Pinard",
 	"Place du Cardinal P.-&Eacute;. L&eacute;ger",
 	"Louis Boh&egrave;me",
-	"Le Concorde" ];
+	"Le Concorde",
+	"Le Peterson",
+	"Le Smith" ];
 	
 	htypes = [ "Th&eacute;&acirc;tre", "District", "Mus&eacute;e", "Centre Commercial", "Agence", "H&ocirc;tel", "Universit&eacute;", "Th&eacute;&acirc;tre", "Gouvernement",
 	"Theatre", "Agence", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Agence", "Th&eacute;&acirc;tre", "Bureau",
 	"Coll&egrave;ge", "Agence", "Agence", "Agence", "Universit&eacute;", "&Eacute;glise", "Agence", "Biblioth&egrave;que", "Universit&eacute;", "&Eacute;cole", "Agence",
-	"Bureau", "Agence", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Parc", "R&eacute;sidence", "R&eacute;sidence" ];
+	"Bureau", "Agence", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Parc", "R&eacute;sidence", "R&eacute;sidence",
+	"R&eacute;sidence", "R&eacute;sidence" ];
 	
 	haddresses = [ "175 Rue Sainte-Catherine Ouest", "", "185 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "1255 Rue Jeanne-Mance",
 	"141 Avenue du Pr&eacute;sident-Kennedy", "84 Rue Sainte-Catherine Ouest", "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1182 Boulevard Saint-Laurent", 
@@ -53,7 +56,8 @@ function init()
 	"475 Avenue du Pr&eacute;sident-Kennedy", "425 Boulevard de Maisonneuve Ouest", "500 Rue Sherbrooke Ouest", "1432 Rue de Bleury", "1501 Rue de Bleury", "416 Boulevard de Maisonneuve Ouest",
 	"2050 Rue de Bleury", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "201 Avenue du Pr&eacute;sident-Kennedy", "137 Avenue du Pr&eacute;sident-Kennedy", "125 Rue Sherbrooke Ouest",
 	"145 Avenue du Pr&eacute;sident-Kennedy", "1501 Rue de Bleury", "1435 Rue de Bleury", "2050 Rue de Bleury", "395 Boulevard de Maisonneuve Ouest", "1435 Rue de Bleury", "305 Rue Sainte-Catherine Ouest",
-	"1600 Rue Saint-Urbain", "2101 Rue Jeanne-Mance", "200 Rue Sherbrooke Ouest", "100 Rue Sherbrooke Ouest", "", "350 Boulevard de Maisonneuve Ouest", "441 Avenue du Pr&eacute;sident-Kennedy" ];
+	"1600 Rue Saint-Urbain", "2101 Rue Jeanne-Mance", "200 Rue Sherbrooke Ouest", "100 Rue Sherbrooke Ouest", "", "350 Boulevard de Maisonneuve Ouest", "441 Avenue du Pr&eacute;sident-Kennedy",
+	"405 Rue de la Concorde", "2100 Rue de Bleury" ];
 	
 	hsites = [ "https://placedesarts.com/fr", 
 	"https://www.quartierdesspectacles.com/fr/", 
@@ -95,7 +99,9 @@ function init()
 	"http://carte.uqam.ca/pavillon-su",
 	"#",
 	"https://www.louisboheme.com/",
-	"http://downtowncondosmontreal.com/le-concorde/" ];
+	"http://downtowncondosmontreal.com/le-concorde/",
+	"https://lepeterson.com/home-french.html",
+	"https://www.summitmanagement.ca/fr/apartments/le-smith" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
