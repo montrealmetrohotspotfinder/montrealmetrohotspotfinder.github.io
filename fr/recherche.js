@@ -1060,12 +1060,14 @@ function init(){
 	"https://verdun.centrecsmb.com/", "https://monseigneur-richard.ecoleverdun.com/", "https://montreal.ca/lieux/parc-sutherland-sackville-bain" ];
 	
 	DeLEglisenames = [ "Promenade Wellington", "Auditorium de Verdun", "Plage de Verdun", "Parc Arthur-Therrien", "Stade Ronald-Pich&eacute;", "H&ocirc;pital de Verdun", "Parc J.-Albert-Gari&eacute;py",
-	"&Eacute;glise Notre-Dame-des-Sept-Douleurs de Montr&eacute;al", "&Eacute;glise de l&#39;&Eacute;piphanie", "&Eacute;cole Notre-Dame-des-Sept-Douleurs", "Onward Gospel Church", "Parc Joannette" ];
+	"&Eacute;glise Notre-Dame-des-Sept-Douleurs de Montr&eacute;al", "&Eacute;glise de l&#39;&Eacute;piphanie", "&Eacute;cole Notre-Dame-des-Sept-Douleurs", "Onward Gospel Church", "Parc Joannette",
+	"Parc Monseigneur-J.-A.-Richard", "Parc Monseigneur-Langlois", "Restaurant Crescendo" ];
 	
-	DeLEglisetypes = [ "Magasinage", "Sports", "Plage", "Parc", "Sports", "H&ocirc;pital", "Parc", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise", "Parc" ];
+	DeLEglisetypes = [ "Magasinage", "Sports", "Plage", "Parc", "Sports", "H&ocirc;pital", "Parc", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise", "Parc", "Parc", "Parc", "Restaurant" ];
 	
 	DeLEgliseaddresses = [ "266 Rue Hickson", "4110 Boulevard LaSalle", "4110 Boulevard LaSalle", "3750 Boulevard Ga&eacute;tan-Laberge", "3750 Boulevard Ga&eacute;tan-Laberge",
-	"4000 Boulevard LaSalle", "10 All&eacute;e des Brises-du-Fleuve", "4155 Rue Wellington", "4322 Rue Wellington", "320 Rue de l&#39;&Eacute;glise", "165 Rue Galt", "292 Rue Hickson" ];
+	"4000 Boulevard LaSalle", "10 All&eacute;e des Brises-du-Fleuve", "4155 Rue Wellington", "4322 Rue Wellington", "320 Rue de l&#39;&Eacute;glise", "165 Rue Galt", "292 Rue Hickson",
+	"5150 Boulevard LaSalle", "", "5150 Boulevard LaSalle" ];
 	
 	DeLEglisesites = [ "http://www.promenadewellington.com/fr", 
 	"https://montreal.ca/lieux/auditorium-de-verdun", 
@@ -1078,7 +1080,10 @@ function init(){
 	"https://epiphanyverdun.com/",
 	"https://nddsd.ecoleverdun.com/",
 	"http://www.onwardgospelchurch.com/",
-	"https://montreal.ca/lieux/parc-joannette" ];
+	"https://montreal.ca/lieux/parc-joannette",
+	"https://montreal.ca/lieux/parc-monseigneur-j-richard",
+	"https://montreal.ca/lieux/parc-monseigneur-langlois",
+	"http://www.restaurantcrescendo.com/" ];
 	
 	Verdunnames = [ "Centre Communautaire Marcel-Giroux", "Mairie de Verdun", "Parc Willibrord", "&Eacute;cole L&eacute;vis-Sauv&eacute;", "&Eacute;cole Chanoine-Joseph-Th&eacute;or&ecirc;t",
 	"Parc du Souvenir", "&Eacute;glise de Notre-Dame-de-Lourdes", "&Eacute;cole Notre-Dame-de-Lourdes", "Grace Church", "Centre Islamique de Verdun", "&Eacute;glise Sainte-Willibrord" ];
