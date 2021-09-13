@@ -2,13 +2,13 @@ function init()
 {
 	hnames = [ "Promenade Wellington", "Auditorium de Verdun", "Plage de Verdun", "Parc Arthur-Therrien", "Stade Ronald-Pich&eacute;", "H&ocirc;pital de Verdun", "Parc J.-Albert-Gari&eacute;py",
 	"&Eacute;glise Notre-Dame-des-Sept-Douleurs de Montr&eacute;al", "&Eacute;glise de l&#39;&Eacute;piphanie", "&Eacute;cole Notre-Dame-des-Sept-Douleurs", "Onward Gospel Church", "Parc Joannette",
-	"Parc Monseigneur-J.-A.-Richard", "Parc Monseigneur-Langlois", "Restaurant Crescendo" ];
+	"Parc Monseigneur-J.-A.-Richard", "Parc Monseigneur-Langlois", "Restaurant Crescendo", "Ch&acirc;teau Isabelle" ];
 	
-	htypes = [ "Magasinage", "Sports", "Plage", "Parc", "Sports", "H&ocirc;pital", "Parc", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise", "Parc", "Parc", "Parc", "Restaurant" ];
+	htypes = [ "Magasinage", "Sports", "Plage", "Parc", "Sports", "H&ocirc;pital", "Parc", "&Eacute;glise", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise", "Parc", "Parc", "Parc", "Restaurant", "R&eacute;sidence" ];
 	
 	haddresses = [ "266 Rue Hickson", "4110 Boulevard LaSalle", "4110 Boulevard LaSalle", "3750 Boulevard Ga&eacute;tan-Laberge", "3750 Boulevard Ga&eacute;tan-Laberge",
 	"4000 Boulevard LaSalle", "10 All&eacute;e des Brises-du-Fleuve", "4155 Rue Wellington", "4322 Rue Wellington", "320 Rue de l&#39;&Eacute;glise", "165 Rue Galt", "292 Rue Hickson",
-	"5150 Boulevard LaSalle", "", "5150 Boulevard LaSalle" ];
+	"5150 Boulevard LaSalle", "", "5150 Boulevard LaSalle", "4560 Boulevard LaSalle" ];
 	
 	hsites = [ "http://www.promenadewellington.com/fr", 
 	"https://montreal.ca/lieux/auditorium-de-verdun", 
@@ -24,7 +24,8 @@ function init()
 	"https://montreal.ca/lieux/parc-joannette",
 	"https://montreal.ca/lieux/parc-monseigneur-j-richard",
 	"https://montreal.ca/lieux/parc-monseigneur-langlois",
-	"http://www.restaurantcrescendo.com/" ];
+	"http://www.restaurantcrescendo.com/",
+	"https://www.hazelviewproperties.com/fr/properties/4560-lasalle-blvd" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
