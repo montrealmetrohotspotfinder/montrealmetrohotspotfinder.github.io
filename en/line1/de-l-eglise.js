@@ -14,7 +14,8 @@ function init()
 	{name: "Parc Joannette", type: "Park", address: "292 Rue Hickson", site: "https://montreal.ca/en/places/parc-joannette"},
 	{name: "Parc Monseigneur-J.-A.-Richard", type: "Park", address: "5150 Boulevard LaSalle", site: "https://montreal.ca/en/places/parc-monseigneur-j-richard"},
 	{name: "Parc Monseigneur-Langlois", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-monseigneur-langlois"},
-	{name: "Restaurant Crescendo", type: "Restaurant", address: "5150 Boulevard LaSalle", site: "http://www.restaurantcrescendo.com/"}];
+	{name: "Restaurant Crescendo", type: "Restaurant", address: "5150 Boulevard LaSalle", site: "http://www.restaurantcrescendo.com/"},
+	{name: "Ch&acirc;teau Isabelle", type: "Residence", address: "4560 Boulevard LaSalle", site: "https://www.hazelviewproperties.com/properties/4560-lasalle-blvd"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
