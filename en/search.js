@@ -633,7 +633,8 @@ function init(){
 	{name: "Parc Joannette", type: "Park", address: "292 Rue Hickson", site: "https://montreal.ca/en/places/parc-joannette"},
 	{name: "Parc Monseigneur-J.-A.-Richard", type: "Park", address: "5150 Boulevard LaSalle", site: "https://montreal.ca/en/places/parc-monseigneur-j-richard"},
 	{name: "Parc Monseigneur-Langlois", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-monseigneur-langlois"},
-	{name: "Restaurant Crescendo", type: "Restaurant", address: "5150 Boulevard LaSalle", site: "http://www.restaurantcrescendo.com/"}];
+	{name: "Restaurant Crescendo", type: "Restaurant", address: "5150 Boulevard LaSalle", site: "http://www.restaurantcrescendo.com/"},
+	{name: "Ch&acirc;teau Isabelle", type: "Residence", address: "4560 Boulevard LaSalle", site: "https://www.hazelviewproperties.com/properties/4560-lasalle-blvd"}];
 	
 	Verdun = [{name: "Centre Communautaire Marcel-Giroux", type: "Cultural Centre", address: "4501 Avenue Bannantyne", site: "https://montreal.ca/en/places/centre-communautaire-marcel-giroux"},
 	{name: "Verdun Borough Hall", type: "Government", address: "4555 Rue de Verdun", site: "https://montreal.ca/en/places/mairie-darrondissement-de-verdun"},
