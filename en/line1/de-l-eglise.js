@@ -11,7 +11,10 @@ function init()
 	{name: "Church of the Epiphany", type: "Church", address: "4322 Rue Wellington", site: "https://epiphanyverdun.com/"},
 	{name: "&Eacute;cole Notre-Dame-des-Sept-Douleurs", type: "School", address: "320 Rue de l&#39;&Eacute;glise", site: "https://nddsd.ecoleverdun.com/"},
 	{name: "Onward Gospel Church", type: "Church", address: "165 Rue Galt", site: "http://www.onwardgospelchurch.com/"},
-	{name: "Parc Joannette", type: "Park", address: "292 Rue Hickson", site: "https://montreal.ca/en/places/parc-joannette"}];
+	{name: "Parc Joannette", type: "Park", address: "292 Rue Hickson", site: "https://montreal.ca/en/places/parc-joannette"},
+	{name: "Parc Monseigneur-J.-A.-Richard", type: "Park", address: "5150 Boulevard LaSalle", site: "https://montreal.ca/en/places/parc-monseigneur-j-richard"},
+	{name: "Parc Monseigneur-Langlois", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-monseigneur-langlois"},
+	{name: "Restaurant Crescendo", type: "Restaurant", address: "5150 Boulevard LaSalle", site: "http://www.restaurantcrescendo.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
