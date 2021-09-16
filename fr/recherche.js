@@ -654,7 +654,6 @@ function init(){
 		"Place Montr&eacute;al Trust",
 		"Place Ville Marie",
 		"H&ocirc;tel Fairmont Reine Elizabeth",
-		"Mus&eacute;e Gr&eacute;vin",
 		"Mus&eacute;e McCord",
 		"Mus&eacute;e Redpath",
 		"Square Phillips",	
@@ -691,8 +690,8 @@ function init(){
 		"Universit&eacute; McGill, Facult&eacute; de M&eacute;decine Dentaire",
 		"Universit&eacute; McGill, &Eacute;cole d&#39;&Eacute;ducation Permanente",
 		"Ordre des Ing&eacute;nieurs du Qu&eacute;bec",
-		"&Eacute;cole F.A.C.E.", 
-		"Comit&eacute; de D&eacute;ontologie Polici&egrave;re du Qu&eacute;bec",
+		"&Eacute;cole F.A.C.E.",
+		"Comit&eacute; de D&eacute;ontologie Polici&egrave;re du Qu&eacute;bec, bureaux montr&eacute;alais",
 		"Le Square Phillips H&ocirc;tel &amp; Suites",
 		"&Eacute;cole des Entrepreneurs du Qu&eacute;bec, campus Montr&eacute;al",
 		"Richter, bureaux montr&eacute;alais",
@@ -711,24 +710,24 @@ function init(){
 		"Universit&eacute; McGill, &Eacute;cole d&#39;Urbanisme",
 		"Valero, bureaux montr&eacute;alais" ];
 	
-	McGilltypes = [ "Universit&eacute;", "Centre Commercial", "Centre Commercial", "Centre Commercial", "H&ocirc;tel", "Mus&eacute;e", "Mus&eacute;e", "Mus&eacute;e", "Place de la Ville", "Place de la Ville", "&Eacute;glise", 
+	McGilltypes = [ "Universit&eacute;", "Centre Commercial", "Centre Commercial", "Centre Commercial", "H&ocirc;tel", "Mus&eacute;e", "Mus&eacute;e", "Place de la Ville", "Place de la Ville", "&Eacute;glise", 
 	"Bureau", "H&ocirc;pital", "Sports", "Centre Commercial", "Cin&eacute;ma", "Bureau", "Centre Commercial", "&Eacute;glise", "Magasinage", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "Bureau", "H&ocirc;tel", "Agence", "H&ocirc;tel",
 	"Agence", "&Eacute;cole", "Site Historique", "Bureau", "Bureau", "Coll&egrave;ge", "Agence", "Bureau", "R&eacute;sidence", "Universit&eacute;", "Universit&eacute;", "Agence", "&Eacute;cole", "Agence", "H&ocirc;tel", "&Eacute;cole de M&eacute;tiers",
 	"Bureau", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Coll&egrave;ge", "Agence", "Bureau", "Universit&eacute;", "Bureau", "Universit&eacute;", "Universit&eacute;", "Bureau" ];
 	
 	McGilladdresses = [ "845 Rue Sherbrooke Ouest", "705 Rue Sainte-Catherine Ouest", "1500 Avenue McGill College", "1 Place Ville Marie", "900 Boulevard Ren&eacute;-L&eacute;vesque Ouest",
-	"705 Rue Sainte-Catherine Ouest", "690 Rue Sherbrooke Ouest", "859 Rue Sherbrooke Ouest", "", "2903 Rue Peel", "1085 Rue de la Cath&eacute;drale", "1155 Rue Metcalfe", 
+	"690 Rue Sherbrooke Ouest", "859 Rue Sherbrooke Ouest", "", "2903 Rue Peel", "1085 Rue de la Cath&eacute;drale", "1155 Rue Metcalfe", 
 	"687 Avenue des Pins Ouest", "475 Avenue des Pins Ouest", "977 Rue Sainte-Catherine Ouest", "977 Rue Sainte-Catherine Ouest", "1253 Avenue McGill College", 
 	"625 Rue Sainte-Catherine Ouest", "635 Rue Sainte-Catherine Ouest", "585 Rue Sainte-Catherine Ouest", "1501 Avenue McGill College", "2001 Avenue McGill College", 
 	"2020 Boulevard Robert-Bourassa", "600 Boulevard de Maisonneuve Ouest", "900 Boulevard de Maisonneuve Ouest", "2001 Boulevard Robert-Bourassa", "1981 Avenue McGill College",
 	"1250 Boulevard Robert-Bourassa", "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1240 Square Phillips", "1200 Avenue McGill College", "550 Rue Sherbrooke Ouest", "15a Rue Sherbrooke Ouest",
 	"2001 Boulevard Robert-Bourassa", "2001 Boulevard Robert-Bourassa", "1255 Boulevard Robert-Bourassa", "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1981 Avenue McGill College",
-	"1188 Avenue Union", "2001 Avenue McGill College", "688 Rue Sherbrooke Ouest", "1801 Avenue McGill College", "3449 Rue University", "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1193 Place Phillips", 
-	"505 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1981 Avenue McGill College", "680 Rue Sherbrooke Ouest", "853 Rue Sherbrooke Ouest", "805 Rue Sherbrooke Ouest", "3480 Rue University", "801 Rue Sherbrooke Ouest", "817 Rue Sherbrooke Ouest", 
-	"3495 Boulevard Robert-Bourassa", "2020 Boulevard Robert-Bourassa", "2000 Avenue McGill College", "2001 Avenue McGill College", "1981 Avenue McGill College", "853 Rue Sherbrooke Ouest", "815 Rue Sherbrooke Ouest", "1801 Avenue McGill College" ];
+	"1188 Avenue Union", "2001 Avenue McGill College", "688 Rue Sherbrooke Ouest", "1801 Avenue McGill College", "3449 Rue University", "500 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1193 Place Phillips", "505 Boulevard Ren&eacute;-L&eacute;vesque Ouest",
+	"1981 Avenue McGill College", "680 Rue Sherbrooke Ouest", "853 Rue Sherbrooke Ouest", "805 Rue Sherbrooke Ouest", "3480 Rue University", "801 Rue Sherbrooke Ouest", "817 Rue Sherbrooke Ouest", "3495 Boulevard Robert-Bourassa",
+	"2020 Boulevard Robert-Bourassa", "2000 Avenue McGill College", "2001 Avenue McGill College", "1981 Avenue McGill College", "853 Rue Sherbrooke Ouest", "815 Rue Sherbrooke Ouest", "1801 Avenue McGill College" ];
 	
 	McGillsites = [ "https://www.mcgill.ca/fr", "https://www.centreeatondemontreal.com/fr", "https://www.placemontrealtrust.com/fr", "https://placevillemarie.com/fr/accueil", "https://www.fairmont.fr/queen-elizabeth-montreal/",
-	"https://www.grevin-montreal.com/", "https://www.musee-mccord.qc.ca/fr", "https://www.mcgill.ca/redpath/fr", "https://montreal.ca/lieux/square-phillips", 
+	"https://www.musee-mccord.qc.ca/fr", "https://www.mcgill.ca/redpath/fr", "https://montreal.ca/lieux/square-phillips", 
 	"https://montreal.ca/lieux/square-dorchester", "http://www.cathedralecatholiquedemontreal.org/", "https://www.edificesunlife.ca/", 
 	"https://ville.montreal.qc.ca/siteofficieldumontroyal/batiment-institutionnel/pavillon-r-pavillon-ross-memorial-hopital-royal-victoria", "http://www.mcgillathletics.ca/", 
 	"http://www.carrefourindustriellealliance.com/", "https://www.cineplex.com/Cinemas/theatredetails2017?theatre_url=cinema-banque-scotia-montreal", "https://careers.google.com/locations/montreal/", 
