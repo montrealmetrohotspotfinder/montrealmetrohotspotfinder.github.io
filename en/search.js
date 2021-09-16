@@ -427,7 +427,8 @@ function init(){
 	{name: "Louis Boh&egrave;me", type: "Residence", address: "350 Boulevard de Maisonneuve Ouest", site: "https://www.louisboheme.com/en/"},
 	{name: "Le Concorde", type: "Residence", address: "441 Avenue du Pr&eacute;sident-Kennedy", site: "http://downtowncondosmontreal.com/le-concorde-2/"},
 	{name: "Le Peterson", type: "Residence", address: "405 Rue de la Concorde", site: "https://lepeterson.com/"},
-	{name: "Le Smith", type: "Residence", address: "2100 Rue de Bleury", site: "https://www.summitmanagement.ca/apartments/le-smith"}];
+	{name: "Le Smith", type: "Residence", address: "2100 Rue de Bleury", site: "https://www.summitmanagement.ca/apartments/le-smith"},
+	{name: "Jack Victor, Montreal offices", type: "Office", address: "1250 Rue Saint-Alexandre", site: "http://www.jackvictor.com/"}];
 	
 	McGill = [{name: "McGill University", type: "University", address: "845 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/"},
 	{name: "Centre Eaton de Montr&eacute;al", type: "Mall", address: "705 Rue Sainte-Catherine Ouest", site: "https://www.centreeatondemontreal.com/"},
