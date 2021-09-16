@@ -5,7 +5,6 @@ function init()
 	{name: "Place Montr&eacute;al Trust via Underground City", type: "Mall", address: "1500 Avenue McGill College", site: "https://www.placemontrealtrust.com/"},
 	{name: "Place Ville Marie via Underground City", type: "Mall", address: "1 Place Ville Marie", site: "http://www.placevillemarie.com/en"},
 	{name: "H&ocirc;tel Fairmont Reine Elizabeth via Underground City", type: "Hotel", address: "900 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.fairmont.com/queen-elizabeth-montreal/"},
-	{name: "Mus&eacute;e Gr&eacute;vin", type: "Museum", address: "705 Rue Sainte-Catherine Ouest", site: "https://www.grevin-montreal.com/en/"},
 	{name: "Mus&eacute;e McCord", type: "Museum", address: "690 Rue Sherbrooke Ouest", site: "https://www.musee-mccord.qc.ca/en/"},
 	{name: "Mus&eacute;e Redpath", type: "Museum", address: "859 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/redpath/"},
 	{name: "Square Phillips", type: "Town Square", address: "", site: "https://montreal.ca/en/places/square-phillips"},
