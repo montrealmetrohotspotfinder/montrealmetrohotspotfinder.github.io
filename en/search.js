@@ -114,7 +114,8 @@ function init(){
 	{name: "Parc Michel-Ange", type: "Park", address: "3615 Rue Michel-Ange", site: "#"},
 	{name: "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-du-ruisseau-du-pont-lavoine"},
 	{name: "Le Boulevard", type: "Mall", address: "4270 Rue Jean-Talon Est", site: "https://www.centreboulevard.com/en/"},
-	{name: "R&eacute;sidence Le St-Michel", type: "Residence", address: "7070 Boulevard Saint-Michel", site: "https://www.residencelesaintmichel.ca/en"}];
+	{name: "R&eacute;sidence Le St-Michel", type: "Residence", address: "7070 Boulevard Saint-Michel", site: "https://www.residencelesaintmichel.ca/en"},
+	{name: "&Eacute;glise de Dieu de la Proph&eacute;tie", type: "Church", address: "7277 Boulevard Saint-Michel", site: "https://egliselaprophetie.com/"}];
 	
 	Iberville = [{name: "P&acirc;tisserie La Conca D&#39;Oro", type: "Shopping", address: "2550 Rue Jean-Talon Est", site: "https://www.laconcadoro.net/"},
 	{name: "Parc Gabriel-Sagard", type: "Park", address: "7069 Rue Sagard", site: "https://montreal.ca/en/places/parc-gabriel-sagard"},
