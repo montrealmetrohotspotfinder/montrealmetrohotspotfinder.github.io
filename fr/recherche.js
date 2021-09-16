@@ -588,13 +588,14 @@ function init(){
 	"Louis Boh&egrave;me",
 	"Le Concorde",
 	"Le Peterson",
-	"Le Smith" ];
+	"Le Smith",
+	"Jack Victor, bureaux montr&eacute;alais" ];
 	
 	PlaceDesArtstypes = [ "Th&eacute;&acirc;tre", "District", "Mus&eacute;e", "Centre Commercial", "Agence", "H&ocirc;tel", "Universit&eacute;", "Th&eacute;&acirc;tre", "Gouvernement",
 	"Theatre", "Agence", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Agence", "Th&eacute;&acirc;tre", "Bureau",
 	"Coll&egrave;ge", "Agence", "Agence", "Agence", "Universit&eacute;", "&Eacute;glise", "Agence", "Biblioth&egrave;que", "Universit&eacute;", "&Eacute;cole", "Agence",
 	"Bureau", "Agence", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Parc", "R&eacute;sidence", "R&eacute;sidence",
-	"R&eacute;sidence", "R&eacute;sidence" ];
+	"R&eacute;sidence", "R&eacute;sidence", "Bureau" ];
 	
 	PlaceDesArtsaddresses = [ "175 Rue Sainte-Catherine Ouest", "", "185 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "1255 Rue Jeanne-Mance",
 	"141 Avenue du Pr&eacute;sident-Kennedy", "84 Rue Sainte-Catherine Ouest", "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1182 Boulevard Saint-Laurent", 
@@ -603,7 +604,7 @@ function init(){
 	"2050 Rue de Bleury", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "201 Avenue du Pr&eacute;sident-Kennedy", "137 Avenue du Pr&eacute;sident-Kennedy", "125 Rue Sherbrooke Ouest",
 	"145 Avenue du Pr&eacute;sident-Kennedy", "1501 Rue de Bleury", "1435 Rue de Bleury", "2050 Rue de Bleury", "395 Boulevard de Maisonneuve Ouest", "1435 Rue de Bleury", "305 Rue Sainte-Catherine Ouest",
 	"1600 Rue Saint-Urbain", "2101 Rue Jeanne-Mance", "200 Rue Sherbrooke Ouest", "100 Rue Sherbrooke Ouest", "", "350 Boulevard de Maisonneuve Ouest", "441 Avenue du Pr&eacute;sident-Kennedy",
-	"405 Rue de la Concorde", "2100 Rue de Bleury" ];
+	"405 Rue de la Concorde", "2100 Rue de Bleury", "1250 Rue Saint-Alexandre" ];
 	
 	PlaceDesArtssites = [ "https://placedesarts.com/fr", 
 	"https://www.quartierdesspectacles.com/fr/", 
@@ -647,7 +648,8 @@ function init(){
 	"https://www.louisboheme.com/",
 	"http://downtowncondosmontreal.com/le-concorde/",
 	"https://lepeterson.com/home-french.html",
-	"https://www.summitmanagement.ca/apartments/le-smith" ];
+	"https://www.summitmanagement.ca/apartments/le-smith",
+	"http://www.jackvictor.com/fr/" ];
 	
 	McGillnames = [ "Universit&eacute; McGill",
 		"Centre Eaton de Montr&eacute;al",
