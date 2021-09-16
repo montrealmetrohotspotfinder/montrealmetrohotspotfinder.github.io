@@ -882,7 +882,8 @@ function init(){
 	{name: "Restaurant Papillon", type: "Restaurant", address: "85 Rue Saint-Paul Est", site: "https://restaurantpapillon.business.site/"},
 	{name: "Trattoria Gio", type: "Restaurant", address: "452 Place Jacques-Cartier", site: "https://www.trattoriagio.com/english/"},
 	{name: "Restaurant Jacques-Cartier", type: "Restaurant", address: "444 Place Jacques-Cartier", site: "https://www.restaurantjacquescartier.ca/?lang=en"},
-	{name: "La Mar&eacute;e", type: "Restaurant", address: "404 Place Jacques-Cartier", site: "#"}];
+	{name: "La Mar&eacute;e", type: "Restaurant", address: "404 Place Jacques-Cartier", site: "#"},
+	{name: "Pincette Bar &agrave; Homard", type: "Restaurant", address: "94 Rue Saint-Paul Est", site: "https://pincettemtl.com/en/"}];
 	
 	PlaceDArmes = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
