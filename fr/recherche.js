@@ -1219,7 +1219,7 @@ function init(){
 	Cremazienames = [ "Fonds de Solidarit&eacute; FTQ", "Coll&egrave;ge Ahuntsic", "Coll&egrave;ge Andr&eacute;-Grasset", "Complexe Sportif Claude-Robillard", "CRIQ", "&Eacute;cole Saint-G&eacute;rard", "R&eacute;gie du B&acirc;timent du Qu&eacute;bec",
 	"Parc Saint-Alphonse", "Ar&eacute;na Michel-Normandin", "Institut SA", "Commission de la Construction du Qu&eacute;bec" ];
 	
-	Cremazietypes = [ "Agence", "Coll&egrave;ge", "Coll&egrave;ge", "Sports", "Agence", "&Eacute;cole", "Agence", "Parc", "Sports", "Coll&egrave;ge", "Agency" ];
+	Cremazietypes = [ "Agence", "Coll&egrave;ge", "Coll&egrave;ge", "Sports", "Agence", "&Eacute;cole", "Agence", "Parc", "Sports", "Coll&egrave;ge", "Agence" ];
 	
 	Cremazieaddresses = [ "545 Boulevard Cr&eacute;mazie Est", "9155 Rue Saint-Hubert", "1001 Boulevard Cr&eacute;mazie Est", "1000 Avenue &Eacute;mile-Journault", "1201 Boulevard Cr&eacute;mazie Est", "505 Rue de Li&egrave;ge Est", "255 Boulevard Cr&eacute;mazie Est",
 	"8888 Avenue de Chateaubriand", "850 Avenue &Eacute;mile-Journault", "690 Boulevard Cr&eacute;mazie Est", "8485 Avenue Christophe-Colomb" ];
