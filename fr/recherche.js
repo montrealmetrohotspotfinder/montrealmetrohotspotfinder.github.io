@@ -1217,15 +1217,15 @@ function init(){
 	Sauvesites = [ "https://montreal.ca/lieux/parc-henri-julien", "https://montreal.ca/lieux/parc-dauteuil", "https://www.revanous.org/", "https://christ-roi.csdm.ca/", "https://marie-anne.csdm.ca/" ];
 	
 	Cremazienames = [ "Fonds de Solidarit&eacute; FTQ", "Coll&egrave;ge Ahuntsic", "Coll&egrave;ge Andr&eacute;-Grasset", "Complexe Sportif Claude-Robillard", "CRIQ", "&Eacute;cole Saint-G&eacute;rard", "R&eacute;gie du B&acirc;timent du Qu&eacute;bec",
-	"Parc Saint-Alphonse", "Ar&eacute;na Michel-Normandin", "Institut SA" ];
+	"Parc Saint-Alphonse", "Ar&eacute;na Michel-Normandin", "Institut SA", "Commission de la Construction du Qu&eacute;bec" ];
 	
-	Cremazietypes = [ "Agence", "Coll&egrave;ge", "Coll&egrave;ge", "Sports", "Agence", "&Eacute;cole", "Agence", "Parc", "Sports", "Coll&egrave;ge" ];
+	Cremazietypes = [ "Agence", "Coll&egrave;ge", "Coll&egrave;ge", "Sports", "Agence", "&Eacute;cole", "Agence", "Parc", "Sports", "Coll&egrave;ge", "Agency" ];
 	
 	Cremazieaddresses = [ "545 Boulevard Cr&eacute;mazie Est", "9155 Rue Saint-Hubert", "1001 Boulevard Cr&eacute;mazie Est", "1000 Avenue &Eacute;mile-Journault", "1201 Boulevard Cr&eacute;mazie Est", "505 Rue de Li&egrave;ge Est", "255 Boulevard Cr&eacute;mazie Est",
-	"8888 Avenue de Chateaubriand", "850 Avenue &Eacute;mile-Journault", "690 Boulevard Cr&eacute;mazie Est" ];
+	"8888 Avenue de Chateaubriand", "850 Avenue &Eacute;mile-Journault", "690 Boulevard Cr&eacute;mazie Est", "8485 Avenue Christophe-Colomb" ];
 	
 	Cremaziesites = [ "https://www.fondsftq.com/fr-ca/accueil.aspx", "https://www.collegeahuntsic.qc.ca/", "https://www.grasset.qc.ca/", "https://montreal.ca/lieux/complexe-sportif-claude-robillard", "https://www.criq.qc.ca/fr/", "https://st-gerard.csdm.ca/", "https://www.rbq.gouv.qc.ca/",
-	"https://montreal.ca/lieux/parc-saint-alphonse", "https://montreal.ca/lieux/arena-michel-normandin", "https://sainstitute.ca/fr/accueil/" ];
+	"https://montreal.ca/lieux/parc-saint-alphonse", "https://montreal.ca/lieux/arena-michel-normandin", "https://sainstitute.ca/fr/accueil/", "https://www.ccq.org/" ];
 	
 	Jarrynames = [ "Parc Jarry", "Stade IGA", "Parc Saint-Vincent-Ferrier", "Parc G&eacute;rard-Lalonde", "Paroisse Saint-Vincent-Ferrier", "&Eacute;cole H&eacute;l&egrave;ne-Boull&eacute;",
 		 "Centre Sainte-Croix" ];
