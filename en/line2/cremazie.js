@@ -4,7 +4,7 @@ function init()
 	{name: "Coll&egrave;ge Ahuntsic", type: "College", address: "9155 Rue Saint-Hubert", site: "https://www.collegeahuntsic.qc.ca/"},
 	{name: "Coll&egrave;ge Andr&eacute;-Grasset", type: "College", address: "1001 Boulevard Cr&eacute;mazie Est", site: "https://www.grasset.qc.ca/"},
 	{name: "Complexe Sportif Claude-Robillard", type: "Sports", address: "1000 Avenue &Eacute;mile-Journault", site: "https://montreal.ca/en/places/complexe-sportif-claude-robillard"},
-	{name: "CRIQ", type: "Agency", address: "1201 Boulevard Cr&eacute;mazie Est", site: "https://www.criq.qc.ca/en/"},
+	{name: "Centre de Recherche Industrielle du Qu&eacute;bec", type: "Agency", address: "1201 Boulevard Cr&eacute;mazie Est", site: "https://www.criq.qc.ca/en/"},
 	{name: "&Eacute;cole Saint-G&eacute;rard", type: "School", address: "505 Rue de Li&egrave;ge Est", site: "https://st-gerard.csdm.ca/"},
 	{name: "R&eacute;gie du B&acirc;timent du Qu&eacute;bec", type: "Agency", address: "255 Boulevard Cr&eacute;mazie Est", site: "https://www.rbq.gouv.qc.ca/en.html"},
 	{name: "Parc Saint-Alphonse", type: "Park", address: "8888 Avenue de Chateaubriand", site: "https://montreal.ca/en/places/parc-saint-alphonse"},
