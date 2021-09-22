@@ -1,15 +1,15 @@
 function init()
 {
 	hnames = [ "Fonds de Solidarit&eacute; FTQ", "Coll&egrave;ge Ahuntsic", "Coll&egrave;ge Andr&eacute;-Grasset", "Complexe Sportif Claude-Robillard", "CRIQ", "&Eacute;cole Saint-G&eacute;rard", "R&eacute;gie du B&acirc;timent du Qu&eacute;bec",
-	"Parc Saint-Alphonse", "Ar&eacute;na Michel-Normandin", "Institut SA" ];
+	"Parc Saint-Alphonse", "Ar&eacute;na Michel-Normandin", "Institut SA", "Commission de la Construction du Qu&eacute;bec" ];
 	
-	htypes = [ "Agence", "Coll&egrave;ge", "Coll&egrave;ge", "Sports", "Agence", "&Eacute;cole", "Agence", "Parc", "Sports", "Coll&egrave;ge" ];
+	htypes = [ "Agence", "Coll&egrave;ge", "Coll&egrave;ge", "Sports", "Agence", "&Eacute;cole", "Agence", "Parc", "Sports", "Coll&egrave;ge", "Agency" ];
 	
 	haddresses = [ "545 Boulevard Cr&eacute;mazie Est", "9155 Rue Saint-Hubert", "1001 Boulevard Cr&eacute;mazie Est", "1000 Avenue &Eacute;mile-Journault", "1201 Boulevard Cr&eacute;mazie Est", "505 Rue de Li&egrave;ge Est", "255 Boulevard Cr&eacute;mazie Est",
-	"8888 Avenue de Chateaubriand", "850 Avenue &Eacute;mile-Journault", "690 Boulevard Cr&eacute;mazie Est" ];
+	"8888 Avenue de Chateaubriand", "850 Avenue &Eacute;mile-Journault", "690 Boulevard Cr&eacute;mazie Est", "8485 Avenue Christophe-Colomb" ];
 	
 	hsites = [ "https://www.fondsftq.com/fr-ca/accueil.aspx", "https://www.collegeahuntsic.qc.ca/", "https://www.grasset.qc.ca/", "https://montreal.ca/lieux/complexe-sportif-claude-robillard", "https://www.criq.qc.ca/fr/", "https://st-gerard.csdm.ca/", "https://www.rbq.gouv.qc.ca/",
-	"https://montreal.ca/lieux/parc-saint-alphonse", "https://montreal.ca/lieux/arena-michel-normandin", "https://sainstitute.ca/fr/accueil/" ];
+	"https://montreal.ca/lieux/parc-saint-alphonse", "https://montreal.ca/lieux/arena-michel-normandin", "https://sainstitute.ca/fr/accueil/", "https://www.ccq.org/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
