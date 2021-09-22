@@ -734,7 +734,8 @@ function init(){
 	{name: "R&eacute;gie du B&acirc;timent du Qu&eacute;bec", type: "Agency", address: "255 Boulevard Cr&eacute;mazie Est", site: "https://www.rbq.gouv.qc.ca/en.html"},
 	{name: "Parc Saint-Alphonse", type: "Park", address: "8888 Avenue de Chateaubriand", site: "https://montreal.ca/en/places/parc-saint-alphonse"},
 	{name: "Ar&eacute;na Michel-Normandin", type: "Sports", address: "850 Avenue &Eacute;mile-Journault", site: "https://montreal.ca/en/places/arena-michel-normandin"},
-	{name: "Institut SA", type: "College", address: "690 Boulevard Cr&eacute;mazie Est", site: "https://sainstitute.ca/"}];
+	{name: "Institut SA", type: "College", address: "690 Boulevard Cr&eacute;mazie Est", site: "https://sainstitute.ca/"},
+	{name: "Commission de la Construction du Qu&eacute;bec", type: "Agency", address: "8485 Avenue Christophe-Colomb", site: "https://www.ccq.org/en"}];
 	
 	Jarry = [{name: "Parc Jarry", type: "Park", address: "285 Rue Gary-Carter", site: "https://montreal.ca/en/places/parc-jarry"},
 	{name: "Stade IGA", type: "Sports", address: "285 Rue Gary-Carter", site: "http://stadeiga.com/en/"},
