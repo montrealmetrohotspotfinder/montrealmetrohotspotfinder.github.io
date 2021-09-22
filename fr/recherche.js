@@ -1216,7 +1216,7 @@ function init(){
 	
 	Sauvesites = [ "https://montreal.ca/lieux/parc-henri-julien", "https://montreal.ca/lieux/parc-dauteuil", "https://www.revanous.org/", "https://christ-roi.csdm.ca/", "https://marie-anne.csdm.ca/" ];
 	
-	Cremazienames = [ "Fonds de Solidarit&eacute; FTQ", "Coll&egrave;ge Ahuntsic", "Coll&egrave;ge Andr&eacute;-Grasset", "Complexe Sportif Claude-Robillard", "CRIQ", "&Eacute;cole Saint-G&eacute;rard", "R&eacute;gie du B&acirc;timent du Qu&eacute;bec",
+	Cremazienames = [ "Fonds de Solidarit&eacute; FTQ", "Coll&egrave;ge Ahuntsic", "Coll&egrave;ge Andr&eacute;-Grasset", "Complexe Sportif Claude-Robillard", "Centre de Recherche Industrielle du Qu&eacute;bec", "&Eacute;cole Saint-G&eacute;rard", "R&eacute;gie du B&acirc;timent du Qu&eacute;bec",
 	"Parc Saint-Alphonse", "Ar&eacute;na Michel-Normandin", "Institut SA", "Commission de la Construction du Qu&eacute;bec" ];
 	
 	Cremazietypes = [ "Agence", "Coll&egrave;ge", "Coll&egrave;ge", "Sports", "Agence", "&Eacute;cole", "Agence", "Parc", "Sports", "Coll&egrave;ge", "Agence" ];
