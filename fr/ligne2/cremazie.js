@@ -1,6 +1,6 @@
 function init()
 {
-	hnames = [ "Fonds de Solidarit&eacute; FTQ", "Coll&egrave;ge Ahuntsic", "Coll&egrave;ge Andr&eacute;-Grasset", "Complexe Sportif Claude-Robillard", "CRIQ", "&Eacute;cole Saint-G&eacute;rard", "R&eacute;gie du B&acirc;timent du Qu&eacute;bec",
+	hnames = [ "Fonds de Solidarit&eacute; FTQ", "Coll&egrave;ge Ahuntsic", "Coll&egrave;ge Andr&eacute;-Grasset", "Complexe Sportif Claude-Robillard", "Centre de Recherche Industrielle du Qu&eacute;bec", "&Eacute;cole Saint-G&eacute;rard", "R&eacute;gie du B&acirc;timent du Qu&eacute;bec",
 	"Parc Saint-Alphonse", "Ar&eacute;na Michel-Normandin", "Institut SA", "Commission de la Construction du Qu&eacute;bec" ];
 	
 	htypes = [ "Agence", "Coll&egrave;ge", "Coll&egrave;ge", "Sports", "Agence", "&Eacute;cole", "Agence", "Parc", "Sports", "Coll&egrave;ge", "Agence" ];
