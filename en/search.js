@@ -746,7 +746,8 @@ function init(){
 	{name: "Parc G&eacute;rard-Lalonde", type: "Park", address: "375 Rue Jarry Est", site: "#"},
 	{name: "Paroisse Saint-Vincent-Ferrier", type: "Church", address: "301 Rue Jarry Est", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-vincent-ferrier"},
 	{name: "&Eacute;cole H&eacute;l&egrave;ne-Boull&eacute;", type: "School", address: "8050 Avenue de Gasp&eacute;", site: "https://helene-boulle.cssdm.gouv.qc.ca/"},
-	{name: "Centre Sainte-Croix", type: "School", address: "85 Rue Jarry Ouest", site: "https://centre-ste-croix.cssdm.gouv.qc.ca/"}];
+	{name: "Centre Sainte-Croix", type: "School", address: "85 Rue Jarry Ouest", site: "https://centre-ste-croix.cssdm.gouv.qc.ca/"},
+	{name: "Qu&eacute;bec Deli", type: "Restaurant", address: "590 Rue Jarry Est", site: "http://www.quebecdeli.ca/en/home"}];
 	
 	Beaubien = [{name: "Plaza Saint-Hubert", type: "Shopping", address: "6841 Rue Saint-Hubert", site: "https://www.plazasthubert.com/en/"},
 	{name: "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", type: "Church", address: "6800 Avenue Henri-Julien", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/notre-dame-de-la-defense-italiens"},
