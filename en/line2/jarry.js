@@ -6,7 +6,8 @@ function init()
 	{name: "Parc G&eacute;rard-Lalonde", type: "Park", address: "375 Rue Jarry Est", site: "#"},
 	{name: "Paroisse Saint-Vincent-Ferrier", type: "Church", address: "301 Rue Jarry Est", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-vincent-ferrier"},
 	{name: "&Eacute;cole H&eacute;l&egrave;ne-Boull&eacute;", type: "School", address: "8050 Avenue de Gasp&eacute;", site: "https://helene-boulle.cssdm.gouv.qc.ca/"},
-	{name: "Centre Sainte-Croix", type: "School", address: "85 Rue Jarry Ouest", site: "https://centre-ste-croix.cssdm.gouv.qc.ca/"}];
+	{name: "Centre Sainte-Croix", type: "School", address: "85 Rue Jarry Ouest", site: "https://centre-ste-croix.cssdm.gouv.qc.ca/"},
+	{name: "Qu&eacute;bec Deli", type: "Restaurant", address: "590 Rue Jarry Est", site: "http://www.quebecdeli.ca/en/home"}];
 		
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
