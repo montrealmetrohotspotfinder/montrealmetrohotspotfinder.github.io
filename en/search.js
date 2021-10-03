@@ -738,7 +738,9 @@ function init(){
 	{name: "Commission de la Construction du Qu&eacute;bec", type: "Agency", address: "8485 Avenue Christophe-Colomb", site: "https://www.ccq.org/en"},
 	{name: "Comit&eacute; de Gestion de la Taxe Scolaire de l&#39;&Icirc;le de Montr&eacute;al", type: "Agency", address: "500 Boulevard Cr&eacute;mazie Est", site: "https://cgtsim.qc.ca/en/"},
 	{name: "Minist&egrave;re de l&#39;Agriculture, des P&ecirc;cheries et de l&#39;Alimentation, Montreal offices", type: "Agency", address: "201 Boulevard Cr&eacute;mazie Est", site: "https://www.mapaq.gouv.qc.ca/fr/Pages/Accueil.aspx"},
-	{name: "Doctors of the World Canada", type: "Agency", address: "560 Boulevard Cr&eacute;mazie Est", site: "https://www.doctorsoftheworld.ca/"}];
+	{name: "Doctors of the World Canada", type: "Agency", address: "560 Boulevard Cr&eacute;mazie Est", site: "https://www.doctorsoftheworld.ca/"},
+	{name: "Parc Blanche-Lamontagne", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-blanche-lamontagne"},
+	{name: "Institut National de la Sant&eacute; Publique du Qu&eacute;bec, Montreal offices", type: "Agency", address: "190 Boulevard Cr&eacute;mazie Est", site: "https://www.inspq.qc.ca/en"}];
 	
 	Jarry = [{name: "Parc Jarry", type: "Park", address: "285 Rue Gary-Carter", site: "https://montreal.ca/en/places/parc-jarry"},
 	{name: "Stade IGA", type: "Sports", address: "285 Rue Gary-Carter", site: "http://stadeiga.com/en/"},
