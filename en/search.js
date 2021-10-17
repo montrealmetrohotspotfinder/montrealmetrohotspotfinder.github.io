@@ -1036,7 +1036,8 @@ function init(){
 	{name: "Vargas", type: "Restaurant", address: "690 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.vargas.ca/"},
 	{name: "Telus, Montreal offices", type: "Office", address: "630 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.telus.com/en/"},
 	{name: "AlphaCCO", type: "Office", address: "625 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://alphacco.com/en/"},
-	{name: "Curateur Public du Qu&eacute;bec", type: "Agency", address: "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.curateur.gouv.qc.ca/cura/en/index.html"}];
+	{name: "Curateur Public du Qu&eacute;bec", type: "Agency", address: "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.curateur.gouv.qc.ca/cura/en/index.html"},
+	{name: "Ordre des Dentistes du Qu&eacute;bec", type: "Agency", address: "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "http://www.odq.qc.ca/Home/tabid/149/language/en-US/Default.aspx"}];
 	
 	LucienLAllier = [{name: "Bell Centre", type: "Sports", address: "1909 Avenue des Canadiens-de-Montr&eacute;al", site: "https://www.centrebell.ca/en"},
 	{name: "Tour Deloitte", type: "Office", address: "1115 Rue Saint-Antoine Ouest", site: "https://www.cfoffice.ca/property/home/cf-deloitte-tower"},
