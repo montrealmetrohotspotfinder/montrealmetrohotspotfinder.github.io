@@ -1420,22 +1420,22 @@ function init(){
 	Bonaventurenames = [ "Gare Centrale", "Terminus Centre-Ville", "Les Halles de la Gare", "Place Bonaventure", "STM, si&egrave;ge social", "Centre Bell", "1000 De La Gaucheti&egrave;re", "Place Ville Marie",
 	"H&ocirc;tel Fairmont Reine Elizabeth", "Marriott Ch&acirc;teau Champlain", "Maison de l&#39;OACI", "Cath&eacute;drale Marie Reine du Monde", "Square Dorchester", "&Eacute;difice Sun Life", 
 	"Time Supper Club", "Immigration, R&eacute;fugi&eacute;s et Citoyennet&eacute; Canada", "H&ocirc;tel Bonaventure", "Place du Canada", "1250 Ren&eacute;-L&eacute;vesque", "Vargas",
-	"Telus, bureaux montr&eacute;alais", "AlphaCCO", "Curateur Public du Qu&eacute;bec" ];
+	"Telus, bureaux montr&eacute;alais", "AlphaCCO", "Curateur Public du Qu&eacute;bec", "Ordre des Dentistes du Qu&eacute;bec" ];
 	
 	Bonaventuretypes = [ "Station de Train", "Terminus d&#39;Autobus", "Centre Commercial", "Centre de Convention", "Bureau", "Sports", "Bureau", "Centre Commercial", "H&ocirc;tel", "H&ocirc;tel", 
-	"Bureau", "&Eacute;glise", "Place de la Ville", "Bureau", "Salle de R&eacute;ception", "Agence", "H&ocirc;tel", "Place de la Ville", "Bureau", "Restaurant", "Bureau", "Bureau", "Agence" ];
+	"Bureau", "&Eacute;glise", "Place de la Ville", "Bureau", "Salle de R&eacute;ception", "Agence", "H&ocirc;tel", "Place de la Ville", "Bureau", "Restaurant", "Bureau", "Bureau", "Agence", "Agence" ];
 	
 	Bonaventureaddresses = [ "895 Rue de la Gaucheti&egrave;re Ouest", "1000 Rue de la Gaucheti&egrave;re Ouest", "895 Rue de la Gaucheti&egrave;re Ouest", "800 Rue de la Gaucheti&egrave;re Ouest", 
 	"800 Rue de la Gaucheti&egrave;re Ouest", "1909 Avenue des Canadiens-de-Montr&eacute;al", "1000 Rue de la Gaucheti&egrave;re Ouest", "1 Place Ville Marie", "900 Boulevard Ren&eacute;-L&eacute;vesque Ouest", 
 	"1050 Rue de la Gaucheti&egrave;re Ouest", "999 Boulevard Robert-Bourassa", "1085 Rue de la Cath&eacute;drale", "2903 Rue Peel", "1155 Rue Metcalfe", "997 Rue Saint-Jacques", "1010 Rue Saint-Antoine Ouest",
 	"900 Rue de la Gaucheti&egrave;re Ouest", "1010 Rue de la Gaucheti&egrave;re Ouest", "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "690 Boulevard Ren&eacute-L&eacute;vesque Ouest",
-	"630 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "625 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest" ];
+	"630 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "625 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest" ];
 	
 	Bonaventuresites = [ "https://garecentrale.ca/fr/", "https://exo.quebec/planifier-trajet/installations-intermodales/terminus-centre", "https://garecentrale.ca/fr/halles-de-la-gare", "http://placebonaventure.com/fr/", 
 	"http://stm.info/fr", "https://www.centrebell.ca/fr", "https://www.le1000.com/fr", "https://placevillemarie.com/fr", "https://www.fairmont.fr/queen-elizabeth-montreal/", "https://www.marriott.fr/hotels/travel/yulcc-montreal-marriott-chateau-champlain", 
 	"https://www.icao.int/Pages/default.aspx", "http://www.cathedralecatholiquedemontreal.org/", "https://montreal.ca/lieux/square-dorchester", "https://www.edificesunlife.ca/", 
 	"https://timesupperclub.com/fr", "https://www.canada.ca/fr/services/immigration-citoyennete.html", "https://hotelbonaventure.com/fr/", "https://montreal.ca/lieux/place-du-canada", "https://imtl.org/edifices/IBM-Marathon.php",
-	"https://www.vargas.ca/?lang=fr", "https://www.telus.com/fr/", "https://alphacco.com/", "https://www.curateur.gouv.qc.ca/cura/fr/index.html" ];
+	"https://www.vargas.ca/?lang=fr", "https://www.telus.com/fr/", "https://alphacco.com/", "https://www.curateur.gouv.qc.ca/cura/fr/index.html", "http://www.odq.qc.ca/Accueil/tabid/127/language/fr-CA/Default.aspx" ];
 	
 	LucienLAlliernames = [ "Centre Bell", "Tour Deloitte", "Tour des Canadiens", "&Eacute;cole de Technologie Sup&eacute;rieure", "Gare Windsor", "WeWork L&#39;Avenue", "Coll&egrave;ge Herzing", 
 	"Holiday Inn & Suites Montr&eacute;al Centre-Ville Ouest", "Le Centre Sheraton Montr&eacute;al", "Novotel Montr&eacute;al Centre", "H&ocirc;tel Le Crystal", "Le Nouvel H&ocirc;tel & Spa", "Coll&egrave;ge O&#39;Sullivan",
