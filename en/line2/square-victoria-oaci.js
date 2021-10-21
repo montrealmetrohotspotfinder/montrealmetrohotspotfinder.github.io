@@ -54,7 +54,9 @@ function init()
 	{name: "The Farsides", type: "Restaurant", address: "690 Rue Notre-Dame Ouest", site: "https://www.thefarsides.com/"},
 	{name: "Holder", type: "Restaurant", address: "407 Rue McGill", site: "http://restaurantholder.com/en/"},
 	{name: "Le Cartet Resto Boutique", type: "Restaurant", address: "106 Rue McGill", site: "https://lecartet.ca/indexen.html"},
-	{name: "Dandy", type: "Restaurant", address: "244 Rue Saint-Jacques", site: "http://dandymtl.com/"}];
+	{name: "Dandy", type: "Restaurant", address: "244 Rue Saint-Jacques", site: "http://dandymtl.com/"},
+	{name: "Le 409", type: "Restaurant", address: "409 Rue McGill", site: "https://le409.com/"},
+	{name: "Monarque", type: "Restaurant", address: "406 Rue Saint-Jacques", site: "https://restaurantmonarque.ca/en"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
