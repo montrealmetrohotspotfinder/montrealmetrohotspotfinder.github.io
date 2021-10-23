@@ -1353,7 +1353,7 @@ function init(){
 	"https://www.lesolano.com/", "https://montreal.ca/lieux/parc-de-la-chasse-galerie", "https://montreal.ca/lieux/place-victor-morin", "https://montreal.ca/lieux/parc-francois-dollier-de-casson", "http://www.montrealchinesehospital.ca/", "https://perchemtl.com/",
 	"https://montreal.ca/lieux/square-viger", "http://www.lecentreculturelmarocain.ca/", "https://maisonsco.com/fr/maisonsco", "https://maisonsco.com/fr/maisonsco", "https://hotelwilliamgray.com/fr/food/terrasse-william-gray-fr/",
 	"https://vieuxmontreal.ca/commerces/le-senateur", "https://www.lusinedespaghettimtl.com/bienvenue", "https://www.montrealpoutine.us/", "https://www.leclubchasseetpeche.com/", 
-	"https://pubmontreal.com/french/", "https://jacopomtl.com/", "https://restaurantpapillon.business.site/", "https://www.trattoriagio.com/french/", "https://www.restaurantjacquescartier.ca/?lang=fr", "#", "https://pincettemtl.com/", "https://www.brasserie321.ca/" ];
+	"https://pubmontreal.com/french/", "https://jacopomtl.com/", "https://restaurantpapillon.business.site/", "https://www.trattoriagio.com/french/", "https://www.restaurantjacquescartier.ca/?lang=fr", "#", "https://pincettemtl.com/", "https://www.brasserie321.ca/?lang=fr" ];
 	
 	PlaceDArmesnames = [ "Vieux Montr&eacute;al", "Vieux Port de Montr&eacute;al", "Centre des Sciences de Montr&eacute;al", "Mus&eacute;e Pointe-&agrave;-Calli&egrave;re", "Douanes de Montr&eacute;al", "Place d&#39;Youville",
 	"Gibby&#39;s", "SeaSalt Ceviche & Bar", "Quartier Chinois", "La Presse", "Mission Old Brewery", "Palais des Congr&egrave;s", "Palais de Justice de Montr&eacute;al", "Basilique Notre-Dame", 
