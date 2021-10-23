@@ -26,7 +26,7 @@ function init()
 	"https://www.lesolano.com/", "https://montreal.ca/lieux/parc-de-la-chasse-galerie", "https://montreal.ca/lieux/place-victor-morin", "https://montreal.ca/lieux/parc-francois-dollier-de-casson", "http://www.montrealchinesehospital.ca/", "https://perchemtl.com/",
 	"https://montreal.ca/lieux/square-viger", "http://www.lecentreculturelmarocain.ca/", "https://maisonsco.com/fr/maisonsco", "https://maisonsco.com/fr/maisonsco", "https://hotelwilliamgray.com/fr/food/terrasse-william-gray-fr/",
 	"https://vieuxmontreal.ca/commerces/le-senateur", "https://www.lusinedespaghettimtl.com/bienvenue", "https://www.montrealpoutine.us/", "https://www.leclubchasseetpeche.com/", 
-	"https://pubmontreal.com/french/", "https://jacopomtl.com/", "https://restaurantpapillon.business.site/", "https://www.trattoriagio.com/french/", "https://www.restaurantjacquescartier.ca/?lang=fr", "#", "https://pincettemtl.com/", "https://www.brasserie321.ca/" ];
+	"https://pubmontreal.com/french/", "https://jacopomtl.com/", "https://restaurantpapillon.business.site/", "https://www.trattoriagio.com/french/", "https://www.restaurantjacquescartier.ca/?lang=fr", "#", "https://pincettemtl.com/", "https://www.brasserie321.ca/?lang=fr" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
