@@ -66,7 +66,8 @@ function init()
 	{name: "Campo", type: "Restaurant", address: "1108 Boulevard de Maisonneuve Ouest", site: "https://campomtl.com/en/"},
 	{name: "H&ocirc;tel Ambrose", type: "Hotel", address: "3422 Rue Stanley", site: "https://hotelambrose.ca/en"},
 	{name: "Maison Louis-Joseph-Forget", type: "Historical Site", address: "1195 Rue Sherbrooke Ouest", site: "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92828&type=bien"},
-	{name: "Maison James-Reid-Wilson", type: "Historical Site", address: "1201 Rue Sherbrooke Ouest", site: "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92829&type=bien"} ];
+	{name: "Maison James-Reid-Wilson", type: "Historical Site", address: "1201 Rue Sherbrooke Ouest", site: "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92829&type=bien"},
+	{name: "La Soci&eacute;t&eacute;", type: "Restaurant", address: "1415 Rue de la Montagne", site: "https://montreal.lasociete.ca/"} ];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
