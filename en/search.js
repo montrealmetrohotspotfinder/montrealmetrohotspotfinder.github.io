@@ -1065,7 +1065,8 @@ function init(){
 	{name: "1250 Ren&eacute;-L&eacute;vesque", type: "Office", address: "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://imtl.org/montreal/building/IBM-Marathon.php"},
 	{name: "Parc Julia-Drummond", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-julia-drummond"},
 	{name: "Auberge Les Bons Matins", type: "Hotel", address: "1401 Avenue Argyle", site: "https://www.bonsmatins.com/en"},
-	{name: "Roccabella", type: "Residence", address: "1059 Rue de la Montagne", site: "https://roccabella.ca/en/"}];
+	{name: "Roccabella", type: "Residence", address: "1059 Rue de la Montagne", site: "https://roccabella.ca/en/"},
+	{name: "CGI, Montreal offices", type: "Office", address: "1350 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.cgi.com/en"}];
 	
 	GeorgesVanier = [{name: "Parc Oscar-Peterson", type: "Park", address: "810 Rue Chatham", site: "https://montreal.ca/en/places/parc-oscar-peterson"},
 	{name: "Paroisse Saint Anthony of Padua", type: "Church", address: "1950 Rue Saint-Antoine Ouest", site: "https://diocesemontreal.org/en/lets-connect/churches-parishes/saint-anthony-padua"},
