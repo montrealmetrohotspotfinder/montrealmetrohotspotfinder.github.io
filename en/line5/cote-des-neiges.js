@@ -18,7 +18,7 @@ function init()
 	{name: "&Eacute;cole Saint-Pascal-Baylon", type: "School", address: "6320 Chemin de la C&ocirc;te-des-Neiges", site: "https://st-pascal-baylon.cssdm.gouv.qc.ca/"},
 	{name: "Parc Martin-Luther-King", type: "Park", address: "3453 Avenue de Kent", site: "https://montreal.ca/en/places/parc-martin-luther-king"},
 	{name: "Coll&egrave;ge Jean-de-Br&eacute;beuf", type: "College", address: "3200 Chemin de la C&ocirc;te-Sainte-Catherine", site: "https://www.brebeuf.qc.ca/"},
-	{name: "H&oirc;tel Terrasse Royale", type: "Hotel", address: "5225 Chemin de la C&ocirc;te-des-Neiges", site: "https://terrasse-royale.com/"}];
+	{name: "H&ocirc;tel Terrasse Royale", type: "Hotel", address: "5225 Chemin de la C&ocirc;te-des-Neiges", site: "https://terrasse-royale.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
