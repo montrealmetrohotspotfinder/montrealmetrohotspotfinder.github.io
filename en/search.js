@@ -255,7 +255,9 @@ function init(){
 	{name: "&Eacute;cole Saint-Fabien", type: "School", address: "6500 Avenue de Renty", site: "https://st-fabien.cssdm.gouv.qc.ca/"},
 	{name: "Paroisse Saint-Fabien", type: "Church", address: "6455 Avenue de Renty", site: "http://www.saintfabien.org/Page00.html"},
 	{name: "Parc F&eacute;lix-Leclerc", type: "Park", address: "6700 Rue Fran&ccedil;ois-Boivin", site: "https://montreal.ca/en/places/parc-felix-leclerc"},
-	{name: "Edward Murphy School", type: "School", address: "6800 Avenue Pierre-de-Coubertin", site: "http://edwardmurphy.emsb.qc.ca/"}];
+	{name: "Edward Murphy School", type: "School", address: "6800 Avenue Pierre-de-Coubertin", site: "http://edwardmurphy.emsb.qc.ca/"},
+	{name: "New Milano", type: "Restaurant", address: "6625 Rue de Marseille", site: "https://www.newmilano.ca/en-ca/"},
+	{name: "Vincent Sous-Marins", type: "Restaurant", address: "6647 Rue de Marseille", site: "http://vincentsous-marins.ca/en"}];
 	
 	Cadillac = [{name: "Centre de Soins Prolong&eacute;s Grace Dart", type: "Residence", address: "5155 Rue Sainte-Catherine Est", site: "https://ciusss-ouestmtl.gouv.qc.ca/en/contact-location/long-term-care-centres-chsld/grace-dart-extended-care-centre/"},
 	{name: "Plaza Antique", type: "Reception Hall", address: "6086 Rue Sherbrooke Est", site: "https://plazapmg.com/en/plaza-antique/"},
