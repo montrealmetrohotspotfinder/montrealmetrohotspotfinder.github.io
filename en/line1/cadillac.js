@@ -8,7 +8,8 @@ function init()
 	{name: "&Eacute;cole Rosalie-Jett&eacute;", type: "School", address: "5100 Rue Bossuet", site: "https://rosalie-jette.csdm.ca/"},
 	{name: "&Eacute;cole Notre-Dame-des-Victoires", type: "School", address: "2720 Rue Bossuet", site: "https://notre-dame-des-victoires.csdm.ca/"},
 	{name: "Sanctuaire Marie-Reine-des-Coeurs", type: "Church", address: "5875 Rue Sherbrooke Est", site: "https://smrdc.org/"},
-	{name: "Parc Bossuet", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-bossuet"}];
+	{name: "Parc Bossuet", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-bossuet"},
+	{name: "Association Pulmonaire du Qu&eacute;bec", type: "Agency", address: "6070 Rue Sherbrooke Est", site: "https://poumonquebec.ca/en/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
