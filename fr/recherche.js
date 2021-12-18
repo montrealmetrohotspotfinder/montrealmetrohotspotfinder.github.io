@@ -402,19 +402,22 @@ function init(){
 	Langeliernames = [ "Centre Domaine", "Salon de Quilles Centre Commercial Le Domaine", "Le Repos Saint-Fran&ccedil;ois-d&#39;Assise", "Mairie de Mercier&#8211;Hochelaga-Maisonneuve",
 	"Biblioth&egrave;que Langelier", "Carrefour Langelier", "Ar&eacute;na Saint-Donat", "Parc Saint-Donat", "Parc de Lotbini&egrave;re", "Parc Mignault",
 	"Centre R&eacute;cr&eacute;atif et Communautaire Saint-Donat", "&Eacute;cole Saint-Donat", "&Eacute;glise Saint-Donat de Montr&eacute;al",
-	"&Eacute;cole Louis-Dupire", "Les Habitations Le Domaine", "&Eacute;cole Saint-Fabien", "Paroisse Saint-Fabien", "Parc F&eacute;lix-Leclerc", "&Eacute;cole Edward Murphy" ];
+	"&Eacute;cole Louis-Dupire", "Les Habitations Le Domaine", "&Eacute;cole Saint-Fabien", "Paroisse Saint-Fabien", "Parc F&eacute;lix-Leclerc", "&Eacute;cole Edward Murphy",
+	"New Milano", "Vincent Sous-Marins" ];
 	
 	Langeliertypes = [ "Centre Commercial", "Sports", "Cimeti&egrave;re", "Gouvernement", "Biblioth&egrave;que", "Centre Commercial", "Sports", "Parc", "Parc", "Parc", "Centre Culturel", "&Eacute;cole", "&Eacute;glise",
-	"&Eacute;cole", "R&eacute;sidence", "&Eacute;cole", "&Eacute;glise", "Parc", "&Eacute;cole" ];
+	"&Eacute;cole", "R&eacute;sidence", "&Eacute;cole", "&Eacute;glise", "Parc", "&Eacute;cole", "Restaurant", "Restaurant" ];
 	
 	Langelieraddresses = [ "3235 Avenue de Granby", "3275 Avenue de Granby", "6893 Rue Sherbrooke Est", "6854 Rue Sherbrooke Est", "6473 Rue Sherbrooke Est", "7373 Boulevard Langelier", 
 	"6750 Rue de Marseille", "6800 Rue de Marseille", "1 Rue du Parc-de Lotbini&egrave;re", "", "6547 Rue de Marseille", "3155 Rue Desautels", "6805 Rue de Marseille",
-	"6400 Avenue Pierre-de-Coubertin", "2990 Avenue de Granby", "6500 Avenue de Renty", "6455 Avenue de Renty", "6700 Rue Fran&ccedil;ois-Boivin", "6800 Avenue Pierre-de-Coubertin" ];
+	"6400 Avenue Pierre-de-Coubertin", "2990 Avenue de Granby", "6500 Avenue de Renty", "6455 Avenue de Renty", "6700 Rue Fran&ccedil;ois-Boivin", "6800 Avenue Pierre-de-Coubertin",
+	"6625 Rue de Marseille", "6647 Rue de Marseille" ];
 	
 	Langeliersites = [ "https://centredomaine.com/?language=fr", "https://www.quillesdomainemontreal.com/", "http://www.rsfa.ca/", "https://montreal.ca/lieux/mairie-darrondissement-de-mercier-hochelaga-maisonneuve", 
 	"http://ville.montreal.qc.ca/culture/bibliotheque-langelier", "https://www.carrefourlangelier.com/fr/accueil.html", "https://montreal.ca/lieux/arena-saint-donat",
 	"https://montreal.ca/lieux/parc-saint-donat", "https://montreal.ca/lieux/parc-de-lotbiniere", "https://montreal.ca/lieux/parc-mignault", "https://crcstdonat.org/",
-	"https://st-donat.cssdm.gouv.qc.ca/", "https://www.eglisesaintdonatdemontreal.com/", "https://louis-dupire.cssdm.gouv.qc.ca/", "https://www.ledomaine.ca/", "https://st-fabien.cssdm.gouv.qc.ca/", "http://www.saintfabien.org/Page00.html", "https://montreal.ca/lieux/parc-felix-leclerc", "http://edwardmurphy.emsb.qc.ca/" ];
+	"https://st-donat.cssdm.gouv.qc.ca/", "https://www.eglisesaintdonatdemontreal.com/", "https://louis-dupire.cssdm.gouv.qc.ca/", "https://www.ledomaine.ca/", "https://st-fabien.cssdm.gouv.qc.ca/", "http://www.saintfabien.org/Page00.html", "https://montreal.ca/lieux/parc-felix-leclerc", "http://edwardmurphy.emsb.qc.ca/",
+	"https://www.newmilano.ca/", "http://vincentsous-marins.ca/fr" ];
 	
 	Cadillacnames = [ "Centre de Soins Prolong&eacute;s Grace Dart", "Plaza Antique", "H&ocirc;tel Chablis Cadillac", "Parc de l&#39;Ancienne-P&eacute;pini&egrave;re", "Parc Jean-Amyot",
 	"&Eacute;cole Rosalie-Jett&eacute;", "&Eacute;cole Notre-Dame-des-Victoires", "Sanctuaire Marie-Reine-des-Coeurs", "Parc Bossuet" ];
