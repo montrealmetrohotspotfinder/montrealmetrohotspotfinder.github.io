@@ -420,16 +420,16 @@ function init(){
 	"https://www.newmilano.ca/", "http://vincentsous-marins.ca/fr" ];
 	
 	Cadillacnames = [ "Centre de Soins Prolong&eacute;s Grace Dart", "Plaza Antique", "H&ocirc;tel Chablis Cadillac", "Parc de l&#39;Ancienne-P&eacute;pini&egrave;re", "Parc Jean-Amyot",
-	"&Eacute;cole Rosalie-Jett&eacute;", "&Eacute;cole Notre-Dame-des-Victoires", "Sanctuaire Marie-Reine-des-Coeurs", "Parc Bossuet" ];
+	"&Eacute;cole Rosalie-Jett&eacute;", "&Eacute;cole Notre-Dame-des-Victoires", "Sanctuaire Marie-Reine-des-Coeurs", "Parc Bossuet", "Association Pulmonaire du Qu&eacute;bec" ];
 	
-	Cadillactypes = [ "R&eacute;sidence", "Salle de R&eacute;ception", "H&ocirc;tel", "Parc", "Parc", "&Eacute;cole", "&Eacute;cole", "&Eacute;glise", "Parc" ];
+	Cadillactypes = [ "R&eacute;sidence", "Salle de R&eacute;ception", "H&ocirc;tel", "Parc", "Parc", "&Eacute;cole", "&Eacute;cole", "&Eacute;glise", "Parc", "Agence" ];
 	
 	Cadillacaddresses = [ "5155 Rue Sainte-Catherine Est", "6086 Rue Sherbrooke Est", "5800 Rue Sherbrooke Est", "5220 Rue du Quesne", "6110 Rue de Marseille", "5100 Rue Bossuet", "2720 Rue Bossuet",
-	"5875 Rue Sherbrooke Est", "" ];
+	"5875 Rue Sherbrooke Est", "", "6070 Rue Sherbrooke Est" ];
 	
 	Cadillacsites = [ "https://ciusss-ouestmtl.gouv.qc.ca/contact-localisation/centres-dhebergement-et-de-soins-de-longue-duree-chsld/centre-de-soins-prolonges-grace-dart/", 
 	"https://plazapmg.com/plaza-antique/", "https://www.chabliscadillac.com/", "https://montreal.ca/lieux/parc-de-lancienne-pepiniere", "https://montreal.ca/lieux/parc-jean-amyot",
-	"https://rosalie-jette.csdm.ca/", "https://notre-dame-des-victoires.csdm.ca/", "https://smrdc.org/", "https://montreal.ca/lieux/parc-bossuet" ];
+	"https://rosalie-jette.csdm.ca/", "https://notre-dame-des-victoires.csdm.ca/", "https://smrdc.org/", "https://montreal.ca/lieux/parc-bossuet", "https://poumonquebec.ca/" ];
 	
 	Assomptionnames = [ "Centre de Quilles Moderne", "Village Olympique", "H&ocirc;pital Maisonneuve-Rosemont", "Produits Scientific Games", 
 	"&Eacute;cole des M&eacute;tiers de l&#39;A&eacute;rospatiale de Montr&eacute;al", "Elogia", "LUX Gouverneur Montr&eacute;al", "&Eacute;cole Marguerite-de-Lajemmerais",
