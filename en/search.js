@@ -965,7 +965,8 @@ function init(){
 	{name: "Terrasse sur l&#39;Auberge", type: "Restaurant", address: "97 Rue de la Commune Est", site: "https://aubergeduvieuxport.com/food/terrasse-sur-lauberge/"},
 	{name: "Restaurant Oskar", type: "Restaurant", address: "414 Rue Saint-Sulpice", site: "http://restaurantoskar.com/"},
 	{name: "Brasserie 701", type: "Restaurant", address: "701 C&ocirc;te de la Place d&#39;Armes", site: "https://brasserie701.com/en/"},
-	{name: "Restaurant Sauvage", type: "Restaurant", address: "52 Rue Saint-Jacques", site: "https://www.restaurantsauvage.com/"}];
+	{name: "Restaurant Sauvage", type: "Restaurant", address: "52 Rue Saint-Jacques", site: "https://www.restaurantsauvage.com/"},
+	{name: "Humaniti H&ocirc;tel Montr&eacute;al", type: "Hotel", address: "340 Rue de la Gaucheti&egrave;re Ouest", site: "https://www.humanitihotel.com/"}];
 	
 	SquareVictoria = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
