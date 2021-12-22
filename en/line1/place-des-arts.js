@@ -44,7 +44,8 @@ function init()
 	{name: "Le Peterson", type: "Residence", address: "405 Rue de la Concorde", site: "https://lepeterson.com/"},
 	{name: "Le Smith", type: "Residence", address: "2100 Rue de Bleury", site: "https://www.summitmanagement.ca/apartments/le-smith"},
 	{name: "Jack Victor, Montreal offices", type: "Office", address: "1250 Rue Saint-Alexandre", site: "http://www.jackvictor.com/"},
-	{name: "AC Marriott Montr&eacute;al Centre-Ville", type: "Hotel", address: "250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.marriott.com/hotels/travel/yulac-ac-hotel-montreal-downtown"}];
+	{name: "AC Marriott Montr&eacute;al Centre-Ville", type: "Hotel", address: "250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.marriott.com/hotels/travel/yulac-ac-hotel-montreal-downtown"},
+	{name: "Canada Revenue Agency, Montreal offices", type: "Agency", address: "305 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.canada.ca/en/revenue-agency.html"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
