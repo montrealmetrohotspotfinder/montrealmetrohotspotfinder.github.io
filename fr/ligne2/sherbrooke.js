@@ -5,17 +5,17 @@ function init()
 	"Gare d&#39;Autocars de Montr&eacute;al", "Quartier Latin", "Champlain College (Vermont), campus Montr&eacute;al", "Parc Jehane-Beno&icirc;t", "Parc J.-Z.-L&eacute;on-Patenaude", "C&eacute;gep du Vieux Montr&eacute;al", "Loft Hotel Montr&eacute;al",
 	"Parc Simonne-Monet-Chartrand", "Parc Claude-Melan&ccedil;on", "H&ocirc;tel Ch&acirc;teau de l&#39;Argoat", "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, D&eacute;partement de Danse", "&Eacute;cole Espace-Jeunesse", "Parc Th&eacute;r&egrave;se-Daviau (anciennement Parc Roy-Rivard)",
 	"Auberge de la Fontaine", "&Eacute;cole Le Plateau", "&Eacute;cole Lanaudi&egrave;re", "&Eacute;cole Nationale de l&#39;Humour", "&Eacute;cole &Eacute;lan", "Parc Monseigneur-Lartigue", "&Eacute;cole Marguerite-Bourgeoys", "H&ocirc;pital Notre-Dame", "Parc Persillier-Lachapelle", "Place Charles-de-Gaulle",
-	"&Eacute;cole au Pied-de-la-Montagne", "Les Fusiliers Mont-Royal", "H&ocirc;tel Manoir Sherbrooke", "H&ocirc;tel Espace Confort", "H&ocirc;tel St-Thomas" ];
+	"&Eacute;cole au Pied-de-la-Montagne", "Les Fusiliers Mont-Royal", "H&ocirc;tel Manoir Sherbrooke", "H&ocirc;tel Espace Confort", "H&ocirc;tel St-Thomas", "La Fabrique", "L&#39;&Eacute;vidence" ];
 	
 	htypes = [ "Universit&eacute;", "H&ocirc;tel", "Parc", "Place de la Ville", "H&ocirc;tel", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "R&eacute;sidence", "Terminus d&#39;Autobus", "District", "Coll&egrave;ge", "Parc", "Parc", "Coll&egrave;ge", "H&ocirc;tel",
 	"Parc", "Parc", "H&ocirc;tel", "Universit&eacute;", "&Eacute;cole", "Parc",
-	"H&ocirc;tel", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole", "Parc", "&Eacute;cole", "H&ocirc;pital", "Parc", "Parc", "&Eacute;cole", "Mus&eacute;e", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel" ];
+	"H&ocirc;tel", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole", "Parc", "&Eacute;cole", "H&ocirc;pital", "Parc", "Parc", "&Eacute;cole", "Mus&eacute;e", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Restaurant", "Restaurant" ];
 	
 	haddresses = [ "3535 Rue Saint-Denis", "3535 Rue Saint-Denis", "3819 Avenue Calixa-Lavall&eacute;e", "", "3466 Rue Saint-Denis", "3900 Rue Saint-Denis", "100 Avenue des Pins Est", "3700 Rue Saint-Dominique",
 	"505 Rue Sherbrooke Est", "1717 Rue Berri", "", "525 Rue Sherbrooke Est", "", "", "255 Rue Ontario Est", "334 Terrasse Saint Denis", "2121 Rue Saint-Christophe", "", "524 Rue Sherbrooke Est",
 	"840 Rue Cherrier", "3655 Rue Saint-Hubert", "",
 	"1301 Rue Rachel Est", "3700 Avenue Calixa-Lavall&eacute;e", "4300 Rue de Lanaudi&egrave;re", "2120 Rue Sherbrooke Est", "3450 Avenue de Lorimier", "2250 Rue Panet", "2070 Rue Plessis", "1560 Rue Sherbrooke Est", "2040 Rue Alexandre-DeS&egrave;ve", "",
-	"311 Avenue des Pins Est", "3721 Avenue Henri-Julien", "157 Rue Sherbrooke Est", "2050 Rue Saint-Denis", "430 Rue Sherbrooke Est" ];
+	"311 Avenue des Pins Est", "3721 Avenue Henri-Julien", "157 Rue Sherbrooke Est", "2050 Rue Saint-Denis", "430 Rue Sherbrooke Est", "3619 Rue Saint-Denis", "3817 Rue Saint-Denis" ];
 	
 	hsites = [ "https://www.ithq.qc.ca/institut/", "http://www.ithq.qc.ca/hotel/", "https://montreal.ca/lieux/parc-la-fontaine", "https://montreal.ca/lieux/square-saint-louis", "https://aubergecarrestlouis.com/Accueil",
 	"https://www.theatredaujourdhui.qc.ca/", "https://www.quatsous.com/", "https://lachapelle.org/fr", "https://residencessoleil.ca/liste-des-residences-soleil/manoir-plaza", "http://www.gamtl.com/fr/bienvenue/default.aspx", 
@@ -36,7 +36,9 @@ function init()
 	"http://lesfusiliersmont-royal.com/",
 	"https://manoirsherbrooke.ca/?lang=fr",
 	"https://montrealespaceconfort.com/fr/",
-	"https://hotelst-thomas.com/fr/" ];
+	"https://hotelst-thomas.com/fr/",
+	"https://bistrotlafabrique.com/", 
+	"https://www.bistrolevidence.com/" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
