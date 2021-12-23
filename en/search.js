@@ -852,7 +852,9 @@ function init(){
 	{name: "Les Fusiliers Mont-Royal", type: "Museum", address: "3721 Avenue Henri-Julien", site: "http://lesfusiliersmont-royal.com/"},
 	{name: "H&ocirc;tel Manoir Sherbrooke", type: "Hotel", address: "157 Rue Sherbrooke Est", site: "https://manoirsherbrooke.ca/"},
 	{name: "H&ocirc;tel Espace Confort", type: "Hotel", address: "2050 Rue Saint-Denis", site: "https://montrealespaceconfort.com/"},
-	{name: "H&ocirc;tel St-Thomas", type: "Hotel", address: "430 Rue Sherbrooke Est", site: "https://hotelst-thomas.com/"}];
+	{name: "H&ocirc;tel St-Thomas", type: "Hotel", address: "430 Rue Sherbrooke Est", site: "https://hotelst-thomas.com/"},
+	{name: "La Fabrique", type: "Restaurant", address: "3619 Rue Saint-Denis", site: "https://bistrotlafabrique.com/en/"},
+	{name: "L&#39;&Eacute;vidence", type: "Restaurant", address: "3817 Rue Saint-Denis", site: "https://www.bistrolevidence.com/?lang=en"}];
 	
 	ChampDeMars = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
