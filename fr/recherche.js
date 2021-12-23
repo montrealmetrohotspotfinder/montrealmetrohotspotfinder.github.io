@@ -212,9 +212,12 @@ function init(){
 	"Revenu Qu&eacute;bec, bureaux longueuillois",
 	"Tribunal Administratif du Logement du Qu&eacute;bec, bureaux longueuillois",
 	"Les Habitats Lafayette",
-	"SSQ Assurance, bureaux longueuillois" ];
+	"SSQ Assurance, bureaux longueuillois",
+	"Agence Spatiale Canadienne",
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, campus Longueuil" ];
 	
-	Longueuiltypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence", "Bureau" ];
+	Longueuiltypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence", "Bureau",
+	"Agence", "Universit&eacute;" ];
 	
 	Longueuiladdresses = [ "120 Place Charles-Lemoyne", 
 	"150 Place Charles-Lemoyne", 
@@ -231,7 +234,9 @@ function init(){
 	"825 Rue Saint-Laurent Ouest",
 	"201 Place Charles-Lemoyne",
 	"100 Boulevard La Fayette",
-	"1225 Rue Saint-Charles Ouest" ];
+	"1225 Rue Saint-Charles Ouest",
+	"6767 Route de l&#39;A&eacute;roport",
+	"150 Place Charles-Lemoyne" ];
 	
 	Longueuilsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-longueuil", 
 	"http://www.usherbrooke.ca/longueuil/", 
@@ -248,7 +253,9 @@ function init(){
 	"https://www.revenuquebec.ca/fr/",
 	"https://www.tal.gouv.qc.ca/",
 	"http://www.residences6etoiles.com/fr/lafayette.html",
-	"https://ssq.ca/fr" ];
+	"https://ssq.ca/fr",
+	"https://www.asc-csa.gc.ca/fra/default.asp",
+	"https://etudier.uqam.ca/campus/longueuil" ];
 	
 	//BLUE LINE
 	SaintMichelnames = [ "Petit Maghreb", "Parc Fran&ccedil;ois-Perrault", "Biblioth&egrave;que de Saint-Michel", "&Eacute;cole Secondaire John F. Kennedy", "Parc Sandro-Pertini", "&Eacute;cole Saint-Mathieu",
