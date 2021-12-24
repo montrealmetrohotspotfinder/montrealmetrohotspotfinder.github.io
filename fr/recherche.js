@@ -44,10 +44,11 @@ function init(){
 	"Cath&eacute;drale Saint-Jacques",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Biblioth&egrave;que Centrale",
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon J.-A.-DeS&egrave;ve",
-	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Saint-Denis" ];
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Pavillon Saint-Denis",
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Facult&eacute; de Science Politique et de Droit" ];
 	
 	BerriUqamtypes = [ "Universit&eacute;", "Biblioth&egrave;que", "Terminus d&#39;Autobus", "Th&eacute;&acirc;tre", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "Parc", "District", "District", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Coll&egrave;ge", "Parc", "&Eacute;glise", "R&eacute;sidence", "Mus&eacute;e", "&Eacute;cole", "Th&eacute;&acirc;tre", "Universit&eacute;", "Parc", "Universit&eacute;", "H&ocirc;tel",
-		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement", "Universit&eacute;", "Parc", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "Sports", "Biblioth&egrave;que", "H&ocirc;tel", "H&ocirc;tel", "&Eacute;glise", "Biblioth&egrave;que", "Universit&eacute;", "Universit&eacute;" ];
+		 "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "Gouvernement", "Universit&eacute;", "Parc", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "Sports", "Biblioth&egrave;que", "H&ocirc;tel", "H&ocirc;tel", "&Eacute;glise", "Biblioth&egrave;que", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;" ];
 	
 	BerriUqamaddresses = [ "405 Rue Sainte-Catherine Est",
 	"475 Boulevard de Maisonneuve Est",
@@ -92,7 +93,8 @@ function init(){
 	"1455 Rue Saint-Denis",
 	"400 Rue Sainte-Catherine Est",
 	"320 Rue Sainte-Catherine Est",
-	"1290 Rue Saint-Denis" ];
+	"1290 Rue Saint-Denis",
+	"400 Rue Sainte-Catherine Est" ];
 	
 	BerriUqamsites = [ "http://www.uqam.ca/", 
 	"http://www.banq.qc.ca/accueil/", 
@@ -137,7 +139,8 @@ function init(){
 	"#",
 	"https://bibliotheques.uqam.ca/bibliotheque/centrale/",
 	"https://carte.uqam.ca/pavillon-ds",
-	"https://carte.uqam.ca/pavillon-ab" ];
+	"https://carte.uqam.ca/pavillon-ab",
+	"https://fspd.uqam.ca/" ];
 	
 	JeanTalonnames = [ "Tour Jean-Talon", "March&eacute; Jean-Talon", "Plaza Saint-Hubert", "R&eacute;sidence Alfredo-Gagliardi", "Casa D&#39;Italia", "&Eacute;glise Orthodoxe Antiochienne Saint-Georges", "Parc Le Pr&eacute;vost", "Patro Villeray",
 	"&Eacute;cole Saint-Ars&egrave;ne", "&Eacute;glise Saint-Ars&egrave;ne", "&Eacute;glise Notre-Dame-de-la-D&eacute;fense", "Parc Dante", "Maison de la Culture Claude-L&eacute;veill&eacute;e" ];
