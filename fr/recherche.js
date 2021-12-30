@@ -263,16 +263,16 @@ function init(){
 	//BLUE LINE
 	SaintMichelnames = [ "Petit Maghreb", "Parc Fran&ccedil;ois-Perrault", "Biblioth&egrave;que de Saint-Michel", "&Eacute;cole Secondaire John F. Kennedy", "Parc Sandro-Pertini", "&Eacute;cole Saint-Mathieu",
 	"&Eacute;cole Joseph-Fran&ccedil;ois-Perrault", "Parc Shaughnessy", "Parc Joseph-Robin", "Parc Michel-Ange", "Parc du Ruisseau-du-Pont-&agrave;-l&#39;Avoine", "Le Boulevard", "R&eacute;sidence Le St-Michel",
-	"&Eacute;glise de Dieu de la Proph&eacute;tie" ];
+	"&Eacute;glise de Dieu de la Proph&eacute;tie", "Best Western H&ocirc;tel Montr&eacute;al M&eacute;tropolitain" ];
 	
-	SaintMicheltypes = [ "District", "Parc", "Biblioth&egrave;que", "&Eacute;cole", "Parc", "&Eacute;cole", "&Eacute;cole", "Parc", "Parc", "Parc", "Parc", "Centre Commercial", "R&eacute;sidence", "&Eacute;glise" ];
+	SaintMicheltypes = [ "District", "Parc", "Biblioth&egrave;que", "&Eacute;cole", "Parc", "&Eacute;cole", "&Eacute;cole", "Parc", "Parc", "Parc", "Parc", "Centre Commercial", "R&eacute;sidence", "&Eacute;glise", "H&ocirc;tel" ];
 	
 	SaintMicheladdresses = [ "", "7525 Rue Fran&ccedil;ois-Perrault", "7601 Rue Fran&ccedil;ois-Perrault", "3030 Rue Villeray", "", "7230 8e Avenue", "7450 Rue Fran&ccedil;ois-Perrault", "7634 17e Avenue", "", "3615 Rue Michel-Ange", "", "4270 Rue Jean-Talon Est", "7070 Boulevard Saint-Michel",
-	"7277 Boulevard Saint-Michel" ];
+	"7277 Boulevard Saint-Michel", "3400 Boulevard Cr&eacute;mazie Est" ];
 	
 	SaintMichelsites = [ "#", "https://montreal.ca/lieux/parc-francois-perrault", "https://montreal.ca/lieux/bibliotheque-de-saint-michel", "http://jfkhighschoolemsb.com/",
 	"https://montreal.ca/en/places/parc-sandro-pertini", "https://st-mathieu.csdm.ca/", "https://joseph-francois-perrault.csdm.ca/", "https://montreal.ca/lieux/parc-shaughnessy", "https://montreal.ca/lieux/parc-joseph-robin", "#", "https://montreal.ca/lieux/parc-du-ruisseau-du-pont-lavoine", 
-	"https://www.centreboulevard.com/fr/", "https://www.residencelesaintmichel.ca/", "https://egliselaprophetie.com/" ];
+	"https://www.centreboulevard.com/fr/", "https://www.residencelesaintmichel.ca/", "https://egliselaprophetie.com/", "https://www.bestwestern.com/fr_FR/book/hotels-in-montreal/hotel-montreal-metropolitain-bw-premier-collection/propertyCode.67031.html" ];
 	
 	Ibervillenames = [ "P&acirc;tisserie La Conca D&#39;Oro", "Parc Gabriel-Sagard", "&Eacute;cole Saint-Barth&eacute;lemy", "&Eacute;glise Biblique Pierre Angulaire",
 	"Parc Molson", "Paroisse Saint-Mathieu", "Paroisse Saint-Barth&eacute;lemy" ];
