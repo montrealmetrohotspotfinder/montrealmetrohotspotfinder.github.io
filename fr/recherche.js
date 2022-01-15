@@ -443,17 +443,18 @@ function init(){
 	
 	Assomptionnames = [ "Centre de Quilles Moderne", "Village Olympique", "H&ocirc;pital Maisonneuve-Rosemont", "Produits Scientific Games", 
 	"&Eacute;cole des M&eacute;tiers de l&#39;A&eacute;rospatiale de Montr&eacute;al", "Elogia", "LUX Gouverneur Montr&eacute;al", "&Eacute;cole Marguerite-de-Lajemmerais",
-	"&Eacute;glise MCI Canada" ];
+	"&Eacute;glise MCI Canada", "Centre de Services Scolaire de Montr&eacute;al" ];
 	
-	Assomptiontypes = [ "Sports", "District", "H&ocirc;pital", "Bureau", "&Eacute;cole de M&eacute;tiers", "R&eacute;sidence", "R&eacute;sidence", "&Eacute;cole", "&Eacute;glise" ];
+	Assomptiontypes = [ "Sports", "District", "H&ocirc;pital", "Bureau", "&Eacute;cole de M&eacute;tiers", "R&eacute;sidence", "R&eacute;sidence", "&Eacute;cole", "&Eacute;glise", "Bureau" ];
 	
 	Assomptionaddresses = [ "3115 Boulevard de l&#39;Assomption", "5199 Rue Sherbrooke Est", "5415 Boulevard de l&#39;Assomption",
-	"3000 Boulevard de l&#39;Assomption", "5300 Rue Chauveau", "5440 Rue Sherbrooke Est", "5500 Rue Sherbrooke Est", "5555 Rue Sherbrooke Est", "5685 Rue Chauveau" ];
+	"3000 Boulevard de l&#39;Assomption", "5300 Rue Chauveau", "5440 Rue Sherbrooke Est", "5500 Rue Sherbrooke Est", "5555 Rue Sherbrooke Est",
+	"5685 Rue Chauveau", "5100 Rue Sherbrooke Est" ];
 	
 	Assomptionsites = [ "https://www.quillesjgnc.com/centre-de-quilles-moderne/", "https://www.caprent.com/fr/appartements-a-louer/montreal-qc/village-olympic/", 
 	"https://ciusss-estmtl.gouv.qc.ca/etablissement/hopital-maisonneuve-rosemont", "https://www.scientificgames.com/", "https://ecole-metiers-aerospatiale.cssdm.gouv.qc.ca/", 
 	"https://www.legroupemaurice.com/residences-pour-personnes-agees/elogia/", "https://www.luxgouverneur.ca/residences/lux-montreal/", "https://marguerite-de-lajemmerais.cssdm.gouv.qc.ca/",
-	"https://mcigc.ca/" ];
+	"https://mcigc.ca/", "https://www.cssdm.gouv.qc.ca/" ];
 	
 	Viaunames = [ "Stade Olympique", "Stade Saputo", "Biod&ocirc;me de Montr&eacute;al", "Jardin Botanique de Montr&eacute;al", 
 	"Insectarium de Montr&eacute;al", "Ar&eacute;na Maurice-Richard", "Cineplex Starcit&eacute;", "Planetarium Rio Tinto Alcan", "H&ocirc;tel Universel Montr&eacute;al",
