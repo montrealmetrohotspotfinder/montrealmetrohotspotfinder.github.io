@@ -282,7 +282,8 @@ function init(){
 	{name: "Elogia", type: "Residence", address: "5440 Rue Sherbrooke Est", site: "https://www.legroupemaurice.com/en/retirement-homes/elogia/"},
 	{name: "LUX Gouverneur Montr&eacute;al", type: "Residence", address: "5500 Rue Sherbrooke Est", site: "https://www.luxgouverneur.ca/residences/lux-montreal/"},
 	{name: "&Eacute;cole Marguerite-de-Lajemmerais", type: "School", address: "5555 Rue Sherbrooke Est", site: "https://marguerite-de-lajemmerais.cssdm.gouv.qc.ca/"},
-	{name: "&Eacute;glise MCI Canada", type: "Church", address: "5685 Rue Chauveau", site: "https://mcigc.ca/"}];
+	{name: "&Eacute;glise MCI Canada", type: "Church", address: "5685 Rue Chauveau", site: "https://mcigc.ca/"},
+	{name: "Centre de Services Scolaire de Montr&eacute;al", type: "Office", address: "5100 Rue Sherbrooke Est", site: "https://www.cssdm.gouv.qc.ca/"}];
 	
 	Viau = [{name: "Olympic Stadium", type: "Sports", address: "4545 Avenue Pierre-de-Coubertin", site: "https://parcolympique.qc.ca/en/"},
 	{name: "Saputo Stadium", type: "Sports", address: "4750 Rue Sherbrooke Est", site: "https://www.impactmontreal.com/en/stadium/stade-saputo"},
