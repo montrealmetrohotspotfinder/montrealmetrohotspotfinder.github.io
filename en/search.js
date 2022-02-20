@@ -239,7 +239,8 @@ function init(){
 	{name: "Les Terrasses Versailles", type: "Residence", address: "6923 Boulevard des Galeries-d&#39;Anjou", site: "https://www.residencesexcellence.com/residences/terrasses-versailles/accueil"},
 	{name: "&Eacute;cole des Roseraies", type: "School", address: "6440 Boulevard des Galeries-d&#39;Anjou", site: "https://desros.jimdofree.com/"},
 	{name: "Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", type: "Hospital", address: "7401 Rue Hochelaga", site: "https://ciusss-estmtl.gouv.qc.ca/etablissement/institut-universitaire-en-sante-mentale-de-montreal"},
-	{name: "Place Versailles Apartments", type: "Residence", address: "7235 Rue Pierre-Corneille", site: "http://www.appartementsplaceversailles.com/"}];
+	{name: "Place Versailles Apartments", type: "Residence", address: "7235 Rue Pierre-Corneille", site: "http://www.appartementsplaceversailles.com/"},
+	{name: "Le Symboise", type: "Residence", address: "3075 Rue Paul-David", site: "https://www.residencesexcellence.com/residences/symbiose/accueil"}];
 	
 	Langelier = [{name: "Centre Domaine", type: "Mall", address: "3235 Avenue de Granby", site: "https://centredomaine.com/"},
 	{name: "Salon de Quilles Centre Commercial Le Domaine", type: "Sports", address: "3275 Avenue de Granby", site: "https://www.quillesdomainemontreal.com/"},
