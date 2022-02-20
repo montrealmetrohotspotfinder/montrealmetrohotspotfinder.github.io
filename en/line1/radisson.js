@@ -15,7 +15,8 @@ function init()
 	{name: "Les Terrasses Versailles via Bus 44", type: "Residence", address: "6923 Boulevard des Galeries-d&#39;Anjou", site: "https://www.residencesexcellence.com/residences/terrasses-versailles/accueil"},
 	{name: "&Eacute;cole des Roseraies via Bus 44", type: "School", address: "6440 Boulevard des Galeries-d&#39;Anjou", site: "https://desros.jimdofree.com/"},
 	{name: "Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", type: "Hospital", address: "7401 Rue Hochelaga", site: "https://ciusss-estmtl.gouv.qc.ca/etablissement/institut-universitaire-en-sante-mentale-de-montreal"},
-	{name: "Place Versailles Apartments", type: "Residence", address: "7235 Rue Pierre-Corneille", site: "http://www.appartementsplaceversailles.com/"}];
+	{name: "Place Versailles Apartments", type: "Residence", address: "7235 Rue Pierre-Corneille", site: "http://www.appartementsplaceversailles.com/"},
+	{name: "Le Symboise", type: "Residence", address: "3075 Rue Paul-David", site: "https://www.residencesexcellence.com/residences/symbiose/accueil"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
