@@ -393,21 +393,21 @@ function init(){
 	Radissonnames = [ "Place Versailles", "Auberge Royal Versailles", "Mairie de Mercier&#8211;Hochelaga-Maisonneuve", "Le Repos Saint-Fran&ccedil;ois-d&#39;Assise",
 	"Terminus Radisson", "Galeries d&#39;Anjou", "Les Halles d&#39;Anjou", "Coll&egrave;ge d&#39;Anjou", "Parc du Vaisseau-d&#39;Or", "Parc Radisson",
 	"C&eacute;gep Marie-Victorin", "Parc des Roseraies", "Les Terrasses Versailles", "&Eacute;cole des Roseraies",
-	"Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", "Les Appartements Place Versailles" ];
+	"Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", "Les Appartements Place Versailles", "Le Symboise" ];
 	
 	Radissontypes = [ "Centre Commercial", "H&ocirc;tel", "Gouvernement", "Cimeti&egrave;re", "Terminus d&#39;Autobus", "Centre Commercial", "Centre Commercial", "&Eacute;cole", "Parc", "Parc",
-	"Coll&egrave;ge", "Parc", "R&eacute;sidence", "&Eacute;cole", "H&ocirc;pital", "R&eacute;sidence" ];
+	"Coll&egrave;ge", "Parc", "R&eacute;sidence", "&Eacute;cole", "H&ocirc;pital", "R&eacute;sidence", "R&eacute;sidence" ];
 	
 	Radissonaddresses = [ "7275 Rue Sherbrooke Est", "7200 Rue Sherbrooke Est", "6854 Rue Sherbrooke Est", "6893 Rue Sherbrooke Est", "7155 Rue Sherbrooke Est", 
 	"7999 Boulevard des Galeries-d&#39;Anjou", "7500 Boulevard des Galeries-d&#39;Anjou", "11000 Rue Renaude-Lapointe", "3021 Rue du Trianon", "5321 Rue Radisson",
-	"7000 Rue Marie-Victorin", "7070 Avenue de la Nantaise", "6923 Boulevard des Galeries-d&#39;Anjou", "6440 Boulevard des Galeries-d&#39;Anjou", "7401 Rue Hochelaga",
-	"7235 Rue Pierre-Corneille" ];
+	"7000 Rue Marie-Victorin", "7070 Avenue de la Nantaise", "6923 Boulevard des Galeries-d&#39;Anjou", "6440 Boulevard des Galeries-d&#39;Anjou", "7401 Rue Hochelaga", "7235 Rue Pierre-Corneille",
+	"3075 Rue Paul-David" ];
 	
 	Radissonsites = [ "https://www.placeversailles.com/fr", "https://www.royalversailles.com", "https://montreal.ca/lieux/mairie-darrondissement-de-mercier-hochelaga-maisonneuve", "http://www.rsfa.ca/", 
 	"https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-radisson", "https://www.cfshops.com/fr_CA/galeries-d-anjou.html", "https://www.hallesdanjou.com/fr/accueil.html", 
 	"https://collegedanjou.qc.ca/", "https://montreal.ca/lieux/parc-du-vaisseau-dor", "https://montreal.ca/lieux/parc-radisson", "https://www.collegemv.qc.ca/", "https://montreal.ca/lieux/parc-des-roseraies",
 	"https://www.residencesexcellence.com/residences/terrasses-versailles/accueil", "https://desros.jimdofree.com/", "https://ciusss-estmtl.gouv.qc.ca/etablissement/institut-universitaire-en-sante-mentale-de-montreal",
-	"http://www.appartementsplaceversailles.com/" ];
+	"http://www.appartementsplaceversailles.com/", "https://www.residencesexcellence.com/residences/symbiose/accueil" ];
 	
 	Langeliernames = [ "Centre Domaine", "Salon de Quilles Centre Commercial Le Domaine", "Le Repos Saint-Fran&ccedil;ois-d&#39;Assise", "Mairie de Mercier&#8211;Hochelaga-Maisonneuve",
 	"Biblioth&egrave;que Langelier", "Carrefour Langelier", "Ar&eacute;na Saint-Donat", "Parc Saint-Donat", "Parc de Lotbini&egrave;re", "Parc Mignault",
