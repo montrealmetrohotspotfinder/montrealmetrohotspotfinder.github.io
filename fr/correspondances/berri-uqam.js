@@ -7,7 +7,7 @@ function init()
 	"Place Dupuis",
 	"H&ocirc;tel Place Dupuis Montr&eacute;al",
 	"Warner Brothers Montr&eacute;al",
-	"DaGiovanni",
+	"(d&eacute;funt) DaGiovanni",
 	"Place &Eacute;milie-Gamelin",
 	"Le Village",
 	"Quartier Latin",
