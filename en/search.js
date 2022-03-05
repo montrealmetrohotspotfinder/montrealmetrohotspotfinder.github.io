@@ -8,7 +8,7 @@ function init(){
 	{name: "Place Dupuis", type: "Mall", address: "845 Rue Sainte-Catherine Est", site: "https://busac.com/project/place-dupuis-montreal-qc/"},
 	{name: "H&ocirc;tel Place Dupuis Montr&eacute;al", type: "Hotel", address: "1415 Rue Saint-Hubert", site: "https://www.choicehotels.com/quebec/montreal/ascend-hotels/cnb60?mc=llyxcncnnbl&pmf=canada"},
 	{name: "Warner Brothers Montr&eacute;al", type: "Office", address: "888 Boulevard de Maisonneuve Est", site: "http://wbgamesmontreal.com/"},
-	{name: "DaGiovanni", type: "Restaurant", address: "572 Rue Sainte-Catherine Est", site: "http://www.dagiovanni.ca/"},
+	{name: "(defunct) DaGiovanni", type: "Restaurant", address: "572 Rue Sainte-Catherine Est", site: "http://www.dagiovanni.ca/"},
 	{name: "Place &Eacute;milie-Gamelin", type: "Park", address: "1500 Rue Berri", site: "http://www.quartierdesspectacles.com/en/location/29/place-emilie-gamelin/page-1"},
 	{name: "The Village", type: "District", address: "", site: "https://www.mtl.org/en/what-to-do/heritage-and-architecture/village-montreal"},
 	{name: "Latin Quarter", type: "District", address: "", site: "http://www.quartierlatin.ca/en/"},
