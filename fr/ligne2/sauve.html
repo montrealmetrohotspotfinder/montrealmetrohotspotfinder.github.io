@@ -42,6 +42,896 @@
 	</table>
 </div>
 			
+			<script>
+				var d = new Date();
+				
+				setInterval( function() { 
+					d = new Date(); 
+				}, 1000 );
+				
+				var lastMontmorency, lastCoteVertu;
+				var diffMontmorency, diffCoteVertu;
+				
+				/*INPUT VALUES FOR LAST TRAIN. ALL LAST TRAINS ARE AFTER MIDNIGHT, STARTING FROM THE PREVIOUS DAY GOING INTO THE NEXT DAY.*/
+				switch(d.getUTCDay()){
+					case 0:{ /*SUNDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SATURDAY SCHEDULE APPLIES. OTHERWISE, SUNDAY SCHEDULE APPLIES*/
+						//ORANGE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCHours(5);
+							lastCoteVertu.setUTCMinutes(9);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastCoteVertu && d.getHours() < 11) {
+								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCHours(5);
+								lastCoteVertu.setUTCMinutes(9);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastCoteVertu = new Date();
+									lastCoteVertu.setUTCHours(5);
+									lastCoteVertu.setUTCMinutes(9);
+									lastCoteVertu.setUTCSeconds(0);
+									lastCoteVertu.setUTCMilliseconds(0);
+
+									diffCoteVertu = lastCoteVertu - d;
+									document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCDate(d.getDate() + 1);
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							diffCoteVertu = lastCoteVertu - d;
+							document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCDate(d.getDate() + 1);
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(41);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastMontmorency && d.getHours() < 11) {
+								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(41);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastMontmorency = new Date();
+									lastMontmorency.setUTCHours(5);
+									lastMontmorency.setUTCMinutes(41);
+									lastMontmorency.setUTCSeconds(0);
+									lastMontmorency.setUTCMilliseconds(0);
+
+									diffMontmorency = lastMontmorency - d;
+									document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCDate(d.getDate() + 1);
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							diffMontmorency = lastMontmorency - d;
+							document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCDate(d.getDate() + 1);
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 1:{ /*MONDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, SUNDAY SCHEDULE APPLIES. OTHERWISE, MONDAY SCHEDULE APPLIES*/
+						//ORANGE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastCoteVertu && d.getHours() < 11) {
+								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastCoteVertu = new Date();
+									lastCoteVertu.setUTCHours(4);
+									lastCoteVertu.setUTCMinutes(39);
+									lastCoteVertu.setUTCSeconds(0);
+									lastCoteVertu.setUTCMilliseconds(0);
+
+									diffCoteVertu = lastCoteVertu - d;
+									document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCDate(d.getDate() + 1);
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							diffCoteVertu = lastCoteVertu - d;
+							document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCDate(d.getDate() + 1);
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastMontmorency && d.getHours() < 11) {
+								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastMontmorency = new Date();
+									lastMontmorency.setUTCHours(5);
+									lastMontmorency.setUTCMinutes(10);
+									lastMontmorency.setUTCSeconds(0);
+									lastMontmorency.setUTCMilliseconds(0);
+
+									diffMontmorency = lastMontmorency - d;
+									document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCDate(d.getDate() + 1);
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							diffMontmorency = lastMontmorency - d;
+							document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCDate(d.getDate() + 1);
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 2:{ /*TUESDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, MONDAY SCHEDULE APPLIES. OTHERWISE, TUESDAY SCHEDULE APPLIES*/
+						//ORANGE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastCoteVertu && d.getHours() < 11) {
+								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastCoteVertu = new Date();
+									lastCoteVertu.setUTCHours(4);
+									lastCoteVertu.setUTCMinutes(39);
+									lastCoteVertu.setUTCSeconds(0);
+									lastCoteVertu.setUTCMilliseconds(0);
+
+									diffCoteVertu = lastCoteVertu - d;
+									document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCDate(d.getDate() + 1);
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							diffCoteVertu = lastCoteVertu - d;
+							document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCDate(d.getDate() + 1);
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastMontmorency && d.getHours() < 11) {
+								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastMontmorency = new Date();
+									lastMontmorency.setUTCHours(5);
+									lastMontmorency.setUTCMinutes(10);
+									lastMontmorency.setUTCSeconds(0);
+									lastMontmorency.setUTCMilliseconds(0);
+
+									diffMontmorency = lastMontmorency - d;
+									document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCDate(d.getDate() + 1);
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							diffMontmorency = lastMontmorency - d;
+							document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCDate(d.getDate() + 1);
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 3:{ /*WEDNESDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, TUESDAY SCHEDULE APPLIES. OTHERWISE, WEDNESDAY SCHEDULE APPLIES*/
+						//ORANGE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastCoteVertu && d.getHours() < 11) {
+								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastCoteVertu = new Date();
+									lastCoteVertu.setUTCHours(4);
+									lastCoteVertu.setUTCMinutes(39);
+									lastCoteVertu.setUTCSeconds(0);
+									lastCoteVertu.setUTCMilliseconds(0);
+
+									diffCoteVertu = lastCoteVertu - d;
+									document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCDate(d.getDate() + 1);
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							diffCoteVertu = lastCoteVertu - d;
+							document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCDate(d.getDate() + 1);
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastMontmorency && d.getHours() < 11) {
+								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastMontmorency = new Date();
+									lastMontmorency.setUTCHours(5);
+									lastMontmorency.setUTCMinutes(10);
+									lastMontmorency.setUTCSeconds(0);
+									lastMontmorency.setUTCMilliseconds(0);
+
+									diffMontmorency = lastMontmorency - d;
+									document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCDate(d.getDate() + 1);
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							diffMontmorency = lastMontmorency - d;
+							document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCDate(d.getDate() + 1);
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 4:{ /*THURSDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, WEDNESDAY SCHEDULE APPLIES. OTHERWISE, THURSDAY SCHEDULE APPLIES*/
+						//ORANGE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastCoteVertu && d.getHours() < 11) {
+								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastCoteVertu = new Date();
+									lastCoteVertu.setUTCHours(4);
+									lastCoteVertu.setUTCMinutes(39);
+									lastCoteVertu.setUTCSeconds(0);
+									lastCoteVertu.setUTCMilliseconds(0);
+
+									diffCoteVertu = lastCoteVertu - d;
+									document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCDate(d.getDate() + 1);
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							diffCoteVertu = lastCoteVertu - d;
+							document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCDate(d.getDate() + 1);
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastMontmorency && d.getHours() < 11) {
+								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastMontmorency = new Date();
+									lastMontmorency.setUTCHours(5);
+									lastMontmorency.setUTCMinutes(10);
+									lastMontmorency.setUTCSeconds(0);
+									lastMontmorency.setUTCMilliseconds(0);
+
+									diffMontmorency = lastMontmorency - d;
+									document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCDate(d.getDate() + 1);
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							diffMontmorency = lastMontmorency - d;
+							document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCDate(d.getDate() + 1);
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 5:{ /*FRIDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, THURSDAY SCHEDULE APPLIES. OTHERWISE, FRIDAY SCHEDULE APPLIES*/
+						//ORANGE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastCoteVertu && d.getHours() < 11) {
+								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastCoteVertu = new Date();
+									lastCoteVertu.setUTCHours(4);
+									lastCoteVertu.setUTCMinutes(39);
+									lastCoteVertu.setUTCSeconds(0);
+									lastCoteVertu.setUTCMilliseconds(0);
+
+									diffCoteVertu = lastCoteVertu - d;
+									document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCDate(d.getDate() + 1);
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							diffCoteVertu = lastCoteVertu - d;
+							document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCDate(d.getDate() + 1);
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastMontmorency && d.getHours() < 11) {
+								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastMontmorency = new Date();
+									lastMontmorency.setUTCHours(5);
+									lastMontmorency.setUTCMinutes(10);
+									lastMontmorency.setUTCSeconds(0);
+									lastMontmorency.setUTCMilliseconds(0);
+
+									diffMontmorency = lastMontmorency - d;
+									document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCDate(d.getDate() + 1);
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							diffMontmorency = lastMontmorency - d;
+							document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCDate(d.getDate() + 1);
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+					case 6:{ /*SATURDAY*/
+						/*IF IT IS PAST MIDNIGHT, BUT JUST BEFORE CLOSING, FRIDAY SCHEDULE APPLIES. OTHERWISE, SATURDAY SCHEDULE APPLIES*/
+						//ORANGE
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 4){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCHours(4);
+							lastCoteVertu.setUTCMinutes(39);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastCoteVertu && d.getHours() < 11) {
+								document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCHours(4);
+								lastCoteVertu.setUTCMinutes(39);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastCoteVertu = new Date();
+									lastCoteVertu.setUTCHours(4);
+									lastCoteVertu.setUTCMinutes(39);
+									lastCoteVertu.setUTCSeconds(0);
+									lastCoteVertu.setUTCMilliseconds(0);
+
+									diffCoteVertu = lastCoteVertu - d;
+									document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastCoteVertu = new Date();
+							lastCoteVertu.setUTCDate(d.getDate() + 1);
+							lastCoteVertu.setUTCHours(5);
+							lastCoteVertu.setUTCMinutes(9);
+							lastCoteVertu.setUTCSeconds(0);
+							lastCoteVertu.setUTCMilliseconds(0);
+
+							diffCoteVertu = lastCoteVertu - d;
+							document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastCoteVertu = new Date();
+								lastCoteVertu.setUTCDate(d.getDate() + 1);
+								lastCoteVertu.setUTCHours(5);
+								lastCoteVertu.setUTCMinutes(9);
+								lastCoteVertu.setUTCSeconds(0);
+								lastCoteVertu.setUTCMilliseconds(0);
+
+								diffCoteVertu = lastCoteVertu - d;
+								document.getElementById("toCoteVertu").innerHTML = "<p>"+Math.floor((diffCoteVertu / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffCoteVertu / 1000 / 60) % 60)+" min "+Math.floor((diffCoteVertu / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toCoteVertu").innerHTML = "<p>-</p>";
+						}
+						
+						if(d.getUTCHours() >= 0 && d.getUTCHours() <= 5){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(10);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							if(d.getTime() >= lastMontmorency && d.getHours() < 11) {
+								document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+							}
+							else {
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(10);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+								setInterval(function(){
+									lastMontmorency = new Date();
+									lastMontmorency.setUTCHours(5);
+									lastMontmorency.setUTCMinutes(10);
+									lastMontmorency.setUTCSeconds(0);
+									lastMontmorency.setUTCMilliseconds(0);
+
+									diffMontmorency = lastMontmorency - d;
+									document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+								}, 1000);
+							}
+						}
+						else if (d.getUTCHours() > 10 && d.getUTCHours() <= 23){
+							lastMontmorency = new Date();
+							lastMontmorency.setUTCDate(d.getDate() + 1);
+							lastMontmorency.setUTCHours(5);
+							lastMontmorency.setUTCMinutes(41);
+							lastMontmorency.setUTCSeconds(0);
+							lastMontmorency.setUTCMilliseconds(0);
+
+							diffMontmorency = lastMontmorency - d;
+							document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+
+							setInterval(function(){
+								lastMontmorency = new Date();
+								lastMontmorency.setUTCDate(d.getDate() + 1);
+								lastMontmorency.setUTCHours(5);
+								lastMontmorency.setUTCMinutes(41);
+								lastMontmorency.setUTCSeconds(0);
+								lastMontmorency.setUTCMilliseconds(0);
+
+								diffMontmorency = lastMontmorency - d;
+								document.getElementById("toMontmorency").innerHTML = "<p>"+Math.floor((diffMontmorency / 1000 / 60 / 60) % 24)+" hr "+Math.floor((diffMontmorency / 1000 / 60) % 60)+" min "+Math.floor((diffMontmorency / 1000) % 60)+" sec</p>";
+							}, 1000);
+
+						}
+						else {
+							document.getElementById("toMontmorency").innerHTML = "<p>-</p>";
+						}
+						
+						break;
+					}
+				} //END SWITCH STATEMENT
+			</script>
+			
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2753.964396203277!2d-73.6583319846149!3d45.55068013569005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918c08cf803c1%3A0x358c9db2e6d2c820!2sSauve!5e1!3m2!1sen!2sca!4v1601325620548!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			
 			<div id="hotspot-list">
