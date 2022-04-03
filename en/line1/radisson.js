@@ -57,8 +57,6 @@ function init()
 					"<li><tr><td>444</td><td>C&eacute;gep Marie-Victorin</td></tr></li>"+
 					"<li><tr><td>448</td><td>Rivi&egrave;re-des-Prairies / Pointe-aux-Trembles</td></tr></li>"+
 					"<li><tr><td>449</td><td>Rivi&egrave;re-des-Prairies / Pointe-aux-Trembles</td></tr></li>"+
-					"<li><tr><td>RTL 61</td><td>Boucherville</td></tr></li>"+
-					"<li><tr><td>RTL 461</td><td>Boucherville</td></tr></li>"+
 					"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 					"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 					"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
@@ -87,8 +85,6 @@ function init()
 				"<li><tr><td>444</td><td>C&eacute;gep Marie-Victorin</td></tr></li>"+
 				"<li><tr><td>448</td><td>Rivi&egrave;re-des-Prairies / Pointe-aux-Trembles</td></tr></li>"+
 				"<li><tr><td>449</td><td>Rivi&egrave;re-des-Prairies / Pointe-aux-Trembles</td></tr></li>"+
-				"<li><tr><td>RTL 61</td><td>Boucherville</td></tr></li>"+
-				"<li><tr><td>RTL 461</td><td>Boucherville</td></tr></li>"+
 				"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 				"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 				"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
@@ -118,8 +114,6 @@ function init()
 			"<li><tr><td>444</td><td>C&eacute;gep Marie-Victorin</td></tr></li>"+
 			"<li><tr><td>448</td><td>Rivi&egrave;re-des-Prairies / Pointe-aux-Trembles</td></tr></li>"+
 			"<li><tr><td>449</td><td>Rivi&egrave;re-des-Prairies / Pointe-aux-Trembles</td></tr></li>"+
-			"<li><tr><td>RTL 61</td><td>Boucherville</td></tr></li>"+
-			"<li><tr><td>RTL 461</td><td>Boucherville</td></tr></li>"+
 			"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 			"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 			"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
@@ -149,8 +143,6 @@ function init()
 				"<li><tr><td>444</td><td>C&eacute;gep Marie-Victorin</td></tr></li>"+
 				"<li><tr><td>448</td><td>Rivi&egrave;re-des-Prairies / Pointe-aux-Trembles</td></tr></li>"+
 				"<li><tr><td>449</td><td>Rivi&egrave;re-des-Prairies / Pointe-aux-Trembles</td></tr></li>"+
-				"<li><tr><td>RTL 61</td><td>Boucherville</td></tr></li>"+
-				"<li><tr><td>RTL 461</td><td>Boucherville</td></tr></li>"+
 				"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 				"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 				"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
