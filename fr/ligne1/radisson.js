@@ -3,7 +3,7 @@ function init()
 	hnames = [ "Place Versailles", "Auberge Royal Versailles", "Mairie de Mercier&#8211;Hochelaga-Maisonneuve", "Le Repos Saint-Fran&ccedil;ois-d&#39;Assise",
 	"Terminus Radisson", "Galeries d&#39;Anjou via Bus 44", "Les Halles d&#39;Anjou via Bus 44", "Coll&egrave;ge d&#39;Anjou via Bus 44", "Parc du Vaisseau-d&#39;Or", "Parc Radisson",
 	"C&eacute;gep Marie-Victorin via Bus 444", "Parc des Roseraies via Bus 44", "Les Terrasses Versailles via Bus 44", "&Eacute;cole des Roseraies via Bus 44",
-	"Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", "Les Appartements Place Versailles", "Le Symboise" ];
+	"Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", "Les Appartements Place Versailles", "Le Symbiose" ];
 	
 	htypes = [ "Centre Commercial", "H&ocirc;tel", "Gouvernement", "Cimeti&egrave;re", "Terminus d&#39;Autobus", "Centre Commercial", "Centre Commercial", "&Eacute;cole", "Parc", "Parc",
 	"Coll&egrave;ge", "Parc", "R&eacute;sidence", "&Eacute;cole", "H&ocirc;pital", "R&eacute;sidence", "R&eacute;sidence" ];
