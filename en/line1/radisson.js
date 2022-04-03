@@ -62,7 +62,7 @@ function init()
 					"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 					"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 					"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
-					"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>;"
+					"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 				}
 				else { //TUNNEL IS OPEN
 					document.getElementById("connections-js").innerHTML = "<li><tr><td>26</td><td><a href=\"honore-beaugrand.html\">Honor&eacute;-Beaugrand</a> <span style=\"color:green\">&#x2B24;</span></td></tr></li><li><tr><td>44</td><td>Anjou</td></tr></li>"+
@@ -77,7 +77,7 @@ function init()
 					"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 					"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 					"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
-					"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>;"
+					"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 				}
 			}
 			else if (d.getUTCHours() > 3){ //TUNNEL IS CLOSED
@@ -92,7 +92,7 @@ function init()
 				"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 				"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 				"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
-				"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>;"
+				"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 			}
 			else { //TUNNEL IS OPEN
 				document.getElementById("connections-js").innerHTML = "<li><tr><td>26</td><td><a href=\"honore-beaugrand.html\">Honor&eacute;-Beaugrand</a> <span style=\"color:green\">&#x2B24;</span></td></tr></li><li><tr><td>44</td><td>Anjou</td></tr></li>"+
@@ -107,7 +107,7 @@ function init()
 				"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 				"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 				"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
-				"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>;"
+				"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 			}
 			break;
 		}
@@ -123,7 +123,7 @@ function init()
 			"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 			"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 			"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
-			"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>;"
+			"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 			break;
 		}
 		case 1:{ //MONDAY
@@ -140,7 +140,7 @@ function init()
 				"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 				"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 				"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
-				"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>;"
+				"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 			}
 			else { //TUNNEL IS CLOSED
 				document.getElementById("connections-js").innerHTML = "<li><tr><td>26</td><td><a href=\"honore-beaugrand.html\">Honor&eacute;-Beaugrand</a> <span style=\"color:green\">&#x2B24;</span></td></tr></li><li><tr><td>44</td><td>Anjou</td></tr></li>"+
@@ -154,7 +154,7 @@ function init()
 				"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 				"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 				"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
-				"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>;"
+				"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 			}
 			break;
 		}
@@ -171,7 +171,7 @@ function init()
 			"<li><tr><td>STL 925</td><td>Laval</td></tr></li>"+
 			"<li><tr><td>CRT Lanaudi&egrave;re</td><td>Joliette</td></tr></li>"+
 			"<li><tr><td>MRC De L&#39;Assomption</td><td>L&#39;Assomption</td></tr></li>"+
-			"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>;"
+			"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 			break;
 		}
 	}
