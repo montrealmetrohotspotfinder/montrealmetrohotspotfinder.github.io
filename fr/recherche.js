@@ -393,7 +393,7 @@ function init(){
 	Radissonnames = [ "Place Versailles", "Auberge Royal Versailles", "Mairie de Mercier&#8211;Hochelaga-Maisonneuve", "Le Repos Saint-Fran&ccedil;ois-d&#39;Assise",
 	"Terminus Radisson", "Galeries d&#39;Anjou", "Les Halles d&#39;Anjou", "Coll&egrave;ge d&#39;Anjou", "Parc du Vaisseau-d&#39;Or", "Parc Radisson",
 	"C&eacute;gep Marie-Victorin", "Parc des Roseraies", "Les Terrasses Versailles", "&Eacute;cole des Roseraies",
-	"Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", "Les Appartements Place Versailles", "Le Symboise" ];
+	"Institut Universitaire en Sant&eacute; Mentale de Montr&eacute;al", "Les Appartements Place Versailles", "Le Symbiose" ];
 	
 	Radissontypes = [ "Centre Commercial", "H&ocirc;tel", "Gouvernement", "Cimeti&egrave;re", "Terminus d&#39;Autobus", "Centre Commercial", "Centre Commercial", "&Eacute;cole", "Parc", "Parc",
 	"Coll&egrave;ge", "Parc", "R&eacute;sidence", "&Eacute;cole", "H&ocirc;pital", "R&eacute;sidence", "R&eacute;sidence" ];
