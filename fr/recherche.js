@@ -501,14 +501,15 @@ function init(){
 	"https://st-emile.csdm.ca/", "https://montreal.ca/lieux/parc-saint-emile", "https://ste-jeanne-darc.cssdm.gouv.qc.ca/", "https://montreal.ca/lieux/parc-victor-bourgeau", "https://manoir-louisiane.business.site/",
 	"https://diocesemontreal.org/fr/vie-communautaire/eglises-paroisses/sainte-jeanne-darc" ];
 	
-	Prefontainenames = [ "Ar&eacute;na Francis-Bouillon", "Parc Raymond-Pr&eacute;fontaine", "Institut Teccart", "Coll&egrave;ge Ville-Marie", "L&#39;&Eacute;glise &agrave; Montr&eacute;al", "&Eacute;cole Notre-Dame-de-l&#39;Assomption" ];
+	Prefontainenames = [ "Ar&eacute;na Francis-Bouillon", "Parc Raymond-Pr&eacute;fontaine", "Institut Teccart", "Coll&egrave;ge Ville-Marie", "L&#39;&Eacute;glise &agrave; Montr&eacute;al", "&Eacute;cole Notre-Dame-de-l&#39;Assomption",
+	"&Eacute;glise Nativit&eacute;-de-la-Sainte-Vierge" ];
 	
-	Prefontainetypes = [ "Sports", "Parc", "Coll&egrave;ge", "&Eacute;cole", "&Eacute;glise", "&Eacute;cole" ];
+	Prefontainetypes = [ "Sports", "Parc", "Coll&egrave;ge", "&Eacute;cole", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise" ];
 	
-	Prefontaineaddresses = [ "3175 Rue de Rouen", "3100 Rue Hochelaga", "3030 Rue Hochelaga", "2850 Rue Sherbrooke Est", "3201 Rue Hochelaga", "2430 Rue Darling" ];
+	Prefontaineaddresses = [ "3175 Rue de Rouen", "3100 Rue Hochelaga", "3030 Rue Hochelaga", "2850 Rue Sherbrooke Est", "3201 Rue Hochelaga", "2430 Rue Darling", "1855 Rue D&eacute;z&eacute;ry" ];
 	
 	Prefontainesites = [ "https://montreal.ca/lieux/arena-francis-bouillon", "https://montreal.ca/lieux/parc-raymond-prefontaine", "https://www.teccart.qc.ca/index.php", "https://www.cvmarie.qc.ca/",
-	"http://egliseamontreal.ca/", "https://notre-dame-de-lassomption.cssdm.gouv.qc.ca/" ];
+	"http://egliseamontreal.ca/", "https://notre-dame-de-lassomption.cssdm.gouv.qc.ca/", "https://nativite150.wixsite.com/site" ];
 	
 	Frontenacnames = [ "Place Frontenac", "Maison de la Culture et Biblioth&egrave;que Frontenac", "Bar Metro Pub", "Parc M&eacute;d&eacute;ric-Martin", "Centre Jean-Claude-Mal&eacute;part", "Parc Walter-Stewart", "Parc Jos-Montferrand", "Centre G&eacute;d&eacute;on-Ouimet",
 	"Mosqu&eacute;e Tawuba", "&Eacute;cole Jean-Baptiste-Meilleur", "&Eacute;cole Pierre-Dupuy", "&Eacute;cole des M&eacute;tiers des Faubourgs-de-Montr&eacute;al", "Parc Baldwin",
