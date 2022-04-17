@@ -1,13 +1,14 @@
 function init()
 {
-	hnames = [ "Ar&eacute;na Francis-Bouillon", "Parc Raymond-Pr&eacute;fontaine", "Institut Teccart", "Coll&egrave;ge Ville-Marie", "L&#39;&Eacute;glise &agrave; Montr&eacute;al", "&Eacute;cole Notre-Dame-de-l&#39;Assomption" ];
+	hnames = [ "Ar&eacute;na Francis-Bouillon", "Parc Raymond-Pr&eacute;fontaine", "Institut Teccart", "Coll&egrave;ge Ville-Marie", "L&#39;&Eacute;glise &agrave; Montr&eacute;al", "&Eacute;cole Notre-Dame-de-l&#39;Assomption",
+	"&Eacute;glise Nativit&eacute;-de-la-Sainte-Vierge" ];
 	
-	htypes = [ "Sports", "Parc", "Coll&egrave;ge", "&Eacute;cole", "&Eacute;glise", "&Eacute;cole" ];
+	htypes = [ "Sports", "Parc", "Coll&egrave;ge", "&Eacute;cole", "&Eacute;glise", "&Eacute;cole", "&Eacute;glise" ];
 	
-	haddresses = [ "3175 Rue de Rouen", "3100 Rue Hochelaga", "3030 Rue Hochelaga", "2850 Rue Sherbrooke Est", "3201 Rue Hochelaga", "2430 Rue Darling" ];
+	haddresses = [ "3175 Rue de Rouen", "3100 Rue Hochelaga", "3030 Rue Hochelaga", "2850 Rue Sherbrooke Est", "3201 Rue Hochelaga", "2430 Rue Darling", "1855 Rue D&eacute;z&eacute;ry" ];
 	
 	hsites = [ "https://montreal.ca/lieux/arena-francis-bouillon", "https://montreal.ca/lieux/parc-raymond-prefontaine", "https://www.teccart.qc.ca/index.php", "https://www.cvmarie.qc.ca/",
-	"http://egliseamontreal.ca/", "https://notre-dame-de-lassomption.cssdm.gouv.qc.ca/" ];
+	"http://egliseamontreal.ca/", "https://notre-dame-de-lassomption.cssdm.gouv.qc.ca/", "https://nativite150.wixsite.com/site" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
