@@ -331,7 +331,8 @@ function init(){
 	{name: "Institut Teccart", type: "College", address: "3030 Rue Hochelaga", site: "https://www.teccart.qc.ca/index_en.php"},
 	{name: "Coll&egrave;ge Ville-Marie", type: "School", address: "2850 Rue Sherbrooke Est", site: "https://www.cvmarie.qc.ca/"},
 	{name: "L&#39;&Eacute;glise &agrave; Montr&eacute;al", type: "Church", address: "3201 Rue Hochelaga", site: "http://churchinmontreal.ca/"},
-	{name: "&Eacute;cole Notre-Dame-de-l&#39;Assomption", type: "School", address: "2430 Rue Darling", site: "https://notre-dame-de-lassomption.cssdm.gouv.qc.ca/"}];
+	{name: "&Eacute;cole Notre-Dame-de-l&#39;Assomption", type: "School", address: "2430 Rue Darling", site: "https://notre-dame-de-lassomption.cssdm.gouv.qc.ca/"},
+	{name: "&Eacute;glise Nativit&eacute;-de-la-Sainte-Vierge", type: "Church", address: "1855 Rue D&eacute;z&eacute;ry", site: "https://nativite150.wixsite.com/site"}];
 	
 	Frontenac = [{name: "Place Frontenac", type: "Mall", address: "2600 Rue Ontario Est", site: "#"},
 	{name: "Maison de la Culture et Biblioth&egrave;que Frontenac", type: "Theatre", address: "2550 Rue Ontario Est", site: "https://frontenac.tuxedobillet.com/"},
