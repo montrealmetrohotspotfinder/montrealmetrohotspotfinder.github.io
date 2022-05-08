@@ -273,7 +273,8 @@ function init(){
 	{name: "&Eacute;cole Notre-Dame-des-Victoires", type: "School", address: "2720 Rue Bossuet", site: "https://notre-dame-des-victoires.csdm.ca/"},
 	{name: "Sanctuaire Marie-Reine-des-Coeurs", type: "Church", address: "5875 Rue Sherbrooke Est", site: "https://smrdc.org/"},
 	{name: "Parc Bossuet", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-bossuet"},
-	{name: "Association Pulmonaire du Qu&eacute;bec", type: "Agency", address: "6070 Rue Sherbrooke Est", site: "https://poumonquebec.ca/en/"}];
+	{name: "Association Pulmonaire du Qu&eacute;bec", type: "Agency", address: "6070 Rue Sherbrooke Est", site: "https://poumonquebec.ca/en/"},
+	{name: "Service des Loisirs Saint-Fabien", type: "Cultural Centre", address: "5005 Rue du Quesne", site: "https://loisirsst-fabien.wixsite.com/accueil"}];
 	
 	Assomption = [{name: "Centre de Quilles Moderne", type: "Sports", address: "3115 Boulevard de l&#39;Assomption", site: "https://www.quillesjgnc.com/centre-de-quilles-moderne/?lang=en"},
 	{name: "Olympic Village", type: "District", address: "5199 Rue Sherbrooke Est", site: "https://www.caprent.com/apartments-for-rent/montreal-qc/olympic-village/"},
