@@ -1,16 +1,18 @@
 function init()
 {
 	hnames = [ "Centre de Soins Prolong&eacute;s Grace Dart via Bus 32", "Plaza Antique", "H&ocirc;tel Chablis Cadillac", "Parc de l&#39;Ancienne-P&eacute;pini&egrave;re", "Parc Jean-Amyot",
-	"&Eacute;cole Rosalie-Jett&eacute;", "&Eacute;cole Notre-Dame-des-Victoires", "Sanctuaire Marie-Reine-des-Coeurs", "Parc Bossuet", "Association Pulmonaire du Qu&eacute;bec", "Service des Loisirs Saint-Fabien" ];
+	"&Eacute;cole Rosalie-Jett&eacute;", "&Eacute;cole Notre-Dame-des-Victoires", "Sanctuaire Marie-Reine-des-Coeurs", "Parc Bossuet", "Association Pulmonaire du Qu&eacute;bec", "Service des Loisirs Saint-Fabien",
+	"Parc Pierre-B&eacute;dard" ];
 	
-	htypes = [ "R&eacute;sidence", "Salle de R&eacute;ception", "H&ocirc;tel", "Parc", "Parc", "&Eacute;cole", "&Eacute;cole", "&Eacute;glise", "Parc", "Agence", "Centre Culturel" ];
+	htypes = [ "R&eacute;sidence", "Salle de R&eacute;ception", "H&ocirc;tel", "Parc", "Parc", "&Eacute;cole", "&Eacute;cole", "&Eacute;glise", "Parc", "Agence", "Centre Culturel", "Parc" ];
 	
 	haddresses = [ "5155 Rue Sainte-Catherine Est", "6086 Rue Sherbrooke Est", "5800 Rue Sherbrooke Est", "5220 Rue du Quesne", "6110 Rue de Marseille", "5100 Rue Bossuet", "2720 Rue Bossuet",
-	"5875 Rue Sherbrooke Est", "", "6070 Rue Sherbrooke Est", "5005 Rue du Quesne" ];
+	"5875 Rue Sherbrooke Est", "", "6070 Rue Sherbrooke Est", "5005 Rue du Quesne", "5515 Rue Lacordaire" ];
 	
 	hsites = [ "https://ciusss-ouestmtl.gouv.qc.ca/contact-localisation/centres-dhebergement-et-de-soins-de-longue-duree-chsld/centre-de-soins-prolonges-grace-dart/", 
 	"https://plazapmg.com/plaza-antique/", "https://www.chabliscadillac.com/", "https://montreal.ca/lieux/parc-de-lancienne-pepiniere", "https://montreal.ca/lieux/parc-jean-amyot",
-	"https://rosalie-jette.csdm.ca/", "https://notre-dame-des-victoires.csdm.ca/", "https://smrdc.org/", "https://montreal.ca/lieux/parc-bossuet", "https://poumonquebec.ca/", "https://loisirsst-fabien.wixsite.com/accueil" ];
+	"https://rosalie-jette.csdm.ca/", "https://notre-dame-des-victoires.csdm.ca/", "https://smrdc.org/", "https://montreal.ca/lieux/parc-bossuet", "https://poumonquebec.ca/", "https://loisirsst-fabien.wixsite.com/accueil",
+	"https://montreal.ca/lieux/parc-pierre-bedard" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
