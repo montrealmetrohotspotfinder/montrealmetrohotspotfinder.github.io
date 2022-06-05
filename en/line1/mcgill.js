@@ -59,7 +59,9 @@ function init()
 	{name: "Fiera Capital", type: "Office", address: "1981 Avenue McGill College", site: "https://www.fieracapital.com/en"},
 	{name: "McGill University, Faculty of Arts", type: "University", address: "853 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/arts/"},
 	{name: "McGill University, School of Urban Planning", type: "University", address: "815 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/urbanplanning/"},
-	{name: "Valero, Montreal offices", type: "Office", address: "1801 Avenue McGill College", site: "https://www.valero.com/"}];
+	{name: "Valero, Montreal offices", type: "Office", address: "1801 Avenue McGill College", site: "https://www.valero.com/"},
+	{name: "Interactive Brokers Canada", type: "Office", address: "1800 Avenue McGill College", site: "https://www.interactivebrokers.ca/en/home.php"},
+	{name: "CNA, Montreal offices", type: "Office", address: "1800 Avenue McGill College", site: "https://www.cnacanada.ca/web/guest/cnacanada/home"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
