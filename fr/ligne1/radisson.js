@@ -45,10 +45,10 @@ function init()
 	}
 	
 	/*PONT-TUNNEL LOUIS-HIPPOLYTE LA FONTAINE CLOSURE: EXO BUSES DO NOT OPERATE BETWEEN FRIDAYS 11:30PM TO MONDAYS 5:00AM*/
-	/*var d = new Date();*/
+	var d = new Date();
 	
 	/*LA FONTAINE REOPENS AT 5:00 AM ON MONDAYS; LA FONTAINE CLOSES AT 11:30 PM ON FRIDAYS*/
-	/*switch(d.getUTCDay()){
+	switch(d.getUTCDay()){
 		case 6:{ //SATURDAY
 			if(d.getUTCHours() == 3){
 				if(d.getUTCMinutes() >= 30){ //TUNNEL IS CLOSED
@@ -167,7 +167,7 @@ function init()
 			"<li><tr><td>MRC Les Moulins</td><td>Mascouche</td></tr></li>";
 			break;
 		}
-	}*/
+	}
 }
 
 window.onload = init;
