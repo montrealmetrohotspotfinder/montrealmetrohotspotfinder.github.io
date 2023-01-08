@@ -48,7 +48,9 @@ function init()
 	{name: "Restaurant Jacques-Cartier", type: "Restaurant", address: "444 Place Jacques-Cartier", site: "https://www.restaurantjacquescartier.ca/?lang=en"},
 	{name: "La Mar&eacute;e", type: "Restaurant", address: "404 Place Jacques-Cartier", site: "#"},
 	{name: "Pincette Bar &agrave; Homard", type: "Restaurant", address: "94 Rue Saint-Paul Est", site: "https://pincettemtl.com/en/"},
-	{name: "Brasserie 321", type: "Restaurant", address: "321 Place Jacques-Cartier", site: "https://www.brasserie321.ca/?lang=en"}];
+	{name: "Brasserie 321", type: "Restaurant", address: "321 Place Jacques-Cartier", site: "https://www.brasserie321.ca/?lang=en"},
+	{name: "Le Muscadin", type: "Restaurant", address: "443 Rue Saint-Vincent", site: "https://www.lemuscadin.ca/"},
+	{name: "Caffe Un Po&#39; Di Pi&ugrave;", type: "Restaurant", address: "3 Rue de la Commune Est", site: "https://www.caffeunpodipiu.com/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
