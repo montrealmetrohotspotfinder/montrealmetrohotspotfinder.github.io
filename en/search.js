@@ -791,7 +791,8 @@ function init(){
 	{name: "Parc du P&egrave;re-Marquette", type: "Park", address: "1602 Rue de Bellechasse", site: "https://montreal.ca/en/places/parc-du-pere-marquette"},
 	{name: "Centre P&egrave;re-Marquette", type: "Cultural Centre", address: "1600 Rue de Drucourt", site: "http://centreperemarquette.ca/"},
 	{name: "Ar&eacute;na P&egrave;re-Marquette", type: "Sports", address: "1605 Rue de Bellechasse", site: "https://montreal.ca/en/places/arena-pere-marquette"},
-	{name: "&Eacute;cole P&egrave;re-Marquette", type: "School", address: "6030 Rue Marquette", site: "https://pere-marquette.cssdm.gouv.qc.ca/"}];
+	{name: "&Eacute;cole P&egrave;re-Marquette", type: "School", address: "6030 Rue Marquette", site: "https://pere-marquette.cssdm.gouv.qc.ca/"},
+	{name: "&Eacute;cole des M&eacute;tiers de l'&Eacute;quipement Motoris&eacute; de Montr&eacute;al", type: "Trade School", address: "5455 Rue Saint-Denis", site: "https://ecole-metiers-motorise.cssdm.gouv.qc.ca"}];
 	
 	Laurier = [{name: "Spectrum Productions", type: "Studio", address: "5445 Avenue de Gasp&eacute;", site: "http://www.productionsspectrum.com/"},
 	{name: "Parc Sir-Wilfrid-Laurier", type: "Park", address: "1115 Avenue Laurier Est", site: "https://montreal.ca/en/places/parc-sir-wilfrid-laurier"},
