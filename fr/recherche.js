@@ -1577,15 +1577,16 @@ function init(){
 	"https://coronation.emsb.qc.ca/coronation", "https://www.ramadaplazamontreal.com/fr-fr", "https://montreal.ca/lieux/parc-van-horne", "https://petit-chapiteau.csdm.ca/" ];
 	
 	Namurnames = [ "Gibeau Orange Julep", "Centre Commercial D&eacute;carie Square", "SmartCentres Montr&eacute;al D&eacute;carie", "SPCA Montr&eacute;al", "Parc Nelson-Mandela",
-	"&Eacute;cole des Nations", "H&ocirc;tel Ruby Foo&#39;s" ];
+	"&Eacute;cole des Nations", "H&ocirc;tel Ruby Foo&#39;s", "Parc Elie-Wiesel" ];
 	
-	Namurtypes = [ "Restaurant", "Centre Commercial", "Magasinage", "Agence", "Parc", "&Eacute;cole", "H&ocirc;tel" ];
+	Namurtypes = [ "Restaurant", "Centre Commercial", "Magasinage", "Agence", "Parc", "&Eacute;cole", "H&ocirc;tel", "Parc" ];
 	
 	Namuraddresses = [ "7700 Boulevard D&eacute;carie", "6900 Boulevard D&eacute;carie", "5400 Rue Jean-Talon Ouest", "5215 Rue Jean-Talon Ouest", "4920 Rue V&eacute;zina",
-	"4860 Rue V&eacute;zina", "7655 Boulevard D&eacute;carie" ];
+	"4860 Rue V&eacute;zina", "7655 Boulevard D&eacute;carie", "5211 Avenue de Courtrai" ];
 	
 	Namursites = [ "https://orangejulep.ca", "#", "https://www.smartcentres.com/fr/property/smartcentres-montreal-decarie-qc/", "https://www.spca.com/",
-	"https://montreal.ca/lieux/parc-nelson-mandela", "https://des-nations.csdm.ca/", "https://www.hotelrubyfoos.com/fr/" ];
+	"https://montreal.ca/lieux/parc-nelson-mandela", "https://des-nations.csdm.ca/", "https://www.hotelrubyfoos.com/fr/", "https://montreal.ca/lieux/parc-elie-wiesel" ];
+
 	
 	DeLaSavanenames = [ "Cimeti&egrave;re Baron de Hirsch", "Kart-O-Mania" ];
 	
