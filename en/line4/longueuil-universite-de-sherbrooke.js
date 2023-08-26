@@ -17,7 +17,10 @@ function init()
 	{name: "Les Habitats Lafayette", type: "Residence", address: "100 Boulevard La Fayette", site: "http://www.residences6etoiles.com/en/lafayette.html"},
 	{name: "SSQ Insurance, Longueuil offices", type: "Office", address: "1225 Rue Saint-Charles Ouest", site: "https://ssq.ca/en"},
 	{name: "Canadian Space Agency", type: "Agency", address: "6767 Route de l&#39;A&eacute;roport", site: "https://www.asc-csa.gc.ca/eng/default.asp"},
-	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Longueuil campus", type: "University", address: "150 Place Charles-Lemoyne", site: "https://etudier.uqam.ca/campus/longueuil"}];
+	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Longueuil campus", type: "University", address: "150 Place Charles-Lemoyne", site: "https://etudier.uqam.ca/campus/longueuil"},
+	{name: "&Eacute;cole Secondaire Saint-Jean-Baptiste", type: "School", address: "705 Rue Duvernay", site: "https://saintjeanbaptiste.ecoles.csmv.qc.ca"},
+	{name: "&Eacute;cole du Cur&eacute;-Lequin", type: "School", address: "653 Rue Pr&eacute;fontaine", site: "https://cure-lequin.ecoles.csmv.qc.ca"},
+	{name: "&Eacute;cole Saint-Jude", type: "School", address: "653 Rue Pr&eacute;fontaine", site: "https://cure-lequin.ecoles.csmv.qc.ca"}];
 		
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
