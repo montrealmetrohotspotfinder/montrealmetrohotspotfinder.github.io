@@ -1158,7 +1158,8 @@ function init(){
 	{name: "SPCA Montr&eacute;al", type: "Agency", address: "5215 Rue Jean-Talon Ouest", site: "https://www.spca.com/en/"},
 	{name: "Parc Nelson-Mandela", type: "Park", address: "4920 Rue V&eacute;zina", site: "https://montreal.ca/en/places/parc-nelson-mandela"},
 	{name: "&Eacute;cole des Nations", type: "School", address: "4860 Rue V&eacute;zina", site: "https://des-nations.csdm.ca/"},
-	{name: "H&ocirc;tel Ruby Foo&#39;s", type: "Hotel", address: "7655 Boulevard D&eacute;carie", site: "https://www.hotelrubyfoos.com/"}];
+	{name: "H&ocirc;tel Ruby Foo&#39;s", type: "Hotel", address: "7655 Boulevard D&eacute;carie", site: "https://www.hotelrubyfoos.com/"},
+	{name: "Parc Elie-Wiesel", type: "Park", address: "5211 Avenue de Courtrai", site: "https://montreal.ca/en/places/parc-elie-wiesel"}];
 	
 	DeLaSavane = [{name: "Cimeti&egrave;re Baron de Hirsch", type: "Cemetery", address: "5015 Rue de la Savane", site: "https://barondehirsch.com/"},
 	{name: "Kart-O-Mania", type: "Sports", address: "5196 Rue de la Savane", site: "http://www.kart-o-mania.ca/en/"}];
