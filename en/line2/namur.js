@@ -6,7 +6,8 @@ function init()
 	{name: "SPCA Montr&eacute;al", type: "Agency", address: "5215 Rue Jean-Talon Ouest", site: "https://www.spca.com/en/"},
 	{name: "Parc Nelson-Mandela", type: "Park", address: "4920 Rue V&eacute;zina", site: "https://montreal.ca/en/places/parc-nelson-mandela"},
 	{name: "&Eacute;cole des Nations", type: "School", address: "4860 Rue V&eacute;zina", site: "https://des-nations.csdm.ca/"},
-	{name: "H&ocirc;tel Ruby Foo&#39;s", type: "Hotel", address: "7655 Boulevard D&eacute;carie", site: "https://www.hotelrubyfoos.com/"}];
+	{name: "H&ocirc;tel Ruby Foo&#39;s", type: "Hotel", address: "7655 Boulevard D&eacute;carie", site: "https://www.hotelrubyfoos.com/"},
+	{name: "Parc Elie-Wiesel", type: "Park", address: "5211 Avenue de Courtrai", site: "https://montreal.ca/en/places/parc-elie-wiesel"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
