@@ -17,10 +17,13 @@ function init()
 	"Les Habitats Lafayette",
 	"SSQ Assurance, bureaux longueuillois",
 	"Agence Spatiale Canadienne",
-	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, campus Longueuil" ];
+	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, campus Longueuil",
+	"&Eacute;cole Secondaire Saint-Jean-Baptiste",
+	"&Eacute;cole du Cur&eacute;-Lequin",
+	"&Eacute;cole Saint-Jude" ];
 	
 	htypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence", "Bureau",
-	"Agence", "Universit&eacute;" ];
+	"Agence", "Universit&eacute;", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole" ];
 	
 	haddresses = [ "120 Place Charles-Lemoyne", 
 	"150 Place Charles-Lemoyne", 
@@ -39,7 +42,10 @@ function init()
 	"100 Boulevard La Fayette",
 	"1225 Rue Saint-Charles Ouest",
 	"6767 Route de l&#39;A&eacute;roport",
-	"150 Place Charles-Lemoyne" ];
+	"150 Place Charles-Lemoyne",
+	"705 Rue Duvernay",
+	"653 Rue Pr&eacute;fontaine",
+	"653 Rue Pr&eacute;fontaine" ];
 	
 	hsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-longueuil", 
 	"http://www.usherbrooke.ca/longueuil/", 
@@ -58,7 +64,10 @@ function init()
 	"http://www.residences6etoiles.com/fr/lafayette.html",
 	"https://ssq.ca/fr",
 	"https://www.asc-csa.gc.ca/fra/default.asp",
-	"https://etudier.uqam.ca/campus/longueuil" ];
+	"https://etudier.uqam.ca/campus/longueuil",
+	"https://saintjeanbaptiste.ecoles.csmv.qc.ca",
+	"https://cure-lequin.ecoles.csmv.qc.ca",
+	"https://cure-lequin.ecoles.csmv.qc.ca" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
