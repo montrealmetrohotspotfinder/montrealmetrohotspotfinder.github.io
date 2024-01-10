@@ -582,7 +582,8 @@ function init(){
 	{name: "Maison Louis-Joseph-Forget", type: "Historical Site", address: "1195 Rue Sherbrooke Ouest", site: "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92828&type=bien"},
 	{name: "Maison James-Reid-Wilson", type: "Historical Site", address: "1201 Rue Sherbrooke Ouest", site: "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id=92829&type=bien"},
 	{name: "La Soci&eacute;t&eacute;", type: "Restaurant", address: "1415 Rue de la Montagne", site: "https://montreal.lasociete.ca/"},
-	{name: "Le Boulevardier", type: "Restaurant", address: "2050 Rue Mansfield", site: "https://leboulevardierrestaurant.com/en/"} ];
+	{name: "Le Boulevardier", type: "Restaurant", address: "2050 Rue Mansfield", site: "https://leboulevardierrestaurant.com/en/"},
+	{name: "La Cantina", type: "Restaurant", address: "2022 Rue Stanley", site: "#"}];
 	
 	Guy = [{name: "Concordia University, Sir George Williams campus", type: "University", address: "1455 Boulevard de Maisonneuve Ouest", site: "http://www.concordia.ca/"},
 	{name: "Concordia University, John Molson School of Business", type: "University", address: "1450 Rue Guy", site: "http://www.concordia.ca/jmsb.html"},
