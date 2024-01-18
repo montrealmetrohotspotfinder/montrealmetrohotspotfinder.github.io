@@ -1052,7 +1052,8 @@ function init(){
 	{name: "Monarque", type: "Restaurant", address: "406 Rue Saint-Jacques", site: "https://restaurantmonarque.ca/en"},
 	{name: "&Eacute;difice du Grand Tronc", type: "Government", address: "360 Rue McGill", site: "https://imtl.org/montreal/building/edifice_Grand_Tronc.php"},
 	{name: "Helena", type: "Restaurant", address: "438 Rue McGill", site: "https://restauranthelena.com/en/"},
-	{name: "Le Butterfly", type: "Restaurant", address: "324 Rue Saint-Paul Ouest", site: "https://lebutterflymtl.com"}];
+	{name: "Le Butterfly", type: "Restaurant", address: "324 Rue Saint-Paul Ouest", site: "https://lebutterflymtl.com"},
+	{name: "Place Banque Nationale", type: "Office", address: "800 Rue Saint-Jacques", site: "https://www.nbc.ca/contact-us/head-office.html"}];
 	
 	Bonaventure = [{name: "Gare Centrale", type: "Train Station", address: "895 Rue de la Gaucheti&egrave;re Ouest", site: "https://garecentrale.ca/en/"},
 	{name: "Terminus Centre-Ville", type: "Bus Terminal", address: "1000 Rue de la Gaucheti&egrave;re Ouest", site: "https://exo.quebec/en/trip-planner/intermodal-installations/terminus-centre-ville"},
@@ -1078,7 +1079,8 @@ function init(){
 	{name: "AlphaCCO", type: "Office", address: "625 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://alphacco.com/en/"},
 	{name: "Curateur Public du Qu&eacute;bec", type: "Agency", address: "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.curateur.gouv.qc.ca/cura/en/index.html"},
 	{name: "Ordre des Dentistes du Qu&eacute;bec", type: "Agency", address: "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "http://www.odq.qc.ca/Home/tabid/149/language/en-US/Default.aspx"},
-	{name: "Bombardier", type: "Office", address: "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://bombardier.com/en"}];
+	{name: "Bombardier", type: "Office", address: "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://bombardier.com/en"},
+	{name: "Place Banque Nationale", type: "Office", address: "800 Rue Saint-Jacques", site: "https://www.nbc.ca/contact-us/head-office.html"}];
 	
 	LucienLAllier = [{name: "Bell Centre", type: "Sports", address: "1909 Avenue des Canadiens-de-Montr&eacute;al", site: "https://www.centrebell.ca/en"},
 	{name: "Tour Deloitte", type: "Office", address: "1115 Rue Saint-Antoine Ouest", site: "https://www.cfoffice.ca/property/home/cf-deloitte-tower"},
