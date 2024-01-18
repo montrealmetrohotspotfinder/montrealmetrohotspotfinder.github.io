@@ -59,7 +59,8 @@ function init()
 	{name: "Monarque", type: "Restaurant", address: "406 Rue Saint-Jacques", site: "https://restaurantmonarque.ca/en"},
 	{name: "&Eacute;difice du Grand Tronc", type: "Government", address: "360 Rue McGill", site: "https://imtl.org/montreal/building/edifice_Grand_Tronc.php"},
 	{name: "Helena", type: "Restaurant", address: "438 Rue McGill", site: "https://restauranthelena.com/en/"},
-	{name: "Le Butterfly", type: "Restaurant", address: "324 Rue Saint-Paul Ouest", site: "https://lebutterflymtl.com"}];
+	{name: "Le Butterfly", type: "Restaurant", address: "324 Rue Saint-Paul Ouest", site: "https://lebutterflymtl.com"},
+	{name: "Place Banque Nationale", type: "Office", address: "800 Rue Saint-Jacques", site: "https://www.nbc.ca/contact-us/head-office.html"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
