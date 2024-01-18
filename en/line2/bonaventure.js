@@ -24,7 +24,8 @@ function init()
 	{name: "AlphaCCO", type: "Office", address: "625 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://alphacco.com/en/"},
 	{name: "Curateur Public du Qu&eacute;bec", type: "Agency", address: "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.curateur.gouv.qc.ca/cura/en/index.html"},
 	{name: "Ordre des Dentistes du Qu&eacute;bec", type: "Agency", address: "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "http://www.odq.qc.ca/Home/tabid/149/language/en-US/Default.aspx"},
-	{name: "Bombardier", type: "Office", address: "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://bombardier.com/en"}];
+	{name: "Bombardier", type: "Office", address: "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://bombardier.com/en"},
+	{name: "Place Banque Nationale", type: "Office", address: "800 Rue Saint-Jacques", site: "https://www.nbc.ca/contact-us/head-office.html"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
