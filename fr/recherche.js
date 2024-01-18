@@ -1448,11 +1448,13 @@ function init(){
 	"Caisse de D&eacute;p&ocirc;t et Placement du Qu&eacute;bec", "AON", "&Eacute;difice Jacques-Parizeau", "Soci&eacute;t&eacute; Qu&eacute;b&eacute;coise d&#39;Information Juridique", "Groupe CSL",
 	"Maison des R&eacute;gions", "Place Victoria", "Agence Mondiale Antidopage", "Association Internationale du Transport A&eacute;rien", "Autorit&eacute; des March&eacute;s Financiers", "La Vo&ucirc;te", "Ivanho&eacute; Cambridge", "Atlific Hotels",
 	"Th&eacute;&acirc;tre St-James", "CIMA+", "KoSc&egrave;ne", "Saint-M2", "Chambre de Commerce du Montr&eacute;al M&eacute;tropolitain", "H&ocirc;tel Gault", "Appartements-Boutique", "Square des Fr&egrave;res-Charon", "DOMO Appartements", "Alstom",
-	"Place du Fr&egrave;re-Andr&eacute;", "Toqu&eacute;!", "Terrasse W Montr&eacute;al", "H&ocirc;tel St-Paul", "The Farsides", "Holder", "Le Cartet Resto Boutique", "Dandy", "Le 409", "Monarque", "&Eacute;difice du Grand Tronc", "Helena", "Le Butterfly" ];
+	"Place du Fr&egrave;re-Andr&eacute;", "Toqu&eacute;!", "Terrasse W Montr&eacute;al", "H&ocirc;tel St-Paul", "The Farsides", "Holder", "Le Cartet Resto Boutique", "Dandy", "Le 409", "Monarque", "&Eacute;difice du Grand Tronc", "Helena", "Le Butterfly", 
+	"Place Banque Nationale" ];
 	
 	SquareVictoriatypes = [ "District", "Port", "Place de la Ville", "Bureau", "Bureau", "Bureau", "Bureau", "Place de la Ville", "District", "Bureau", "Centre Commercial", "H&ocirc;tel", "Bureau", "Restaurant", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel", "H&ocirc;tel",
 	"District", "Centre de Convention", "Centre de Convention", "R&eacute;sidence", "Restaurant", "H&ocirc;tel", "Agence", "Bureau", "Bureau", "Agence", "Bureau", "Bureau", "Centre Commercial", "Bureau", "Bureau", "Agence", "Restaurant", "Bureau", "Bureau", "Salle de R&eacute;ception",
-	"Bureau", "Bureau", "R&eacute;sidence", "Bureau", "H&ocirc;tel", "R&eacute;sidence", "Place de la Ville", "R&eacute;sidence", "Bureau", "Parc", "Restaurant", "Restaurant", "H&ocirc;tel", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Gouvernement", "Restaurant", "Restaurant" ];
+	"Bureau", "Bureau", "R&eacute;sidence", "Bureau", "H&ocirc;tel", "R&eacute;sidence", "Place de la Ville", "R&eacute;sidence", "Bureau", "Parc", "Restaurant", "Restaurant", "H&ocirc;tel", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Restaurant", "Gouvernement", "Restaurant", "Restaurant",
+	"Bureau" ];
 	
 	SquareVictoriaaddresses = [ "", "333 Rue de la Commune Ouest", "", "612 Rue Saint-Jacques", "800 Rue Gauvin", "600 Rue de la Gaucheti&egrave;re Ouest", "525 Avenue Viger Ouest", "1000 Place Jean-Paul-Riopelle", "",
 	"999 Boulevard Robert-Bourassa", "747 Rue du Square-Victoria", "355 Rue Saint-Jacques", "600 Rue de la Gaucheti&egrave;re Ouest", "401 Rue Notre-Dame Ouest", "270 Rue Saint-Antoine Ouest", "901 Rue du Square-Victoria", 
@@ -1460,7 +1462,8 @@ function init(){
 	"1000 Place Jean-Paul-Riopelle", "700 Rue de la Gaucheti&egrave;re Ouest", "1000 Place Jean-Paul-Riopelle", "715 Rue du Square-Victoria", "759 Rue du Square-Victoria", "500 Rue Saint-Jacques", "800 Rue du Square-Victoria", "800 Rue du Square-Victoria",
 	"800 Rue du Square-Victoria", "800 Rue du Square-Victoria", "360 Rue Saint-Jacques", "1001 Rue du Square-Victoria", "250 Rue Saint-Antoine Ouest", "265 Rue Saint-Jacques",
 	"740 Rue Notre-Dame Ouest", "651 Rue Notre-Dame Ouest", "464 Rue Saint-Henri", "393 Rue Saint-Jacques", "449 Rue Sainte-H&eacute;l&egrave;ne", "715 Rue William", "", "650 Rue Wellington", "1050 C&ocirc;te du Beaver Hall", "", "900 Place Jean-Paul-Riopelle",
-	"901 Rue du Square-Victoria", "355 Rue McGill", "690 Rue Notre-Dame Ouest", "407 Rue McGill", "106 Rue McGill", "244 Rue Saint-Jacques", "409 Rue McGill", "406 Rue Saint-Jacques", "360 Rue McGill", "438 Rue McGill", "324 Rue Saint-Paul Ouest" ];
+	"901 Rue du Square-Victoria", "355 Rue McGill", "690 Rue Notre-Dame Ouest", "407 Rue McGill", "106 Rue McGill", "244 Rue Saint-Jacques", "409 Rue McGill", "406 Rue Saint-Jacques", "360 Rue McGill", "438 Rue McGill", "324 Rue Saint-Paul Ouest",
+	"800 Rue Saint-Jacques" ];
 	
 	SquareVictoriasites = [ "https://vieuxmontreal.ca/", "https://www.vieuxportdemontreal.com/", "https://montreal.ca/lieux/square-victoria", "https://www.quebecor.com/fr/accueil", "http://www.tourdelabourse.com/", "#", "https://www.touraimia.com/index.php",
 	"https://www.mtl.org/fr/quoi-faire/patrimoine-et-architecture/place-jean-paul-riopelle", "https://www.mtl.org/fr/quoi-faire/patrimoine-et-architecture/quartier-international-de-montreal", "https://www.icao.int/Pages/default.aspx", 
@@ -1470,28 +1473,30 @@ function init(){
 	"http://edificejacques-parizeau.com/", "https://soquij.qc.ca/", "https://www.cslships.com/fr", "https://maisondesregions.com/", "http://www.groupepetra.com/fra/properties/view?id=41index2_fr.php", "https://www.wada-ama.org/fr", "https://www.iata.org/", "https://lautorite.qc.ca/",
 	"https://lavoutemontreal.com/", "https://www.ivanhoecambridge.com/", "https://fr.atlific.com/", "https://www.stjamestheatre.ca/francais", "https://www.cima.ca/", "http://www.koscene.ca/", "https://www.saintm2.com/fr/", "https://www.ccmm.ca/", "https://hotelgault.com/fr/", "http://www.appartementsboutique.ca/",
 	"https://montreal.ca/lieux/square-des-freres-charon", "https://www.mondev.ca/fr/appartements-a-louer-montreal/old-montreal/wellington-650", "https://www.alstom.com/fr", "https://montreal.ca/lieux/place-du-frere-andre", "https://www.restaurant-toque.com/fr/", "https://www.marriott.fr/hotels/hotel-information/restaurant/details/yulwh-w-montreal/6760117/",
-	"https://hotelstpaul.com/fr/", "https://www.thefarsides.com/?lang=fr", "http://restaurantholder.com/", "https://lecartet.ca/", "http://dandymtl.com/fr/", "https://le409.com/", "https://restaurantmonarque.ca/", "https://imtl.org/edifices/edifice_Grand_Tronc.php", "https://restauranthelena.com/", "https://lebutterflymtl.com" ];
+	"https://hotelstpaul.com/fr/", "https://www.thefarsides.com/?lang=fr", "http://restaurantholder.com/", "https://lecartet.ca/", "http://dandymtl.com/fr/", "https://le409.com/", "https://restaurantmonarque.ca/", "https://imtl.org/edifices/edifice_Grand_Tronc.php", "https://restauranthelena.com/", "https://lebutterflymtl.com",
+	"https://www.bnc.ca/coordonnees/siege-social.html" ];
 	
 	Bonaventurenames = [ "Gare Centrale", "Terminus Centre-Ville", "Les Halles de la Gare", "Place Bonaventure", "STM, si&egrave;ge social", "Centre Bell", "1000 De La Gaucheti&egrave;re", "Place Ville Marie",
 	"H&ocirc;tel Fairmont Reine Elizabeth", "Marriott Ch&acirc;teau Champlain", "Maison de l&#39;OACI", "Cath&eacute;drale Marie Reine du Monde", "Square Dorchester", "&Eacute;difice Sun Life", 
 	"Time Supper Club", "Immigration, R&eacute;fugi&eacute;s et Citoyennet&eacute; Canada", "H&ocirc;tel Bonaventure", "Place du Canada", "1250 Ren&eacute;-L&eacute;vesque", "Vargas",
-	"Telus, bureaux montr&eacute;alais", "AlphaCCO", "Curateur Public du Qu&eacute;bec", "Ordre des Dentistes du Qu&eacute;bec", "Bombardier" ];
+	"Telus, bureaux montr&eacute;alais", "AlphaCCO", "Curateur Public du Qu&eacute;bec", "Ordre des Dentistes du Qu&eacute;bec", "Bombardier", "Place Banque Nationale" ];
 	
 	Bonaventuretypes = [ "Station de Train", "Terminus d&#39;Autobus", "Centre Commercial", "Centre de Convention", "Bureau", "Sports", "Bureau", "Centre Commercial", "H&ocirc;tel", "H&ocirc;tel", 
-	"Bureau", "&Eacute;glise", "Place de la Ville", "Bureau", "Salle de R&eacute;ception", "Agence", "H&ocirc;tel", "Place de la Ville", "Bureau", "Restaurant", "Bureau", "Bureau", "Agence", "Agence", "Bureau" ];
+	"Bureau", "&Eacute;glise", "Place de la Ville", "Bureau", "Salle de R&eacute;ception", "Agence", "H&ocirc;tel", "Place de la Ville", "Bureau", "Restaurant", "Bureau", "Bureau", "Agence", "Agence", "Bureau",
+	"Bureau" ];
 	
 	Bonaventureaddresses = [ "895 Rue de la Gaucheti&egrave;re Ouest", "1000 Rue de la Gaucheti&egrave;re Ouest", "895 Rue de la Gaucheti&egrave;re Ouest", "800 Rue de la Gaucheti&egrave;re Ouest", 
 	"800 Rue de la Gaucheti&egrave;re Ouest", "1909 Avenue des Canadiens-de-Montr&eacute;al", "1000 Rue de la Gaucheti&egrave;re Ouest", "1 Place Ville Marie", "900 Boulevard Ren&eacute;-L&eacute;vesque Ouest", 
 	"1050 Rue de la Gaucheti&egrave;re Ouest", "999 Boulevard Robert-Bourassa", "1085 Rue de la Cath&eacute;drale", "2903 Rue Peel", "1155 Rue Metcalfe", "997 Rue Saint-Jacques", "1010 Rue Saint-Antoine Ouest",
 	"900 Rue de la Gaucheti&egrave;re Ouest", "1010 Rue de la Gaucheti&egrave;re Ouest", "1250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "690 Boulevard Ren&eacute-L&eacute;vesque Ouest",
 	"630 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "625 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "600 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", 
-	"800 Boulevard Ren&eacute;-L&eacute;vesque Ouest" ];
+	"800 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "800 Rue Saint-Jacques" ];
 	
 	Bonaventuresites = [ "https://garecentrale.ca/fr/", "https://exo.quebec/planifier-trajet/installations-intermodales/terminus-centre", "https://garecentrale.ca/fr/halles-de-la-gare", "http://placebonaventure.com/fr/", 
 	"http://stm.info/fr", "https://www.centrebell.ca/fr", "https://www.le1000.com/fr", "https://placevillemarie.com/fr", "https://www.fairmont.fr/queen-elizabeth-montreal/", "https://www.marriott.fr/hotels/travel/yulcc-montreal-marriott-chateau-champlain", 
 	"https://www.icao.int/Pages/default.aspx", "http://www.cathedralecatholiquedemontreal.org/", "https://montreal.ca/lieux/square-dorchester", "https://www.edificesunlife.ca/", 
 	"https://timesupperclub.com/fr", "https://www.canada.ca/fr/services/immigration-citoyennete.html", "https://hotelbonaventure.com/fr/", "https://montreal.ca/lieux/place-du-canada", "https://imtl.org/edifices/IBM-Marathon.php",
-	"https://www.vargas.ca/?lang=fr", "https://www.telus.com/fr/", "https://alphacco.com/", "https://www.curateur.gouv.qc.ca/cura/fr/index.html", "http://www.odq.qc.ca/Accueil/tabid/127/language/fr-CA/Default.aspx", "https://bombardier.com/fr" ];
+	"https://www.vargas.ca/?lang=fr", "https://www.telus.com/fr/", "https://alphacco.com/", "https://www.curateur.gouv.qc.ca/cura/fr/index.html", "http://www.odq.qc.ca/Accueil/tabid/127/language/fr-CA/Default.aspx", "https://bombardier.com/fr", "https://www.bnc.ca/coordonnees/siege-social.html" ];
 	
 	LucienLAlliernames = [ "Centre Bell", "Tour Deloitte", "Tour des Canadiens", "&Eacute;cole de Technologie Sup&eacute;rieure", "Gare Windsor", "WeWork L&#39;Avenue", "Coll&egrave;ge Herzing", 
 	"Holiday Inn & Suites Montr&eacute;al Centre-Ville Ouest", "Le Centre Sheraton Montr&eacute;al", "Novotel Montr&eacute;al Centre", "H&ocirc;tel Le Crystal", "Le Nouvel H&ocirc;tel & Spa", "Coll&egrave;ge O&#39;Sullivan",
