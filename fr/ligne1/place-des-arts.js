@@ -45,13 +45,14 @@ function init()
 	"Le Smith",
 	"Jack Victor, bureaux montr&eacute;alais",
 	"AC Marriott Montr&eacute;al Centre-Ville",
-	"Agence du Revenu du Canada, bureaux montr&eacute;alais" ];
+	"Agence du Revenu du Canada, bureaux montr&eacute;alais",
+	"Commission des normes, de l&#39;&eacute;quit&eacute;, de la sant&eacute; et de la s&eacute;curit&eacute; du travail, bureaux montr&eacute;alais" ];
 	
 	htypes = [ "Th&eacute;&acirc;tre", "District", "Mus&eacute;e", "Centre Commercial", "Agence", "H&ocirc;tel", "Universit&eacute;", "Th&eacute;&acirc;tre", "Gouvernement",
 	"Theatre", "Agence", "H&ocirc;tel", "H&ocirc;tel", "R&eacute;sidence", "H&ocirc;tel", "H&ocirc;tel", "Agence", "Agence", "Th&eacute;&acirc;tre", "Bureau",
 	"Coll&egrave;ge", "Agence", "Agence", "Agence", "Universit&eacute;", "&Eacute;glise", "Agence", "Biblioth&egrave;que", "Universit&eacute;", "&Eacute;cole", "Agence",
 	"Bureau", "Agence", "Th&eacute;&acirc;tre", "Th&eacute;&acirc;tre", "Universit&eacute;", "Universit&eacute;", "Universit&eacute;", "Parc", "R&eacute;sidence", "R&eacute;sidence",
-	"R&eacute;sidence", "R&eacute;sidence", "Bureau", "H&ocirc;tel", "Agence" ];
+	"R&eacute;sidence", "R&eacute;sidence", "Bureau", "H&ocirc;tel", "Agence", "Agence" ];
 	
 	haddresses = [ "175 Rue Sainte-Catherine Ouest", "", "185 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "1255 Rue Jeanne-Mance",
 	"141 Avenue du Pr&eacute;sident-Kennedy", "84 Rue Sainte-Catherine Ouest", "200 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "1182 Boulevard Saint-Laurent", 
@@ -60,7 +61,7 @@ function init()
 	"2050 Rue de Bleury", "150 Rue Sainte-Catherine Ouest", "150 Rue Sainte-Catherine Ouest", "201 Avenue du Pr&eacute;sident-Kennedy", "137 Avenue du Pr&eacute;sident-Kennedy", "125 Rue Sherbrooke Ouest",
 	"145 Avenue du Pr&eacute;sident-Kennedy", "1501 Rue de Bleury", "1435 Rue de Bleury", "2050 Rue de Bleury", "395 Boulevard de Maisonneuve Ouest", "1435 Rue de Bleury", "305 Rue Sainte-Catherine Ouest",
 	"1600 Rue Saint-Urbain", "2101 Rue Jeanne-Mance", "200 Rue Sherbrooke Ouest", "100 Rue Sherbrooke Ouest", "", "350 Boulevard de Maisonneuve Ouest", "441 Avenue du Pr&eacute;sident-Kennedy",
-	"405 Rue de la Concorde", "2100 Rue de Bleury", "1250 Rue Saint-Alexandre", "250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "305 Boulevard Ren&eacute;-L&eacute;vesque Ouest" ];
+	"405 Rue de la Concorde", "2100 Rue de Bleury", "1250 Rue Saint-Alexandre", "250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "305 Boulevard Ren&eacute;-L&eacute;vesque Ouest", "150 Rue Sainte-Catherine Ouest" ];
 	
 	hsites = [ "https://placedesarts.com/fr", 
 	"https://www.quartierdesspectacles.com/fr/", 
@@ -107,7 +108,8 @@ function init()
 	"https://www.summitmanagement.ca/fr/apartments/le-smith",
 	"http://www.jackvictor.com/fr/",
 	"https://www.marriott.fr/hotels/travel/yulac-ac-hotel-montreal-downtown",
-	"https://www.canada.ca/fr/agence-revenu.html" ];
+	"https://www.canada.ca/fr/agence-revenu.html",
+	"https://www.cnesst.gouv.qc.ca/fr" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
