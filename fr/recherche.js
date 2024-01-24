@@ -623,7 +623,7 @@ function init(){
 	"Jack Victor, bureaux montr&eacute;alais",
 	"AC Marriott Montr&eacute;al Centre-Ville",
 	"Agence du Revenu du Canada, bureaux montr&eacute;alais",
-	"Commission des normes, de l&#39;&eacute;quit&eacute;, de la sant&eacute; et de la s&eacute;curit&eacute; du travail, bureaux montr&eacute;alais",
+	"Commission des Normes, de l&#39;&Eacute;quit&eacute;, de la Sant&eacute; et de la S&eacute;curit&eacute; du Travail, bureaux montr&eacute;alais",
 	"Restaurant 5 Sens" ];
 	
 	PlaceDesArtstypes = [ "Th&eacute;&acirc;tre", "District", "Mus&eacute;e", "Centre Commercial", "Agence", "H&ocirc;tel", "Universit&eacute;", "Th&eacute;&acirc;tre", "Gouvernement",
