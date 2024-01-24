@@ -46,7 +46,8 @@ function init()
 	{name: "Jack Victor, Montreal offices", type: "Office", address: "1250 Rue Saint-Alexandre", site: "http://www.jackvictor.com/"},
 	{name: "AC Marriott Montr&eacute;al Centre-Ville", type: "Hotel", address: "250 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.marriott.com/hotels/travel/yulac-ac-hotel-montreal-downtown"},
 	{name: "Canada Revenue Agency, Montreal offices", type: "Agency", address: "305 Boulevard Ren&eacute;-L&eacute;vesque Ouest", site: "https://www.canada.ca/en/revenue-agency.html"},
-	{name: "Commission des normes, de l&#39;&eacute;quit&eacute;, de la sant&eacute; et de la s&eacute;curit&eacute; du travail, Montreal offices", type: "Agency", address: "150 Rue Sainte-Catherine Ouest", site: "https://www.cnesst.gouv.qc.ca/en"}];
+	{name: "Commission des Normes, de l&#39;&Eacute;quit&eacute;, de la Sant&eacute; et de la S&eacute;curit&eacute; du Travail, Montreal offices", type: "Agency", address: "150 Rue Sainte-Catherine Ouest", site: "https://www.cnesst.gouv.qc.ca/en"},
+	{name: "Restaurant 5 Sens", type: "Restaurant", address: "292 Rue Sainte-Catherine Ouest", site: "https://www.5sensescafe.com/en/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
