@@ -66,7 +66,8 @@ function init()
 	{name: "Brasserie 701", type: "Restaurant", address: "701 C&ocirc;te de la Place d&#39;Armes", site: "https://brasserie701.com/en/"},
 	{name: "Restaurant Sauvage", type: "Restaurant", address: "52 Rue Saint-Jacques", site: "https://www.restaurantsauvage.com/"},
 	{name: "Humaniti H&ocirc;tel Montr&eacute;al", type: "Hotel", address: "340 Rue de la Gaucheti&egrave;re Ouest", site: "https://www.humanitihotel.com/"},
-	{name: "Hayat", type: "Restaurant", address: "131 Rue de la Commune Ouest", site: "https://hayatmontreal.com"}];
+	{name: "Hayat", type: "Restaurant", address: "131 Rue de la Commune Ouest", site: "https://hayatmontreal.com"},
+	{name: "Stash Caf&eacute;", type: "Restaurant", address: "200 Rue Saint-Paul Ouest", site: "https://restaurantstashcafe.ca/en/home-english/"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
