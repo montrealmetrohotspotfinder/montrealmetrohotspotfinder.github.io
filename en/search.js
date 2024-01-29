@@ -995,7 +995,8 @@ function init(){
 	{name: "Humaniti H&ocirc;tel Montr&eacute;al", type: "Hotel", address: "340 Rue de la Gaucheti&egrave;re Ouest", site: "https://www.humanitihotel.com/"},
 	{name: "Hayat", type: "Restaurant", address: "131 Rue de la Commune Ouest", site: "https://hayatmontreal.com"},
 	{name: "Stash Caf&eacute;", type: "Restaurant", address: "200 Rue Saint-Paul Ouest", site: "https://restaurantstashcafe.ca/en/home-english/"},
-	{name: "Restaurant Gandhi", type: "Restaurant", address: "230 Rue Saint-Paul Ouest", site: "#"}];
+	{name: "Restaurant Gandhi", type: "Restaurant", address: "230 Rue Saint-Paul Ouest", site: "#"},
+	{name: "Chifa", type: "Restaurant", address: "1080 Rue de Bleury", site: "https://www.chifamtl.com/?lang=en"}];
 	
 	SquareVictoria = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
