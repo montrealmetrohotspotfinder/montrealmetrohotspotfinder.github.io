@@ -71,7 +71,8 @@ function init(){
 	{name: "Habitations Workman-Delisle", type: "Residence", address: "2705 Rue Workman", site: "https://www.omhm.qc.ca/en/tenant-services/habitations-workman-delisle-5/"},
 	{name: "Joe Beef", type: "Restaurant", address: "2491 Rue Notre-Dame Ouest", site: "https://joebeef.squarespace.com/"},
 	{name: "Barley Bar &agrave; C&eacute;r&eacute;ales", type: "Restaurant", address: "2613 Rue Notre-Dame Ouest", site: "https://barleybar.ca/"},
-	{name: "Greenspot", type: "Restaurant", address: "3041 Rue Notre-Dame Ouest", site: "https://www.greenspot1947.ca"}];
+	{name: "Greenspot", type: "Restaurant", address: "3041 Rue Notre-Dame Ouest", site: "https://www.greenspot1947.ca"},
+	{name: "Resto Caf&eacute; Quoi de N&#39;Oeuf", type: "Restaurant", address: "2745 Rue Notre-Dame Ouest", site: "https://en.quoidenoeuf.ca"}];
 	
 	Snowdon = [{name: "Oratoire Saint-Joseph", type: "Church", address: "3800 Chemin Queen-Mary", site: "https://www.saint-joseph.org/"},
 	{name: "C&ocirc;te-des-Neiges / N.D.G. Borough Hall", type: "Government", address: "5160 Boulevard D&eacute;carie", site: "https://montreal.ca/en/cote-des-neiges-notre-dame-de-grace"},
