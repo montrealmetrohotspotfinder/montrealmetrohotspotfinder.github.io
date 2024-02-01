@@ -1,15 +1,15 @@
 function init()
 {
 	hnames = [ "March&eacute; Atwater", "Parc Vinet", "Th&eacute;&acirc;tre Corona", "Parc Victor-Rousselot", "&Eacute;cole Victor-Rousselot", "Lemay, bureaux montr&eacute;alais", "&Eacute;glise Saint-Ir&eacute;n&eacute;e-de-Lyon",
-	"Habitations Workman-Delisle", "Joe Beef", "Barley Bar &agrave; C&eacute;r&eacute;ales" ];
+	"Habitations Workman-Delisle", "Joe Beef", "Barley Bar &agrave; C&eacute;r&eacute;ales", "Greenspot" ];
 	
-	htypes = [ "March&eacute;", "Parc", "Th&eacute;&acirc;tre", "Parc", "&Eacute;cole", "Bureau", "&Eacute;glise", "R&eacute;sidence", "Restaurant", "Restaurant" ];
+	htypes = [ "March&eacute;", "Parc", "Th&eacute;&acirc;tre", "Parc", "&Eacute;cole", "Bureau", "&Eacute;glise", "R&eacute;sidence", "Restaurant", "Restaurant", "Restaurant" ];
 	
 	haddresses = [ "138 Avenue Atwater", "550 Rue Vinet", "2490 Rue Notre-Dame Ouest", "", "3525 Rue Sainte-&Eacute;milie", "3500 Rue Saint-Jacques", "3030 Rue Delisle", "2705 Rue Workman", "2491 Rue Notre-Dame Ouest",
-	"2613 Rue Notre-Dame Ouest" ];
+	"2613 Rue Notre-Dame Ouest", "3041 Rue Notre-Dame Ouest" ];
 	
 	hsites = [ "https://www.marchespublics-mtl.com/marches/atwater/", "https://montreal.ca/lieux/parc-vinet", "https://www.theatrecorona.ca/", "https://montreal.ca/lieux/parc-victor-rousselot", "https://victor-rousselot.cssdm.gouv.qc.ca/", 
-	"https://lemay.com/fr/", "http://st-irenee.org/", "https://www.omhm.qc.ca/fr/services-aux-locataires/habitations-workman-delisle-5/", "https://joebeef.squarespace.com/", "https://barleybar.ca/" ];
+	"https://lemay.com/fr/", "http://st-irenee.org/", "https://www.omhm.qc.ca/fr/services-aux-locataires/habitations-workman-delisle-5/", "https://joebeef.squarespace.com/", "https://barleybar.ca/", "https://www.greenspot1947.ca" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
