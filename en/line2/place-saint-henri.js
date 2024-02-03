@@ -12,7 +12,9 @@ function init()
 	{name: "Arthurs Nosh Bar", type: "Restaurant", address: "4621 Rue Notre-Dame Ouest", site: "http://arthursmtl.com/"},
 	{name: "&Eacute;glise Saint-Zotique", type: "Church", address: "4561 Rue Notre-Dame Ouest", site: "https://eglise-saint-zotique.business.site/"},
 	{name: "Tacos Frida", type: "Restaurant", address: "4350 Rue Notre-Dame Ouest", site: "https://www.tacosfridamtl.ca/?lang=en"},
-	{name: "Biblioth&egrave;que Saint-Henri", type: "Library", address: "4707 Rue Notre-Dame Ouest", site: "https://montreal.ca/en/places/bibliotheque-saint-henri"}];
+	{name: "Biblioth&egrave;que Saint-Henri", type: "Library", address: "4707 Rue Notre-Dame Ouest", site: "https://montreal.ca/en/places/bibliotheque-saint-henri"},
+	{name: "Eva&#39;s", type: "Restaurant", address: "3981 Rue Notre-Dame Ouest", site: "#"},
+	{name: "Gite L&#39;Impr&eacute;vu", type: "Hotel", address: "3932 Rue Saint-Jacques", site: "https://www.imprevu.org/index_en.html"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
