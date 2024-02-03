@@ -14,7 +14,11 @@ function init()
 	{name: "Tacos Frida", type: "Restaurant", address: "4350 Rue Notre-Dame Ouest", site: "https://www.tacosfridamtl.ca/?lang=en"},
 	{name: "Biblioth&egrave;que Saint-Henri", type: "Library", address: "4707 Rue Notre-Dame Ouest", site: "https://montreal.ca/en/places/bibliotheque-saint-henri"},
 	{name: "Eva&#39;s", type: "Restaurant", address: "3981 Rue Notre-Dame Ouest", site: "#"},
-	{name: "Gite L&#39;Impr&eacute;vu", type: "Hotel", address: "3932 Rue Saint-Jacques", site: "https://www.imprevu.org/index_en.html"}];
+	{name: "Gite L&#39;Impr&eacute;vu", type: "Hotel", address: "3932 Rue Saint-Jacques", site: "https://www.imprevu.org/index_en.html"},
+	{name: "Parc de la Ferme-Brodie", type: "Park", address: "3977 Rue Saint-Jacques", site: "https://montreal.ca/en/places/parc-de-la-ferme-brodie"},
+	{name: "Parc des Selliers", type: "Park", address: "712 Rue Lacasse", site: "https://montreal.ca/en/places/parc-des-selliers"},
+	{name: "Parc Lacasse", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-lacasse"},
+	{name: "Parc des Couturi&egrave;res", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-des-couturieres"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
