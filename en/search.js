@@ -1140,7 +1140,8 @@ function init(){
 	{name: "Parc de la Ferme-Brodie", type: "Park", address: "3977 Rue Saint-Jacques", site: "https://montreal.ca/en/places/parc-de-la-ferme-brodie"},
 	{name: "Parc des Selliers", type: "Park", address: "712 Rue Lacasse", site: "https://montreal.ca/en/places/parc-des-selliers"},
 	{name: "Parc Lacasse", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-lacasse"},
-	{name: "Parc des Couturi&egrave;res", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-des-couturieres"}];
+	{name: "Parc des Couturi&egrave;res", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-des-couturieres"},
+	{name: "Parc du Premier-Chemin-de-Fer", type: "Park", address: "4041 Rue Notre-Dame Ouest", site: "https://montreal.ca/en/places/parc-du-premier-chemin-de-fer"}];
 	
 	Vendome = [{name: "McGill University Health Centre", type: "Hospital", address: "1001 Boulevard D&eacute;carie", site: "https://muhc.ca/"},
 	{name: "Quilles G Plus Rose Bowl", type: "Sports", address: "6510 Rue Saint-Jacques", site: "https://www.quillesgplus.com/en/quilles-g-plus-rose-bowl/"}];
