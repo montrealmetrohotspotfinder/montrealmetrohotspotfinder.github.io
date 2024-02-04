@@ -18,7 +18,8 @@ function init()
 	{name: "Parc de la Ferme-Brodie", type: "Park", address: "3977 Rue Saint-Jacques", site: "https://montreal.ca/en/places/parc-de-la-ferme-brodie"},
 	{name: "Parc des Selliers", type: "Park", address: "712 Rue Lacasse", site: "https://montreal.ca/en/places/parc-des-selliers"},
 	{name: "Parc Lacasse", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-lacasse"},
-	{name: "Parc des Couturi&egrave;res", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-des-couturieres"}];
+	{name: "Parc des Couturi&egrave;res", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-des-couturieres"},
+	{name: "Parc du Premier-Chemin-de-Fer", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-du-premier-chemin-de-fer"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
