@@ -20,10 +20,11 @@ function init()
 	"Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, campus Longueuil",
 	"&Eacute;cole Secondaire Saint-Jean-Baptiste",
 	"&Eacute;cole du Cur&eacute;-Lequin",
-	"&Eacute;cole Saint-Jude" ];
+	"&Eacute;cole Saint-Jude",
+	"Le Novia" ];
 	
 	htypes = [ "Terminus d&#39;Autobus", "Universit&eacute;", "Universit&eacute;", "H&ocirc;tel", "H&ocirc;tel", "Centre Commercial", "A&eacute;roport", "Coll&egrave;ge", "Agence", "R&eacute;sidence", "R&eacute;sidence", "R&eacute;sidence", "Agence", "Agence", "R&eacute;sidence", "Bureau",
-	"Agence", "Universit&eacute;", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole" ];
+	"Agence", "Universit&eacute;", "&Eacute;cole", "&Eacute;cole", "&Eacute;cole", "R&eacute;sidence" ];
 	
 	haddresses = [ "120 Place Charles-Lemoyne", 
 	"150 Place Charles-Lemoyne", 
@@ -45,7 +46,8 @@ function init()
 	"150 Place Charles-Lemoyne",
 	"705 Rue Duvernay",
 	"653 Rue Pr&eacute;fontaine",
-	"653 Rue Pr&eacute;fontaine" ];
+	"653 Rue Pr&eacute;fontaine",
+	"300 Place Charles-Lemoyne" ];
 	
 	hsites = [ "https://exo.quebec/fr/planifier-trajet/installations-intermodales/terminus-longueuil", 
 	"http://www.usherbrooke.ca/longueuil/", 
@@ -67,7 +69,8 @@ function init()
 	"https://etudier.uqam.ca/campus/longueuil",
 	"https://saintjeanbaptiste.ecoles.csmv.qc.ca",
 	"https://cure-lequin.ecoles.csmv.qc.ca",
-	"https://cure-lequin.ecoles.csmv.qc.ca" ];
+	"https://cure-lequin.ecoles.csmv.qc.ca",
+	"https://www.lenovia.ca" ];
 	
 	if(hnames.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><em lang=\"fr\"><b>"+hnames.length+ " point d&#39;int&eacute;r&ecirc;t est &agrave; proximit&eacute; de cette station.</b></em></span><br/><br/>";
