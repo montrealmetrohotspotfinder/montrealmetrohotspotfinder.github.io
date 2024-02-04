@@ -108,7 +108,8 @@ function init(){
 	{name: "Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al, Longueuil campus", type: "University", address: "150 Place Charles-Lemoyne", site: "https://etudier.uqam.ca/campus/longueuil"},
 	{name: "&Eacute;cole Secondaire Saint-Jean-Baptiste", type: "School", address: "705 Rue Duvernay", site: "https://saintjeanbaptiste.ecoles.csmv.qc.ca"},
 	{name: "&Eacute;cole du Cur&eacute;-Lequin", type: "School", address: "653 Rue Pr&eacute;fontaine", site: "https://cure-lequin.ecoles.csmv.qc.ca"},
-	{name: "&Eacute;cole Saint-Jude", type: "School", address: "653 Rue Pr&eacute;fontaine", site: "https://cure-lequin.ecoles.csmv.qc.ca"}];
+	{name: "&Eacute;cole Saint-Jude", type: "School", address: "653 Rue Pr&eacute;fontaine", site: "https://cure-lequin.ecoles.csmv.qc.ca"},
+	{name: "Le Novia", type: "Residence", address: "300 Place Charles-Lemoyne", site: "https://www.lenovia.ca/en/"}];
 	
 	//BLUE LINE
 	SaintMichel = [{name: "Little Maghreb", type: "District", address: "", site: "#"},
