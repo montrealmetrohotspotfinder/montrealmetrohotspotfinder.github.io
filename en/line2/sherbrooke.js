@@ -39,7 +39,8 @@ function init()
 	{name: "H&ocirc;tel St-Thomas", type: "Hotel", address: "430 Rue Sherbrooke Est", site: "https://hotelst-thomas.com/"},
 	{name: "La Fabrique", type: "Restaurant", address: "3619 Rue Saint-Denis", site: "https://bistrotlafabrique.com/en/"},
 	{name: "L&#39;&Eacute;vidence", type: "Restaurant", address: "3817 Rue Saint-Denis", site: "https://www.bistrolevidence.com/?lang=en"},
-	{name: "H&ocirc;tel de Paris", type: "Hotel", address: "901 Rue Sherbrooke Est", site: "https://en.hoteldeparis.ca"}];
+	{name: "H&ocirc;tel de Paris", type: "Hotel", address: "901 Rue Sherbrooke Est", site: "https://en.hoteldeparis.ca"},
+	{name: "Caf&eacute; Cherrier", type: "Restaurant", address: "3635 Rue Saint-Denis", site: "http://cafecherrier.ca"}];
 	
 	if(spots.length == 1){
 		document.getElementById("hotspot-js").innerHTML += "<span style=\"font-size: 14pt\"><b>"+spots.length+ " hotspot is near this station.</b></span><br/><br/>";
