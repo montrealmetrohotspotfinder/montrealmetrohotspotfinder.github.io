@@ -878,7 +878,8 @@ function init(){
 	{name: "La Fabrique", type: "Restaurant", address: "3619 Rue Saint-Denis", site: "https://bistrotlafabrique.com/en/"},
 	{name: "L&#39;&Eacute;vidence", type: "Restaurant", address: "3817 Rue Saint-Denis", site: "https://www.bistrolevidence.com/?lang=en"},
 	{name: "H&ocirc;tel de Paris", type: "Hotel", address: "901 Rue Sherbrooke Est", site: "https://en.hoteldeparis.ca"},
-	{name: "Caf&eacute; Cherrier", type: "Restaurant", address: "3635 Rue Saint-Denis", site: "http://cafecherrier.ca"}];
+	{name: "Caf&eacute; Cherrier", type: "Restaurant", address: "3635 Rue Saint-Denis", site: "http://cafecherrier.ca"},
+	{name: "Parc Laval", type: "Park", address: "", site: "https://montreal.ca/en/places/parc-laval"}];
 	
 	ChampDeMars = [{name: "Old Montreal", type: "District", address: "", site: "https://vieuxmontreal.ca/en/"},
 	{name: "Old Port of Montreal", type: "Port", address: "333 Rue de la Commune Ouest", site: "https://www.oldportofmontreal.com/"},
