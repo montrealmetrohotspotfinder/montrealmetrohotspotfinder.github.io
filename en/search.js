@@ -518,7 +518,8 @@ function init(){
 	{name: "McGill University, School of Urban Planning", type: "University", address: "815 Rue Sherbrooke Ouest", site: "https://www.mcgill.ca/urbanplanning/"},
 	{name: "Valero, Montreal offices", type: "Office", address: "1801 Avenue McGill College", site: "https://www.valero.com/"},
 	{name: "Interactive Brokers Canada", type: "Office", address: "1800 Avenue McGill College", site: "https://www.interactivebrokers.ca/en/home.php"},
-	{name: "CNA, Montreal offices", type: "Office", address: "1800 Avenue McGill College", site: "https://www.cnacanada.ca/web/guest/cnacanada/home"}];
+	{name: "CNA, Montreal offices", type: "Office", address: "1800 Avenue McGill College", site: "https://www.cnacanada.ca/web/guest/cnacanada/home"},
+	{name: "Air Alg&eacute;rie, Montreal offices", type: "Office", address: "550 Rue Sherbrooke Ouest", site: "https://airalgerie.dz"}];
 	
 	Peel = [{name: "Les Cours Mont-Royal", type: "Mall", address: "1455 Rue Peel", site: "https://lcmr.ca/"},
 	{name: "Carrefour Industrielle Alliance", type: "Mall", address: "977 Rue Sainte-Catherine Ouest", site: "http://www.carrefourindustriellealliance.com/en"},
